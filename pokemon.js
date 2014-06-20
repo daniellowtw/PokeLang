@@ -83,12 +83,19 @@ performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate /* actio
 var $0 = $$.length - 1;
 switch (yystate) {
 case 1: 
-        console.log([$$[$0-2], $$[$0-1]]);
-          return [$$[$0-1]]; 
+        	if ($$[$0-1] == null) { 
+        		console.log($$[$0-2]);
+        		return $$[$0-2];
+        	}
+        	else {
+        		console.log(['concat', $$[$0-2], $$[$0-1]]);
+        		return ['concat', $$[$0-2], $$[$0-1]];
+        	}
+		
 break;
 case 2: 
 		if ($$[$0] == null) { 
-			this.$ = [$$[$0-1]];
+			this.$ = $$[$0-1];
 		} else {
 			this.$ = ['concat', $$[$0-1], $$[$0]]; 
 		}
@@ -592,46 +599,56 @@ var YYSTATE=YY_START;
 switch($avoiding_name_collisions) {
 case 0:/* skip whitespace */
 break;
-case 1:return 15
+case 1:/*skip comma to make it readable*/
 break;
-case 2:return 16
+case 2:return 15
 break;
-case 3:return '*'
+case 3:return 16
 break;
-case 4:return '/'
+case 4:return 'USED'
 break;
-case 5:return 12
+case 5:return 'IF'
 break;
-case 6:return '+'
+case 6:return 'THEN'
 break;
-case 7:return '^'
+case 7:return 'ELSE'
 break;
-case 8:return 10
+case 8:return '*'
 break;
-case 9:return 11
+case 9:return '/'
 break;
-case 10:return 13
+case 10:return 12
 break;
-case 11:return 14
+case 11:return '+'
 break;
-case 12:return 'PI'
+case 12:return '^'
 break;
-case 13:return 'E'
+case 13:return 10
 break;
-case 14:return 7
+case 14:return 11
 break;
-case 15:return 6
+case 15:return 13
 break;
-case 16:return 8
+case 16:return 14
 break;
-case 17:return 9
+case 17:return 'PI'
 break;
-case 18:return 'INVALID'
+case 18:return 'E'
+break;
+case 19:return 7
+break;
+case 20:return 6
+break;
+case 21:return 8
+break;
+case 22:return 9
+break;
+case 23:return 'INVALID'
 break;
 }
 },
-rules: [/^(?:\s+)/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:GO\b)/,/^(?:\*)/,/^(?:\/)/,/^(?:-)/,/^(?:\+)/,/^(?:\^)/,/^(?:!)/,/^(?:%)/,/^(?:\()/,/^(?:\))/,/^(?:PI\b)/,/^(?:E\b)/,/^(?:;)/,/^(?:$)/,/^(?:(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran|Nidorina|Nidoqueen|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetchd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|MrMime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Meowth))/,/^(?:(tackle|TACKLE))/,/^(?:.)/],
-conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],"inclusive":true}}
+rules: [/^(?:\s+)/,/^(?:,)/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:(GO|TRAIN))/,/^(?:USED\b)/,/^(?:SPECIAL POWER\b)/,/^(?:IT'S SUPER EFFECTIVE\b)/,/^(?:IT HAS NO EFFECT\b)/,/^(?:\*)/,/^(?:\/)/,/^(?:-)/,/^(?:\+)/,/^(?:\^)/,/^(?:!)/,/^(?:%)/,/^(?:\()/,/^(?:\))/,/^(?:PI\b)/,/^(?:E\b)/,/^(?:;)/,/^(?:$)/,/^(?:(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran|Nidorina|Nidoqueen|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetchd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|MrMime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Meowth))/,/^(?:(tackle|TACKLE))/,/^(?:.)/],
+conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],"inclusive":true}}
 });
 return lexer;
 })();

@@ -5,8 +5,13 @@
 %%
 
 \s+                   /* skip whitespace */
+\,					/*skip comma to make it readable*/
 [0-9]+("."[0-9]+)?\b  return 'NUMBER'
-"GO"	return 'VAR'
+(GO|TRAIN)	return 'VAR'
+"USED"		return 'USED'
+"SPECIAL POWER" return 'IF'
+"IT'S SUPER EFFECTIVE" return 'THEN'
+"IT HAS NO EFFECT"		return 'ELSE'
 "*"                   return '*'
 "/"                   return '/'
 "-"                   return '-'
@@ -43,14 +48,21 @@
 expressions
     : e ending EOF
         { 
-        console.log([$1, $2]);
-          return [$2]; }
+        	if ($2 == null) { 
+        		console.log($1);
+        		return $1;
+        	}
+        	else {
+        		console.log(['concat', $1, $2]);
+        		return ['concat', $1, $2];
+        	}
+		}
     ;
 
 ending
 	: SEMICOLON e ending { 
 		if ($3 == null) { 
-			$$ = [$2];
+			$$ = $2;
 		} else {
 			$$ = ['concat', $2, $3]; 
 		}
