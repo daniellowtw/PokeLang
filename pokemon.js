@@ -88,9 +88,9 @@ case 1:
 break;
 case 2: 
 		if ($$[$0] == null) { 
-			this.$ = $$[$0-1];
+			this.$ = [$$[$0-1]];
 		} else {
-			this.$ = [$$[$0-1], $$[$0]]; 
+			this.$ = ['concat', $$[$0-1], $$[$0]]; 
 		}
 	
 break;

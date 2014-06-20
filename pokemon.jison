@@ -49,9 +49,9 @@ expressions
 ending
 	: SEMICOLON e ending { 
 		if ($3 == null) { 
-			$$ = $2;
+			$$ = [$2];
 		} else {
-			$$ = [$2, $3]; 
+			$$ = ['concat', $2, $3]; 
 		}
 	}
 	| SEMICOLON { $$ = null}
