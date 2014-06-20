@@ -53,8 +53,8 @@ expressions
         		return $1;
         	}
         	else {
-        		console.log(['concat', $1, $2]);
-        		return ['concat', $1, $2];
+        		console.log(['CONCAT', $1, $2]);
+        		return ['CONCAT', $1, $2];
         	}
 		}
     ;
@@ -64,7 +64,7 @@ ending
 		if ($3 == null) { 
 			$$ = $2;
 		} else {
-			$$ = ['concat', $2, $3]; 
+			$$ = ['CONCAT', $2, $3]; 
 		}
 	}
 	| SEMICOLON { $$ = null}
