@@ -88,8 +88,8 @@ case 1:
         		return $$[$0-2];
         	}
         	else {
-        		console.log(['concat', $$[$0-2], $$[$0-1]]);
-        		return ['concat', $$[$0-2], $$[$0-1]];
+        		console.log(['CONCAT', $$[$0-2], $$[$0-1]]);
+        		return ['CONCAT', $$[$0-2], $$[$0-1]];
         	}
 		
 break;
@@ -97,14 +97,14 @@ case 2:
 		if ($$[$0] == null) { 
 			this.$ = $$[$0-1];
 		} else {
-			this.$ = ['concat', $$[$0-1], $$[$0]]; 
+			this.$ = ['CONCAT', $$[$0-1], $$[$0]]; 
 		}
 	
 break;
 case 3: this.$ = null
 break;
 case 4:
-    		this.$ = ['add', $$[$0-2], $$[$0]];
+    		this.$ = ['ADD', $$[$0-2], $$[$0]];
     	
 break;
 case 5:

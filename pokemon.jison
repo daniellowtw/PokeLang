@@ -73,7 +73,7 @@ ending
 e
     : POKEMON 'ADD' POKEMON
     	{
-    		$$ = ['add', $1, $3];
+    		$$ = ['ADD', $1, $3];
     	}
     | e '!'
         {{
