@@ -6,7 +6,7 @@ var path   = require('path');
 var args = process.argv;
 var filePath = path.join(__dirname + args[2]);
 
-fs.readFile(filePath, 'utf-8', function(err, data) {
+fs.readFile(args[2], 'utf-8', function(err, data) {
 
   if (err) {
     console.log("Error reading file", err);
