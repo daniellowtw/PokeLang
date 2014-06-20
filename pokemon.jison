@@ -42,12 +42,18 @@
 expressions
     : e ending EOF
         { 
-        // console.log([$1, $2]);
+        console.log([$1, $2]);
           return [$2]; }
     ;
 
 ending
-	: SEMICOLON e ending { if ($3 == null) { $$ = $2} else {$$ = [$2, $3]; console.log($3)}}
+	: SEMICOLON e ending { 
+		if ($3 == null) { 
+			$$ = $2;
+		} else {
+			$$ = [$2, $3]; 
+		}
+	}
 	| SEMICOLON { $$ = null}
 	;
 

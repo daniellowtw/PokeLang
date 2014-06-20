@@ -83,10 +83,16 @@ performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate /* actio
 var $0 = $$.length - 1;
 switch (yystate) {
 case 1: 
-        // console.log([$$[$0-2], $$[$0-1]]);
+        console.log([$$[$0-2], $$[$0-1]]);
           return [$$[$0-1]]; 
 break;
-case 2: if ($$[$0] == null) { this.$ = $$[$0-1]} else {this.$ = [$$[$0-1], $$[$0]]; console.log($$[$0])}
+case 2: 
+		if ($$[$0] == null) { 
+			this.$ = $$[$0-1];
+		} else {
+			this.$ = [$$[$0-1], $$[$0]]; 
+		}
+	
 break;
 case 3: this.$ = null
 break;
