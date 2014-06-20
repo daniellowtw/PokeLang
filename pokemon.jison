@@ -41,14 +41,14 @@
 
 expressions
     : e ending EOF
-        { typeof console !== 'undefined' ? console.log($1) : print($1);
-          return $1; }
+        { 
+        // console.log([$1, $2]);
+          return [$2]; }
     ;
 
 ending
-	: SEMICOLON e ending {}
-	| SEMICOLON
-	| 
+	: SEMICOLON e ending { if ($3 == null) { $$ = $2} else {$$ = [$2, $3]; console.log($3)}}
+	| SEMICOLON { $$ = null}
 	;
 
 e
@@ -79,6 +79,6 @@ e
     | PI
         {$$ = Math.PI;}
     | VAR POKEMON NUMBER
-    	{console.log($2 + " is now " +$3); $$ = yytext}
+    	{console.log($2 + " is now " +$3); $$ = [$1, $2, $3]}
     ;
 
