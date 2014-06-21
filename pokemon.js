@@ -74,15 +74,29 @@
 var parser = (function(){
 var parser = {trace: function trace() { },
 yy: {},
+<<<<<<< HEAD
 symbols_: {"error":2,"expressions":3,"e":4,"ending":5,"EOF":6,"SEMICOLON":7,"POKEMON":8,"ADD":9,"!":10,"%":11,"-":12,"(":13,")":14,"NUMBER":15,"VAR":16,"$accept":0,"$end":1},
 terminals_: {2:"error",6:"EOF",7:"SEMICOLON",8:"POKEMON",9:"ADD",10:"!",11:"%",12:"-",13:"(",14:")",15:"NUMBER",16:"VAR"},
 productions_: [0,[3,3],[5,3],[5,1],[4,3],[4,2],[4,2],[4,2],[4,3],[4,1],[4,3]],
+=======
+<<<<<<< Updated upstream
+symbols_: {"error":2,"expressions":3,"e":4,"ending":5,"EOF":6,"SEMICOLON":7,"+":8,"-":9,"*":10,"/":11,"^":12,"!":13,"%":14,"(":15,")":16,"NUMBER":17,"E":18,"PI":19,"VAR":20,"POKEMON":21,"$accept":0,"$end":1},
+terminals_: {2:"error",6:"EOF",7:"SEMICOLON",8:"+",9:"-",10:"*",11:"/",12:"^",13:"!",14:"%",15:"(",16:")",17:"NUMBER",18:"E",19:"PI",20:"VAR",21:"POKEMON"},
+productions_: [0,[3,3],[5,3],[5,1],[4,3],[4,3],[4,3],[4,3],[4,3],[4,2],[4,2],[4,2],[4,3],[4,1],[4,1],[4,1],[4,3]],
+=======
+symbols_: {"error":2,"expressions":3,"statements":4,"EOF":5,"e":6,"ending":7,"SEMICOLON":8,"POKEMON":9,"ADD":10,"ASSIGN":11,"NUMBER":12,"VAR":13,"OPPO_ARG":14,"ARG":15,"LOST":16,"HEALTH":17,"RECOVERED":18,"LET":19,"LEARNED":20,"MOVE":21,"USED":22,"$accept":0,"$end":1},
+terminals_: {2:"error",5:"EOF",8:"SEMICOLON",9:"POKEMON",10:"ADD",11:"ASSIGN",12:"NUMBER",13:"VAR",14:"OPPO_ARG",15:"ARG",16:"LOST",17:"HEALTH",18:"RECOVERED",19:"LET",20:"LEARNED",21:"MOVE",22:"USED"},
+productions_: [0,[3,2],[4,2],[7,3],[7,1],[6,3],[6,3],[6,1],[6,3],[6,2],[6,2],[6,4],[6,4],[6,4],[6,3],[6,1]],
+>>>>>>> Stashed changes
+>>>>>>> added subtract, assign, implementing subroutine
 performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate /* action[1] */, $$ /* vstack */, _$ /* lstack */) {
 /* this == yyval */
 
 var $0 = $$.length - 1;
 switch (yystate) {
+<<<<<<< Updated upstream
 case 1: 
+<<<<<<< HEAD
         	if ($$[$0-1] == null) { 
         		console.log($$[$0-2]);
         		return $$[$0-2];
@@ -92,8 +106,26 @@ case 1:
         		return ['CONCAT', $$[$0-2], $$[$0-1]];
         	}
 		
+=======
+        console.log([$$[$0-2], $$[$0-1]]);
+          return [$$[$0-1]]; 
+=======
+case 1:return $$[$0-1]
+>>>>>>> added subtract, assign, implementing subroutine
 break;
 case 2: 
+        	if ($$[$0] == null) { 
+        		console.log($$[$0-1]);
+        		return $$[$0-1];
+        	}
+        	else {
+        		console.log(['CONCAT', $$[$0-1], $$[$0]]);
+        		return ['CONCAT', $$[$0-1], $$[$0]];
+        	}
+		
+>>>>>>> Stashed changes
+break;
+case 3: 
 		if ($$[$0] == null) { 
 			this.$ = $$[$0-1];
 		} else {
@@ -101,11 +133,20 @@ case 2:
 		}
 	
 break;
-case 3: this.$ = null
+case 4: this.$ = null
 break;
+<<<<<<< HEAD
 case 4:
     		this.$ = ['ADD', $$[$0-2], $$[$0]];
     	
+=======
+case 5:this.$ = ['ADD', $$[$0-2], $$[$0]];
+break;
+case 6:this.$ = ['ASSIGN', $$[$0-2], $$[$0]];
+break;
+<<<<<<< Updated upstream
+case 4:this.$ = $$[$0-2]+$$[$0];
+>>>>>>> added subtract, assign, implementing subroutine
 break;
 case 5:
           this.$ = (function fact (n) { return n==0 ? 1 : fact(n-1) * n })($$[$0-1]);
@@ -123,8 +164,37 @@ case 10:console.log($$[$0-1] + " is now " +$$[$0]); this.$ = [$$[$0-2], $$[$0-1]
 break;
 }
 },
+<<<<<<< HEAD
 table: [{3:1,4:2,8:[1,3],12:[1,4],13:[1,5],15:[1,6],16:[1,7]},{1:[3]},{5:8,7:[1,11],10:[1,9],11:[1,10]},{9:[1,12]},{4:13,8:[1,3],12:[1,4],13:[1,5],15:[1,6],16:[1,7]},{4:14,8:[1,3],12:[1,4],13:[1,5],15:[1,6],16:[1,7]},{7:[2,9],10:[2,9],11:[2,9],14:[2,9]},{8:[1,15]},{6:[1,16]},{7:[2,5],10:[2,5],11:[2,5],14:[2,5]},{7:[2,6],10:[2,6],11:[2,6],14:[2,6]},{4:17,6:[2,3],8:[1,3],12:[1,4],13:[1,5],15:[1,6],16:[1,7]},{8:[1,18]},{7:[2,7],10:[2,7],11:[2,7],14:[2,7]},{10:[1,9],11:[1,10],14:[1,19]},{15:[1,20]},{1:[2,1]},{5:21,7:[1,11],10:[1,9],11:[1,10]},{7:[2,4],10:[2,4],11:[2,4],14:[2,4]},{7:[2,8],10:[2,8],11:[2,8],14:[2,8]},{7:[2,10],10:[2,10],11:[2,10],14:[2,10]},{6:[2,2]}],
 defaultActions: {16:[2,1],21:[2,2]},
+=======
+table: [{3:1,4:2,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{1:[3]},{5:9,7:[1,17],8:[1,10],9:[1,11],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16]},{4:18,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:19,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{7:[2,13],8:[2,13],9:[2,13],10:[2,13],11:[2,13],12:[2,13],13:[2,13],14:[2,13],16:[2,13]},{7:[2,14],8:[2,14],9:[2,14],10:[2,14],11:[2,14],12:[2,14],13:[2,14],14:[2,14],16:[2,14]},{7:[2,15],8:[2,15],9:[2,15],10:[2,15],11:[2,15],12:[2,15],13:[2,15],14:[2,15],16:[2,15]},{21:[1,20]},{6:[1,21]},{4:22,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:23,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:24,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:25,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:26,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{7:[2,9],8:[2,9],9:[2,9],10:[2,9],11:[2,9],12:[2,9],13:[2,9],14:[2,9],16:[2,9]},{7:[2,10],8:[2,10],9:[2,10],10:[2,10],11:[2,10],12:[2,10],13:[2,10],14:[2,10],16:[2,10]},{4:27,6:[2,3],9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{7:[2,11],8:[2,11],9:[2,11],10:[2,11],11:[2,11],12:[2,11],13:[2,11],14:[2,11],16:[2,11]},{8:[1,10],9:[1,11],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16],16:[1,28]},{17:[1,29]},{1:[2,1]},{7:[2,4],8:[2,4],9:[2,4],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16],16:[2,4]},{7:[2,5],8:[2,5],9:[2,5],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16],16:[2,5]},{7:[2,6],8:[2,6],9:[2,6],10:[2,6],11:[2,6],12:[1,14],13:[1,15],14:[1,16],16:[2,6]},{7:[2,7],8:[2,7],9:[2,7],10:[2,7],11:[2,7],12:[1,14],13:[1,15],14:[1,16],16:[2,7]},{7:[2,8],8:[2,8],9:[2,8],10:[2,8],11:[2,8],12:[2,8],13:[1,15],14:[1,16],16:[2,8]},{5:30,7:[1,17],8:[1,10],9:[1,11],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16]},{7:[2,12],8:[2,12],9:[2,12],10:[2,12],11:[2,12],12:[2,12],13:[2,12],14:[2,12],16:[2,12]},{7:[2,16],8:[2,16],9:[2,16],10:[2,16],11:[2,16],12:[2,16],13:[2,16],14:[2,16],16:[2,16]},{6:[2,2]}],
+defaultActions: {21:[2,1],30:[2,2]},
+=======
+case 7:this.$ = Number(yytext);
+break;
+case 8:this.$ = [$$[$0-2], $$[$0-1], $$[$0]]
+break;
+case 9:this.$ = ['OPPO_ARG', $$[$0]]
+break;
+case 10:this.$ = ['ARG', $$[$0]]
+break;
+case 11:this.$ = ['SUB', $$[$0-3], $$[$0-1]]
+break;
+case 12:this.$ = ['ADD', $$[$0-3], $$[$0-1]]
+break;
+case 13:this.$ = ['LET', $$[$0-2], $$[$0]]
+break;
+case 14:this.$ = ['USED', $$[$0-2], $$[$0]]
+break;
+case 15:this.$ = ['MOVE', $$[$0]]; console.log($$[$0])
+break;
+}
+},
+table: [{3:1,4:2,6:3,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],21:[1,10]},{1:[3]},{5:[1,11]},{7:12,8:[1,13]},{10:[1,14],11:[1,15],16:[1,16],18:[1,17],22:[1,18]},{8:[2,7]},{9:[1,19]},{9:[1,20]},{9:[1,21]},{4:22,6:3,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],21:[1,10]},{8:[2,15]},{1:[2,1]},{5:[2,2],20:[2,2]},{5:[2,4],6:23,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],20:[2,4],21:[1,10]},{9:[1,24]},{9:[1,25]},{12:[1,26]},{12:[1,27]},{21:[1,28]},{12:[1,29]},{8:[2,9]},{8:[2,10]},{20:[1,30]},{7:31,8:[1,13]},{8:[2,5]},{8:[2,6]},{17:[1,32]},{17:[1,33]},{8:[2,14]},{8:[2,8]},{21:[1,34]},{5:[2,3],20:[2,3]},{8:[2,11]},{8:[2,12]},{8:[2,13]}],
+defaultActions: {5:[2,7],10:[2,15],11:[2,1],20:[2,9],21:[2,10],24:[2,5],25:[2,6],28:[2,14],29:[2,8],32:[2,11],33:[2,12],34:[2,13]},
+>>>>>>> Stashed changes
+>>>>>>> added subtract, assign, implementing subroutine
 parseError: function parseError(str, hash) {
     if (hash.recoverable) {
         this.trace(str);
@@ -599,6 +669,7 @@ var YYSTATE=YY_START;
 switch($avoiding_name_collisions) {
 case 0:/* skip whitespace */
 break;
+<<<<<<< HEAD
 case 1:/*skip comma to make it readable*/
 break;
 case 2:return 15
@@ -612,6 +683,10 @@ break;
 case 6:return 'THEN'
 break;
 case 7:return 'ELSE'
+=======
+<<<<<<< Updated upstream
+case 1:return 17
+>>>>>>> added subtract, assign, implementing subroutine
 break;
 case 8:return '*'
 break;
@@ -647,8 +722,89 @@ case 23:return 'INVALID'
 break;
 }
 },
+<<<<<<< HEAD
 rules: [/^(?:\s+)/,/^(?:,)/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:(GO|TRAIN))/,/^(?:USED\b)/,/^(?:SPECIAL POWER\b)/,/^(?:IT'S SUPER EFFECTIVE\b)/,/^(?:IT HAS NO EFFECT\b)/,/^(?:\*)/,/^(?:\/)/,/^(?:-)/,/^(?:\+)/,/^(?:\^)/,/^(?:!)/,/^(?:%)/,/^(?:\()/,/^(?:\))/,/^(?:PI\b)/,/^(?:E\b)/,/^(?:;)/,/^(?:$)/,/^(?:(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran|Nidorina|Nidoqueen|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetchd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|MrMime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Meowth))/,/^(?:(tackle|TACKLE))/,/^(?:.)/],
 conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23],"inclusive":true}}
+=======
+rules: [/^(?:\s+)/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:GO\b)/,/^(?:\*)/,/^(?:\/)/,/^(?:-)/,/^(?:\+)/,/^(?:\^)/,/^(?:!)/,/^(?:%)/,/^(?:\()/,/^(?:\))/,/^(?:PI\b)/,/^(?:E\b)/,/^(?:;)/,/^(?:$)/,/^(?:(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran|Nidorina|Nidoqueen|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetchd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|MrMime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Meowth))/,/^(?:.)/],
+conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],"inclusive":true}}
+=======
+case 1:/*skip comma to make it readable*/
+break;
+case 2:/*skip lines ending with a period*/
+break;
+case 3:return 12
+break;
+case 4:return 13
+break;
+case 5:return 14
+break;
+case 6:return 15
+break;
+case 7:return 16
+break;
+case 8:return 18
+break;
+case 9:return 17
+break;
+case 10:return 22
+break;
+case 11:return 'IF'
+break;
+case 12:return 19
+break;
+case 13:return 20
+break;
+case 14:return 'THEN'
+break;
+case 15:return 'ELSE'
+break;
+case 16:return '*'
+break;
+case 17:return '/'
+break;
+case 18:return '-'
+break;
+case 19:return '+'
+break;
+case 20:return '^'
+break;
+case 21:return '!'
+break;
+case 22:return '%'
+break;
+case 23:return '('
+break;
+case 24:return ')'
+break;
+case 25:return 'PI'
+break;
+case 26:return '{'
+break;
+case 27:return '}'
+break;
+case 28:return 'E'
+break;
+case 29:return 8
+break;
+case 30:return 5
+break;
+case 31:return 9
+break;
+case 32:return 10
+break;
+case 33:return 11
+break;
+case 34:return 21
+break;
+case 35:return 'INVALID'
+break;
+}
+},
+rules: [/^(?:\s+)/,/^(?:,)/,/^(?:(.*?)(\.))/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:(GO|TRAIN))/,/^(?:SENT OUT\b)/,/^(?:SWAP OUT\b)/,/^(?:LOST\b)/,/^(?:RECOVERED\b)/,/^(?:HEALTH\b)/,/^(?:USED\b)/,/^(?:SPECIAL POWER\b)/,/^(?:CHALLENGE TRAINER\b)/,/^(?:LEARNED\b)/,/^(?:IT'S SUPER EFFECTIVE\b)/,/^(?:IT HAS NO EFFECT\b)/,/^(?:\*)/,/^(?:\/)/,/^(?:-)/,/^(?:\+)/,/^(?:\^)/,/^(?:!)/,/^(?:%)/,/^(?:\()/,/^(?:\))/,/^(?:PI\b)/,/^(?:\{)/,/^(?:\})/,/^(?:E\b)/,/^(?:;)/,/^(?:$)/,/^(?:(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran|Nidorina|Nidoqueen|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetchd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|MrMime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Meowth))/,/^(?:(tackled|TACKLED))/,/^(?:(scratched|SCRATCHED))/,/^(?:(.*)?!)/,/^(?:.)/],
+conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],"inclusive":true}}
+>>>>>>> Stashed changes
+>>>>>>> added subtract, assign, implementing subroutine
 });
 return lexer;
 })();

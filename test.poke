@@ -1,2 +1,18 @@
-GO Venusaur 6;
-Mewtwo tackle Pikachu;
+CHALLENGE TRAINER
+SENT OUT Wartortle;
+LEARNED FDS!;
+
+CHALLENGE TRAINER
+SENT OUT Wartortle;
+SWAP OUT Venusaur;
+GO Charmeleon 0;
+Charmeleon tackled Wartortle;
+Wartortle scratched Venusaur;
+Venusaur scratched Charmeleon;
+LEARNED Fly!;
+
+Mewtwo tackled Pikachu;
+Pikachu USED Fly!;
+Pikachu LOST 50 HEALTH;
+Pikachu tackled Mewtwo.
+Mewtwo RECOVERED 10 HEALTH;
