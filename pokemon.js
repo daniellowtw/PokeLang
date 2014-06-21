@@ -75,10 +75,13 @@ var parser = (function(){
 var parser = {trace: function trace() { },
 yy: {},
 <<<<<<< HEAD
+<<<<<<< HEAD
 symbols_: {"error":2,"expressions":3,"e":4,"ending":5,"EOF":6,"SEMICOLON":7,"POKEMON":8,"ADD":9,"!":10,"%":11,"-":12,"(":13,")":14,"NUMBER":15,"VAR":16,"$accept":0,"$end":1},
 terminals_: {2:"error",6:"EOF",7:"SEMICOLON",8:"POKEMON",9:"ADD",10:"!",11:"%",12:"-",13:"(",14:")",15:"NUMBER",16:"VAR"},
 productions_: [0,[3,3],[5,3],[5,1],[4,3],[4,2],[4,2],[4,2],[4,3],[4,1],[4,3]],
 =======
+=======
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 <<<<<<< Updated upstream
 symbols_: {"error":2,"expressions":3,"e":4,"ending":5,"EOF":6,"SEMICOLON":7,"+":8,"-":9,"*":10,"/":11,"^":12,"!":13,"%":14,"(":15,")":16,"NUMBER":17,"E":18,"PI":19,"VAR":20,"POKEMON":21,"$accept":0,"$end":1},
 terminals_: {2:"error",6:"EOF",7:"SEMICOLON",8:"+",9:"-",10:"*",11:"/",12:"^",13:"!",14:"%",15:"(",16:")",17:"NUMBER",18:"E",19:"PI",20:"VAR",21:"POKEMON"},
@@ -88,7 +91,10 @@ symbols_: {"error":2,"expressions":3,"statements":4,"EOF":5,"e":6,"ending":7,"SE
 terminals_: {2:"error",5:"EOF",8:"SEMICOLON",9:"POKEMON",10:"ADD",11:"ASSIGN",12:"NUMBER",13:"VAR",14:"OPPO_ARG",15:"ARG",16:"LOST",17:"HEALTH",18:"RECOVERED",19:"LET",20:"LEARNED",21:"MOVE",22:"USED"},
 productions_: [0,[3,2],[4,2],[7,3],[7,1],[6,3],[6,3],[6,1],[6,3],[6,2],[6,2],[6,4],[6,4],[6,4],[6,3],[6,1]],
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 >>>>>>> added subtract, assign, implementing subroutine
+=======
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate /* action[1] */, $$ /* vstack */, _$ /* lstack */) {
 /* this == yyval */
 
@@ -111,7 +117,10 @@ case 1:
           return [$$[$0-1]]; 
 =======
 case 1:return $$[$0-1]
+<<<<<<< HEAD
 >>>>>>> added subtract, assign, implementing subroutine
+=======
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 break;
 case 2: 
         	if ($$[$0] == null) { 
@@ -136,10 +145,13 @@ break;
 case 4: this.$ = null
 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 case 4:
     		this.$ = ['ADD', $$[$0-2], $$[$0]];
     	
 =======
+=======
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 case 5:this.$ = ['ADD', $$[$0-2], $$[$0]];
 break;
 case 6:this.$ = ['ASSIGN', $$[$0-2], $$[$0]];
@@ -191,10 +203,39 @@ case 15:this.$ = ['MOVE', $$[$0]]; console.log($$[$0])
 break;
 }
 },
+<<<<<<< HEAD
 table: [{3:1,4:2,6:3,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],21:[1,10]},{1:[3]},{5:[1,11]},{7:12,8:[1,13]},{10:[1,14],11:[1,15],16:[1,16],18:[1,17],22:[1,18]},{8:[2,7]},{9:[1,19]},{9:[1,20]},{9:[1,21]},{4:22,6:3,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],21:[1,10]},{8:[2,15]},{1:[2,1]},{5:[2,2],20:[2,2]},{5:[2,4],6:23,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],20:[2,4],21:[1,10]},{9:[1,24]},{9:[1,25]},{12:[1,26]},{12:[1,27]},{21:[1,28]},{12:[1,29]},{8:[2,9]},{8:[2,10]},{20:[1,30]},{7:31,8:[1,13]},{8:[2,5]},{8:[2,6]},{17:[1,32]},{17:[1,33]},{8:[2,14]},{8:[2,8]},{21:[1,34]},{5:[2,3],20:[2,3]},{8:[2,11]},{8:[2,12]},{8:[2,13]}],
 defaultActions: {5:[2,7],10:[2,15],11:[2,1],20:[2,9],21:[2,10],24:[2,5],25:[2,6],28:[2,14],29:[2,8],32:[2,11],33:[2,12],34:[2,13]},
 >>>>>>> Stashed changes
 >>>>>>> added subtract, assign, implementing subroutine
+=======
+table: [{3:1,4:2,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{1:[3]},{5:9,7:[1,17],8:[1,10],9:[1,11],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16]},{4:18,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:19,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{7:[2,13],8:[2,13],9:[2,13],10:[2,13],11:[2,13],12:[2,13],13:[2,13],14:[2,13],16:[2,13]},{7:[2,14],8:[2,14],9:[2,14],10:[2,14],11:[2,14],12:[2,14],13:[2,14],14:[2,14],16:[2,14]},{7:[2,15],8:[2,15],9:[2,15],10:[2,15],11:[2,15],12:[2,15],13:[2,15],14:[2,15],16:[2,15]},{21:[1,20]},{6:[1,21]},{4:22,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:23,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:24,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:25,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{4:26,9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{7:[2,9],8:[2,9],9:[2,9],10:[2,9],11:[2,9],12:[2,9],13:[2,9],14:[2,9],16:[2,9]},{7:[2,10],8:[2,10],9:[2,10],10:[2,10],11:[2,10],12:[2,10],13:[2,10],14:[2,10],16:[2,10]},{4:27,6:[2,3],9:[1,3],15:[1,4],17:[1,5],18:[1,6],19:[1,7],20:[1,8]},{7:[2,11],8:[2,11],9:[2,11],10:[2,11],11:[2,11],12:[2,11],13:[2,11],14:[2,11],16:[2,11]},{8:[1,10],9:[1,11],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16],16:[1,28]},{17:[1,29]},{1:[2,1]},{7:[2,4],8:[2,4],9:[2,4],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16],16:[2,4]},{7:[2,5],8:[2,5],9:[2,5],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16],16:[2,5]},{7:[2,6],8:[2,6],9:[2,6],10:[2,6],11:[2,6],12:[1,14],13:[1,15],14:[1,16],16:[2,6]},{7:[2,7],8:[2,7],9:[2,7],10:[2,7],11:[2,7],12:[1,14],13:[1,15],14:[1,16],16:[2,7]},{7:[2,8],8:[2,8],9:[2,8],10:[2,8],11:[2,8],12:[2,8],13:[1,15],14:[1,16],16:[2,8]},{5:30,7:[1,17],8:[1,10],9:[1,11],10:[1,12],11:[1,13],12:[1,14],13:[1,15],14:[1,16]},{7:[2,12],8:[2,12],9:[2,12],10:[2,12],11:[2,12],12:[2,12],13:[2,12],14:[2,12],16:[2,12]},{7:[2,16],8:[2,16],9:[2,16],10:[2,16],11:[2,16],12:[2,16],13:[2,16],14:[2,16],16:[2,16]},{6:[2,2]}],
+defaultActions: {21:[2,1],30:[2,2]},
+=======
+case 7:this.$ = Number(yytext);
+break;
+case 8:this.$ = [$$[$0-2], $$[$0-1], $$[$0]]
+break;
+case 9:this.$ = ['OPPO_ARG', $$[$0]]
+break;
+case 10:this.$ = ['ARG', $$[$0]]
+break;
+case 11:this.$ = ['SUB', $$[$0-3], $$[$0-1]]
+break;
+case 12:this.$ = ['ADD', $$[$0-3], $$[$0-1]]
+break;
+case 13:this.$ = ['LET', $$[$0-2], $$[$0]]
+break;
+case 14:this.$ = ['USED', $$[$0-2], $$[$0]]
+break;
+case 15:this.$ = ['MOVE', $$[$0]]; console.log($$[$0])
+break;
+}
+},
+table: [{3:1,4:2,6:3,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],21:[1,10]},{1:[3]},{5:[1,11]},{7:12,8:[1,13]},{10:[1,14],11:[1,15],16:[1,16],18:[1,17],22:[1,18]},{8:[2,7]},{9:[1,19]},{9:[1,20]},{9:[1,21]},{4:22,6:3,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],21:[1,10]},{8:[2,15]},{1:[2,1]},{5:[2,2],20:[2,2]},{5:[2,4],6:23,9:[1,4],12:[1,5],13:[1,6],14:[1,7],15:[1,8],19:[1,9],20:[2,4],21:[1,10]},{9:[1,24]},{9:[1,25]},{12:[1,26]},{12:[1,27]},{21:[1,28]},{12:[1,29]},{8:[2,9]},{8:[2,10]},{20:[1,30]},{7:31,8:[1,13]},{8:[2,5]},{8:[2,6]},{17:[1,32]},{17:[1,33]},{8:[2,14]},{8:[2,8]},{21:[1,34]},{5:[2,3],20:[2,3]},{8:[2,11]},{8:[2,12]},{8:[2,13]}],
+defaultActions: {5:[2,7],10:[2,15],11:[2,1],20:[2,9],21:[2,10],24:[2,5],25:[2,6],28:[2,14],29:[2,8],32:[2,11],33:[2,12],34:[2,13]},
+>>>>>>> Stashed changes
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 parseError: function parseError(str, hash) {
     if (hash.recoverable) {
         this.trace(str);
@@ -670,6 +711,7 @@ switch($avoiding_name_collisions) {
 case 0:/* skip whitespace */
 break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 case 1:/*skip comma to make it readable*/
 break;
 case 2:return 15
@@ -684,6 +726,8 @@ case 6:return 'THEN'
 break;
 case 7:return 'ELSE'
 =======
+=======
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 <<<<<<< Updated upstream
 case 1:return 17
 >>>>>>> added subtract, assign, implementing subroutine
@@ -804,7 +848,10 @@ break;
 rules: [/^(?:\s+)/,/^(?:,)/,/^(?:(.*?)(\.))/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:(GO|TRAIN))/,/^(?:SENT OUT\b)/,/^(?:SWAP OUT\b)/,/^(?:LOST\b)/,/^(?:RECOVERED\b)/,/^(?:HEALTH\b)/,/^(?:USED\b)/,/^(?:SPECIAL POWER\b)/,/^(?:CHALLENGE TRAINER\b)/,/^(?:LEARNED\b)/,/^(?:IT'S SUPER EFFECTIVE\b)/,/^(?:IT HAS NO EFFECT\b)/,/^(?:\*)/,/^(?:\/)/,/^(?:-)/,/^(?:\+)/,/^(?:\^)/,/^(?:!)/,/^(?:%)/,/^(?:\()/,/^(?:\))/,/^(?:PI\b)/,/^(?:\{)/,/^(?:\})/,/^(?:E\b)/,/^(?:;)/,/^(?:$)/,/^(?:(Bulbasaur|Ivysaur|Venusaur|Charmander|Charmeleon|Charizard|Squirtle|Wartortle|Blastoise|Caterpie|Metapod|Butterfree|Weedle|Kakuna|Beedrill|Pidgey|Pidgeotto|Pidgeot|Rattata|Raticate|Spearow|Fearow|Ekans|Arbok|Pikachu|Raichu|Sandshrew|Sandslash|Nidoran|Nidorina|Nidoqueen|Nidorino|Nidoking|Clefairy|Clefable|Vulpix|Ninetales|Jigglypuff|Wigglytuff|Zubat|Golbat|Oddish|Gloom|Vileplume|Paras|Parasect|Venonat|Venomoth|Diglett|Dugtrio|Meowth|Persian|Psyduck|Golduck|Mankey|Primeape|Growlithe|Arcanine|Poliwag|Poliwhirl|Poliwrath|Abra|Kadabra|Alakazam|Machop|Machoke|Machamp|Bellsprout|Weepinbell|Victreebel|Tentacool|Tentacruel|Geodude|Graveler|Golem|Ponyta|Rapidash|Slowpoke|Slowbro|Magnemite|Magneton|Farfetchd|Doduo|Dodrio|Seel|Dewgong|Grimer|Muk|Shellder|Cloyster|Gastly|Haunter|Gengar|Onix|Drowzee|Hypno|Krabby|Kingler|Voltorb|Electrode|Exeggcute|Exeggutor|Cubone|Marowak|Hitmonlee|Hitmonchan|Lickitung|Koffing|Weezing|Rhyhorn|Rhydon|Chansey|Tangela|Kangaskhan|Horsea|Seadra|Goldeen|Seaking|Staryu|Starmie|MrMime|Scyther|Jynx|Electabuzz|Magmar|Pinsir|Tauros|Magikarp|Gyarados|Lapras|Ditto|Eevee|Vaporeon|Jolteon|Flareon|Porygon|Omanyte|Omastar|Kabuto|Kabutops|Aerodactyl|Snorlax|Articuno|Zapdos|Moltres|Dratini|Dragonair|Dragonite|Mewtwo|Meowth))/,/^(?:(tackled|TACKLED))/,/^(?:(scratched|SCRATCHED))/,/^(?:(.*)?!)/,/^(?:.)/],
 conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35],"inclusive":true}}
 >>>>>>> Stashed changes
+<<<<<<< HEAD
 >>>>>>> added subtract, assign, implementing subroutine
+=======
+>>>>>>> 013c28448a6ff2b5f27c67930a985b15da3ab9ae
 });
 return lexer;
 })();
