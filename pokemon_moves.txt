@@ -1,0 +1,2858 @@
+﻿Pokemon Yellow Version: Special Pikachu Edition: Pokemon List by DBM11085
+Version: 1.1 | Last Updated: 2002-07-29 | View/Download Original File Hosted by GameFAQs
+Return to Pokemon Yellow Version: Special Pikachu Edition (GB) FAQs & Guides
+Would you recommend this FAQ? Yes No
+*****************************************************************************
+
+             Pokémon Yellow: Special Pikachu Edition Pokémon List
+                              For the Game Boy
+                    Version 1.1 (Last Updated 7/29/2002)
+                              By Devin Morgan
+
+   This file is Copyright (c)1999-2006 Devin Morgan. All rights reserved.
+
+*****************************************************************************
+
+Table of Contents
+
+1. What's New
+2. Pokémon List
+3. Credits
+4. Copyright Notice
+5. Contact Information
+
+*****************************************************************************
+
+-=-=-=-=-=-=-=-=-=-=
+-=  1. What's New -=
+-=-=-=-=-=-=-=-=-=-=
+
+Version 1.1 (7/29/02): The new version of this file. After a 2+ year absence, 
+I have reposted this on GameFAQs again, enjoy!
+
+Version 1.0 (11/3/99): The first version of this Pokémon List.
+
+*****************************************************************************
+
+-=-=-=-=-=-=-=-=-=-=-=
+-=  2. Pokémon List -=
+-=-=-=-=-=-=-=-=-=-=-=
+
+1. Bulbasaur (Grass/Poison)
+    Found: Cerulean City
+    Height: 2' 4"
+    Weight: 15.0 lbs.
+    Evolution: Ivysaur (Level 16)
+    Pokédex: It can go for days without eating a single morsel. In the bulb
+             on its back, it stores energy.
+    TMs: 3, 6, 8, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50
+    HMs: 1
+    Abilities:
+      Tackle (Normal) - N/A
+      Growl (Normal) - N/A
+      Leech Seed (Grass) - N/A
+      Vine Whip (Grass) - Level 13
+      Poison Powder (Poison) - Level 20
+      Razor Leaf (Grass) - Level 27
+      Growth (Normal) - Level 34
+      Sleep Powder (Grass) - Level 41
+      Solar Beam (Grass) - Level 48
+
+2. Ivysaur (Grass/Poison)
+    Found: Can only be obtained through evolution.
+    Height: 3' 3"
+    Weight: 29.0 lbs.
+    Evolution: Venusaur (Level 32)
+    Pokédex: The bulb on its back grows by drawing energy. It gives off an
+             aroma when it is ready to bloom.
+    TMs: 3, 6, 8, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50
+    HMs: 1
+    Abilities:
+      Tackle (Normal) - N/A
+      Growl (Normal) - N/A
+      Leech Seed (Grass) - N/A
+      Vine Whip (Grass) - N/A
+      Poison Powder (Poison) - Level 22
+      Razor Leaf (Grass) - Level 30
+      Growth (Normal) - Level 38
+      Sleep Powder (Grass) - Level 46
+      Solar Beam (Grass) - Level 54
+
+3. Venusaur (Grass/Poison)
+    Found: Can only be obtained through evolution.
+    Height: 6' 7"
+    Weight: 221.0 lbs.
+    Evolution: N/A
+    Pokédex: The flower on its back catches the sun's rays. The sunlight is
+             then absorbed and used for energy.
+    TMs: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 33, 34, 44, 50
+    HMs: 1
+    Abilities:
+      Tackle (Normal) - N/A
+      Growl (Normal) - N/A
+      Leech Seed (Grass) - N/A
+      Vine Whip (Grass) - N/A
+      Poison Powder (Poison) - N/A
+      Razor Leaf (Grass) - N/A
+      Growth (Normal) - Level 43
+      Sleep Powder (Grass) - Level 55
+      Solar Beam (Grass) - Level 65
+
+4. Charmander (Fire)
+    Found: Route 24
+    Height: 2' 0"
+    Weight: 19.0 lbs.
+    Evolution: Charmeleon (Level 16)
+    Pokédex: The flame at the tip of its tail makes a sound as it burns. You
+             can only hear it in quiet places.
+    TMs: 1, 3, 5, 6, 8, 9, 10, 17, 18, 19, 20, 23, 28, 31, 32, 33, 34, 38,
+         39, 40, 44, 50
+    HMs: 1, 4
+    Abilities:
+      Scratch (Normal) - N/A
+      Growl (Normal) - N/A
+      Ember (Fire) - N/A
+      Leer (Normal) - Level 15
+      Rage (Normal) - Level 22
+      Slash (Normal) - Level 30
+      Flamethrower (Fire) - Level 38
+      Fire Spin (Fire) - Level 46
+
+5. Charmeleon (Fire)
+    Found: Can only be obtained through evolution.
+    Height: 3' 7"
+    Weight: 42.0 lbs.
+    Evolution: Charizard (Level 36)
+    Pokédex: Tough fights could excite this Pokémon. When excited, it may
+             blow out bluish-white flames.
+    TMs: 1, 3, 5, 6, 8, 9, 10, 17, 18, 19, 20, 23, 28, 31, 32, 33, 34, 38,
+         39, 40, 44, 50
+    HMs: 1, 4
+    Abilities:
+      Scratch (Normal) - N/A
+      Growl (Normal) - N/A
+      Ember (Fire) - N/A
+      Leer (Normal) - N/A
+      Rage (Normal) - Level 24
+      Slash (Normal) - Level 33
+      Flamethrower (Fire) - Level 42
+      Fire Spin (Fire) - Level 56
+
+6. Charizard (Fire)
+    Found: Can only be obtained through evolution.
+    Height: 5' 7"
+    Weight: 200.0 lbs.
+    Evolution: N/A
+    Pokédex: When expelling a blast of super hot fire, the red flame on the
+             tip of its tail burns more intensely.
+    TMs: 1, 3, 5, 6, 8, 9, 10, 17, 18, 19, 20, 23, 26, 27, 28, 31, 32, 33,
+         34, 38, 39, 40, 44, 50
+    HMs: 1, 2, 4
+    Abilities:
+      Scratch (Normal) - N/A
+      Growl (Normal) - N/A
+      Ember (Fire) - N/A
+      Leer (Normal) - N/A
+      Rage (Normal) - N/A
+      Slash (Normal) - Level 36
+      Flamethrower (Fire) - Level 46
+      Fire Spin (Fire) - Level 55
+
+7. Squirtle (Water)
+    Found: Vermilion City
+    Height: 1' 8"
+    Weight: 20.0 lbs.
+    Evolution: Wartortle (Level 16)
+    Pokédex: Shoots water at prey while in the water. Withdraws into its
+             shell when in danger.
+    TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 28, 31, 32, 33,
+         34, 40, 44, 50
+    HMs: 3, 4
+    Abilities:
+      Tackle (Normal) - N/A
+      Tail Whip (Normal) - N/A
+      Bubble (Water) - N/A
+      Water Gun (Water) - Level 15
+      Bite (Normal) - Level 22
+      Withdraw (Water) - Level 28
+      Skull Bash (Normal) - Level 35
+      Hydro Pump (Water) - Level 42
+
+8. Wartortle (Water)
+    Found: Can only be obtained through evolution.
+    Height: 3' 3"
+    Weight: 50.0 lbs.
+    Evolution: Blastoise (Level 36)
+    Pokédex: When tapped, this Pokémon will pull in its head, but its tail
+             will still stick out a little bit.
+    TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 28, 31, 32, 33,
+         34, 40, 44, 50
+    HMs: 3, 4
+    Abilities:
+      Tackle (Normal) - N/A
+      Tail Whip (Normal) - N/A
+      Bubble (Water) - N/A
+      Water Gun (Water) - N/A
+      Bite (Normal) - Level 24
+      Withdraw (Water) - Level 31
+      Skull Bash (Normal) - Level 39
+      Hydro Pump (Water) - Level 47
+
+9. Blastoise (Water)
+    Found: Can only be obtained through evolution.
+    Height: 5' 3"
+    Weight: 189.0 lbs.
+    Evolution: N/A
+    Pokédex: Once it takes aim at its enemy, it blasts out water with even
+             more force than a firehose.
+    TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 26, 27, 28,
+         31, 32, 33, 34, 40, 44, 50
+    HMs: 3, 4
+    Abilities:
+      Tackle (Normal) - N/A
+      Tail Whip (Normal) - N/A
+      Bubble (Water) - N/A
+      Water Gun (Water) - N/A
+      Bite (Normal) - N/A
+      Withdraw (Water) - N/A
+      Skull Bash (Normal) - Level 42
+      Hydro Pump (Water) - Level 52
+
+10. Caterpie (Bug)
+     Found: Viridian Forest
+     Height: 1' 0"
+     Weight: 6.0 lbs.
+     Evolution: Metapod (Level 7)
+     Pokédex: If you touch the feeler on top of its head, it will release a
+              horrible stink to protect itself.
+     TMs: N/A
+     HMs: N/A
+     Abilities:
+       Tackle (Normal) - N/A
+       String Shot (Bug) - N/A
+
+11. Metapod (Bug)
+     Found: Viridian Forest
+     Height: 2' 4"
+     Weight: 22.0 lbs.
+     Evolution: Butterfree (Level 10)
+     Pokédex: Hardens its shell to protect itself. However, a large impact
+              may cause it to pop out of its shell.
+     TMs: N/A
+     HMs: N/A
+     Abilities:
+       Tackle (Normal) - N/A
+       String Shot (Bug) - N/A
+       Harden (Normal) - Level 7
+
+12. Butterfree (Bug/Flying)
+     Found: Can only be obtained through evolution.
+     Height: 3' 7"
+     Weight: 71.0 lbs.
+     Evolution: N/A
+     Pokédex: Its wings, covered with poisonous powders, repel water. This
+              allows it to fly in the rain.
+     TMs: 2, 4, 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 39, 44, 46,
+          50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       String Shot (Bug) - N/A
+       Harden (Normal) - N/A
+       Confusion (Psychic) - Level 10
+       Poison Powder (Poison) - Level 13
+       Stun Spore (Grass) - Level 14
+       Sleep Powder (Grass) - Level 15
+       Supersonic (Normal) - Level 18
+       Whirlwind (Normal) - Level 23
+       Gust (Normal) - Level 28
+       Psybeam (Psychic) - Level 34
+
+13. Weedle (Bug/Poison)
+     Found: Not in this version of the game.
+     Height: 1' 0"
+     Weight: 7.0 lbs.
+     Evolution: Kakuna (Level 7)
+     Pokédex: Beware of the sharp stinger on its head. It hides in grass and
+              bushes where it eats leaves.
+     TMs: N/A
+     HMs: N/A
+     Abilities:
+       Poison Sting (Poison) - N/A
+       String Shot (Bug) - N/A
+
+14. Kakuna (Bug/Poison)
+     Found: Not in this version of the game.
+     Height: 2' 0"
+     Weight: 22.0 lbs.
+     Evolution: Beedrill (Level 10)
+     Pokédex: Able to move only slightly. When endangered, it may stick out
+              its stinger and poison its enemy.
+     TMs: N/A
+     HMs: N/A
+     Abilities:
+       Poison Sting (Poison) - N/A
+       String Shot (Bug) - N/A
+       Harden (Normal) - N/A (If caught in the wild, it doesn't learn Tackle
+                         or String Shot. If obtained from evolving Weedle, it
+                         won't learn Harden.)
+
+15. Beedrill (Bug/Poison)
+     Found: Can only be obtained through evolution.
+     Height: 3' 3"
+     Weight: 65.0 lbs.
+     Evolution: N/A
+     Pokédex: It has 3 poisonous stingers on its forelegs and its tail. They
+              are used to jab its enemy repeatedly.
+     TMs: 3, 6, 9, 10, 15, 20, 21, 31, 32, 33, 34, 39, 40, 44, 50
+     HMs: 1
+     Abilities:
+       Poison Sting (Poison) - N/A
+       String Shot (Bug) - N/A
+       Harden (Normal) - N/A
+       Fury Attack (Normal) - Level 12
+       Focus Energy (Normal) - Level 16
+       Twin Needle (Bug) - Level 20
+       Rage (Normal) - Level 25
+       Pin Missile (Bug) - Level 30
+       Agility (Normal) - Level 35
+
+16. Pidgey (Normal/Flying)
+     Found: Route 1, Route 2, Viridian Forest, Route 5, Route 6, Route 7,
+            Route 8, Route 11, Route 12, Route 13, Route 24, Route 25
+     Height: 1' 0"
+     Weight: 4.0 lbs.
+     Evolution: Pidgeotto (Level 18)
+     Pokédex: Very docile. If attacked, it will often kick up sand to protect
+              itself rather than fight back.
+     TMs: 2, 4, 6, 9, 10, 20, 31, 32, 33, 34, 39, 43, 44, 50
+     HMs: 2
+     Abilities:
+       Gust (Normal) - N/A
+       Sand-Attack (Normal) - Level 5
+       Quick Attack (Normal) - Level 12
+       Whirlwind (Normal) - Level 19
+       Wing Attack (Flying) - Level 28
+       Agility (Psychic) - Level 36
+       Mirror Move (Flying) - Level 44
+
+17. Pidgeotto (Normal/Flying)
+     Found: Viridian Forest, Route 5, Route 6, Route 7, Route 8, Route 11,
+            Route 12, Route 13, Route 14, Route 15, Route 21, Route 24,
+            Route 25
+     Height: 3' 7"
+     Weight: 66.0 lbs.
+     Evolution: Pidgeot (Level 36)
+     Pokédex: This Pokémon is full of vitality. It constantly flies around
+              its large territory in search of prey.
+     TMs: 2, 4, 6, 9, 10, 20, 31, 32, 33, 34, 39, 43, 44, 50
+     HMs: 2
+     Abilities:
+       Gust (Normal) - N/A
+       Sand-Attack (Normal) - N/A
+       Quick Attack (Normal) - Level 12
+       Whirlwind (Normal) - Level 21
+       Wing Attack (Flying) - Level 31
+       Agility (Psychic) - Level 40
+       Mirror Move (Flying) - Level 49
+
+18. Pidgeot (Normal/Flying)
+     Found: Can only be obtained through evolution.
+     Height: 4' 11"
+     Weight: 87.0 lbs.
+     Evolution: N/A
+     Pokédex: This Pokémon flies at Mach 2 speed, seeking prey. Its large
+              talons are feared as wicked weapons.
+     TMs: 2, 4, 6, 9, 10, 15, 20, 31, 32, 33, 34, 39, 43, 44, 50
+     HMs: 2
+     Abilities:
+       Gust (Normal) - N/A
+       Sand-Attack (Normal) - N/A
+       Quick Attack (Normal) - N/A
+       Whirlwind (Normal) - N/A
+       Wing Attack (Flying) - N/A
+       Agility (Psychic) - Level 44
+       Mirror Move (Flying) - Level 54
+
+19. Rattata (Normal)
+     Found: Route 1, Route 2, Route 3, Route 4, Route 5, Route 6, Route 7,
+            Route 8, Route 9, Route 10, Route 11, Route 16, Route 18,
+            Cinnabar Island, Route 22
+     Height: 1' 0"
+     Weight: 8.0 lbs.
+     Evolution: Raticate (Level 20)
+     Pokédex: Will chew on anything with its fangs. If you see one, it is
+              certain that 40 more live in the area.
+     TMs: 6, 8, 9, 10, 11, 12, 14, 20, 24, 25, 28, 31, 32, 34, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Tackle (Normal) - N/A
+       Tail Whip (Normal) - N/A
+       Quick Attack (Normal) - Level 9
+       Hyper Fang (Normal) - Level 14
+       Focus Energy (Normal) - Level 23
+       Super Fang (Normal) - Level 34
+
+20. Raticate (Normal)
+     Found: Route 9, Route 10, Route 11, Route 16, Route 18, Cinnabar Island,
+            Route 21
+     Height: 2' 4"
+     Weight: 41.0 lbs.
+     Evolution: N/A
+     Pokédex: Its hind feet are webbed. They act as flippers, so it can swim
+              in rivers and hunt for prey.
+     TMs: 6, 8, 9, 10, 11, 12, 14, 15, 20, 24, 25, 28, 31, 32, 34, 39, 40,
+          44, 50
+     HMs: N/A
+     Abilities:
+       Tackle (Normal) - N/A
+       Tail Whip (Normal) - N/A
+       Quick Attack (Normal) - N/A
+       Hyper Fang (Normal) - N/A
+       Focus Energy (Normal) - Level 27
+       Super Fang (Normal) - Level 41
+
+21. Spearow (Normal/Flying)
+     Found: Route 3, Route 4, Route 9, Route 16, Route 18, Route 22
+     Height: 1' 0"
+     Weight: 4.0 lbs.
+     Evolution: Fearow (Level 20)
+     Pokédex: Inept at flying high. However, it can fly around very fast to
+              protect its territory.
+     TMs: 2, 4, 6, 9, 10, 20, 31, 32, 34, 39, 43, 44, 50
+     HMs: 2
+     Abilities:
+       Peck (Flying) - N/A
+       Growl (Normal) - N/A
+       Leer (Normal) - Level 9
+       Fury Attack (Normal) - Level 15
+       Mirror Move (Flying) - Level 22
+       Drill Peck (Flying) - Level 29
+       Agility (Psychic) - Level 36
+
+22. Fearow (Normal/Flying)
+     Found: Route 9, Route 16, Route 17, Route 18, Route 23
+     Height: 3' 11"
+     Weight: 84.0 lbs.
+     Evolution: N/A
+     Pokédex: A Pokémon that dates back many years. If it senses danger, it
+              flies high and away, instantly.
+     TMs: 2, 4, 6, 9, 10, 15, 20, 31, 32, 34, 39, 43, 44, 50
+     HMs: 2
+     Abilities:
+       Peck (Flying) - N/A
+       Growl (Normal) - N/A
+       Leer (Normal) - N/A
+       Fury Attack (Normal) - N/A
+       Mirror Move (Flying) - Level 25
+       Drill Peck (Flying) - Level 34
+       Agility (Psychic) - Level 43
+
+23. Ekans (Poison)
+     Found: Not in this version of the game.
+     Height: 6' 7"
+     Weight: 15.0 lbs.
+     Evolution: Arbok (Level 22)
+     Pokédex: The older it gets the longer it grows. At night, it wraps its
+              long body around tree branches to rest.
+     TMs: 6, 8, 9, 10, 20, 21, 26, 27, 28, 31, 32, 34, 40, 44, 48, 50
+     HMs: 4
+     Abilities: ???
+
+24. Arbok (Poison)
+     Found: Not in this version of the game.
+     Height: 11' 6"
+     Weight: 143.0 lbs.
+     Evolution: N/A
+     Pokédex: The frightening patterns on its belly have been studied. Six
+              variations have been confirmed.
+     TMs: 6, 8, 9, 10, 15, 20, 21, 26, 27, 28, 31, 32, 34, 40, 44, 48, 50
+     HMs: 4
+     Abilities: ???
+
+25. Pikachu (Electric)
+     Found: Pallet Town
+     Height: 1' 4"
+     Weight: 13.0 lbs.
+     Evolution: Raichu (use Thunder Stone/Must be traded first)
+     Pokédex: It keeps its tail raised to monitor its surroundings. If you
+              yank its tail, it will try to bite you.
+     TMs: 1, 5, 6, 8, 9, 10, 16, 17, 19, 20, 24, 25, 31, 32, 33, 34, 39, 40,
+          44, 45, 50
+     HMs: 5
+     Abilities:
+       Thundershock (Electric) - N/A
+       Growl (Normal) - N/A
+       Tail Whip (Normal) - Level 6
+       Thunder Wave (Electric) - Level 8
+       Quick Attack (Normal) - Level 11
+       Double Team (Normal) - Level 15
+       Slam (Normal) - Level 20
+       Thunderbolt (Electric) - Level 26
+       Agility (Psychic) - Level 33
+       Thunder (Electric) - Level 41
+       Light Screen (Psychic) - Level 50
+
+26. Raichu (Electric)
+     Found: Can only be obtained through evolution.
+     Height: 2' 7"
+     Weight: 66.0 lbs.
+     Evolution: N/A
+     Pokédex: When electricity builds up inside its body, it becomes feisty.
+              It also glows in the dark.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 16, 17, 19, 20, 24, 25, 31, 32, 33, 34, 39,
+          40, 44, 45, 50
+     HMs: 5
+     Abilities:
+       (Cannot learn any abilities on its own.)
+
+27. Sandshrew (Ground)
+     Found: Route 3, Mt. Moon, Route 4
+     Height: 2' 0"
+     Weight: 26.0 lbs.
+     Evolution: Sandslash (Level 22)
+     Pokédex: Its body is dry. When it gets cold at night, its hide is said
+              to become coated with a fine dew.
+     TMs: 3, 6, 8, 9, 10, 17, 19, 20, 26, 27, 28, 31, 32, 34, 39, 40, 44, 48,
+          50
+     HMs: 1, 4
+     Abilities:
+       Scratch (Normal) - N/A
+       Sand-Attack (Normal) - Level 10
+       Slash (Normal) - Level 17
+       Poison Sting (Poison) - Level 24
+       Swift (Normal) - Level 31
+       Fury Swipes (Normal) - Level 38
+
+28. Sandslash (Ground)
+     Found: Unknown Dungeon
+     Height: 3' 3"
+     Weight: 65.0 lbs.
+     Evolution: N/A
+     Pokédex: It is skilled at slashing enemies with his claws. If broken,
+              they start to grow back in a day.
+     TMs: 3, 6, 8, 9, 10, 15, 17, 19, 20, 26, 27, 28, 31, 32, 34, 39, 40, 44,
+          48, 50
+     HMs: 1, 4
+     Abilities:
+       Scratch (Normal) - N/A
+       Sand-Attack (Normal) - N/A
+       Slash (Normal) - N/A
+       Poison Sting (Poison) - Level 27
+       Swift (Normal) - Level 36
+       Fury Swipes (Normal) - Level 47
+
+29. Nidoran F (Poison)
+     Found: Route 2, Route 9, Route 10, Safari Zone, Route 22
+     Height: 1' 4"
+     Weight: 15.0 lbs.
+     Evolution: Nidorina (Level 16)
+     Pokédex: A mild-mannered Pokémon that does not like to fight. Beware,
+              its small horns secrete venom.
+     TMs: 6, 8, 9, 10, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Growl (Normal) - N/A
+       Tackle (Normal) - N/A
+       Scratch (Normal) - Level 8
+       Double Kick (Fighting) - Level 12
+       Poison Sting (Poison) - Level 17
+       Tail Whip (Normal) - Level 23
+       Bite (Normal) - Level 30
+       Fury Swipes (Normal) - Level 38
+
+30. Nidorina (Poison)
+     Found: Route 9, Safari Zone, Route 23
+     Height: 2' 7"
+     Weight: 44.0 lbs.
+     Evolution: Nidoqueen (use Moon Stone)
+     Pokédex: When resting deep in its burrow, its thorns always retract.
+              This is proof that it is relaxed.
+     TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44,
+          50
+     HMs: N/A
+     Abilities:
+       Growl (Normal) - N/A
+       Tackle (Normal) - N/A
+       Scratch (Normal) - N/A
+       Double Kick (Fighting) - Level 12
+       Poison Sting (Poison) - N/A
+       Tail Whip (Normal) - Level 27
+       Bite (Normal) - Level 36
+       Fury Swipes (Normal) - Level 46
+
+31. Nidoqueen (Poison/Ground)
+     Found: Can only be obtained through evolution.
+     Height: 4' 3"
+     Weight: 132.0 lbs.
+     Evolution: N/A
+     Pokédex: Tough scales cover the sturdy body of this Pokémon. It appears
+              that the scales grow in cycles.
+     TMs: 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24,
+          25, 26, 27, 31, 32, 33, 34, 38, 40, 44, 48, 50
+     HMs: 3, 4
+     Abilities:
+       Growl (Normal) - N/A
+       Tackle (Normal) - N/A
+       Scratch (Normal) - Level 8
+       Double Kick (Fighting) - N/A
+       Poison Sting (Poison) - Level 19
+       Body Slam (Normal) - Level 23
+
+32. Nidoran M (Poison)
+     Found: Route 2, Route 9, Route 10, Route 22
+     Height: 1' 8"
+     Weight: 20.0 lbs.
+     Evolution: Nidorino (Level 16)
+     Pokédex: Its large ears are always kept upright. If it senses danger, it
+              will attack with a poisonous sting.
+     TMs: 6, 7, 8, 9, 10, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Leer (Normal) - N/A
+       Tackle (Normal) - N/A
+       Horn Attack (Normal) - Level 8
+       Double Kick (Fighting) - Level 12
+       Poison Sting (Poison) - Level 17
+       Focus Energy (Normal) - Level 23
+       Fury Attack (Normal) - Level 30
+       Horn Drill (Normal) - Level 38
+
+33. Nidorino (Poison)
+     Found: Route 9, Safari Zone, Route 23
+     Height: 2' 11"
+     Weight: 43.0 lbs.
+     Evolution: Nidoking (use Moon Stone)
+     Pokédex: Its horns contain venom. If they are stabbed into the enemy,
+              the impact makes the poison leak out.
+     TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44,
+          50
+     HMs: N/A
+     Abilities:
+       Leer (Normal) - N/A
+       Tackle (Normal) - N/A
+       Horn Attack (Normal) - N/A
+       Double Kick (Fighting) - Level 12
+       Poison Sting (Poison) - Level 19
+       Focus Energy (Normal) - Level 27
+       Fury Attack (Normal) - Level 36
+       Horn Drill (Normal) - Level 46
+
+34. Nidoking (Poison/Ground)
+     Found: Can only be obtained through evolution.
+     Height: 4' 7"
+     Weight: 137.0 lbs.
+     Evolution: N/A
+      Pokédex: Its steel-like hide adds to its powerful tackle. Its horns are
+               so hard, they can pierce a diamond.
+      TMs: 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24,
+           25, 26, 27, 31, 32, 33, 34, 38, 40, 44, 48, 50
+      HMs: 3, 4
+      Abilities:
+        Leer (Normal) - N/A
+        Tackle (Normal) - N/A
+        Horn Attack (Normal) - N/A
+        Double Kick (Fighting) - N/A
+        Poison Sting (Poison) - Level 19
+        Thrash (Normal) - Level 23
+
+35. Clefairy (Normal)
+     Found: Mt. Moon
+     Height: 2' 0"
+     Weight: 17.0 lbs.
+     Evolution: Clefable (use Moon Stone)
+     Pokédex: Adored for their cute looks and playfulness. They are thought
+              to be rare, as they do not appear often.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 22, 24, 25, 29,
+          30, 31, 32, 33, 34, 35, 38, 40, 44, 45, 46, 49, 50
+     HMs: 4, 5
+     Abilities:
+       Pound (Normal) - N/A
+       Growl (Normal) - N/A
+       Sing (Normal) - Level 13
+       Doubleslap (Normal) - Level 18
+       Minimize (Normal) - Level 24
+       Metronome (Normal) - Level 31
+       Defense Curl (Normal) - Level 39
+       Light Screen (Psychic) - Level 48
+
+36. Clefable (Normal)
+     Found: Can only be obtained through evolution.
+     Height: 4' 3"
+     Weight: 88.0 lbs.
+     Evolution: N/A
+     Pokédex: They appear to be very protective of their own world. It is a
+              kind of fairy, rarely seen by people.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25,
+          29, 30, 31, 32, 33, 34, 35, 38, 40, 44, 45, 46, 49, 50
+     HMs: 4, 5
+     Abilities:
+       Pound (Normal) - N/A
+       Growl (Normal) - N/A
+       Sing (Normal) - Level 13
+       Doubleslap (Normal) - Level 18
+       Minimize (Normal) - Level 24
+       Metronome (Normal) - Level 31
+       Defense Curl (Normal) - Level 39
+       Light Screen (Psychic) - Level 48
+
+37. Vulpix (Fire)
+     Found: Celadon City
+     Height: 2' 0"
+     Weight: 22.0 lbs.
+     Evolution: Ninetales (use Fire Stone)
+     Pokédex: Both its fur and its tails are beautiful. As it grows, the
+              tails split and form more tails.
+     TMs: 6, 8, 9, 10, 20, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Ember (Fire) - N/A
+       Tail Whip (Normal) - N/A
+       Quick Attack (Normal) - N/A
+       Roar (Normal) - Level 21
+       Confuse Ray (Ghost) - Level 28
+       Flamethrower (Fire) - Level 35
+       Fire Spin (Fire) - Level 42
+
+38. Ninetales (Fire)
+     Found: Can only be obtained through evolution.
+     Height: 3' 7"
+     Weight: 44.0 lbs.
+     Evolution: N/A
+     Pokédex: According to an enduring legend, 9 noble saints were united and
+              reincarnated as this Pokémon.
+     TMs: 6, 8, 9, 10, 15, 20, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       (Cannot learn any abilities on its own.)
+
+39. Jigglypuff (Normal)
+     Found: Route 5, Route 6, Route 7, Route 8
+     Height: 1' 8"
+     Weight: 12.0 lbs.
+     Evolution: Wigglytuff (use Moon Stone)
+     Pokédex: Uses its alluring eyes to enrapture its foe. It then sings a
+              pleasing melody that lulls the foe to sleep.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 22, 24, 25, 29,
+          30, 31, 32, 33, 34, 38, 40, 44, 45, 46, 49, 50
+     HMs: 4, 5
+     Abilities:
+       Sing (Normal) - N/A
+       Pound (Normal) - Level 9
+       Disable (Normal) - Level 14
+       Defense Curl (Normal) - Level 19
+       Doubleslap (Normal) - Level 24
+       Rest (Psychic) - Level 29
+       Body Slam (Normal) - Level 34
+       Double-Edge (Normal) - Level 39
+
+40. Wigglytuff (Normal)
+     Found: Celadon City
+     Height: 3' 3"
+     Weight: 26.0 lbs.
+     Evolution: N/A
+     Pokédex: Its body is full of elasticity. By inhaling deeply, it can
+              continue to inflate itself without limit.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25,
+          29, 30, 31, 32, 33, 34, 38, 40, 44, 45, 46, 49, 50
+     HMs: 4, 5
+     Abilities:
+       (Cannot learn any abilities on its own.)
+
+41. Zubat (Poison/Flying)
+     Found: Mt. Moon, Rock Tunnel, Seafoam Island, Victory Road
+     Height: 2' 7"
+     Weight: 17.0 lbs.
+     Evolution: Golbat (Level 22)
+     Pokédex: Emits ultrasonic cries while it flies. They act as a sonar used
+              to check for objects in its way.
+     TMs: 2, 4, 6, 9, 10, 20, 21, 31, 32, 34, 39, 44, 50
+     HMs: N/A
+     Abilities:
+       Leech Life (Bug) - N/A
+       Supersonic (Normal) - Level 10
+       Bite (Normal) - Level 15
+       Confuse Ray (Ghost) - Level 21
+       Wing Attack (Flying) - Level 28
+       Haze (Ice) - Level 36
+
+42. Golbat (Poison/Flying)
+     Found: Seafoam Island, Victory Road, Unknown Dungeon
+     Height: 5' 3"
+     Weight: 121.0 lbs.
+     Evolution: N/A
+     Pokédex: It attacks in a stealthy manner, without warning. Its sharp
+              fangs are used to bite and suck blood.
+     TMs: 2, 4, 6, 9, 10, 15, 20, 21, 31, 32, 34, 39, 44, 50
+     HMs: N/A
+     Abilities:
+       Leech Life (Bug) - N/A
+       Supersonic (Normal) - N/A
+       Bite (Normal) - N/A
+       Confuse Ray (Ghost) - N/A
+       Wing Attack (Flying) - Level 32
+       Haze (Ice) - Level 43
+
+43. Oddish (Grass/Poison)
+     Found: Route 12, Route 13, Route 14, Route 15, Route 24, Route 25
+     Height: 1' 8"
+     Weight: 12.0 lbs.
+     Evolution: Gloom (Level 21)
+     Pokédex: It may be mistaken for a clump of weeds. If you try to yank it
+              out of the ground, it shrieks horribly.
+     TMs: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50
+     HMs: 1
+     Abilities:
+       Absorb (Grass) - N/A
+       Poison Powder (Poison) - Level 15
+       Stun Spore (Grass) - Level 17
+       Sleep Powder (Grass) - Level 19
+       Acid (Poison) - Level 24
+       Petal Dance (Grass) Level 33
+       Solar Beam (Grass) - Level 46
+
+44. Gloom (Grass/Poison)
+     Found: Route 12, Route 13, Route 14, Route 15, Unknown Dungeon
+     Height: 2' 7"
+     Weight: 19.0 lbs.
+     Evolution: Vileplume (use Leaf Stone)
+     Pokédex: Smells incredibly foul! However, around 1 out of 1,000 people
+              enjoy sniffing its nose-bending stink.
+     TMs: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50
+     HMs: 1
+     Abilities:
+       Absorb (Grass) - N/A
+       Poison Powder (Poison) - N/A
+       Stun Spore (Grass) - N/A
+       Sleep Powder (Grass) - N/A
+       Acid (Poison) - Level 28
+       Petal Dance (Grass) Level 38
+       Solar Beam (Grass) - Level 52
+
+45. Vileplume (Grass/Poison)
+     Found: Can only be obtained through evolution.
+     Height: 3' 11"
+     Weight: 41.0 lbs.
+     Evolution: N/A
+     Pokédex: Flaps its broad flower petals to scatter its poisonous pollen.
+              The flapping sound is very loud.
+     TMs: 3, 6, 9, 10, 15, 20, 21, 22, 31, 32, 33, 34, 44, 50
+     HMs: 1
+     Abilities:
+       (Cannot learn any abilities on its own.)
+
+46. Paras (Bug/Grass)
+     Found: Mt. Moon, Seafoam Island, Safari Zone
+     Height: 1' 0"
+     Weight: 12.0 lbs.
+     Evolution: Parasect (Level 24)
+     Pokédex: Burrows under the ground to gnaw on tree roots. The mushrooms
+              on its back absorb most of the nutrition.
+     TMs: 3, 6, 8, 9, 10, 20, 21, 22, 28, 31, 32, 33, 34, 40, 44, 50
+     HMs: 1
+     Abilities:
+       Scratch (Normal) - N/A
+       Stun Spore (Grass) - Level 13
+       Leech Life (Grass) - Level 20
+       Spore (Bug) - Level 27
+       Slash (Normal) - Level 34
+       Growth (Normal) - Level 41
+
+47. Parasect (Bug/Grass)
+     Found: Safari Zone, Route 18, Unknown Dungeon
+     Height: 3' 3"
+     Weight: 65.0 lbs.
+     Evolution: N/A
+     Pokédex: The bug host is drained of energy by the mushrooms on its back.
+              They appear to do all the thinking.
+     TMs: 3, 6, 8, 9, 10, 15, 20, 21, 22, 28, 31, 32, 33, 34, 40, 44, 50
+     HMs: 1
+     Abilities:
+       Scratch (Normal) - N/A
+       Stun Spore (Grass) - N/A
+       Leech Life (Grass) - N/A
+       Spore (Bug) - Level 30
+       Slash (Normal) - Level 39
+       Growth (Normal) - Level 48
+
+48. Venonat (Bug/Poison)
+     Found: Route 13, Route 14, Route 15, Route 24, Route 25
+     Height: 3' 3"
+     Weight: 66.0 lbs.
+     Evolution: Venomoth (Level 31)
+     Pokédex: Its large eyes act as radars. In a bright place, you can see
+              that they are clusters of many tiny eyes.
+     TMs: 2, 4, 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 39, 44, 46,
+          50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       Disable (Normal) - N/A
+       Supersonic (Normal) - Level 11
+       Confusion (Psychic) - Level 19
+       Poison Powder (Poison) - Level 22
+       Leech Life (Grass) - Level 27
+       Stun Spore (Grass) - Level 30
+       Psybeam (Psychic) - Level 35
+       Sleep Powder (Grass) - Level 38
+       Psychic (Psychic) - Level 43
+
+49. Venomoth (Bug/Poison)
+     Found: Route 14, Route 15, Unknown Dungeon
+     Height: 4' 11"
+     Weight: 28.0 lbs.
+     Evolution: N/A
+     Pokédex: The powdery scales on its wings are hard to remove. They also
+              contain poison that leaks out on contact.
+     TMs: 2, 4, 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 39, 44, 46,
+          50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       Disable (Normal) - N/A
+       Supersonic (Normal) - N/A
+       Confusion (Psychic) - N/A
+       Poison Powder (Poison) - N/A
+       Leech Life (Grass) - N/A
+       Stun Spore (Grass) - N/A
+       Psybeam (Psychic) - Level 38
+       Sleep Powder (Grass) - Level 43
+       Psychic (Psychic) - Level 50
+
+50. Diglett (Ground)
+     Found: Diglett's Cave
+     Height: 0' 8"
+     Weight: 2.0 lbs.
+     Evolution: Dugtrio (Level 26)
+     Pokédex: It prefers dark places. It spends most of its time underground,
+              though it may pop up in caves.
+     TMs: 6, 8, 9, 10, 20, 26, 27, 28, 31, 32, 34, 44, 48, 50
+     HMs: 2
+     Abilities:
+       Scratch (Normal) - N/A
+       Growl (Normal) - N/A
+       Dig (Ground) - Level 19
+       Sand-Attack (Normal) - Level 24
+       Slash (Normal) - Level 31
+       Earthquake (Ground) - Level 40
+
+51. Dugtrio (Ground)
+     Found: Diglett's Cave, Route 11
+     Height: 2' 4"
+     Weight: 73.0 lbs.
+     Evolution: N/A
+     Pokédex: A team of triplets that can burrow over 60 MPH. Due to this,
+              some people think it's an earthquake.
+     TMs: 6, 8, 9, 10, 15, 20, 26, 27, 28, 31, 32, 34, 44, 48, 50
+     HMs: 1
+     Abilities:
+       Scratch (Normal) - N/A
+       Growl (Normal) - N/A
+       Dig (Ground) - N/A
+       Sand-Attack (Normal) - N/A
+       Slash (Normal) - Level 35
+       Earthquake (Ground) - Level 47
+
+52. Meowth (Normal)
+     Found: Not in this version of the game.
+     Height: 1' 4"
+     Weight: 9.0 lbs.
+     Evolution: Persian (Level 28)
+     Pokédex: Appears to be more active at night. It loves round and shiny
+              things. It can't stop from picking them up.
+     TMs: 6, 8, 9, 10, 11, 12, 16, 20, 24, 25, 31, 32, 34, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Scratch (Normal) - N/A
+       Growl (Normal) - N/A
+       Bite (Normal) - Level 12
+       Pay Day (Normal) - Level 17
+       Screech (Normal) - Level 24
+       Fury Swipes (Normal) - Level 33
+       Slash (Normal) - Level 44
+
+53. Persian (Normal)
+     Found: Not in this version of the game.
+     Height: 3' 3"
+     Weight: 71.0 lbs.
+     Evolution: N/A
+     Pokédex: The gem in its forehead glows on its own! It walks with the
+              grace and elegance of a proud queen.
+     TMs: 6, 8, 9, 10, 11, 12, 15, 16, 20, 24, 25, 31, 32, 34, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Scratch (Normal) - N/A
+       Growl (Normal) - N/A
+       Bite (Normal) - N/A
+       Pay Day (Normal) - N/A
+       Screech (Normal) - N/A
+       Fury Swipes (Normal) - Level 37
+       Slash (Normal) - Level 51
+
+54. Psyduck (Water)
+     Found: Route 6 (You must be surfing on the water in order to fight
+            Psyduck.)
+     Height: 2' 7"
+     Weight: 43.0 lbs.
+     Evolution: Golduck (Level 33)
+     Pokédex: Always tormented by headaches. It uses psychic powers, but it
+              is not known if it intends to do so.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 28, 31, 32,
+          34, 39, 40, 44, 50
+     HMs: 4, 5
+     Abilities:
+       Scratch (Normal) - N/A
+       Tail Whip (Normal) - Level 28
+       Disable (Normal) - Level 31
+       Confusion (Psychic) - Level 36
+       Fury Swipes (Normal) - Level 43
+       Hydro Pump (Water) - Level 52
+
+55. Golduck (Water)
+     Found: Route 6 (You must be surfing on the water in order to fight
+            Golduck.)
+     Height: 5' 7"
+     Weight: 169.0 lbs.
+     Evolution: N/A
+     Pokédex: Its slim and long limbs end in broad flippers. They are used
+              for swimming gracefully in lakes.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 28, 31,
+          32, 34, 39, 40, 44, 50
+     HMs: 4, 5
+     Abilities:
+       Scratch (Normal) - N/A
+       Tail Whip (Normal) - Level 28
+       Disable (Normal) - Level 31
+       Confusion (Psychic) - Level 39
+       Fury Swipes (Normal) - Level 48
+       Hydro Pump (Water) - Level 59
+
+56. Mankey (Fighting)
+     Found: Route 3, Route 4, Route 22, Route 23
+     Height: 1' 8"
+     Weight: 62.0 lbs.
+     Evolution: Primeape (Level 28)
+     Pokédex: An agile Pokémon that lives in trees. It angers easily and will
+              not hesitate to attack anything.
+     TMs: 1, 5, 6, 8, 9, 10, 16, 17, 18, 19, 20, 24, 25, 28, 31, 32, 34, 35,
+          39, 40, 44, 48, 50
+     HMs: 4
+     Abilities:
+       Scratch (Normal) - N/A
+       Leer (Normal) - N/A
+       Low Kick (Fighting) - Level 9
+       Karate Chop (Normal) - Level 15
+       Fury Swipes (Normal) - Level 21
+       Focus Energy (Normal) - Level 27
+       Seismic Toss (Fighting) - Level 33
+       Thrash (Normal) - Level 39
+       Screech (Normal) - Level 45
+
+57. Primeape (Fighting)
+     Found: Route 23
+     Height: 3' 3"
+     Weight: 71.0 lbs.
+     Evolution: N/A
+     Pokédex: It stops being angry only when nobody else is around. To view
+              this moment is very difficult.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 16, 17, 18, 19, 20, 24, 25, 28, 31, 32, 34,
+          35, 39, 40, 44, 48, 50
+     HMs: 4
+     Abilities:
+       Scratch (Normal) - N/A
+       Leer (Normal) - N/A
+       Low Kick (Fighting) - N/A
+       Karate Chop (Normal) - N/A
+       Fury Swipes (Normal) - N/A
+       Focus Energy (Normal) - Level 28
+       Seismic Toss (Fighting) - Level 37
+       Thrash (Normal) - Level 45
+       Screech (Normal) - Level 46
+
+58. Growlithe (Fire)
+     Found: Cinnabar Island
+     Height: 2' 4"
+     Weight: 42.0 lbs.
+     Evolution: Arcanine (use Fire Stone)
+     Pokédex: A Pokémon with a friendly nature. However, it will bark
+              fiercely at anything invading its territory.
+     TMs: 6, 8, 9, 10, 20, 23, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Bite (Normal) - N/A
+       Roar (Normal) - N/A
+       Ember (Fire) - N/A
+       Leer (Normal) - N/A
+       Take Down (Normal) - Level 30
+       Agility (Psychic) - Level 39
+       Flamethrower (Fire) - Level 50
+
+59. Arcanine (Fire)
+     Found: Can only be obtained through evolution.
+     Height: 6' 3"
+     Weight: 342.0 lbs.
+     Evolution: N/A
+     Pokédex: A legendary Pokémon in China. Many people are charmed by its
+              grace and beauty while running.
+     TMs: 6, 8, 9, 10, 15, 20, 23, 28, 30, 31, 32, 33, 34, 38, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       (Cannot learn any abilities on its own.)
+
+60. Poliwag (Water)
+     Found: Viridian City, Route 22, Route 23 (must be fished for to obtain)
+     Height: 2' 0"
+     Weight: 27.0 lbs.
+     Evolution: Poliwhirl (Level 25)
+     Pokédex: The direction of the spiral on the belly differs by area. It is
+              more adept at swimming than walking.
+     TMs: 6, 8, 9, 10, 11, 12, 13, 14, 20, 29, 31, 32, 34, 40, 44, 46, 50
+     HMs: 3
+     Abilities:
+       Bubble (Water) - N/A
+       Hypnosis (Psychic) - Level 16
+       Water Gun (Water) - Level 19
+       Doubleslap (Normal) - Level 25
+       Body Slam (Normal) - Level 31
+       Amnesia (Psychic) - Level 38
+       Hydro Pump (Water) - Level 45
+
+61. Poliwhirl (Water)
+     Found: Route 22, Route 23 (must be fished for to obtain)
+     Height: 3' 3"
+     Weight: 44.0 lbs.
+     Evolution: Poliwrath (use Water Stone)
+     Pokédex: Under attack, it uses its belly spiral to put the foe to sleep.
+              It then makes escape.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 26, 27, 29, 31,
+          32, 34, 35, 40, 44, 46, 50
+     HMs: 3, 4
+     Abilities:
+       Bubble (Water) - N/A
+       Hypnosis (Psychic) - Level 16
+       Water Gun (Water) - Level 19
+       Doubleslap (Normal) - Level 26
+       Body Slam (Normal) - Level 33
+       Amnesia (Psychic) - Level 41
+       Hydro Pump (Water) - Level 49
+
+62. Poliwrath (Water)
+     Found: Can only be obtained through evolution.
+     Height: 4' 3"
+     Weight: 119.0 lbs.
+     Evolution: N/A
+     Pokédex: Swims powerfully using all the muscles in its body. It can even
+              overtake champion swimmers.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 26, 27, 29,
+          31, 32, 34, 35, 40, 44, 46, 50
+     HMs: 3, 4
+     Abilities:
+       Bubble (Water) - N/A
+       Hypnosis (Psychic) - Level 16
+       Water Gun (Water) - Level 19
+
+63. Abra (Psychic)
+     Found: Route 5, Route 6, Route 7, Route 8, Celadon City
+     Height: 2' 11"
+     Weight: 43.0 lbs.
+     Evolution: Kadabra (Level 16)
+     Pokédex: Sleeps 18 hours a day. If it senses danger, it will teleport
+              itself to safety even as it sleeps.
+     TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35, 40,
+          44, 45, 46, 49, 50
+     HMs: 5
+     Abilities:
+       Teleport (Psychic) - N/A
+
+64. Kadabra (Psychic)
+     Found: Route 8
+     Height: 4' 3"
+     Weight: 125.0 lbs.
+     Evolution: Alakazam (must be traded to evolve)
+     Pokédex: Many odd things happen if this Pokémon is close by. For
+              example, it makes clocks run backwards.
+     TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 28, 29, 30, 31, 32, 33, 34, 35,
+          40, 44, 45, 46, 49, 50
+     HMs: 5
+     Abilities:
+       Teleport (Psychic) - N/A
+       Kinesis (Psychic) - N/A (you only get this technique if you catch a
+                           Kadabra in the wild)
+       Confusion (Psychic) - Level 16
+       Disable (Normal) - Level 20
+       Psybeam (Psychic) - Level 27
+       Recover (Normal) - Level 31
+       Psychic (Psychic) - Level 38
+       Reflect (Psychic) - Level 42
+
+65. Alakazam (Psychic)
+     Found: Can only be obtained through evolution.
+     Height: 4' 11"
+     Weight: 106.0 lbs.
+     Evolution: N/A
+     Pokédex: A Pokémon that can memorize anything. It never forgets what it
+              learns-that's why this Pokémon is smart.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 28, 29, 30, 31, 32, 33, 34,
+          35, 40, 44, 45, 46, 49, 50
+     HMs: 5
+     Abilities:
+       Teleport (Psychic) - N/A
+       Kinesis (Psychic) - ???
+       Confusion (Psychic) - Level 16
+       Disable (Normal) - Level 20
+       Psybeam (Psychic) - Level 27
+       Recover (Normal) - Level 31
+       Psychic (Psychic) - Level 38
+       Reflect (Psychic) - Level 42
+
+66. Machop (Fighting)
+     Found: Route 10, Rock Tunnel
+     Height: 2' 7"
+     Weight: 43.0 lbs.
+     Evolution: Machoke (Level 28)
+     Pokédex: Very powerful in spite of its small size. Its mastery of many
+              types of martial arts makes it very tough.
+     TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 38,
+          40, 44, 48, 50
+     HMs: 4
+     Abilities:
+       Karate Chop (Normal) - N/A
+       Low Kick (Fighting) - Level 20
+       Leer (Normal) - Level 25
+       Focus Energy (Normal) - Level 32
+       Seismic Toss (Fighting) - Level 39
+       Submission (Fighting) - Level 46
+
+67. Machoke (Fighting)
+     Found: Route 5, Victory Road
+     Height: 4' 11"
+     Weight: 155.0 lbs.
+     Evolution: Machamp (must be traded to evolve)
+     Pokédex: The belt around its waist holds back its energy. Without it,
+              this Pokémon would be unstoppable.
+     TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 38,
+          40, 44, 48, 50
+     HMs: 4
+     Abilities:
+       Karate Chop (Normal) - N/A
+       Low Kick (Fighting) - Level 20
+       Leer (Normal) - Level 25
+       Focus Energy (Normal) - Level 36
+       Seismic Toss (Fighting) - Level 44
+       Submission (Fighting) - Level 52
+
+68. Machamp (Fighting)
+     Found: Can only be obtained through evolution.
+     Height: 5' 3"
+     Weight: 287.0 lbs.
+     Evolution: N/A
+     Pokédex: One arm alone can move mountains. Using all four arms, this
+              Pokémon fires off awesome punches.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35,
+          38, 40, 44, 48, 50
+     HMs: 4
+     Abilities:
+       Karate Chop (Normal) - N/A
+       Low Kick (Fighting) - Level 20
+       Leer (Normal) - Level 25
+       Focus Energy (Normal) - Level 36
+       Seismic Toss (Fighting) - Level 44
+       Submission (Fighting) - Level 52
+
+69. Bellsprout (Grass/Poison)
+     Found: Route 12, Route 13, Route 14, Route 15, Route 24, Route 25
+     Height: 2' 4"
+     Weight: 9.0 lbs.
+     Evolution: Weepinbell (Level 21)
+     Pokédex: Prefers hot and humid places. It ensnares tiny insects with its
+              vine and devours them.
+     TMs: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50
+     HMs: 1
+     Abilities:
+       Vine Whip (Grass) - N/A
+       Growth (Normal) - N/A
+       Wrap (Normal) - Level 13
+       Poison Powder (Poison) - Level 15
+       Sleep Powder (Grass) - Level 18
+       Stun Spore (Grass) - Level 21
+       Acid (Poison) - Level 26
+       Razor Leaf (Grass) - Level 33
+       Slam (Normal) - Level 42
+
+70. Weepinbell (Grass/Poison)
+     Found: Route 12, Route 13, Route 14, Route 15, Unknown Dungeon
+     Height: 3' 3"
+     Weight: 14.0 lbs.
+     Evolution: Victreebel (use Leaf Stone)
+     Pokédex: When hungry, it swallows anything that moves. Its helpless prey
+              is melted inside by strong acids.
+     TMs: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50
+     HMs: 1
+     Abilities:
+       Vine Whip (Grass) - N/A
+       Growth (Normal) - N/A
+       Wrap (Normal) - N/A
+       Poison Powder (Poison) - N/A
+       Sleep Powder (Grass) - N/A
+       Stun Spore (Grass) - Level 23
+       Acid (Poison) - Level 29
+       Razor Leaf (Grass) - Level 38
+       Slam (Normal) - Level 49
+
+71. Victreebel (Grass/Poison)
+     Found: Can only be obtained through evolution.
+     Height: 5' 7"
+     Weight: 34.0 lbs.
+     Evolution: N/A
+     Pokédex: Lures prey with the sweet aroma of honey. Swallowed whole, the
+              prey is melted in a day, bones and all.
+     TMs: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 33, 34, 44, 50
+     HMs: 1
+     Abilities:
+       (Cannot learn any abilities on its own.)
+
+72. Tentacool (Water/Poison)
+     Found: Pallet Town, Viridian City, Vermilion City, S.S. Anne, Route 11,
+            Route 13, Route 19, Route 20, Seafoam Island, Cinnabar Island,
+            Route 21 (must be fished for to obtain)
+     Height: 2' 11"
+     Weight: 100.0 lbs.
+     Evolution: Tentacruel (Level 30)
+     Pokédex: It can sometimes be found all dry and shriveled upon a beach.
+              Toss it back into the sea to revive it.
+     TMs: 3, 6, 9, 10, 11, 12, 13, 14, 20, 21, 31, 32, 33, 34, 40, 44, 50
+     HMs: 1, 3
+     Abilities:
+       Acid (Poison) - N/A
+       Supersonic (Normal) - Level 7
+       Wrap (Normal) - Level 13
+       Poison Sting (Poison) - Level 18
+       Water Gun (Water) - Level 22
+       Constrict (Normal) - Level 27
+       Barrier (Psychic) - Level 33
+       Screech (Normal) - Level 40
+       Hydro Pump (Water) - Level 48
+
+73. Tentacruel (Water/Poison)
+     Found: Route 19, Route 20, Route 21 (must be fished for to obtain)
+     Height: 5' 3"
+     Weight: 121.0 lbs.
+     Evolution: N/A
+     Pokédex: Its 80 tentacles can stretch and contract freely. They wrap
+              around prey and weaken it with poison.
+     TMs: 3, 6, 9, 10, 11, 12, 13, 14, 15, 20, 21, 31, 32, 33, 34, 40, 44, 50
+     HMs: 1, 3
+     Abilities:
+       Acid (Poison) - N/A
+       Supersonic (Normal) - N/A
+       Wrap (Normal) - N/A
+       Poison Sting (Poison) - N/A
+       Water Gun (Water) - N/A
+       Constrict (Normal) - N/A
+       Barrier (Psychic) - Level 35
+       Screech (Normal) - Level 43
+       Hydro Pump (Water) - Level 50
+
+74. Geodude (Rock/Ground)
+     Found: Mt. Moon, Rock Tunnel, Victory Road
+     Height: 1' 4"
+     Weight: 44.0 lbs.
+     Evolution: Graveler (Level 25)
+     Pokédex: Often mistaken for rocks. If you step on it, it will get angry.
+     TMs: 1, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 36, 38,
+          44, 47, 48, 50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       Defense Curl (Normal) - Level 11
+       Rock Throw (Rock) - Level 16
+       Self Destruct (Normal) - Level 21
+       Harden (Normal) - Level 26
+       Earthquake (Ground) - Level 31
+       Explosion (Normal) - Level 36
+
+75. Graveler (Rock/Ground)
+     Found: Victory Road, Unknown Dungeon
+     Height: 3' 3"
+     Weight: 232.0 lbs.
+     Evolution: Golem (must be traded to evolve)
+     Pokédex: Often seen rolling down mountain trails. Obstacles are just
+              things to roll straight over, not avoid.
+     TMs: 1, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 36, 38,
+          44, 47, 48, 50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       Defense Curl (Normal) - N/A
+       Rock Throw (Rock) - N/A
+       Self Destruct (Normal) - N/A
+       Harden (Normal) - Level 29
+       Earthquake (Ground) - Level 36
+       Explosion (Normal) - Level 43
+
+76. Golem (Rock/Ground)
+     Found: Can only be obtained through evolution.
+     Height: 4' 7"
+     Weight: 662.0 lbs.
+     Evolution: N/A
+     Pokédex: Once it sheds its skin, its body turns tender and whitish. Its
+              hide hardens when it's exposed to air.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35,
+          36, 38, 44, 47, 48, 50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       Defense Curl (Normal) - N/A
+       Rock Throw (Rock) - N/A
+       Self Destruct (Normal) - N/A
+       Harden (Normal) - Level 29
+       Earthquake (Ground) - Level 36
+       Explosion (Normal) - Level 43
+
+77. Ponyta (Fire)
+     Found: Route 17
+     Height: 3' 3"
+     Weight: 66.0 lbs.
+     Evolution: Rapidash (Level 40)
+     Pokédex: Capable of jumping really high. Its hooves and sturdy legs
+              absorb the impact of the hard landing.
+     TMs: 6, 7, 8, 9, 10, 20, 31, 32, 33, 34, 38, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Ember (Fire) - N/A
+       Tail Whip (Normal) - Level 30
+       Stomp (Normal) - Level 32
+       Growl (Normal) - Level 35
+       Fire Spin (Fire) - Level 39
+       Take Down (Normal) - Level 43
+       Agility (Psychic) - Level 48
+
+78. Rapidash (Fire)
+     Found: Can only be obtained through evolution.
+     Height: 5' 7"
+     Weight: 209.0 lbs.
+     Evolution: N/A
+     Pokédex: Just loves to run. If it sees something faster than itself, it
+              will give chase at top speed.
+     TMs: 6, 7, 8, 9, 10, 15, 20, 31, 32, 33, 34, 38, 39, 40, 44, 50
+     HMs: N/A
+     Abilities:
+       Ember (Fire) - N/A
+       Tail Whip (Normal) - N/A
+       Stomp (Normal) - N/A
+       Growl (Normal) - N/A
+       Fire Spin (Fire) - N/A
+       Take Down (Normal) - Level 47
+       Agility (Psychic) - Level 55
+
+79. Slowpoke (Water/Psychic)
+     Found: Route 12, Route 13, Seafoam Island
+     Height: 3' 11"
+     Weight: 79.0 lbs.
+     Evolution: Slowbro (Level 37)
+     Pokédex: Incredibly slow and sluggish. It is quite content to loll about
+              without worrying about the time.
+     TMs: 6, 8, 9, 10, 11, 12, 13, 14, 16, 20, 26, 27, 28, 29, 30, 31, 32,
+          33, 34, 38, 39, 40, 44, 45, 46, 49, 50
+     HMs: 3, 4, 5
+     Abilities:
+       Confusion (Psychic) - N/A
+       Disable (Normal) - Level 18
+       Head Butt (Normal) - Level 22
+       Growl (Normal) - Level 27
+       Water Gun (Water) - Level 33
+       Amnesia (Psychic) - Level 40
+       Psychic (Psychic) - Level 48
+
+80. Slowbro (Water/Psychic)
+     Found: Route 12, Route 13, Seafoam Island
+     Height: 5' 3"
+     Weight: 173.0 lbs.
+     Evolution: N/A
+     Pokédex: Lives lazily by the sea. If the Shellder on its tail comes off,
+              it becomes a Slowpoke again.
+     TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 26, 27,
+          28, 29, 30, 31, 32, 33, 34, 38, 39, 40, 44, 45, 46, 49, 50
+     HMs: 3, 4, 5
+     Abilities:
+       Confusion (Psychic) - N/A
+       Disable (Normal) - Level 18
+       Head Butt (Normal) - Level 22
+       Growl (Normal) - Level 27
+       Water Gun (Water) - Level 33
+       Withdraw (Water) - Level 37
+       Amnesia (Psychic) - Level 44
+       Psychic (Psychic) - Level 55
+
+81. Magnemite (Electric)
+     Found: Route 10, Power Plant
+     Height: 1' 0"
+     Weight: 13.0 lbs.
+     Evolution: Magneton (Level 30)
+     Pokédex: It is born with the ability to defy gravity. It floats in air
+              on powerful electromagnetic waves.
+     TMs: 6, 9, 10, 20, 24, 25, 30, 31, 32, 33, 34, 39, 44, 45, 50
+     HMs: 5
+     Abilities:
+       Tackle (Normal) - N/A
+       Sonicboom (Normal) - Level 21
+       Thundershock (Electric) - Level 25
+       Supersonic (Normal) - Level 29
+       Thunder Wave (Electric) - Level 35
+       Swift (Normal) - Level 41
+       Screech (Normal) - Level 47
+
+82. Magneton (Electric)
+     Found: Power Plant
+     Height: 3' 3"
+     Weight: 132.0 lbs.
+     Evolution: N/A
+     Pokédex: Generates strange radio signals. It raises the temperature by
+              3.6F degrees within 3,300 feet.
+     TMs: 6, 9, 10, 15, 20, 24, 25, 30, 31, 32, 33, 34, 39, 44, 45, 50
+     HMs: 5
+     Abilities:
+       Tackle (Normal) - N/A
+       Sonicboom (Normal) - N/A
+       Thundershock (Electric) - N/A
+       Supersonic (Normal) - N/A
+       Thunder Wave (Electric) - Level 38
+       Swift (Normal) - Level 46
+       Screech (Normal) - Level 54
+
+83. Farfetch'd (Normal/Flying)
+     Found: Route 12, Route 13
+     Height: 2' 7"
+     Weight: 33.0 lbs.
+     Evolution: N/A
+     Pokédex: Lives where ready plants grow. They are rarely seen, so it's
+              thought there numbers are decreasing.
+     TMs: 2, 3, 4, 6, 8, 9, 10, 20, 31, 32, 33, 34, 39, 40, 44, 50
+     HMs: 1, 2
+     Abilities:
+       Peck (Flying) - N/A
+       Sand-Attack (Normal) - N/A
+       Leer (Normal) - N/A
+       Fury Attack (Normal) - N/A
+       Swords Dance (Normal) - N/A
+       Agility (Psychic) - Level 31
+       Slash (Normal) - Level 39
+
+84. Doduo (Normal/Flying)
+     Found: Route 16, Route 17, Route 18
+     Height: 4' 7"
+     Weight: 86.0 lbs.
+     Evolution: Dodrio (Level 31)
+     Pokédex: Its short wings make flying difficult. Instead, this Pokémon
+              runs at high speed on developed legs.
+     TMs: 4, 6, 8, 9, 10, 20, 31, 32, 33, 34, 40, 43, 44, 49, 50
+     HMs: 2
+     Abilities:
+       Peck (Flying) - N/A
+       Growl (Normal) - N/A
+       Fury Attack (Normal) - Level 24
+       Drill Peck (Flying) - Level 30
+       Rage (Normal) - Level 36
+       Tri Attack (Normal) - Level 40
+       Agility (Psychic) - Level 44
+
+85. Dodrio (Normal/Flying)
+     Found: Route 17
+     Height: 5' 11"
+     Weight: 188.0 lbs.
+     Evolution: N/A
+     Pokédex: One of Doduo's 2 heads splits to form a unique species. It runs
+              close to 40 MPH in prairies.
+     TMs: 4, 6, 8, 9, 10, 15, 20, 31, 32, 33, 34, 40, 43, 44, 49, 50
+     HMs: 2
+     Abilities:
+       Peck (Flying) - N/A
+       Growl (Normal) - N/A
+       Fury Attack (Normal) - N/A
+       Drill Peck (Flying) - Level 30
+       Rage (Normal) - Level 39
+       Tri Attack (Normal) - Level 45
+       Agility (Psychic) - Level 51
+
+86. Seel (Water)
+     Found: Seafoam Island
+     Height: 3' 7"
+     Weight: 198.0 lbs.
+     Evolution: Dewgong (Level 34)
+     Pokédex: Loves freezing cold conditions. Relishes swimming in a frigid
+              climate of around 14F degrees.
+     TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 20, 31, 32, 34, 40, 44, 50
+     HMs: 3, 4
+     Abilities:
+       Head Butt (Normal) - N/A
+       Growl (Normal) - Level 30
+       Aurora Beam (Ice) - Level 35
+       Rest (Psychic) - Level 40
+       Take Down (Normal) - Level 45
+       Ice Beam (Ice) - Level 50
+
+87. Dewgong (Water/Ice)
+     Found: Seafoam Island, Cinnabar Island
+     Height: 5' 7"
+     Weight: 265.0 lbs.
+     Evolution: N/A
+     Pokédex: Its entire body is a snowy-white. Unharmed by even intense
+              cold, it swims powerfully in icy waters.
+     TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 31, 32, 34, 40, 44, 50
+     HMs: 3, 4
+     Abilities:
+       Head Butt (Normal) - N/A
+       Growl (Normal) - Level 30
+       Aurora Beam (Ice) - Level 35
+       Rest (Psychic) - Level 44
+       Take Down (Normal) - Level 50
+       Ice Beam (Ice) - Level 56
+
+88. Grimer (Poison)
+     Found: Power Plant, Cinnabar Island
+     Height: 2' 11"
+     Weight: 66.0 lbs.
+     Evolution: Muk (Level 38)
+     Pokédex: Made of hardened sludge. It smells too putrid to touch. Even
+              weeds won't grow in its path.
+     TMs: 6, 8, 20, 21, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+     HMs: N/A
+     Abilities:
+       Pound (Normal) - N/A
+       Disable (Normal) - N/A
+       Poison Gas (Poison) - Level 30
+       Minimize (Normal) - Level 33
+       Sludge (Poison) - Level 37
+       Harden (Normal) - Level 42
+       Screech (Normal) - Level 48
+       Acid Armor (Poison) - Level 55
+
+89. Muk (Poison)
+     Found: Power Plant, Cinnabar Island
+     Height: 3' 11"
+     Weight: 66.0 lbs.
+     Evolution: N/A
+     Pokédex: Smells so awful, it can cause fainting. Through degeneration,
+              it lost its sense of smell.
+     TMs: 6, 8, 15, 20, 21, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+     HMs: N/A
+     Abilities:
+       Pound (Normal) - N/A
+       Disable (Normal) - N/A
+       Poison Gas (Poison) - Level 30
+       Minimize (Normal) - Level 33
+       Sludge (Poison) - Level 37
+       Harden (Normal) - Level 45
+       Screech (Normal) - Level 53
+       Acid Armor (Poison) - Level 60
+
+90. Shellder (Water)
+     Found: Route 17, Route 18, S.S. Anne (must be fished for to obtain)
+     Height: 1' 0"
+     Weight: 9.0 lbs.
+     Evolution: Cloyster (use Water Stone)
+     Pokédex: The shell can withstand any attack. However, when it is open,
+              the tender body is exposed.
+     TMs: 6, 9, 10, 11, 12, 13, 14, 20, 30, 31, 32, 33, 34, 36, 39, 44, 47,
+          49, 50
+     HMs: 3
+     Abilities:
+       Tackle (Normal) - N/A
+       Withdraw (Water) - N/A
+       Supersonic (Normal) - Level 18
+       Clamp (Water) - Level 23
+       Aurora Beam (Ice) - Level 30
+       Leer (Normal) - Level 39
+       Ice Beam (Ice) - Level 50
+
+91. Cloyster (Water/Ice)
+     Found: Can only be obtained through evolution.
+     Height: 4' 11"
+     Weight: 292.0 lbs.
+     Evolution: N/A
+     Pokédex: For protection, it uses its harder-than-diamonds shell. It also
+              shoots spikes from the shell.
+     TMs: 6, 9, 10, 11, 12, 13, 14, 15, 20, 30, 31, 32, 33, 34, 36, 39, 44,
+          47, 49, 50
+     HMs: 3
+     Abilities:
+       Tackle (Normal) - N/A
+       Withdraw (Water) - N/A
+       Spike Cannon (Normal) - Level 50
+
+92. Gastly (Ghost/Poison)
+     Found: Lavender Town
+     Height: 4' 3"
+     Weight: 0.2 lbs.
+     Evolution: Haunter (Level 25)
+     Pokédex: Said to appear in decrepit, deserted buildings. It has no real
+              shape as it appears to be made of gas.
+     TMs: 6, 20, 21, 24, 25, 29, 31, 32, 34, 36, 42, 44, 46, 47, 50
+     HMs: N/A
+     Abilities:
+       Lick (Ghost) - N/A
+       Confuse Ray (Ghost) - N/A
+       Night Shade (Ghost) - N/A
+       Hypnosis (Psychic) - Level 27
+       Dream Eater (Psychic) - Level 35
+
+93. Haunter (Ghost/Poison)
+     Found: Lavender Town
+     Height: 5' 3"
+     Weight: 0.2 lbs.
+     Evolution: Gengar (must be traded to evolve)
+     Pokédex: By licking, it saps the victim's life. It causes shaking that
+              won't stop until the victim's demise.
+     TMs: 6, 20, 21, 24, 25, 29, 31, 32, 34, 36, 42, 44, 46, 47, 50
+     HMs: N/A
+     Abilities:
+       Lick (Ghost) - N/A
+       Confuse Ray (Ghost) - N/A
+       Night Shade (Ghost) - N/A
+       Hypnosis (Psychic) - Level 29
+       Dream Eater (Psychic) - Level 38
+
+94. Gengar (Ghost/Poison)
+     Found: Can only be obtained through evolution.
+     Height: 4' 11"
+     Weight: 89.0 lbs.
+     Evolution: N/A
+     Pokédex: A Gengar is close by if you feel a sudden chill. It may be
+              trying to lay a curse on you.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 21, 24, 25, 29, 31, 32, 34,
+          35, 36, 40, 42, 44, 46, 47, 50
+     HMs: 4
+     Abilities:
+       Lick (Ghost) - N/A
+       Confuse Ray (Ghost) - N/A
+       Night Shade (Ghost) - N/A
+       Hypnosis (Psychic) - Level 29
+       Dream Eater (Psychic) - Level 38
+
+95. Onix (Rock/Ground)
+     Found: Rock Tunnel, Victory Road
+     Height: 28' 10"
+     Weight: 463.0 lbs.
+     Evolution: N/A
+     Pokédex: Burrows at high speed in search of food. The tunnels it leaves
+              are used a s homes by Digletts.
+     TMs: 6, 8, 9, 10, 20, 26, 27, 28, 31, 32, 34, 36, 40, 44, 47, 48, 50
+     HMs: 4
+     Abilities:
+       Tackle (Normal) - N/A
+       Screech (Normal) - N/A
+       Bind (Normal) - Level 15
+       Rock Throw (Rock) - Level 19
+       Rage (Normal) - Level 25
+       Slam (Normal) - Level 33
+       Harden (Normal) - Level 43
+
+96. Drowzee (Psychic)
+     Found: Route 11
+     Height: 3' 3"
+     Weight: 71.0 lbs.
+     Evolution: Hypno (Level 26)
+     Pokédex: If you sleep by it all the time, it will sometimes show you
+              dreams it has eaten in the past.
+     TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35, 40,
+          42, 44, 45, 46, 49, 50
+     HMs: 5
+     Abilities:
+       Pound (Normal) - N/A
+       Hypnosis (Psychic) - N/A
+       Disable (Normal) - N/A
+       Confusion (Psychic) - Level 17
+       Head Butt (Normal) - Level 24
+       Poison Gas (Poison) - Level 29
+       Psychic (Psychic) - Level 32
+       Meditate (Psychic) - Level 37
+
+97. Hypno (Psychic)
+     Found: Can only be obtained through evolution.
+     Height: 5' 3"
+     Weight: 167.0 lbs.
+     Evolution: N/A
+     Pokédex: Avoid eye contact if you come across one. It will try to put
+              you to sleep by using its pendulum.
+     TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35,
+          40, 42, 44, 45, 46, 49, 50
+     HMs: 5
+     Abilities:
+       Pound (Normal) - N/A
+       Hypnosis (Psychic) - N/A
+       Disable (Normal) - N/A
+       Confusion (Psychic) - N/A
+       Head Butt (Normal) - N/A
+       Poison Gas (Poison) - Level 33
+       Psychic (Psychic) - Level 37
+       Meditate (Psychic) - Level 43
+
+98. Krabby (Water)
+     Found: Seafoam Island, Route 10, Route 25
+     Height: 1' 4"
+     Weight: 14.0 lbs.
+     Evolution: Kingler (Level 28)
+     Pokédex: Its pincers are superb weapons. They sometimes break off during
+              battle, but they grow back fast.
+     TMs: 3, 6, 8, 9, 10, 11, 12, 13, 14, 20, 31, 32, 34, 44, 50
+     HMs: 1, 3, 4
+     Abilities:
+       Bubble (Water) - N/A
+       Leer (Normal) - N/A
+       Vicegrip (Normal) - Level 20
+       Guillotine (Normal) - Level 25
+       Stomp (Normal) - Level 30
+       Crab Hammer (Water) - Level 35
+       Harden (Normal) - Level 40
+
+99. Kingler (Water)
+     Found: Seafoam Island, Route 10, Route 25
+     Height: 4' 3"
+     Weight: 132.0 lbs.
+     Evolution: N/A
+     Pokédex: One claw grew massively and as hard as steel. It has 10,000-HP
+              strength. However it is too heavy.
+     TMs: 3, 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 34, 44, 50
+     HMs: 1, 3, 4
+     Abilities:
+       Bubble (Water) - N/A
+       Leer (Normal) - N/A
+       Vicegrip (Normal) - Level 20
+       Guillotine (Normal) - Level 25
+       Stomp (Normal) - Level 34
+       Crab Hammer (Water) - Level 42
+       Harden (Normal) - Level 49
+
+100. Voltorb (Electric)
+      Found: Power Plant
+      Height: 1' 8"
+      Weight: 23.0 lbs.
+      Evolution: Electrode (Level 30)
+      Pokédex: It is said to camouflage itself as a Poke Ball. It will self-
+               destruct with very little stimulus.
+      TMs: 6, 9, 20, 24, 25, 30, 31, 32, 33, 34, 36, 39, 44, 45, 47, 50
+      HMs: 5
+      Abilities:
+        Tackle (Normal) - N/A
+        Screech (Normal) - N/A
+        Sonicboom (Normal) - Level 17
+        Self Destruct (Normal) - Level 22
+        Light Screen (Psychic) - Level 29
+        Swift (Normal) - Level 36
+        Explosion (Normal) - Level 43
+
+101. Electrode (Electric)
+      Found: Power Plant
+      Height: 3' 11"
+      Weight: 147.0 lbs.
+      Evolution: N/A
+      Pokédex: Stores electrical energy inside its body. Even the slightest
+               shock could trigger a huge explosion.
+      TMs: 6, 9, 15, 20, 24, 25, 30, 31, 32, 33, 34, 36, 39, 40, 44, 45, 47,
+           50
+      HMs: 5
+      Abilities:
+        Tackle (Normal) - N/A
+        Screech (Normal) - N/A
+        Sonicboom (Normal) - N/A
+        Self Destruct (Normal) - N/A
+        Light Screen (Psychic) - N/A
+        Swift (Normal) - Level 40
+        Explosion (Normal) - Level 50
+
+102. Exeggcute (Grass/Psychic)
+      Found: Safari Zone
+      Height: 1' 4"
+      Weight: 6.0 lbs.
+      Evolution: Exeggutor (use Leaf Stone)
+      Pokédex: The heads attract each other and spin around. There must be 6
+               heads for it to maintain balance.
+      TMs: 6, 9, 10, 20, 29, 30, 31, 32, 33, 34, 36, 37, 44, 46, 47, 50
+      HMs: N/A
+      Abilities:
+        Barrage (Normal) - N/A
+        Hypnosis (Psychic) - N/A
+        Reflect (Psychic) - Level 25
+        Leech Seed (Grass) - Level 28
+        Stun Spore (Grass) - Level 32
+        Poison Powder (Poison) - Level 37
+        Solar Beam (Grass) - Level 42
+        Sleep Powder (Grass) - Level 48
+
+103. Exeggutor (Grass/Psychic)
+      Found: Can only be obtained through evolution.
+      Height: 6' 7"
+      Weight: 265.0 lbs.
+      Evolution: N/A
+      Pokédex: Its cries are very noisy. This is because each of the 3 heads
+               thinks about whatever it likes.
+      TMs: 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 36, 37, 44, 46,
+           47, 50
+      HMs: 4
+      Abilities:
+        Barrage (Normal) - N/A
+        Hypnosis (Psychic) - N/A
+        Stomp (Normal) - Level 28
+
+104. Cubone (Ground)
+      Found: Lavender Town, Safari Zone
+      Height: 1' 4"
+      Weight: 14.0 lbs.
+      Evolution: Marowak (Level 28)
+      Pokédex: Wears the skull of its deceased mother. Its cries echo inside
+               the skull and come out as a sad melody.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 26, 27, 28, 31,
+           32, 34, 38, 40, 44, 50
+      HMs: 4
+      Abilities:
+        Growl (Normal) - N/A
+        Bone Club (Ground) - N/A
+        Tail Whip (Normal) - N/A
+        Headbutt (Normal) - Level 18
+        Leer (Normal) - Level 25
+        Focus Energy (Normal) - Level 31
+        Thrash (Normal) - Level 38
+        Bonemerang (Ground) - Level 43
+        Rage (Normal) - Level 46
+
+105. Marowak (Ground)
+      Found: Safari Zone
+      Height: 3' 3"
+      Weight: 99.0 lbs.
+      Evolution: N/A
+      Pokédex: Small and weak, this Pokémon is adept with its bone club. It
+               has grown more vicious over the ages.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 26, 27, 28,
+           31, 32, 34, 38, 40, 44, 50
+      HMs: 4
+      Abilities:
+        Growl (Normal) - N/A
+        Bone Club (Ground) - N/A
+        Tail Whip (Normal) - N/A
+        Headbutt (Normal) - N/A
+        Leer (Normal) - Level 25
+        Focus Energy (Normal) - Level 33
+        Thrash (Normal) - Level 41
+        Bonemerang (Ground) - Level 48
+        Rage (Normal) - Level 55
+
+106. Hitmonlee (Fighting)
+      Found: Saffron City
+      Height: 4' 11"
+      Weight: 110.0 lbs.
+      Evolution: N/A
+      Pokédex: When kicking, the sole of its foot turns as hard as a diamond
+               on impact and destroys its enemy.
+      TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 31, 32, 34, 35, 39, 40, 44, 50
+      HMs: 4
+      Abilities:
+        Double Kick (Normal) - N/A
+        Meditate (Psychic) - N/A
+        Rolling Kick (Fighting) - Level 33
+        Jump Kick (Fighting) - Level 38
+        Focus Energy (Normal) - Level 43
+        Hi Jump Kick (Fighting) - Level 48
+        Mega Kick (Normal) - Level 53
+
+107. Hitmonchan (Fighting)
+      Found: Saffron City
+      Height: 4' 7"
+      Weight: 111.0 lbs.
+      Evolution: N/A
+      Pokédex: Punches in cork-screw fashion. It can punch its way through a
+               concrete wall the same way as a drill.
+      TMs: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 31, 32, 34, 35, 39, 40, 44, 50
+      HMs: 4
+      Abilities:
+        Comet Punch (Normal) - N/A
+        Agility (Psychic) - N/A
+        Fire Punch (Fire) - Level 33
+        Ice Punch (Ice) - Level 38
+        Thunder Punch (Electric) - Level 43
+        Mega Punch (Normal) - Level 48
+        Counter (Fighting) - Level 53
+
+108. Lickitung (Normal)
+      Found: Unknown Dungeon
+      Height: 3' 11"
+      Weight: 144.0 lbs.
+      Evolution: N/A
+      Pokédex: Its tongue spans almost 7 feet and moves more freely than its
+               forelegs. Its licks can cause paralysis.
+      TMs: 1, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 24, 25,
+           26, 27, 31, 32, 34, 38, 40, 44, 50
+      HMs: 1, 3, 4
+      Abilities:
+        Wrap (Normal) - N/A
+        Supersonic (Normal) - N/A
+        Stomp (Normal) - N/A
+        Disable (Normal) - N/A
+        Defense Curl (Normal) - N/A
+        Slam (Normal) - N/A
+        Screech (Normal) - N/A
+
+109. Koffing (Poison)
+      Found: Not in this version of the game.
+      Height: 2' 0"
+      Weight: 2.0 lbs.
+      Evolution: Weezing (Level 35)
+      Pokédex: In hot places, its internal gases could expand and explode
+               without warning. Be very careful!
+      TMs: 6, 20, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+      HMs: N/A
+      Abilities:
+        Tackle (Normal) - N/A
+        Smog (Poison) - N/A
+        Sludge (Poison) - Level 32
+        Smoke Screen (Normal) - Level 37
+        Self Destruct (Normal) - Level 40
+        Haze (Ice) - Level 45
+        Explosion (Normal) - Level 48
+
+110. Weezing (Poison)
+      Found: Not in this version of the game.
+      Height: 3' 11"
+      Weight: 21.0 lbs.
+      Evolution: N/A
+      Pokédex: It lives and grows by absorbing dust, germs and poison gases
+               that are contained in toxic waste and garbage.
+      TMs: 6, 15, 20, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+      HMs: N/A
+      Abilities:
+        Tackle (Normal) - N/A
+        Smog (Poison) - N/A
+        Sludge (Poison) - N/A
+        Smoke Screen (Normal) - Level 39
+        Self Destruct (Normal) - Level 43
+        Haze (Ice) - Level 49
+        Explosion (Normal) - Level 53
+
+111. Rhyhorn (Ground/Rock)
+      Found: Safari Zone, Unknown Dungeon
+      Height: 3' 3"
+      Weight: 254.0 lbs.
+      Evolution: Rhydon (Level 42)
+      Pokédex: A Pokémon with a one-track mind. Once it charges, it won't
+               stop running until it falls asleep.
+      TMs: 6, 7, 8, 9, 10, 20, 24, 25, 26, 27, 28, 31, 32, 34, 38, 40, 44,
+           48, 50
+      HMs: 4
+      Abilities:
+        Horn Attack (Normal) - N/A
+        Stomp (Normal) - Level 30
+        Tail Whip (Normal) - Level 35
+        Fury Attack (Normal) - Level 40
+        Horn Drill (Normal) - Level 45
+        Leer (Normal) - Level 50
+        Take Down (Normal) - Level 55
+
+112. Rhydon (Ground/Rock)
+      Found: Cinnabar Island, Unknown Dungeon
+      Height: 6' 3"
+      Weight: 265.0 lbs.
+      Evolution: N/A
+      Pokédex: Walks on its hind legs. Shows signs of intelligence. Its
+               armor-like hide even repels molten lava.
+      TMs: 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24,
+           25, 26, 27, 28, 31, 32, 34, 38, 40, 44, 48, 50
+      HMs: 3, 4
+      Abilities:
+        Horn Attack (Normal) - N/A
+        Stomp (Normal) - Level 30
+        Tail Whip (Normal) - Level 35
+        Fury Attack (Normal) - Level 40
+        Horn Drill (Normal) - Level 48
+        Leer (Normal) - Level 55
+        Take Down (Normal) - Level 64
+
+113. Chansey (Normal)
+      Found: Safari Zone, Unknown Dungeon
+      Height: 3' 7"
+      Weight: 76.0 lbs.
+      Evolution: N/A
+      Pokédex: A gentle kind hearted Pokémon that shares its nutritious eggs
+               if it sees an injured Pokémon.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25,
+           29, 30, 31, 32, 33, 34, 35, 37, 38, 40, 41, 44, 45, 46, 49, 50
+      HMs: 4, 5
+      Abilities:
+        Pound (Normal) - N/A
+        Tail Whip (Normal) - N/A
+        Doubleslap (Normal) - Level 12
+        Sing (Normal) - Level 24
+        Growl (Normal) - Level 30
+        Minimize (Normal) - Level 38
+        Defense Curl (Normal) - Level 44
+        Light Screen (Psychic) - Level 48
+        Double-Edge (Normal) - Level 54
+
+114. Tangela (Grass)
+      Found: Safari Zone
+      Height: 3' 3"
+      Weight: 77.0 lbs.
+      Evolution: N/A
+      Pokédex: Its identity is obscured by masses of thick, blue vines. The
+               vines are said to never stop growing.
+      TMs: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 34, 40, 44, 50
+      HMs: 1
+      Abilities:
+        Constrict (Normal) - N/A
+        Bind (Normal) - Level 24
+        Absorb (Grass) - Level 27
+        Vine Whip (Grass) - Level 29
+        Poison Powder (Poison) - Level 32
+        Stun Spore (Grass) - Level 36
+        Sleep Powder (Grass) - Level 39
+        Slam (Normal) Level 45
+        Growth (Normal) - Level 48
+
+115. Kangaskhan (Normal)
+      Found: Safari Zone
+      Height: 7' 3"
+      Weight: 176.0 lbs.
+      Evolution: N/A
+      Pokédex: Raises his young in its belly pouch. Won't run away from any
+               fight to keep its young protected.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 24, 25, 26,
+           27, 31, 32, 34, 38, 40, 44, 48, 50
+      HMs: 3, 4
+      Abilities:
+        Comet Punch (Normal) - N/A
+        Rage (Normal) - N/A
+        Bite (Normal) - N/A
+        Tail Whip (Normal) - Level 31
+        Mega Punch (Normal) - Level 36
+        Leer (Normal) - Level 41
+        Dizzy Punch (Normal) - Level 46
+
+116. Horsea (Water)
+      Found: Vermilion City, Route 10, Route 11, Route 12, Route 13
+      Height: 1' 4"
+      Weight: 18.0 lbs.
+      Evolution: Seadra (Level 32)
+      Pokédex: If it senses any danger, it will vigorously spray water or a
+               special type of ink from its mouth.
+      TMs: 6, 9, 10, 11, 12, 13, 14, 20, 31, 32, 34, 39, 40, 44, 50
+      HMs: 3
+      Abilities:
+        Bubble (Water) - N/A
+        Smoke Screen (Normal) - Level 19
+        Leer (Normal) - Level 24
+        Water Gun (Water) - Level 30
+        Agility (Psychic) - Level 37
+        Hydro Pump (Water) - Level 45
+
+117. Seadra (Water)
+      Found: Route 12, Route 13
+      Height: 3' 11"
+      Weight: 55.0 lbs.
+      Evolution: N/A
+      Pokédex: Touching the back fin causes numbness. It hooks its tail in
+               coral to stay in place while sleeping.
+      TMs: 6, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 34, 39, 40, 44, 50
+      HMs: 3
+      Abilities:
+        Bubble (Water) - N/A
+        Smoke Screen (Normal) - Level 19
+        Leer (Normal) - Level 24
+        Water Gun (Water) - Level 30
+        Agility (Psychic) - Level 41
+        Hydro Pump (Water) - Level 52
+
+118. Goldeen (Water)
+      Found: Cerulean City, Route 6, Celadon City, Route 24, Unknown Dungeon
+      Height: 2' 0"
+      Weight: 33.0 lbs.
+      Evolution: Seaking (Level 33)
+      Pokédex: When it is time for them to lay eggs, it can be seen swimming
+               up rivers and falls in large groups.
+      TMs: 6, 7, 9, 10, 11, 12, 13, 14, 20, 31, 32, 34, 39, 40, 44, 50
+      HMs: 3
+      Abilities:
+        Peck (Flying) - N/A
+        Tail Whip (Normal) - N/A
+        Supersonic (Normal) - Level 19
+        Horn Attack (Normal) - Level 24
+        Fury Attack (Normal) - Level 30
+        Waterfall (Water) - Level 37
+        Horn Drill (Normal) - Level 45
+        Agility (Psychic) - Level 54
+
+119. Seaking (Water)
+      Found: Cerulean City, Route 24, Unknown Dungeon
+      Height: 4' 3"
+      Weight: 86.0 lbs.
+      Evolution: N/A
+      Pokédex: It is the male's job to make a nest by carving out boulders in
+               a stream using the horn on its head.
+      TMs: 6, 7, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 34, 39, 40, 44, 50
+      HMs: 3
+      Abilities:
+        Peck (Flying) - N/A
+        Tail Whip (Normal) - N/A
+        Supersonic (Normal) - N/A
+        Horn Attack (Normal) - N/A
+        Fury Attack (Normal) - Level 30
+        Waterfall (Water) - Level 39
+        Horn Drill (Normal) - Level 48
+        Agility (Psychic) - Level 54
+
+120. Staryu (Water)
+      Found: S.S. Anne
+      Height: 2' 7"
+      Weight: 76.0 lbs.
+      Evolution: Starmie (use Water Stone)
+      Pokédex: As long as the center section is unharmed, it can grow back
+               fully even if it is chopped to bits.
+      TMs: 6, 9, 10, 11, 12, 13, 14, 20, 24, 25, 29, 30, 31, 32, 33, 34, 39,
+           40, 44, 45, 46, 49, 50
+      HMs: 3, 5
+      Abilities:
+      Tackle (Normal) - N/A
+      Water Gun (Water) - Level 17
+      Harden (Normal) - Level 22
+      Recover (Normal) - Level 27
+      Swift (Normal) - Level 32
+      Minimize (Normal) - Level 37
+      Light Screen (Psychic) - Level 42
+      Hydro Pump (Water) - Level 47
+
+121. Starmie (Water)
+      Found: Can only be obtained through evolution.
+      Height: 3' 7"
+      Weight: 176.0 lbs.
+      Evolution: N/A
+      Pokédex: The center section is named the core. People think it is
+               communicating when it glows in 7 different colors.
+      TMs: 6, 9, 10, 11, 12, 13, 14, 15, 20, 24, 25, 29, 30, 31, 32, 33, 34,
+           39, 40, 44, 45, 46, 49, 50
+      HMs: 3, 5
+      Abilities:
+        (Cannot learn any abilities on its own.)
+
+122. Mr. Mime (Psychic)
+      Found: Route 2
+      Height: 4' 3"
+      Weight: 120.0 lbs.
+      Evolution: N/A
+      Pokédex: Always practices its pantomime act. It makes enemies believe
+               something exists that really doesn't.
+      TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32,
+           33, 34, 35, 40, 44, 45, 46, 50
+      HMs: 5
+      Abilities:
+        Barrier (Psychic) - N/A
+        Confusion (Psychic) - Level 15
+        Light Screen (Psychic) - Level 23
+        Doubleslap (Normal) - Level 31
+        Meditate (Psychic) - Level 39
+        Substitute (Normal) - Level 47
+
+123. Scyther (Bug/Flying)
+      Found: Celadon City, Safari Zone
+      Height: 4' 11"
+      Weight: 123.0 lbs.
+      Evolution: N/A
+      Pokédex: Leaps out of tall grass and slices prey with its scythes. The
+               movement looks like that of a ninja.
+      TMs: 3, 6, 9, 10, 15, 20, 31, 32, 34, 39, 40, 44, 50
+      HMs: 1
+      Abilities:
+        Quick Attack (Normal) - N/A
+        Leer (Normal) - Level 17
+        Focus Energy (Normal) - Level 20
+        Double Team (Normal) - Level 24
+        Slash (Normal) - Level 29
+        Swords Dance (Normal) - Level 35
+        Agility (Psychic) - Level 42
+        Wing Attack (Flying) - Level 50
+
+124. Jynx (Ice/Psychic)
+      Found: Not in this version of the game.
+      Height: 4' 7"
+      Weight: 90.0 lbs.
+      Evolution: N/A
+      Pokédex: Appears to move to a rhythm of its own, as if it were dancing.
+               It wiggles its hips as it walks.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 29, 30, 31,
+           32, 33, 34, 35, 40, 44, 46, 50
+      HMs: N/A
+      Abilities:
+        Pound (Normal) - N/A
+        Lovely Kiss (Normal) - N/A
+        Lick (Ghost) - Level 18
+        Double Slap (Normal) - Level 23
+        Ice Punch (Ice) - Level 31
+        Body Slam (Normal) - Level 39
+        Thrash (Normal) - Level 47
+        Blizzard (Ice) - Level 58
+
+125. Electabuzz (Electric)
+      Found: Not in this version of the game.
+      Height: 3' 7"
+      Weight: 66.0 lbs.
+      Evolution: N/A
+      Pokédex: If a major power outage occurs, it is certain that this
+               Pokémon has eaten electricity at a power plant.
+      TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 24, 25, 29, 30, 31, 32, 33,
+           34, 35, 39, 40, 44, 45, 46, 50
+      HMs: 4, 5
+      Abilities:
+        Quick Attack (Normal) - N/A
+        Leer (Normal) - N/A
+        Thundershock (Electric) - Level 34
+        Screech (Normal) - Level 37
+        Thunder Punch (Electric) - Level 42
+        Light Screen (Psychic) - Level 49
+        Thunder (Electric) - Level 54
+
+126. Magmar (Fire)
+      Found: Not in this version of the game.
+      Height: 4' 3"
+      Weight: 98.0 lbs.
+      Evolution: N/A
+      Pokédex: Born in an active volcano. Its body is always cloaked in
+               flames, so it looks like a big ball of fire.
+      TMs: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 29, 30, 31, 32, 34, 35, 38,
+           39, 40, 44, 46, 50
+      HMs: 4
+      Abilities:
+        Ember (Fire) - N/A
+        Leer (Normal) - Level 36
+        Confuse Ray (Ghost) - Level 39
+        Fire Punch (Fire) - Level 43
+        Smoke Screen (Normal) - Level 48
+        Smog (Poison) - Level 52
+        Flamethrower (Fire) - Level 55
+
+127. Pinsir (Bug)
+      Found: Celadon City, Safari Zone
+      Height: 4' 11"
+      Weight: 121.0 lbs.
+      Evolution: N/A
+      Pokédex: Grips its prey in its pincers and squeezes hard! It can't move
+               if it's cold, so it lives in warm places.
+      TMs: 3, 6, 8, 9, 10, 15, 17, 19, 20, 31, 32, 34, 44, 50
+      HMs: 1, 4
+      Abilities:
+        Vicegrip (Normal) - N/A
+        Bind (Normal) - Level 21
+        Seismic Toss (Fighting) - Level 25
+        Guillotine (Normal) - Level 30
+        Focus Energy (Normal) - Level 36
+        Harden (Normal) - Level 43
+        Slash (Normal) - Level 49
+        Swords Dance (Normal) - Level 54
+
+128. Tauros (Normal)
+      Found: Safari Zone
+      Height: 4' 7"
+      Weight: 195.0 lbs.
+      Evolution: N/A
+      Pokédex: A rowdy Pokémon with a lot of stamina. Once running, it won't
+               stop until it hits something.
+      TMs: 6, 7, 8, 9, 10, 13, 14, 15, 20, 24, 25, 26, 27, 31, 32, 34, 38,
+           40, 44, 50
+      HMs: 4
+      Abilities:
+        Tackle (Normal) - N/A
+        Stomp (Normal) - N/A
+        Tail Whip (Normal) - Level 28
+        Leer (Normal) - Level 35
+        Rage (Normal) - Level 44
+        Take Down (Normal) - Level 51
+
+129. Magikarp (Water)
+      Found: Route 3, Fuchsia City, Safari Zone
+      Height: 2' 11"
+      Weight: 22.0 lbs.
+      Evolution: Gyarados (Level 20)
+      Pokédex: Famous for being very unreliable. It can be found swimming in
+               seas, lakes, rivers, and shallow puddles.
+      TMs: N/A
+      HMs: N/A
+      Abilities:
+        Splash (Water) - N/A
+        Tackle (Normal) - Level 15
+
+130. Gyarados (Water/Flying)
+      Found: Fuchsia City
+      Height: 21' 4"
+      Weight: 518.0 lbs.
+      Evolution: N/A
+      Pokédex: Brutally vicious and enormously destructive. Known for totally
+               destroying cities in ancient times.
+      TMs: 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 23, 24, 25, 31, 32, 33, 34,
+           38, 40, 44, 50
+      HMs: 3, 4
+      Abilities:
+        Splash (Water) - N/A
+        Tackle (Normal) - Level N/A
+        Bite (Normal) - Level 20
+        Dragon Rage (Dragon) - Level 25
+        Leer (Normal) - Level 32
+        Hydro Pump (Water) - Level 41
+        Hyper Beam (Normal) - Level 52
+
+131. Lapras (Water/Ice)
+      Found: Saffron City
+      Height: 8' 2"
+      Weight: 485.0 lbs.
+      Evolution: N/A
+      Pokédex: A gentle soul that can read the minds of people. It can ferry
+               people across the sea on its back.
+      TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 22, 23, 24, 25, 29, 31,
+           32, 33, 34, 40, 44, 46, 50
+      HMs: 3, 4
+      Abilities:
+        Water Gun (Water) - N/A
+        Growl (Normal) - N/A
+        Sing (Normal) - Level 16
+        Mist (Ice) - Level 20
+        Body Slam (Normal) - Level 25
+        Confuse Ray (Ghost) - Level 31
+        Ice Beam (Ice) - Level 38
+        Hydro Pump (Water) - Level 46
+
+132. Ditto (Normal)
+      Found: Cinnabar Island, Unknown Dungeon
+      Height: 1' 0"
+      Weight: 9.0 lbs.
+      Evolution: N/A
+      Pokédex: When it spots an enemy, its body transforms into an almost
+               perfect copy of its opponent.
+      TMs: N/A
+      HMs: N/A
+      Abilities:
+        Transform (Normal) - N/A
+
+133. Eevee (Normal)
+       Found: Celadon City
+       Height: 1' 0"
+       Weight: 14.0 lbs.
+       Evolution: Vaporeon (use Water Stone), Jolteon (use Thunder Stone),
+                  Flareon (use Fire Stone)
+       Pokédex: Its genetic code is unstable, so it could evolve in a variety
+                of ways, There are only a few alive.
+       TMs: 6, 8, 9, 10, 20, 31, 32, 33, 34, 39, 40, 44, 50
+       HMs: N/A
+       Abilities:
+         Tackle (Normal) - N/A
+         Sand-Attack (Normal) - N/A
+         Growl (Normal) - N/A
+         Quick Attack (Normal) - N/A
+         Tail Whip (Normal) - N/A
+         Bite (Normal) - Level 30
+         Focus Energy (Normal) - Level 36
+         Take Down (Normal) - Level 42
+
+134. Vaporeon (Water)
+      Found: Can only be obtained through evolution.
+      Height: 3' 3"
+      Weight: 64.0 lbs.
+      Evolution: N/A
+      Pokédex: Its cell structure is similar to water molecules. It will melt
+               away and become invisible in water.
+      TMs: 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 33, 34, 39, 40, 44,
+           50
+      HMs: 3
+      Abilities:
+        Tackle (Normal) - N/A
+        Sand-Attack (Normal) - N/A
+        Quick Attack (Normal) - N/A
+        Water Gun (Water) - N/A
+        Tail Whip (Normal) - N/A
+        Bite (Normal) - Level 30
+        Aurora Beam (Ice) - Level 36
+        Haze (Ice) - Level 42
+        Acid Armor (Poison) - Level 47
+        Hydro Pump (Water) - Level 52
+
+135. Jolteon (Electric)
+      Found: Can only be obtained through evolution.
+      Height: 2' 7"
+      Weight: 54.0 lbs.
+      Evolution: N/A
+      Pokédex: A sensitive Pokémon that easily becomes sad or angry. Every
+               time its mood changes, it charges power.
+      TMs: 6, 8, 9, 10, 15, 20, 24, 25, 31, 32, 33, 34, 39, 40, 44, 45, 50
+      HMs: 5
+      Abilities:
+        Tackle (Normal) - N/A
+        Sand-Attack (Normal) - N/A
+        Quick Attack (Normal) - N/A
+        Thundershock (Electric) - N/A
+        Tail Whip (Normal) - N/A
+        Double Kick (Fighting) - Level 30
+        Pin Missile (Bug) - Level 36
+        Thunder Wave (Electric) - Level 42
+        Agility (Psychic) - Level 47
+        Thunder (Electric) - Level 52
+
+136. Flareon (Fire)
+      Found: Can only be obtained through evolution.
+      Height: 2' 11"
+      Weight: 55.0 lbs.
+      Evolution: N/A
+      Pokédex: It has a flame chamber inside its body. It inhales, then blows
+               out fire that is over 3,000F degrees.
+      TMs: 6, 8, 9, 10, 15, 20, 31, 32, 33, 34, 38, 39, 40, 44, 50
+      HMs: N/A
+      Abilities:
+        Tackle (Normal) - N/A
+        Sand-Attack (Normal) - N/A
+        Quick Attack (Normal) - N/A
+        Ember (Fire) - N/A
+        Tail Whip (Normal) - N/A
+        Bite (Normal) - Level 30
+        Fire Spin (Fire) - Level 36
+        Smog (Poison) - Level 42
+        Leer (Normal) - Level 47
+        Flamethrower (Fire) - Level 52
+
+137. Porygon (Normal)
+      Found: Celadon City
+      Height: 2' 7"
+      Weight: 80.0 lbs.
+      Evolution: N/A
+      Pokédex: The only Pokémon people anticipate can fly into space. None
+               has managed the feat yet, however.
+      TMs: 6, 9, 10, 13, 14, 15, 20, 24, 25, 29, 30, 31, 32, 33, 34, 39, 40,
+           44, 45, 46, 49, 50
+      HMs: 5
+      Abilities:
+        Tackle (Normal) - N/A
+        Sharpen (Normal) - N/A
+        Conversion (Normal) - N/A
+        Psybeam (Psychic) - N/A
+        Recover (Psychic) - Level 28
+        Agility (Psychic) - Level 35
+        Tri Attack (Normal) - Level 42
+
+138. Omanyte (Rock/Water)
+      Found: Cinnabar Island (need Helix Fossil)
+      Height: 1' 4"
+      Weight: 17.0 lbs.
+      Evolution: Omastar (Level 40)
+      Pokédex: An Ancient Pokémon that was recovered from a fossil. It swims
+               by cleverly twisting its 10 tentacles about.
+      TMs: 6, 8, 9, 10, 11, 12, 13, 14, 20, 31, 32, 33, 34, 44, 50
+      HMs: 3
+      Abilities:
+        Water Gun (Water) - N/A
+        Withdraw (Water) - N/A
+        Horn Attack (Normal) - Level 34
+        Leer (Normal) - Level 39
+        Spike Cannon (Normal) - Level 46
+        Hydro Pump (Water) - Level 53
+
+139. Omastar (Rock/Water)
+      Found: Can only be obtained through evolution.
+      Height: 3' 3"
+      Weight: 77.0 lbs.
+      Evolution: N/A
+      Pokédex: Sharp beaks ring its mouth. Its shell was too big for it to
+               move freely, so it became extinct.
+      TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 31, 32, 33, 34,
+           40, 44, 50
+      HMs: 3
+      Abilities:
+        Water Gun (Water) - N/A
+        Withdraw (Water) - N/A
+        Horn Attack (Normal) - N/A
+        Leer (Normal) - N/A
+        Spike Cannon (Normal) - Level 44
+        Hydro Pump (Water) - Level 49
+
+140. Kabuto (Rock/Water)
+      Found: Cinnabar Island (need Dome Fossil)
+      Height: 1' 8"
+      Weight: 25.0 lbs.
+      Evolution: Kabutops (Level 40)
+      Pokédex: A Pokémon that was recovered from a fossil. It uses the eyes
+               on its back while hiding on the sea floor.
+      TMs: 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 31, 32, 33,
+           34, 40, 44, 50
+      HMs: 3
+      Abilities:
+        Scratch (Normal) - N/A
+        Harden (Normal) - N/A
+        Absorb (Grass) - Level 34
+        Slash (Normal) - Level 39
+        Leer (Normal) - Level 44
+        Hydro Pump (Water) - Level 49
+
+141. Kabutops (Rock/Water)
+      Found: Can only be obtained through evolution.
+      Height: 4' 3"
+      Weight: 89.0 lbs.
+      Evolution: N/A
+      Pokédex: A slim and fast swimmer. It slices its prey with its sharp
+               sickles and drinks the body fluids.
+      TMs: 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 31, 32, 33,
+           34, 40, 44, 50
+      HMs: 1, 3
+      Abilities:
+        Scratch (Normal) - N/A
+        Harden (Normal) - N/A
+        Absorb (Grass) - N/A
+        Slash (Normal) - N/A
+        Leer (Normal) - Level 46
+        Hydro Pump (Water) - Level 53
+
+142. Aerodactyl (Rock/Flying)
+      Found: Cinnabar Island (need Old Amber)
+      Height: 5' 11"
+      Weight: 130.0 lbs.
+      Evolution: N/A
+      Pokédex: A savage Pokémon that died out in ancient times. It was
+               resurrected using DNA taken from amber.
+      TMs: 2, 4, 6, 9, 10, 15, 20, 23, 31, 32, 33, 34, 38, 39, 43, 44, 50
+      HMs: 2
+      Abilities:
+        Wing Attack (Flying) - N/A
+        Agility (Psychic) - N/A
+        Supersonic (Normal) - Level 33
+        Bite (Normal) - Level 38
+        Take Down (Normal) - Level 45
+        Hyper Beam (Normal) - Level 54
+
+143. Snorlax (Normal)
+      Found: Route 12, Route 16
+      Height: 6' 11"
+      Weight: 1014.0 lbs.
+      Evolution: N/A
+      Pokédex: Will eat anything even if the food happens to be a little
+               moldy. It never gets an upset stomach.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24,
+           25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 38, 40, 44, 46, 48, 50
+      HMs: 3, 4
+      Abilities:
+        Head Butt (Normal) - N/A
+        Amnesia (Psychic) - N/A
+        Rest (Psychic) - N/A
+        Body Slam (Normal) - Level 35
+        Harden (Normal) - Level 41
+        Double-Edge (Normal) - Level 48
+        Hyper Beam (Normal) - Level 56
+
+144. Articuno (Ice/Flying)
+      Found: Seafoam Island
+      Height: 5' 7"
+      Weight: 122.0 lbs.
+      Evolution: N/A
+      Pokédex: A legendary bird Pokémon. It freezes water that is contained
+               in winter air and makes it snow.
+      TMs: 2, 4, 6, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 33, 34, 39, 43,
+           44, 50
+      HMs: 2
+      Abilities:
+        Peck (Flying) - N/A
+        Ice Beam (Ice) - N/A
+        Blizzard (Ice) - Level 51
+        Agility (Psychic) - Level 55
+        Mist (Ice) - Level 60
+
+145. Zapdos (Electric/Flying)
+      Found: Power Plant
+      Height: 5' 3"
+      Weight: 116.0 lbs.
+      Evolution: N/A
+      Pokédex: This legendary bird Pokémon is said to appear when the sky
+               turns dark and lightning showers down.
+      TMs: 2, 4, 6, 9, 10, 15, 20, 24, 25, 31, 32, 33, 34, 39, 43, 44, 45, 50
+      HMs: 2, 5
+      Abilities:
+        Thundershock (Electric) - N/A
+        Drill Peck (Flying) - N/A
+        Thunder (Electric) - Level 51
+        Agility (Psychic) - Level 55
+        Light Screen (Psychic) - Level 60
+
+146. Moltres (Fire/Flying)
+      Found: Victory Road
+      Height: 6' 7"
+      Weight: 132.0 lbs.
+      Evolution: N/A
+      Pokédex: A legendary bird Pokémon. As it flaps its flaming wings, even
+               the night sky will turn red.
+      TMs: 2, 4, 6, 9, 10, 15, 20, 31, 32, 33, 34, 38, 39, 43, 44, 50
+      HMs: 2
+      Abilities:
+        Peck (Flying) - N/A
+        Fire Spin (Fire) - N/A
+        Leer (Normal) - Level 51
+        Agility (Psychic) - Level 55
+        Sky Attack (Flying) - Level 60
+
+147. Dratini (Dragon)
+      Found: Safari Zone (must be fished for to obtain)
+      Height: 5' 11"
+      Weight: 7.0 lbs.
+      Evolution: Dragonair (Level 30)
+      Pokédex: The existence of this mythical Pokémon was only recently
+               confirmed by a fisherman who caught one.
+      TMs: 6, 8, 9, 10, 11, 12, 13, 14, 20, 23, 24, 25, 31, 32, 33, 34, 38,
+           39, 40, 44, 45, 50
+      HMs: 3
+      Abilities:
+        Wrap (Normal) - N/A
+        Leer (Normal) - N/A
+        Thunder Wave (Electric) - N/A
+        Agility (Psychic) - Level 20
+        Slam (Normal) - Level 30
+        Dragon Rage (Dragon) - Level 40
+        Hyper Beam (Normal) - Level 50
+
+148. Dragonair (Dragon)
+      Found: Safari Zone
+      Height: 13' 1"
+      Weight: 36.0 lbs.
+      Evolution: Dragonite (Level 55)
+      Pokédex: According to a witness, its body was surrounded by a strange
+               aura that gave it a mystical look.
+      TMs: 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 23, 24, 25, 31, 32, 33, 34,
+           38, 39, 40, 44, 45, 50
+      HMs: 3
+      Abilities:
+        Wrap (Normal) - N/A
+        Leer (Normal) - N/A
+        Thunder Wave (Electric) - N/A
+        Agility (Psychic) - N/A
+        Slam (Normal) - Level 35
+        Dragon Rage (Dragon) - Level 45
+        Hyper Beam (Normal) - Level 55
+
+149. Dragonite (Dragon/Flying)
+      Found: Can only be obtained through evolution.
+      Height: 7' 3"
+      Weight: 463.0 lbs.
+      Evolution: N/A
+      Pokédex: It is said that this Pokémon lives somewhere in the sea and
+               that it flies. However, it is only a rumor.
+      TMs: 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 23, 24, 25, 31, 32, 33,
+           34, 38, 39, 40, 44, 45, 50
+      HMs: 3, 4
+      Abilities:
+        Wrap (Normal) - N/A
+        Leer (Normal) - N/A
+        Thunder Wave (Electric) - N/A
+        Agility (Psychic) - N/A
+        Slam (Normal) - N/A
+        Dragon Rage (Dragon) - N/A
+        Hyper Beam (Normal) - Level 60
+
+150. Mewtwo (Psychic)
+      Found: Unknown Dungeon
+      Height: 6' 7"
+      Weight: 269.0 lbs.
+      Evolution: N/A
+      Pokédex: Its DNA is almost the same as Mew's. However, its size and
+               disposition are vastly different.
+      TMs: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24,
+           25, 29, 30, 31, 32, 33, 34, 35, 36, 38, 40, 44, 45, 46, 49, 50
+      HMs: 4, 5
+      Abilities:
+        Confusion (Psychic) - N/A
+        Disable (Normal) - N/A
+        Swift (Normal) - N/A
+        Barrier (Psychic) - N/A
+        Psychic (Psychic) - N/A
+        Recover (Psychic) - N/A
+        Mist (Ice) - Level 75
+        Amnesia (Psychic) - Level 81
+
+151. Mew (Psychic)
+      Found: N/A (must use a Game Shark to obtain)
+      Height: 1' 4"
+      Weight: 9.0 lbs.
+      Evolution: N/A
+      Pokédex: When viewed through a microscope, this Pokémon's short fine,
+               delicate hair can be seen.
+      TMs: ALL
+      HMs: ALL
+      Abilities:
+        Pound (Normal) - N/A
+        Transform (Normal) - Level 10
+        Mega Punch (Normal) - Level 20
+        Metronome (Normal) - Level 30
+        Psychic (Psychic) - Level 40
+
+*****************************************************************************
+
+-=-=-=-=-=-=-=-=-=
+-=  3. Credits  -=
+-=-=-=-=-=-=-=-=-=
+
+Crazy2180(at)aol.com: For letting me know what level the Nidorans learn 
+Double Kick.
+
+AstroBlue: For sending me MANY accurate Pokédex entries, including some that 
+I was temporarily using from MetroidMoo's FAQ!
+
+Mewtwo2619(at)aol.com: For sending me the Pokédex entry for Pidgeot.
+
+RareMew123(at)aol.com: For sending me a bunch more Pokédex entries!
+
+Mewtwo1565(at)aol.com: For giving me Pokédex entries for Alakazam, Primeape, 
+Poliwhirl, and Poliwrath.
+
+MillenniumboyEK(at)aol.com: For letting me know that Paras can also be found 
+inthe Safari Zone.
+
+Templarnothing(at)hotmail.com: For letting me know what abilities Electabuzz 
+andMagmar learn, as well as what levels they're learned.
+
+ShadowsOfAbyss(at)aol.com: For sending me move lists for Jynx, Weedle, 
+Kakuna, and Beedrill!
+
+*****************************************************************************
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=  4. Copyright Notice -=
+-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+This file is Copyright (c)1999-2006 Devin Morgan. All rights reserved. Please 
+view the following URL to see the list of sites that are allowed to post my 
+work:
+
+http://www.freewebs.com/dbmfaqs/allowlist.html
+
+This list is comprised of sites I know and trust well. If your site is not on 
+the aforementioned list, you are not currently not allowed to post any of my 
+files on your site. If you wish to acquire permission, feel free to email me 
+(see the section below); permission may or may not granted at my discretion. 
+Please respect my work and do not steal it or post it without my permission. 
+I only want my most recent work to be available and I do not feel that can be 
+achieved if others take from me without my knowledge or permission.
+
+If you are writing a FAQ for this game as well, and would like to use some 
+information, contact me and we'll talk. Please do not rip me off, as that is 
+blatant plagiarism and such will not be tolerated.
+
+*****************************************************************************
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+-=  5. Contact Information  -=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+As of this version, the file contains all the information I know to date. If 
+it is a work in progress, give me time before bombarding me with emails about 
+things being missing. All I ask is that you READ THE FAQ before emailing me, 
+since that's what it's here for! Don't waste my time (and yours) by asking me 
+for information obviously covered in the guide. If it's in reference to a 
+side quest or item, chances are they can be found in another section besides 
+the walkthrough, so check the appendices as well.
+
+If you have any questions, comments, or things to add that are not already in 
+this FAQ, feel free to email me. I usually do post submissions, credit given 
+of course, so long as I feel they are relevant to the game in question. My 
+email address is: dbmfaqs(at)gmail.com. Thanks for reading, and be sure to 
+check out the rest of my work at this URL:
+
+http://www.gamefaqs.com/features/recognition/3579.html
+
+=- End of File -=
+Pokemon Yellow Version: Special Pikachu Edition: Pokemon List by DBM11085
+Version: 1.1 | Last Updated: 2002-07-29 | View/Download Original File Hosted by GameFAQs
+Return to Pokemon Yellow Version: Special Pikachu Edition (GB) FAQs & Guides  
