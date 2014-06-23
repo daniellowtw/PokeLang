@@ -1,0 +1,221 @@
+- PokeLang
+An esoteric programming language where programs are represented as a Pokemon
+battle.
+
+- General Overview
+PokeLang is a stack-oriented programming language with dynamic types and
+operates in Reverse Polish Notation.
+The operations are represented by Pokemon moves, and constants are represented
+by the Pokemon themselves.
+PokeLang is compiled into Javascript.
+
+- Structure
+The battle starts with yourself and the enemy trainer sending out a Pokemon.
+Each Pokemon have unlimited number of moves, and each trainer can use any
+number of Pokemon.
+The battle is a series of turns. Either Pokemon can go first, but switching Pokemon takes priority over making
+a move.
+
+- Notation
+( ) represents the stack.
+ a  represents any object.
+(a b) represents a and b on the stack, with b being on top.
+( a )[1 : b, 2: c] represents a on the stack, with 1:b and 2:c in the
+dictionary.
+
+
+- Operations
+Operations are represented by the moves Pokemon make.
+Since not all Pokemon may know a move, switching Pokemon is a vital part of
+the program.
+Switching Pokemon does not affect the stack.
+
+Switching Pokemon has the following syntax.
+For yourself,
+ 
+  > PIKACHU! That's enough! Come back!
+  > Go! BULBASAUR!
+
+For the enemy trainer,
+
+  > Foe BROCK calls back ONIX!
+  > Foe BROCK sends out GEODUDE!
+
+To push a constant on the stack, the move TACKLE is used.
+TACKLE is unique in that its effect is dependent of the target Pokemon. Every
+other operation is indenpendent of the current state of the battle.
+In the case of TACKLE, the Pokedex number of the target Pokemon is pushed on
+the stack.
+
+  > Go PIKACHU!
+  > Foe BROCK sends out ONIX!
+  > Enemy ONIX uses TACKLE!         // 25
+
+In pre- and post-condition terms,
+( ) TACKLE ( a ) where a=# of target Pokemon
+
+- Arithmetic
+
+The move EMBER is the <+> operation.
+
+( a b ) + ( a+b )
+
+Notice the Reverse Polish Notation.
+
+If an operation has the wrong number of arguments (e.g. too few objects on the
+stack) or the type of the arguments is wrong (e.g. Block vs Number), an error
+will be thrown.
+
+For the full move list, see Moves.
+
+- Arrays
+An array is an indexed collection of objects. An array exists as a single
+object on the stack. Arrays are first class objects. Arrays are not fixed
+size. Arrays can be nested, as they are objects themselves.
+
+The move STUN SPORE is the <[> object, marking the start of an array.
+
+The move SLEEP POWDER is the <]> operation, which initialises the array.
+The top object on the stack is then into the tail of the array, repeating
+until the [ object is reached.
+
+( [ a b c d e ) ] ( [a,b,c,d,e] ) 
+
+- Blocks
+A block is a structure used to store objects and operations. Blocks are
+first class objects. Operations in a block are not performed until the EXEC operation is done on the block. Blocks
+can be nested.
+
+Blocks are created at compile time.
+
+The move SCRATCH represents <{>, the start of the block.
+The move SLASH represents <}>, the end of the block.
+
+  // Turn 1
+  > Go CHARMANDER!                     
+  > Foe BROCK sends out ONIX!
+  > SANDSLASH uses SCRATCH!          // {
+  > ONIX uses TACKLE!                // 1
+  
+  // Turn 2
+  > Foe BROCK calls back ONIX!
+  > Foe BROCK sends out SANDSLASH! 
+  > CHARMANDER uses EMBER!           // +
+  
+  // Turn 3
+  > CHARMANDER uses SLASH!           // }
+
+The following sequence of turns results in the block { 1 + } put on
+the stack.
+
+Note that ( 1 + ) is semantically wrong if the stack is empty. However, since
+{ 1 + } is in a block, it will not be executed until the EXEC operation is
+given.
+
+The move THUNDERSHOCK is the <EXEC> operation. 
+If the argument of EXEC is not a Block, an error will be thrown.
+
+EXEC takes a Block and in order, pushes objects on to the stack, and performs
+operations when encountered.
+
+( 1 { 1 + } ) EXEC ( 2 )
+
+Notice that the block { 1 + } can be described as an increment operator.
+
+- Dictionary
+Objects can be stored in a global dictionary. The dictionary stores a
+key-value pair. A key can be any number, and the value any object.
+
+The move CONFUSION is the <STORE> operation.
+STORE takes a key and a value and puts it into the dictionary. If there
+already exists a key-value pair, it will be overriden.
+
+( 1 { 1 + } ) STORE {}[1: { 1 + }]
+
+The move PSYBEAM is the <LOAD> operation.
+LOAD takes a key and gets the value from the dictionary and pushes it. If
+there does not exist a key-value pair, an error will be thrown.
+
+{ 2 }[2 : { 2 * }] LOAD ( { 2 * } )
+
+Using a combination of LOAD, STORE and EXEC, subroutines can be defined.
+
+  // Turn 1
+  > Go! PIKACHU!
+  > Foe SABRINA sends out BUTTERFREE!
+  > PIKACHU! That's enough! Come back!
+  > Go! CHARMANDER! 
+  > Foe BUTTERFREE uses TACKLE!               // 4
+
+  // Turn 2
+  > CHARMANDER uses SCRATCH!                  // {
+  > Foe BUTTERFREE uses GUST!                 // DUP
+  
+  // Turn 3
+  > Foe SABRINA calls back BUTTERFREE!
+  > Foe SABRINA sends out ALAKAZAM! 
+  > CHARMANDER uses FLAMETHROWER!             // *
+  
+  // Turn 4
+  > CHARMANDER uses SLASH!                    // }
+  > Foe ALAKAZAM uses CONFUSION!              // STORE
+  
+  // Turn 5
+  > CHARMANDER! That's enough! Come back!
+  > Go! CHARIZARD! 
+  > Foe SABRINA calls back ALAKAZAM!
+  > Foe SABRINA sends out BUTTERFREE! 
+
+  // Turn 6
+  > CHARMANDER! That's enough! Come back!
+  > Go! CHARMELEON!
+  > Foe BUTTERFREE uses TACKLE!               // 5
+  
+  // Turn 7
+  > CHARMELEON! That's enough! Come back!
+  > Go! CHARMANDDER! 
+  > Foe BUTTERFREE uses TACKLE!               // 4
+
+  // Turn 8
+  > CHARMANDER! That's enough! Come back!
+  > Go! PIKACHU! 
+  > Foe BUTTERFREE uses PSYBEAM!              // LOAD
+  
+  // Turn 9
+  > Foe SABRINA calls back BUTTERFREE!
+  > Foe SABRINA sends out ALAKAZAM! 
+  > PIKACHU uses THUNDER SHOCK!               // EXEC
+
+  // Turn 10
+  > PIKACHU! That's enough! Come back!
+  > Go! CHARMELEON! 
+  > Foe SABRINA calls back ALAKAZAM!
+  > Foe SABRINA sends out BUTTERFREE! 
+
+  // Turn 11
+  > CHARMELEON! That's enough! Come back!
+  > Go! CHARMANDDER! 
+  > Foe BUTTERFREE uses TACKLE!               // 4
+ 
+  // Turn 12
+  > CHARMANDER! That's enough! Come back!
+  > Go! PIKACHU! 
+  > Foe BUTTERFREE uses PSYBEAM!              // LOAD
+
+  // Turn 13
+  > PIKACHU uses THUNDERSHOCK!                // EXEC
+
+where DUP takes 1 argument and pushes 2 copies of the object on the stack.
+
+This makes the following program:
+
+4 { DUP * } STORE 5 4 LOAD EXEC 4 LOAD EXEC 
+
+which stores { DUP * } under 4 in the dictionary.
+The { DUP * } performs a square operation.
+
+The program then puts 5 on the stack, and executes { DUP * } twice, resulting
+in 625.
+
+
+

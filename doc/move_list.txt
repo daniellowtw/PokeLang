@@ -1,0 +1,57 @@
+- Notation
+instruction | move | type | pre | post | description
+
+( a b ) where b is the top of the stack
+a indexed as the first argument
+
+arguments/args refer to the topmost objects on the stack
+
+{}a block named a
+[]a array named a
+[a,b,c] array with a, b and c as elements
+(_) indeterminate state
+
+( a )[1 : b, 2 : {c}] stack with current dictionary 1:b, 2:{c}
+
+- Stack Manipulation
+<num> | TACKLE | obj:num | () | (num) | pushes target pokemon's pokedex no. on the stack
+dup | GUST | op | ( a ) | ( a a ) | pushes a copy of the arg on the stack
+exch | | op | ( a b ) | ( b a ) | swaps the top 2 objects on the stack  
+roll |
+
+- Arithmetic
++ | EMBER | op | ( num1 num2 ) | ( num1+num2 ) | addition
+- | | op | ( num1 num2 ) | ( num1-num2 ) | subtraction
+* | FLAMETHROWER | op | ( num 1 num 2 ) | ( num1*num2 ) | multiplication
+/ | | op | ( num1 num2 ) | ( num1/num2 ) | integer division
+mod | | op | ( num1 num2 ) | ( <num1 mod num2> ) | modulus
+neg | | op | ( num ) | ( -num ) | negation
+abs | | op | ( num ) | ( <abs(num)> | absolute value
+^ | | op | ( num1 num2 ) | ( num1^num2 ) | power
+
+- Arrays
+[ | STUN SPORE | obj:mark | () | ([) | mark start of array
+] | SLEEP POWDER | op | ( [ a b c ) | ( [a,b,c] ) | create array with objects
+up to mark
+get | | op | ( []a num ) | ( a[num] ) | get num of index a
+put | | op | ( []a num obj ) | ( []_ ) | index num of a updated to obj
+fora | | op | ( []a {a} ) | (_) | exec {a} for each element in []a
+
+- Blocks
+{ } | SCRATCH SLASH | obj:block | ( {}a ) | ( {}a ) | create block with
+contents NOTE: in the eyes of the stack program, a Block is one entire object
+exec | THUNDERSHOCK | op | ( {}a ) | (_) | exec block object
+
+- Dictionary
+store | CONFUSION | op | ( num a ) | ()[num: a] | store num:a in dictionary
+load | PSYBEAM | op | ( num )[num: a] | (a)[num: a] | push value of a in
+dictionary
+
+- Control Flow
+if | | ( bool {}a ) | (_) | if bool then exec {}a
+ifelse | | ( bool {}a {}b ) | (_) | if bool then exec {}a else {}b
+while | | ( bool {}a ) | (_) | while bool exec {}a
+for | | ( num1 num2 num3 {}a ) | (_) | for (num1;  num1 < num2; num1+=num3) exec
+{}a
+
+
