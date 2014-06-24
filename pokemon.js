@@ -88,19 +88,19 @@ case 2:this.$ = ['PROG', $$[$0-1], $$[$0]]
 break;
 case 3:this.$ = ['START', $$[$0-2], $$[$0]]
 break;
-case 4:this.$ = ['TURNS', $$[$0-1], $$[$0]]
+case 4:this.$ = ['CONCAT', $$[$0-1], $$[$0]]
 break;
-case 5: this.$ = ['CONCAT', $$[$0]]
+case 5: this.$ = $$[$0]
 break;
 case 6: this.$ = null
 break;
-case 7:this.$ = ['SELFTURN', $$[$0]]
+case 7:this.$ = $$[$0]
 break;
-case 8:this.$ = ['ENEMYTURN', $$[$0]]
+case 8:this.$ = $$[$0]
 break;
-case 9:this.$ = ['ENEMYSWITCHPOKEMON', $$[$0]]
+case 9:this.$ = $$[$0]
 break;
-case 10:this.$ = ['SELFSWITCHPOKEMON', $$[$0]]
+case 10:this.$ = $$[$0]
 break;
 case 12:this.$ = ['GO', $$[$0-1]]
 break;
@@ -110,9 +110,9 @@ case 14:this.$ =['SELFTURN', $$[$0-2], $$[$0]]
 break;
 case 15:this.$ =['ENEMYTURN', $$[$0-2], $$[$0]]
 break;
-case 16:this.$ =['SELFSWITCHPOKEMON', $$[$0-5], $$[$0-1]]
+case 16:this.$ =['SELFSWITCHPOKEMON', $$[$0-5], $$[$0][1]]
 break;
-case 17:this.$ =['ENEMYSWITCHPOKEMON', $$[$0-3], $$[$0-1]]
+case 17:this.$ =['ENEMYSWITCHPOKEMON', $$[$0-3], $$[$0][1]]
 break;
 case 20:this.$ =['ENEMYTURN']
 break;

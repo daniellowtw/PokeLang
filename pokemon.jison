@@ -67,22 +67,22 @@ start_battle: goPokemon NEWLINE foePokemon
 	;
 
 turns: turn ending
-		{$$ = ['TURNS', $1, $2]}
+		{$$ = ['CONCAT', $1, $2]}
 	;
 
 ending: NEWLINE turns 
-		{ $$ = ['CONCAT', $2]}
+		{ $$ = $2}
 	| NEWLINE { $$ = null}
 	;
 
 turn: selfTurn 
-		{$$ = ['SELFTURN', $1]}
+		{$$ = $1}
 	| enemyTurn
-		{$$ = ['ENEMYTURN', $1]}
+		{$$ = $1}
 	| enemySwitchPokemon
-		{$$ = ['ENEMYSWITCHPOKEMON', $1]}
+		{$$ = $1}
 	| selfSwitchPokemon 
-		{$$ = ['SELFSWITCHPOKEMON', $1]}
+		{$$ = $1}
 	| effect1
 	;
 
@@ -101,10 +101,10 @@ enemyTurn: ENEMY POKEMON USES MOVE
 		{$$ =['ENEMYTURN', $2, $4]}
 	;
 selfSwitchPokemon: POKEMON '!' ENOUGH COME_BACK NEWLINE goPokemon
-		{$$ =['SELFSWITCHPOKEMON', $1, $5]}
+		{$$ =['SELFSWITCHPOKEMON', $1, $6[1]]}
 	;
 enemySwitchPokemon: NAMED_ENEMY CALL_BACK POKEMON '!' NEWLINE foePokemon
-		{$$ =['ENEMYSWITCHPOKEMON', $3, $5]}
+		{$$ =['ENEMYSWITCHPOKEMON', $3, $6[1]]}
 	;
 
 effect: NEWLINE effect1
