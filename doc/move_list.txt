@@ -6,6 +6,8 @@ a indexed as the first argument
 
 arguments/args refer to the topmost objects on the stack
 
+#a  number named a
+!a  boolean named a
 {}a block named a
 []a array named a
 [a,b,c] array with a, b and c as elements
@@ -20,14 +22,22 @@ exch | | op | ( a b ) | ( b a ) | swaps the top 2 objects on the stack
 roll |
 
 - Arithmetic
-+ | EMBER | op | ( num1 num2 ) | ( num1+num2 ) | addition
-- | | op | ( num1 num2 ) | ( num1-num2 ) | subtraction
-* | FLAMETHROWER | op | ( num 1 num 2 ) | ( num1*num2 ) | multiplication
-/ | | op | ( num1 num2 ) | ( num1/num2 ) | integer division
-mod | | op | ( num1 num2 ) | ( <num1 mod num2> ) | modulus
++ | EMBER | op | ( #a #b ) | ( #a+#b ) | addition
+- | | op | ( #a #b ) | ( #a-#b ) | subtraction
+* | FLAMETHROWER | op | ( num 1 num 2 ) | ( #a*#b ) | multiplication
+/ | | op | ( #a #b ) | ( #a/#b ) | integer division
+mod | | op | ( #a #b ) | ( <#a mod #b> ) | modulus
 neg | | op | ( num ) | ( -num ) | negation
 abs | | op | ( num ) | ( <abs(num)> | absolute value
-^ | | op | ( num1 num2 ) | ( num1^num2 ) | power
+^ | | op | ( #a #b ) | ( #a^#b ) | power
+
+- Comparison
+== | | ( a b ) | ( a==b ) | equality
+> |
+>= |
+<= |
+< |
+ 
 
 - Arrays
 [ | STUN SPORE | obj:mark | () | ([) | mark start of array
@@ -38,8 +48,7 @@ put | | op | ( []a num obj ) | ( []_ ) | index num of a updated to obj
 fora | | op | ( []a {a} ) | (_) | exec {a} for each element in []a
 
 - Blocks
-{ } | SCRATCH SLASH | obj:block | ( {}a ) | ( {}a ) | create block with
-contents NOTE: in the eyes of the stack program, a Block is one entire object
+{ } | SCRATCH SLASH | obj:block | () | ( {}a ) | 
 exec | THUNDERSHOCK | op | ( {}a ) | (_) | exec block object
 
 - Dictionary
@@ -48,10 +57,9 @@ load | PSYBEAM | op | ( num )[num: a] | (a)[num: a] | push value of a in
 dictionary
 
 - Control Flow
-if | | ( bool {}a ) | (_) | if bool then exec {}a
-ifelse | | ( bool {}a {}b ) | (_) | if bool then exec {}a else {}b
-while | | ( bool {}a ) | (_) | while bool exec {}a
-for | | ( num1 num2 num3 {}a ) | (_) | for (num1;  num1 < num2; num1+=num3) exec
-{}a
+if | | ( !b {}a ) | (_) | if b then exec {}a
+ifelse | | ( !c {}a {}b ) | (_) | if c then exec {}a else {}b
+while | | ( !b {}a ) | (_) | while b exec {}a
+for | | ( #a #b #c {}d ) | (_) | for (#a;  #a < #b; #a+=#c) exec {}d
 
 
