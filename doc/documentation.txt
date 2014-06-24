@@ -3,142 +3,133 @@ An esoteric programming language where programs are represented as a Pokemon
 battle.
 
 - General Overview
-PokeLang is a stack-oriented programming language with dynamic types and
-operates in Reverse Polish Notation.
-The operations are represented by Pokemon moves, and constants are represented
-by the Pokemon themselves.
-PokeLang is compiled into Javascript.
+PokeLang consists of a series turns in a Pokemon battle.
+Moves correspond to an operation or object.
+The moves are then transcribed into a stack-oriented language called PokeStack.
+The PokeStack program is then run using a PokeStack interpreter.
 
 - Structure
 The battle starts with yourself and the enemy trainer sending out a Pokemon.
-Each Pokemon have unlimited number of moves, and each trainer can use any
-number of Pokemon.
-The battle is a series of turns. Either Pokemon can go first, but switching Pokemon takes priority over making
-a move.
+Each Pokemon have unlimited number of moves, and each trainer can use any number of Pokemon.
+The battle is a series of turns. Either Pokemon can go first, but switching Pokemon takes priority over making a move.
+
+- PokeStack
+PokeStack is a stack-oriented language using postfix operators.
+The two key language constructs of PokeStack are objects and operators.
+The program is represented as a list of objects and operators.
+This is known as the Instruction List.
+This program is interpreted by traversing this list.
+Upon encountering an object, the object will be pushed on the stack.
+Upon encountering an operator, the arguments it takes will be popped from the stack. 
+The operator will perform its actions using the arguments and modify the stack. 
+An operator can only take arguments from the top of the stack.
 
 - Notation
 ( ) represents the stack.
  a  represents any object.
+#a  represents a number.
+[]a represents an array.
+{}a represents a block.
 (a b) represents a and b on the stack, with b being on top.
-( a )[1 : b, 2: c] represents a on the stack, with 1:b and 2:c in the
-dictionary.
+( a )[1 : b, 2: c] represents a on the stack, with 1:b and 2:c in the dictionary.
 
+( a b ) + ( a+b )
+( a b ) represents the stack before the next instruction.
++ represents the instruction.
+( a+b ) represents the stack after the instruction is performed.
+
+- Numbers
+Numbers are objects. 
+Numbers are represented by integers.
+
+() #a ( #a )
 
 - Operations
-Operations are represented by the moves Pokemon make.
-Since not all Pokemon may know a move, switching Pokemon is a vital part of
-the program.
-Switching Pokemon does not affect the stack.
-
-Switching Pokemon has the following syntax.
-For yourself,
- 
-  > PIKACHU! That's enough! Come back!
-  > Go! BULBASAUR!
-
-For the enemy trainer,
-
-  > Foe BROCK calls back ONIX!
-  > Foe BROCK sends out GEODUDE!
-
-To push a constant on the stack, the move TACKLE is used.
-TACKLE is unique in that its effect is dependent of the target Pokemon. Every
-other operation is indenpendent of the current state of the battle.
-In the case of TACKLE, the Pokedex number of the target Pokemon is pushed on
-the stack.
-
-  > Go PIKACHU!
-  > Foe BROCK sends out ONIX!
-  > Enemy ONIX uses TACKLE!         // 25
-
-In pre- and post-condition terms,
-( ) TACKLE ( a ) where a=# of target Pokemon
 
 - Arithmetic
 
-The move EMBER is the <+> operation.
+The <+> operator
 
 ( a b ) + ( a+b )
-
-Notice the Reverse Polish Notation.
 
 If an operation has the wrong number of arguments (e.g. too few objects on the
 stack) or the type of the arguments is wrong (e.g. Block vs Number), an error
 will be thrown.
 
-For the full move list, see Moves.
-
 - Arrays
-An array is an indexed collection of objects. An array exists as a single
-object on the stack. Arrays are first class objects. Arrays are not fixed
-size. Arrays can be nested, as they are objects themselves.
+Arrays are objects. 
+An array is an indexed collection of objects. 
+Arrays are not dynamically sized. 
+Arrays can be nested, as they are objects themselves.
 
-The move STUN SPORE is the <[> object, marking the start of an array.
+The <[> object marks the start of an array on the stack.
 
-The move SLEEP POWDER is the <]> operation, which initialises the array.
-The top object on the stack is then into the tail of the array, repeating
-until the [ object is reached.
+() [ ( [ )
+
+The <]> operator initialises the array. 
+The top object on the stack is then pushed into the tail of the array, repeating
+until the <[> object is reached.
+If the <[> object is not reached before the bottom of the stack, an error is
+thrown. 
 
 ( [ a b c d e ) ] ( [a,b,c,d,e] ) 
 
-- Blocks
-A block is a structure used to store objects and operations. Blocks are
-first class objects. Operations in a block are not performed until the EXEC operation is done on the block. Blocks
-can be nested.
+Notice that <[> is an object, existing on the stack while <]> is an operator.
 
+- Blocks
+Blocks are objects.
+A block is a structure used to store objects and operations. 
+Blocks can be nested as they are objects.
 Blocks are created at compile time.
 
-The move SCRATCH represents <{>, the start of the block.
-The move SLASH represents <}>, the end of the block.
+<{> represents the start of the block.
+<}> represents the end of the block.
 
-  // Turn 1
-  > Go CHARMANDER!                     
-  > Foe BROCK sends out ONIX!
-  > SANDSLASH uses SCRATCH!          // {
-  > ONIX uses TACKLE!                // 1
-  
-  // Turn 2
-  > Foe BROCK calls back ONIX!
-  > Foe BROCK sends out SANDSLASH! 
-  > CHARMANDER uses EMBER!           // +
-  
-  // Turn 3
-  > CHARMANDER uses SLASH!           // }
+Note that <{> and <}> are not operators or objects. 
+The entire block is treated as a single object.
 
-The following sequence of turns results in the block { 1 + } put on
-the stack.
+() {}a ( {}a )
 
-Note that ( 1 + ) is semantically wrong if the stack is empty. However, since
-{ 1 + } is in a block, it will not be executed until the EXEC operation is
-given.
+The <exec> operator takes a block and after the current node of the Instruction
+List, inserts the instructions of the block in order. 
+If the argument of <exec> is not a block, an error is thrown.
 
-The move THUNDERSHOCK is the <EXEC> operation. 
-If the argument of EXEC is not a Block, an error will be thrown.
+( 1 { 1 + } ) exec ( 2 )
 
-EXEC takes a Block and in order, pushes objects on to the stack, and performs
-operations when encountered.
+Breaking the above down into steps:
 
-( 1 { 1 + } ) EXEC ( 2 )
+( 1 { 1 + } ) exec ( 1 ) 
 
-Notice that the block { 1 + } can be described as an increment operator.
+The next instruction is then 1 followed by +
+
+( 1 ) 1 ( 1 1 )
+
+( 1 1 ) + ( 2 )
 
 - Dictionary
-Objects can be stored in a global dictionary. The dictionary stores a
-key-value pair. A key can be any number, and the value any object.
+Objects can be stored in a global dictionary. 
+The dictionary stores key-value pairs. 
+A key can be any number, and the value any object.
 
-The move CONFUSION is the <STORE> operation.
-STORE takes a key and a value and puts it into the dictionary. If there
-already exists a key-value pair, it will be overriden.
+The <store> takes a key and a object and puts it into the dictionary. 
+If there already exists an entry for the key, it will be overwritten.
 
-( 1 { 1 + } ) STORE {}[1: { 1 + }]
+( #a b ) store ()[#a: b]
 
-The move PSYBEAM is the <LOAD> operation.
-LOAD takes a key and gets the value from the dictionary and pushes it. If
-there does not exist a key-value pair, an error will be thrown.
+The <load> operator takes a key and pushes the value from the dictionary on the stack. 
+If there does not exist a key-value pair, an error will be thrown.
 
-{ 2 }[2 : { 2 * }] LOAD ( { 2 * } )
+( #a )[#a: b] load ( b )[#a: b]
 
-Using a combination of LOAD, STORE and EXEC, subroutines can be defined.
+Using a combination of <load>, <store> and <exec>, subroutines can be defined.
+
+4 { dup * } store 5 4 load exec 4 load exec 
+
+The { dup * } results in a squaring the top object of the stack.
+
+Performing { dup * } twice on 5 results in 625.
+
+This is represented in PokeLang by:
 
   // Turn 1
   > Go! PIKACHU!
@@ -204,18 +195,6 @@ Using a combination of LOAD, STORE and EXEC, subroutines can be defined.
 
   // Turn 13
   > PIKACHU uses THUNDERSHOCK!                // EXEC
-
-where DUP takes 1 argument and pushes 2 copies of the object on the stack.
-
-This makes the following program:
-
-4 { DUP * } STORE 5 4 LOAD EXEC 4 LOAD EXEC 
-
-which stores { DUP * } under 4 in the dictionary.
-The { DUP * } performs a square operation.
-
-The program then puts 5 on the stack, and executes { DUP * } twice, resulting
-in 625.
 
 
 
