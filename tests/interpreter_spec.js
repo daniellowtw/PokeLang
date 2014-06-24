@@ -229,29 +229,6 @@ describe('power', function() {
 
   it('should perform power through recursion via tokeniser', function() {
 
-    var thenblock = I.block([I.num(1)
-                            ,I.operation('-')
-                            ,I.operation('swap')
-                            ,I.operation('dup')
-                            ,I.operation('rot3')
-                            ,I.operation('rot3')
-                            ,I.num(1)
-                            ,I.operation('load')
-                            ,I.operation('exec')
-                            ,I.operation('*')
-                            ]);
-
-    var elseblock = I.block([I.operation('pop')
-                            ]);
-
-    var block = I.block([I.operation('dup')
-                        ,I.num(1)
-                        ,I.operation('>')
-                        ,thenblock
-                        ,elseblock
-                        ,I.operation('ifelse')
-                        ]);
-
     var power = function(x, y) {
 
       var string = '1 { dup 1 > ' +
