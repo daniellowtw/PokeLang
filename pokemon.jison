@@ -1,7 +1,5 @@
 /* description: Copied from calculator. */
 
-var turn = 0 // player starts first
-
 /* lexical grammar */
 %lex
 %%

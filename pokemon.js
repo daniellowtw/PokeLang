@@ -102,6 +102,8 @@ case 9:this.$ = $$[$0]
 break;
 case 10:this.$ = $$[$0]
 break;
+case 11:this.$ = $$[$0]
+break;
 case 12:this.$ = ['GO', $$[$0-1]]
 break;
 case 13:this.$ = ['SENDS_OUT', $$[$0-1]]
@@ -114,11 +116,11 @@ case 16:this.$ =['SELFSWITCHPOKEMON', $$[$0-5], $$[$0][1]]
 break;
 case 17:this.$ =['ENEMYSWITCHPOKEMON', $$[$0-3], $$[$0][1]]
 break;
-case 20:this.$ =['ENEMYTURN']
+case 20:this.$ =['EFFECTIVE']
 break;
-case 21:this.$ =['ENEMYTURN']
+case 21:this.$ =['NOT_EFFECTIVE']
 break;
-case 22:this.$ =['ENEMYTURN']
+case 22:this.$ =['NO_EFFECT']
 break;
 }
 },
