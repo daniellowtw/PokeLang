@@ -1,0 +1,3848 @@
+{
+	"Bulbasaur": {
+		"Index": 1,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Leech Seed": {
+				"Type": "Grass"
+			},
+			"Vine Whip": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Razor Leaf": {
+				"Type": "Grass"
+			},
+			"Growth": {
+				"Type": "Normal"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Solar Beam": {
+				"Type": "Grass"
+			}
+		}
+	},
+	"Ivysaur": {
+		"Index": 2,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Leech Seed": {
+				"Type": "Grass"
+			},
+			"Vine Whip": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Razor Leaf": {
+				"Type": "Grass"
+			},
+			"Growth": {
+				"Type": "Normal"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Solar Beam": {
+				"Type": "Grass"
+			}
+		}
+	},
+	"Venusaur": {
+		"Index": 3,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Leech Seed": {
+				"Type": "Grass"
+			},
+			"Vine Whip": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Razor Leaf": {
+				"Type": "Grass"
+			},
+			"Growth": {
+				"Type": "Normal"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Solar Beam": {
+				"Type": "Grass"
+			}
+		}
+	},
+	"Charmander": {
+		"Index": 4,
+		"Type": ["Fire"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Charmeleon": {
+		"Index": 5,
+		"Type": ["Fire"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Charizard": {
+		"Index": 6,
+		"Type": ["Fire"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Squirtle": {
+		"Index": 7,
+		"Type": ["Water"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Skull Bash": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Wartortle": {
+		"Index": 8,
+		"Type": ["Water"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Skull Bash": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Blastoise": {
+		"Index": 9,
+		"Type": ["Water"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Skull Bash": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Caterpie": {
+		"Index": 10,
+		"Type": ["Bug"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"String Shot": {
+				"Type": "Bug"
+			}
+		}
+	},
+	"Metapod": {
+		"Index": 11,
+		"Type": ["Bug"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"String Shot": {
+				"Type": "Bug"
+			},
+			"Harden": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Butterfree": {
+		"Index": 12,
+		"Type": ["Bug", "Flying"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"String Shot": {
+				"Type": "Bug"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Whirlwind": {
+				"Type": "Normal"
+			},
+			"Gust": {
+				"Type": "Normal"
+			},
+			"Psybeam": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Weedle": {
+		"Index": 13,
+		"Type": ["Bug", "Poison"],
+		"Moves": {
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"String Shot": {
+				"Type": "Bug"
+			}
+		}
+	},
+	"Kakuna": {
+		"Index": 14,
+		"Type": ["Bug", "Poison"],
+		"Moves": {
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"String Shot": {
+				"Type": "Bug"
+			},
+			"Harden": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Beedrill": {
+		"Index": 15,
+		"Type": ["Bug", "Poison"],
+		"Moves": {
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"String Shot": {
+				"Type": "Bug"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Twin Needle": {
+				"Type": "Bug"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Pin Missile": {
+				"Type": "Bug"
+			},
+			"Agility": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Pidgey": {
+		"Index": 16,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Gust": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Whirlwind": {
+				"Type": "Normal"
+			},
+			"Wing Attack": {
+				"Type": "Flying"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Mirror Move": {
+				"Type": "Flying"
+			}
+		}
+	},
+	"Pidgeotto": {
+		"Index": 17,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Gust": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Whirlwind": {
+				"Type": "Normal"
+			},
+			"Wing Attack": {
+				"Type": "Flying"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Mirror Move": {
+				"Type": "Flying"
+			}
+		}
+	},
+	"Pidgeot": {
+		"Index": 18,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Gust": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Whirlwind": {
+				"Type": "Normal"
+			},
+			"Wing Attack": {
+				"Type": "Flying"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Mirror Move": {
+				"Type": "Flying"
+			}
+		}
+	},
+	"Rattata": {
+		"Index": 19,
+		"Type": ["Normal"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Hyper Fang": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Super Fang": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Raticate": {
+		"Index": 20,
+		"Type": ["Normal"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Hyper Fang": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Super Fang": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Spearow": {
+		"Index": 21,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Mirror Move": {
+				"Type": "Flying"
+			},
+			"Drill Peck": {
+				"Type": "Flying"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Fearow": {
+		"Index": 22,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Mirror Move": {
+				"Type": "Flying"
+			},
+			"Drill Peck": {
+				"Type": "Flying"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Ekans": {
+		"Index": 23,
+		"Type": ["Poison"],
+		"Moves": {}
+	},
+	"Arbok": {
+		"Index": 24,
+		"Type": ["Poison"],
+		"Moves": {}
+	},
+	"Pikachu": {
+		"Index": 25,
+		"Type": ["Electric"],
+		"Moves": {
+			"Thundershock": {
+				"Type": "Electric"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Double Team": {
+				"Type": "Normal"
+			},
+			"Slam": {
+				"Type": "Normal"
+			},
+			"Thunderbolt": {
+				"Type": "Electric"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Thunder": {
+				"Type": "Electric"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Raichu": {
+		"Index": 26,
+		"Type": ["Electric"],
+		"Moves": {}
+	},
+	"Sandshrew": {
+		"Index": 27,
+		"Type": ["Ground"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Sandslash": {
+		"Index": 28,
+		"Type": ["Ground"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Nidoran F": {
+		"Index": 29,
+		"Type": ["Poison"],
+		"Moves": {
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Nidorina": {
+		"Index": 30,
+		"Type": ["Poison"],
+		"Moves": {
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Nidoqueen": {
+		"Index": 31,
+		"Type": ["Poison", "Ground"],
+		"Moves": {
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Nidoran M": {
+		"Index": 32,
+		"Type": ["Poison"],
+		"Moves": {
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Horn Drill": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Nidorino": {
+		"Index": 33,
+		"Type": ["Poison"],
+		"Moves": {
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Horn Drill": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Nidoking": {
+		"Index": 34,
+		"Type": ["Poison", "Ground"],
+		"Moves": {
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Thrash": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Clefairy": {
+		"Index": 35,
+		"Type": ["Normal"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Sing": {
+				"Type": "Normal"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Minimize": {
+				"Type": "Normal"
+			},
+			"Metronome": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Clefable": {
+		"Index": 36,
+		"Type": ["Normal"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Sing": {
+				"Type": "Normal"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Minimize": {
+				"Type": "Normal"
+			},
+			"Metronome": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Vulpix": {
+		"Index": 37,
+		"Type": ["Fire"],
+		"Moves": {
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Roar": {
+				"Type": "Normal"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Ninetales": {
+		"Index": 38,
+		"Type": ["Fire"],
+		"Moves": {}
+	},
+	"Jigglypuff": {
+		"Index": 39,
+		"Type": ["Normal"],
+		"Moves": {
+			"Sing": {
+				"Type": "Normal"
+			},
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Rest": {
+				"Type": "Psychic"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			},
+			"Double-Edge": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Wigglytuff": {
+		"Index": 40,
+		"Type": ["Normal"],
+		"Moves": {}
+	},
+	"Zubat": {
+		"Index": 41,
+		"Type": ["Poison", "Flying"],
+		"Moves": {
+			"Leech Life": {
+				"Type": "Bug"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Wing Attack": {
+				"Type": "Flying"
+			},
+			"Haze": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Golbat": {
+		"Index": 42,
+		"Type": ["Poison", "Flying"],
+		"Moves": {
+			"Leech Life": {
+				"Type": "Bug"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Wing Attack": {
+				"Type": "Flying"
+			},
+			"Haze": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Oddish": {
+		"Index": 43,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Absorb": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Acid": {
+				"Type": "Poison"
+			},
+			"Solar Beam": {
+				"Type": "Grass"
+			}
+		}
+	},
+	"Gloom": {
+		"Index": 44,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Absorb": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Acid": {
+				"Type": "Poison"
+			},
+			"Solar Beam": {
+				"Type": "Grass"
+			}
+		}
+	},
+	"Vileplume": {
+		"Index": 45,
+		"Type": ["Grass", "Poison"],
+		"Moves": {}
+	},
+	"Paras": {
+		"Index": 46,
+		"Type": ["Bug", "Grass"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Leech Life": {
+				"Type": "Grass"
+			},
+			"Spore": {
+				"Type": "Bug"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Growth": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Parasect": {
+		"Index": 47,
+		"Type": ["Bug", "Grass"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Leech Life": {
+				"Type": "Grass"
+			},
+			"Spore": {
+				"Type": "Bug"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Growth": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Venonat": {
+		"Index": 48,
+		"Type": ["Bug", "Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Leech Life": {
+				"Type": "Grass"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Psybeam": {
+				"Type": "Psychic"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Venomoth": {
+		"Index": 49,
+		"Type": ["Bug", "Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Leech Life": {
+				"Type": "Grass"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Psybeam": {
+				"Type": "Psychic"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Diglett": {
+		"Index": 50,
+		"Type": ["Ground"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Dig": {
+				"Type": "Ground"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Earthquake": {
+				"Type": "Ground"
+			}
+		}
+	},
+	"Dugtrio": {
+		"Index": 51,
+		"Type": ["Ground"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Dig": {
+				"Type": "Ground"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Earthquake": {
+				"Type": "Ground"
+			}
+		}
+	},
+	"Meowth": {
+		"Index": 52,
+		"Type": ["Normal"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Pay Day": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Persian": {
+		"Index": 53,
+		"Type": ["Normal"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Pay Day": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Psyduck": {
+		"Index": 54,
+		"Type": ["Water"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Golduck": {
+		"Index": 55,
+		"Type": ["Water"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Mankey": {
+		"Index": 56,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Low Kick": {
+				"Type": "Fighting"
+			},
+			"Karate Chop": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Seismic Toss": {
+				"Type": "Fighting"
+			},
+			"Thrash": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Primeape": {
+		"Index": 57,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Low Kick": {
+				"Type": "Fighting"
+			},
+			"Karate Chop": {
+				"Type": "Normal"
+			},
+			"Fury Swipes": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Seismic Toss": {
+				"Type": "Fighting"
+			},
+			"Thrash": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Growlithe": {
+		"Index": 58,
+		"Type": ["Fire"],
+		"Moves": {
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Roar": {
+				"Type": "Normal"
+			},
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Arcanine": {
+		"Index": 59,
+		"Type": ["Fire"],
+		"Moves": {}
+	},
+	"Poliwag": {
+		"Index": 60,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			},
+			"Amnesia": {
+				"Type": "Psychic"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Poliwhirl": {
+		"Index": 61,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			},
+			"Amnesia": {
+				"Type": "Psychic"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Poliwrath": {
+		"Index": 62,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Abra": {
+		"Index": 63,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Teleport": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Kadabra": {
+		"Index": 64,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Teleport": {
+				"Type": "Psychic"
+			},
+			"Kinesis": {
+				"Type": "Psychic"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Psybeam": {
+				"Type": "Psychic"
+			},
+			"Recover": {
+				"Type": "Normal"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			},
+			"Reflect": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Alakazam": {
+		"Index": 65,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Teleport": {
+				"Type": "Psychic"
+			},
+			"Kinesis": {
+				"Type": "Psychic"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Psybeam": {
+				"Type": "Psychic"
+			},
+			"Recover": {
+				"Type": "Normal"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			},
+			"Reflect": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Machop": {
+		"Index": 66,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Karate Chop": {
+				"Type": "Normal"
+			},
+			"Low Kick": {
+				"Type": "Fighting"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Seismic Toss": {
+				"Type": "Fighting"
+			},
+			"Submission": {
+				"Type": "Fighting"
+			}
+		}
+	},
+	"Machoke": {
+		"Index": 67,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Karate Chop": {
+				"Type": "Normal"
+			},
+			"Low Kick": {
+				"Type": "Fighting"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Seismic Toss": {
+				"Type": "Fighting"
+			},
+			"Submission": {
+				"Type": "Fighting"
+			}
+		}
+	},
+	"Machamp": {
+		"Index": 68,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Karate Chop": {
+				"Type": "Normal"
+			},
+			"Low Kick": {
+				"Type": "Fighting"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Seismic Toss": {
+				"Type": "Fighting"
+			},
+			"Submission": {
+				"Type": "Fighting"
+			}
+		}
+	},
+	"Bellsprout": {
+		"Index": 69,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Vine Whip": {
+				"Type": "Grass"
+			},
+			"Growth": {
+				"Type": "Normal"
+			},
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Acid": {
+				"Type": "Poison"
+			},
+			"Razor Leaf": {
+				"Type": "Grass"
+			},
+			"Slam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Weepinbell": {
+		"Index": 70,
+		"Type": ["Grass", "Poison"],
+		"Moves": {
+			"Vine Whip": {
+				"Type": "Grass"
+			},
+			"Growth": {
+				"Type": "Normal"
+			},
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Acid": {
+				"Type": "Poison"
+			},
+			"Razor Leaf": {
+				"Type": "Grass"
+			},
+			"Slam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Victreebel": {
+		"Index": 71,
+		"Type": ["Grass", "Poison"],
+		"Moves": {}
+	},
+	"Tentacool": {
+		"Index": 72,
+		"Type": ["Water", "Poison"],
+		"Moves": {
+			"Acid": {
+				"Type": "Poison"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Constrict": {
+				"Type": "Normal"
+			},
+			"Barrier": {
+				"Type": "Psychic"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Tentacruel": {
+		"Index": 73,
+		"Type": ["Water", "Poison"],
+		"Moves": {
+			"Acid": {
+				"Type": "Poison"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Poison Sting": {
+				"Type": "Poison"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Constrict": {
+				"Type": "Normal"
+			},
+			"Barrier": {
+				"Type": "Psychic"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Geodude": {
+		"Index": 74,
+		"Type": ["Rock", "Ground"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Rock Throw": {
+				"Type": "Rock"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Earthquake": {
+				"Type": "Ground"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Graveler": {
+		"Index": 75,
+		"Type": ["Rock", "Ground"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Rock Throw": {
+				"Type": "Rock"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Earthquake": {
+				"Type": "Ground"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Golem": {
+		"Index": 76,
+		"Type": ["Rock", "Ground"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Rock Throw": {
+				"Type": "Rock"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Earthquake": {
+				"Type": "Ground"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Ponyta": {
+		"Index": 77,
+		"Type": ["Fire"],
+		"Moves": {
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Rapidash": {
+		"Index": 78,
+		"Type": ["Fire"],
+		"Moves": {
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Slowpoke": {
+		"Index": 79,
+		"Type": ["Water", "Psychic"],
+		"Moves": {
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Amnesia": {
+				"Type": "Psychic"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Slowbro": {
+		"Index": 80,
+		"Type": ["Water", "Psychic"],
+		"Moves": {
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Amnesia": {
+				"Type": "Psychic"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Magnemite": {
+		"Index": 81,
+		"Type": ["Electric"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sonicboom": {
+				"Type": "Normal"
+			},
+			"Thundershock": {
+				"Type": "Electric"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Magneton": {
+		"Index": 82,
+		"Type": ["Electric"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sonicboom": {
+				"Type": "Normal"
+			},
+			"Thundershock": {
+				"Type": "Electric"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Farfetch'd": {
+		"Index": 83,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Swords Dance": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Slash": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Doduo": {
+		"Index": 84,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Drill Peck": {
+				"Type": "Flying"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Tri Attack": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Dodrio": {
+		"Index": 85,
+		"Type": ["Normal", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Drill Peck": {
+				"Type": "Flying"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Tri Attack": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Seel": {
+		"Index": 86,
+		"Type": ["Water"],
+		"Moves": {
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Aurora Beam": {
+				"Type": "Ice"
+			},
+			"Rest": {
+				"Type": "Psychic"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			},
+			"Ice Beam": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Dewgong": {
+		"Index": 87,
+		"Type": ["Water", "Ice"],
+		"Moves": {
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Aurora Beam": {
+				"Type": "Ice"
+			},
+			"Rest": {
+				"Type": "Psychic"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			},
+			"Ice Beam": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Grimer": {
+		"Index": 88,
+		"Type": ["Poison"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Poison Gas": {
+				"Type": "Poison"
+			},
+			"Minimize": {
+				"Type": "Normal"
+			},
+			"Sludge": {
+				"Type": "Poison"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Acid Armor": {
+				"Type": "Poison"
+			}
+		}
+	},
+	"Muk": {
+		"Index": 89,
+		"Type": ["Poison"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Poison Gas": {
+				"Type": "Poison"
+			},
+			"Minimize": {
+				"Type": "Normal"
+			},
+			"Sludge": {
+				"Type": "Poison"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Acid Armor": {
+				"Type": "Poison"
+			}
+		}
+	},
+	"Shellder": {
+		"Index": 90,
+		"Type": ["Water"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Clamp": {
+				"Type": "Water"
+			},
+			"Aurora Beam": {
+				"Type": "Ice"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Ice Beam": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Cloyster": {
+		"Index": 91,
+		"Type": ["Water", "Ice"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Spike Cannon": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Gastly": {
+		"Index": 92,
+		"Type": ["Ghost", "Poison"],
+		"Moves": {
+			"Lick": {
+				"Type": "Ghost"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Night Shade": {
+				"Type": "Ghost"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Dream Eater": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Haunter": {
+		"Index": 93,
+		"Type": ["Ghost", "Poison"],
+		"Moves": {
+			"Lick": {
+				"Type": "Ghost"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Night Shade": {
+				"Type": "Ghost"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Dream Eater": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Gengar": {
+		"Index": 94,
+		"Type": ["Ghost", "Poison"],
+		"Moves": {
+			"Lick": {
+				"Type": "Ghost"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Night Shade": {
+				"Type": "Ghost"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Dream Eater": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Onix": {
+		"Index": 95,
+		"Type": ["Rock", "Ground"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Bind": {
+				"Type": "Normal"
+			},
+			"Rock Throw": {
+				"Type": "Rock"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Slam": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Drowzee": {
+		"Index": 96,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Poison Gas": {
+				"Type": "Poison"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			},
+			"Meditate": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Hypno": {
+		"Index": 97,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Poison Gas": {
+				"Type": "Poison"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			},
+			"Meditate": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Krabby": {
+		"Index": 98,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Vicegrip": {
+				"Type": "Normal"
+			},
+			"Guillotine": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Crab Hammer": {
+				"Type": "Water"
+			},
+			"Harden": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Kingler": {
+		"Index": 99,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Vicegrip": {
+				"Type": "Normal"
+			},
+			"Guillotine": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Crab Hammer": {
+				"Type": "Water"
+			},
+			"Harden": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Voltorb": {
+		"Index": 100,
+		"Type": ["Electric"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Sonicboom": {
+				"Type": "Normal"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Electrode": {
+		"Index": 101,
+		"Type": ["Electric"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Sonicboom": {
+				"Type": "Normal"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Exeggcute": {
+		"Index": 102,
+		"Type": ["Grass", "Psychic"],
+		"Moves": {
+			"Barrage": {
+				"Type": "Normal"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Reflect": {
+				"Type": "Psychic"
+			},
+			"Leech Seed": {
+				"Type": "Grass"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Solar Beam": {
+				"Type": "Grass"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			}
+		}
+	},
+	"Exeggutor": {
+		"Index": 103,
+		"Type": ["Grass", "Psychic"],
+		"Moves": {
+			"Barrage": {
+				"Type": "Normal"
+			},
+			"Hypnosis": {
+				"Type": "Psychic"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Cubone": {
+		"Index": 104,
+		"Type": ["Ground"],
+		"Moves": {
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Bone Club": {
+				"Type": "Ground"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Headbutt": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Thrash": {
+				"Type": "Normal"
+			},
+			"Bonemerang": {
+				"Type": "Ground"
+			},
+			"Rage": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Marowak": {
+		"Index": 105,
+		"Type": ["Ground"],
+		"Moves": {
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Bone Club": {
+				"Type": "Ground"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Headbutt": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Thrash": {
+				"Type": "Normal"
+			},
+			"Bonemerang": {
+				"Type": "Ground"
+			},
+			"Rage": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Hitmonlee": {
+		"Index": 106,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Double Kick": {
+				"Type": "Normal"
+			},
+			"Meditate": {
+				"Type": "Psychic"
+			},
+			"Rolling Kick": {
+				"Type": "Fighting"
+			},
+			"Jump Kick": {
+				"Type": "Fighting"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Hi Jump Kick": {
+				"Type": "Fighting"
+			},
+			"Mega Kick": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Hitmonchan": {
+		"Index": 107,
+		"Type": ["Fighting"],
+		"Moves": {
+			"Comet Punch": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Fire Punch": {
+				"Type": "Fire"
+			},
+			"Ice Punch": {
+				"Type": "Ice"
+			},
+			"Thunder Punch": {
+				"Type": "Electric"
+			},
+			"Mega Punch": {
+				"Type": "Normal"
+			},
+			"Counter": {
+				"Type": "Fighting"
+			}
+		}
+	},
+	"Lickitung": {
+		"Index": 108,
+		"Type": ["Normal"],
+		"Moves": {
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Slam": {
+				"Type": "Normal"
+			},
+			"Screech": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Koffing": {
+		"Index": 109,
+		"Type": ["Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Smog": {
+				"Type": "Poison"
+			},
+			"Sludge": {
+				"Type": "Poison"
+			},
+			"Smoke Screen": {
+				"Type": "Normal"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Haze": {
+				"Type": "Ice"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Weezing": {
+		"Index": 110,
+		"Type": ["Poison"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Smog": {
+				"Type": "Poison"
+			},
+			"Sludge": {
+				"Type": "Poison"
+			},
+			"Smoke Screen": {
+				"Type": "Normal"
+			},
+			"Self Destruct": {
+				"Type": "Normal"
+			},
+			"Haze": {
+				"Type": "Ice"
+			},
+			"Explosion": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Rhyhorn": {
+		"Index": 111,
+		"Type": ["Ground", "Rock"],
+		"Moves": {
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Horn Drill": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Rhydon": {
+		"Index": 112,
+		"Type": ["Ground", "Rock"],
+		"Moves": {
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Horn Drill": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Chansey": {
+		"Index": 113,
+		"Type": ["Normal"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Sing": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Minimize": {
+				"Type": "Normal"
+			},
+			"Defense Curl": {
+				"Type": "Normal"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			},
+			"Double-Edge": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Tangela": {
+		"Index": 114,
+		"Type": ["Grass"],
+		"Moves": {
+			"Constrict": {
+				"Type": "Normal"
+			},
+			"Bind": {
+				"Type": "Normal"
+			},
+			"Absorb": {
+				"Type": "Grass"
+			},
+			"Vine Whip": {
+				"Type": "Grass"
+			},
+			"Poison Powder": {
+				"Type": "Poison"
+			},
+			"Stun Spore": {
+				"Type": "Grass"
+			},
+			"Sleep Powder": {
+				"Type": "Grass"
+			},
+			"Growth": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Kangaskhan": {
+		"Index": 115,
+		"Type": ["Normal"],
+		"Moves": {
+			"Comet Punch": {
+				"Type": "Normal"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Mega Punch": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Dizzy Punch": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Horsea": {
+		"Index": 116,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Smoke Screen": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Seadra": {
+		"Index": 117,
+		"Type": ["Water"],
+		"Moves": {
+			"Bubble": {
+				"Type": "Water"
+			},
+			"Smoke Screen": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Goldeen": {
+		"Index": 118,
+		"Type": ["Water"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Waterfall": {
+				"Type": "Water"
+			},
+			"Horn Drill": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Seaking": {
+		"Index": 119,
+		"Type": ["Water"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Fury Attack": {
+				"Type": "Normal"
+			},
+			"Waterfall": {
+				"Type": "Water"
+			},
+			"Horn Drill": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Staryu": {
+		"Index": 120,
+		"Type": ["Water"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Recover": {
+				"Type": "Normal"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Minimize": {
+				"Type": "Normal"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Starmie": {
+		"Index": 121,
+		"Type": ["Water"],
+		"Moves": {}
+	},
+	"Mr. Mime": {
+		"Index": 122,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Barrier": {
+				"Type": "Psychic"
+			},
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			},
+			"Doubleslap": {
+				"Type": "Normal"
+			},
+			"Meditate": {
+				"Type": "Psychic"
+			},
+			"Substitute": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Scyther": {
+		"Index": 123,
+		"Type": ["Bug", "Flying"],
+		"Moves": {
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Double Team": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Swords Dance": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Wing Attack": {
+				"Type": "Flying"
+			}
+		}
+	},
+	"Jynx": {
+		"Index": 124,
+		"Type": ["Ice", "Psychic"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Lovely Kiss": {
+				"Type": "Normal"
+			},
+			"Lick": {
+				"Type": "Ghost"
+			},
+			"Double Slap": {
+				"Type": "Normal"
+			},
+			"Ice Punch": {
+				"Type": "Ice"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			},
+			"Thrash": {
+				"Type": "Normal"
+			},
+			"Blizzard": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Electabuzz": {
+		"Index": 125,
+		"Type": ["Electric"],
+		"Moves": {
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Thundershock": {
+				"Type": "Electric"
+			},
+			"Screech": {
+				"Type": "Normal"
+			},
+			"Thunder Punch": {
+				"Type": "Electric"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			},
+			"Thunder": {
+				"Type": "Electric"
+			}
+		}
+	},
+	"Magmar": {
+		"Index": 126,
+		"Type": ["Fire"],
+		"Moves": {
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Fire Punch": {
+				"Type": "Fire"
+			},
+			"Smoke Screen": {
+				"Type": "Normal"
+			},
+			"Smog": {
+				"Type": "Poison"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Pinsir": {
+		"Index": 127,
+		"Type": ["Bug"],
+		"Moves": {
+			"Vicegrip": {
+				"Type": "Normal"
+			},
+			"Bind": {
+				"Type": "Normal"
+			},
+			"Seismic Toss": {
+				"Type": "Fighting"
+			},
+			"Guillotine": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Swords Dance": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Tauros": {
+		"Index": 128,
+		"Type": ["Normal"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Stomp": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Rage": {
+				"Type": "Normal"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Magikarp": {
+		"Index": 129,
+		"Type": ["Water"],
+		"Moves": {
+			"Splash": {
+				"Type": "Water"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Gyarados": {
+		"Index": 130,
+		"Type": ["Water", "Flying"],
+		"Moves": {
+			"Splash": {
+				"Type": "Water"
+			},
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Dragon Rage": {
+				"Type": "Dragon"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			},
+			"Hyper Beam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Lapras": {
+		"Index": 131,
+		"Type": ["Water", "Ice"],
+		"Moves": {
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Sing": {
+				"Type": "Normal"
+			},
+			"Mist": {
+				"Type": "Ice"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			},
+			"Confuse Ray": {
+				"Type": "Ghost"
+			},
+			"Ice Beam": {
+				"Type": "Ice"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Ditto": {
+		"Index": 132,
+		"Type": ["Normal"],
+		"Moves": {
+			"Transform": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Eevee": {
+		"Index": 133,
+		"Type": ["Normal"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Growl": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Focus Energy": {
+				"Type": "Normal"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Vaporeon": {
+		"Index": 134,
+		"Type": ["Water"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Aurora Beam": {
+				"Type": "Ice"
+			},
+			"Haze": {
+				"Type": "Ice"
+			},
+			"Acid Armor": {
+				"Type": "Poison"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Jolteon": {
+		"Index": 135,
+		"Type": ["Electric"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Thundershock": {
+				"Type": "Electric"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Double Kick": {
+				"Type": "Fighting"
+			},
+			"Pin Missile": {
+				"Type": "Bug"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Thunder": {
+				"Type": "Electric"
+			}
+		}
+	},
+	"Flareon": {
+		"Index": 136,
+		"Type": ["Fire"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sand-Attack": {
+				"Type": "Normal"
+			},
+			"Quick Attack": {
+				"Type": "Normal"
+			},
+			"Ember": {
+				"Type": "Fire"
+			},
+			"Tail Whip": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			},
+			"Smog": {
+				"Type": "Poison"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Flamethrower": {
+				"Type": "Fire"
+			}
+		}
+	},
+	"Porygon": {
+		"Index": 137,
+		"Type": ["Normal"],
+		"Moves": {
+			"Tackle": {
+				"Type": "Normal"
+			},
+			"Sharpen": {
+				"Type": "Normal"
+			},
+			"Conversion": {
+				"Type": "Normal"
+			},
+			"Psybeam": {
+				"Type": "Psychic"
+			},
+			"Recover": {
+				"Type": "Psychic"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Tri Attack": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Omanyte": {
+		"Index": 138,
+		"Type": ["Rock", "Water"],
+		"Moves": {
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Spike Cannon": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Omastar": {
+		"Index": 139,
+		"Type": ["Rock", "Water"],
+		"Moves": {
+			"Water Gun": {
+				"Type": "Water"
+			},
+			"Withdraw": {
+				"Type": "Water"
+			},
+			"Horn Attack": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Spike Cannon": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Kabuto": {
+		"Index": 140,
+		"Type": ["Rock", "Water"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Absorb": {
+				"Type": "Grass"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Kabutops": {
+		"Index": 141,
+		"Type": ["Rock", "Water"],
+		"Moves": {
+			"Scratch": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Absorb": {
+				"Type": "Grass"
+			},
+			"Slash": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Hydro Pump": {
+				"Type": "Water"
+			}
+		}
+	},
+	"Aerodactyl": {
+		"Index": 142,
+		"Type": ["Rock", "Flying"],
+		"Moves": {
+			"Wing Attack": {
+				"Type": "Flying"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Supersonic": {
+				"Type": "Normal"
+			},
+			"Bite": {
+				"Type": "Normal"
+			},
+			"Take Down": {
+				"Type": "Normal"
+			},
+			"Hyper Beam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Snorlax": {
+		"Index": 143,
+		"Type": ["Normal"],
+		"Moves": {
+			"Head Butt": {
+				"Type": "Normal"
+			},
+			"Amnesia": {
+				"Type": "Psychic"
+			},
+			"Rest": {
+				"Type": "Psychic"
+			},
+			"Body Slam": {
+				"Type": "Normal"
+			},
+			"Harden": {
+				"Type": "Normal"
+			},
+			"Double-Edge": {
+				"Type": "Normal"
+			},
+			"Hyper Beam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Articuno": {
+		"Index": 144,
+		"Type": ["Ice", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Ice Beam": {
+				"Type": "Ice"
+			},
+			"Blizzard": {
+				"Type": "Ice"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Mist": {
+				"Type": "Ice"
+			}
+		}
+	},
+	"Zapdos": {
+		"Index": 145,
+		"Type": ["Electric", "Flying"],
+		"Moves": {
+			"Thundershock": {
+				"Type": "Electric"
+			},
+			"Drill Peck": {
+				"Type": "Flying"
+			},
+			"Thunder": {
+				"Type": "Electric"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Light Screen": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Moltres": {
+		"Index": 146,
+		"Type": ["Fire", "Flying"],
+		"Moves": {
+			"Peck": {
+				"Type": "Flying"
+			},
+			"Fire Spin": {
+				"Type": "Fire"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Sky Attack": {
+				"Type": "Flying"
+			}
+		}
+	},
+	"Dratini": {
+		"Index": 147,
+		"Type": ["Dragon"],
+		"Moves": {
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Slam": {
+				"Type": "Normal"
+			},
+			"Dragon Rage": {
+				"Type": "Dragon"
+			},
+			"Hyper Beam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Dragonair": {
+		"Index": 148,
+		"Type": ["Dragon"],
+		"Moves": {
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Slam": {
+				"Type": "Normal"
+			},
+			"Dragon Rage": {
+				"Type": "Dragon"
+			},
+			"Hyper Beam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Dragonite": {
+		"Index": 149,
+		"Type": ["Dragon", "Flying"],
+		"Moves": {
+			"Wrap": {
+				"Type": "Normal"
+			},
+			"Leer": {
+				"Type": "Normal"
+			},
+			"Thunder Wave": {
+				"Type": "Electric"
+			},
+			"Agility": {
+				"Type": "Psychic"
+			},
+			"Slam": {
+				"Type": "Normal"
+			},
+			"Dragon Rage": {
+				"Type": "Dragon"
+			},
+			"Hyper Beam": {
+				"Type": "Normal"
+			}
+		}
+	},
+	"Mewtwo": {
+		"Index": 150,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Confusion": {
+				"Type": "Psychic"
+			},
+			"Disable": {
+				"Type": "Normal"
+			},
+			"Swift": {
+				"Type": "Normal"
+			},
+			"Barrier": {
+				"Type": "Psychic"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			},
+			"Recover": {
+				"Type": "Psychic"
+			},
+			"Mist": {
+				"Type": "Ice"
+			},
+			"Amnesia": {
+				"Type": "Psychic"
+			}
+		}
+	},
+	"Mew": {
+		"Index": 151,
+		"Type": ["Psychic"],
+		"Moves": {
+			"Pound": {
+				"Type": "Normal"
+			},
+			"Transform": {
+				"Type": "Normal"
+			},
+			"Mega Punch": {
+				"Type": "Normal"
+			},
+			"Metronome": {
+				"Type": "Normal"
+			},
+			"Psychic": {
+				"Type": "Psychic"
+			}
+		}
+	}
+}
