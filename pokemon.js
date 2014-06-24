@@ -82,7 +82,7 @@ performAction: function anonymous(yytext, yyleng, yylineno, yy, yystate /* actio
 
 var $0 = $$.length - 1;
 switch (yystate) {
-case 1: console.log($$[$0-1]); return $$[$0-1];
+case 1: console.log($$[$0-1]); var turn = 0; return $$[$0-1];
 break;
 case 2:this.$ = ['PROG', $$[$0-1], $$[$0]]
 break;
@@ -94,7 +94,7 @@ case 5: this.$ = $$[$0]
 break;
 case 6: this.$ = null
 break;
-case 7:this.$ = $$[$0]
+case 7:console.log(turn); if(turn) throw new Error(); this.$ = $$[$0]
 break;
 case 8:this.$ = $$[$0]
 break;

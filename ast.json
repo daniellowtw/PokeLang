@@ -1,0 +1,57 @@
+["PROG", ["START", ["GO", "PIKACHU"],
+		["SENDS_OUT", "BUTTERFREE"]
+	],
+	["CONCAT", ["SELFSWITCHPOKEMON", "PIKACHU", "CHARMANDER"],
+		["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE!"],
+			["CONCAT", ["EFFECTIVE"],
+				["CONCAT", ["SELFTURN", "CHARMANDER", "SCRATCH!"],
+					["CONCAT", ["NO_EFFECT"],
+						["CONCAT", ["ENEMYTURN", "BUTTERFREE", "GUST!"],
+							["CONCAT", ["ENEMYSWITCHPOKEMON", "BUTTERFREE", "ALAKAZAM"],
+								["CONCAT", ["SELFTURN", "CHARMANDER", "FLAMETHROWER!"],
+									["CONCAT", ["SELFTURN", "CHARMANDER", "SLASH!"],
+										["CONCAT", ["ENEMYTURN", "ALAKAZAM", "CONFUSION!"],
+											["CONCAT", ["SELFSWITCHPOKEMON", "CHARMANDER", "CHARIZARD"],
+												["CONCAT", ["ENEMYSWITCHPOKEMON", "ALAKAZAM", "BUTTERFREE"],
+													["CONCAT", ["SELFSWITCHPOKEMON", "CHARMANDER", "CHARMELEON"],
+														["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE!"],
+															["CONCAT", ["SELFSWITCHPOKEMON", "CHARMELEON", "CHARMANDER"],
+																["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE!"],
+																	["CONCAT", ["SELFSWITCHPOKEMON", "CHARMANDER", "PIKACHU"],
+																		["CONCAT", ["ENEMYTURN", "BUTTERFREE", "PSYBEAM!"],
+																			["CONCAT", ["ENEMYSWITCHPOKEMON", "BUTTERFREE", "ALAKAZAM"],
+																				["CONCAT", ["SELFTURN", "PIKACHU", "THUNDER SHOCK!"],
+																					["CONCAT", ["SELFSWITCHPOKEMON", "PIKACHU", "CHARMELEON"],
+																						["CONCAT", ["ENEMYSWITCHPOKEMON", "ALAKAZAM", "BUTTERFREE"],
+																							["CONCAT", ["SELFSWITCHPOKEMON", "CHARMELEON", "CHARMANDER"],
+																								["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE!"],
+																									["CONCAT", ["SELFSWITCHPOKEMON", "CHARMANDER", "PIKACHU"],
+																										["CONCAT", ["ENEMYTURN", "BUTTERFREE", "PSYBEAM!"],
+																											["CONCAT", ["SELFTURN", "PIKACHU", "THUNDERSHOCK!"], null]
+																										]
+																									]
+																								]
+																							]
+																						]
+																					]
+																				]
+																			]
+																		]
+																	]
+																]
+															]
+														]
+													]
+												]
+											]
+										]
+									]
+								]
+							]
+						]
+					]
+				]
+			]
+		]
+	]
+]
