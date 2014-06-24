@@ -1,5 +1,7 @@
 /* description: Copied from calculator. */
 
+var turn = 0 // player starts first
+
 /* lexical grammar */
 %lex
 %%
@@ -84,6 +86,7 @@ turn: selfTurn
 	| selfSwitchPokemon 
 		{$$ = $1}
 	| effect1
+		{$$ = $1}
 	;
 
 goPokemon: GO POKEMON '!'
@@ -111,9 +114,9 @@ effect: NEWLINE effect1
 | 
 ;
 effect1: EFFECTIVE 
-		{$$ =['ENEMYTURN']}
+		{$$ =['EFFECTIVE']}
 	| NOT_EFFECTIVE 
-		{$$ =['ENEMYTURN']}
+		{$$ =['NOT_EFFECTIVE']}
 	| NO_EFFECT
-		{$$ =['ENEMYTURN']}
+		{$$ =['NO_EFFECT']}
 	;
