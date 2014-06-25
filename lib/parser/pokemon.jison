@@ -30,7 +30,10 @@
 
 expressions
 	: prog EOF 
-		{return $1;}
+		{
+		// console.log(JSON.stringify($1)); 
+		return $1;
+		}
     ;
 
 prog: start_battle ending
@@ -80,7 +83,7 @@ selfSwitchPokemon: POKEMON '!' ENOUGH COME_BACK NEWLINE goPokemon
 		{$$ =['SELFSWITCHPOKEMON', $1, $6[1]]}
 	;
 enemySwitchPokemon: ENEMY OPPONENT CALL_BACK POKEMON '!' NEWLINE foePokemon 
-		{$$ =['ENEMYSWITCHPOKEMON', $2, $4, $7[1]]}
+		{$$ =['ENEMYSWITCHPOKEMON', $2, $4, $7[2]]}
 	;
 
 effect1: EFFECTIVE 
