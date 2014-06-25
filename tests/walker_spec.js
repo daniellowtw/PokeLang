@@ -134,9 +134,9 @@ describe('walker with translator', function() {
                ]
               ]
 
-    var expected = W.walk(ast, true);
+    var actual = W.walk(ast, true);
 
-    expect(expected).toEqual('25 {');
+    expect(actual).toEqual('25 {');
   
   });
 

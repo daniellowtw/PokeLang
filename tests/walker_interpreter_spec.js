@@ -18,9 +18,9 @@ describe('walker and interpreter', function() {
                ]
               ]
 
-    var expected = I.run(T.tokenise(W.walk(ast, true)));
+    var actual = I.run(T.tokenise(W.walk(ast, true)));
 
-    expect(expected).toEqual([I.num(146)]);
+    expect(actual).toEqual([I.num(146)]);
   
   });
 
@@ -50,9 +50,9 @@ describe('walker and interpreter', function() {
                ]
               ]
 
-    var expected = I.run(T.tokenise(W.walk(ast, true)));
+    var actual = I.run(T.tokenise(W.walk(ast, true)));
 
-    expect(expected).toEqual([I.num(271)]);
+    expect(actual).toEqual([I.num(271)]);
   
   });
 
