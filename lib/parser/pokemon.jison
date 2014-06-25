@@ -57,7 +57,7 @@
 
 expressions
 	: prog EOF 
-		{ console.log($1); return $1;}
+		{return $1;}
     ;
 
 prog: start_battle ending
