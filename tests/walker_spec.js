@@ -1,4 +1,5 @@
 var W = require('../lib/walker/walker.js');
+var E = require('../lib/errors/errors.js');
 
 W.init();
 
@@ -44,7 +45,7 @@ describe('walker', function() {
                ]
               ]
 
-    expect(function() {W.walk(ast);}).toThrow('GEODUDE does not know move SCRATCH');
+    expect(function() {W.walk(ast);}).toThrow(E.pokemonDoesNotKnowMove('GEODUDE', 'SCRATCH'));
   
   });
 
@@ -62,7 +63,7 @@ describe('walker', function() {
                ]
               ]
 
-    expect(function() {W.walk(ast);}).toThrow('Turn order is wrong: enemyTurnTaken');
+    expect(function() {W.walk(ast);}).toThrow(E.wrongTurnOrder('enemyTurnTaken'));
   
   });
   it('should throw an error on incorrect modifier', function() {
@@ -79,7 +80,7 @@ describe('walker', function() {
                ]
               ]
 
-    expect(function() {W.walk(ast);}).toThrow('TACKLE should be not very effective on GEODUDE');
+    expect(function() {W.walk(ast);}).toThrow(E.wrongTypeModifier('TACKLE', 'NOT VERY EFFECTIVE', 'GEODUDE'));
   
   });
 
