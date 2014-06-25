@@ -1,6 +1,7 @@
 // require jasmine-node
 var I = require('../lib/interpreter/interpreter.js');
 var T = require('../lib/interpreter/tokeniser.js');
+var E = require('../lib/errors/errors.js');
 
 describe('tokeniser', function() {
 
@@ -77,9 +78,7 @@ describe('tokeniser', function() {
 
     var string = '1 2 3 { + { swap } +  load';
 
-    var result = 'Block not closed.';
-
-    expect(function(){T.tokenise(string);}).toThrow(result);
+    expect(function(){T.tokenise(string);}).toThrow(E.blockNotClosed());
 
   });
 
