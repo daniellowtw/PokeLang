@@ -83,5 +83,45 @@ describe('walker', function() {
   
   });
 
+  it('should check for types correctly', function() {
+
+    var ast = ["PROG", 
+               ["START", ["GO", "CHARMANDER"],
+                ["SENDS_OUT", "BULBASAUR"]
+               ],
+               ["CONCAT", ["ENEMYTURN", "BULBASAUR", "VINE WHIP"],
+	        ["CONCAT", ["NOT_EFFECTIVE"],
+                 ["CONCAT", ["SELFTURN", "CHARMANDER", "EMBER"], 
+	          ["CONCAT", ["EFFECTIVE"], null]
+	         ]
+                ]
+               ]
+              ]
+
+    expect(W.walk(ast)).toEqual(['VINE WHIP', 'EMBER']);
+  
+  });
+
 });
 
+describe('walker with translator', function() {
+
+  it('should parse ast correctly', function() {
+
+    var ast = ["PROG", 
+               ["START", ["GO", "PIKACHU"],
+                ["SENDS_OUT", "BUTTERFREE"]
+               ],
+               ["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE"],
+                ["CONCAT", ["SELFTURN", "PIKACHU", "THUNDERSHOCK"], null
+                ]
+               ]
+              ]
+
+    var expected = W.walk(ast, true);
+
+    expect(expected).toEqual('25 {');
+  
+  });
+
+});
