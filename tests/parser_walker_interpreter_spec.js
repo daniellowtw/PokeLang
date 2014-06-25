@@ -14,7 +14,7 @@ var pokeLang = function(input) {
   return I.run(
            T.tokenise(
              W.walk(
-               P.parse(input)
+               P.parse(input.trim())
              , true)
            )
          )
@@ -44,7 +44,7 @@ describe('parser, walker and interpreter', function() {
     var battle = ["Go! FLAREON!"
                  ,"Foe SABRINA sends out FLAREON!"
                  ,"FLAREON uses TACKLE!"
-                 ,"Foe FLAREON uses TACKLE!\n"
+                 ,"Foe FLAREON uses TACKLE!"
                  ].join('\n');
 
     var actual = stringify(pokeLang(battle));
@@ -59,7 +59,7 @@ describe('parser, walker and interpreter', function() {
                  ,"Foe SABRINA sends out FLAREON!"
                  ,"FLAREON uses TACKLE!"
                  ,"Foe FLAREON uses TACKLE!"
-                 ,"FLAREON uses EMBER!\n"
+                 ,"FLAREON uses EMBER!"
                  ].join('\n');
 
     var actual = stringify(pokeLang(battle));
@@ -85,7 +85,7 @@ describe('test suite', function() {
   
         fs.readFile('./test_files/' + test_files[i] + '.poke', 'utf8', function(err, data) {
         
-          poke_files[i] = data || "Go! PIKACHU!\nFoe BROCK sends out GEODUDE!\n";
+          poke_files[i] = data || "Go! PIKACHU!\nFoe BROCK sends out GEODUDE!";
 
 
           poke_files_loaded++;
