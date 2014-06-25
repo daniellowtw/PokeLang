@@ -91,7 +91,7 @@ describe('walker', function() {
                ["START", ["GO", "CHARMANDER"],
                 ["SENDS_OUT", "SABRINA", "BULBASAUR"]
                ],
-               ["CONCAT", ["ENEMYTURN", "BULBASAUR", "VINE WHIP"],
+               ["CONCAT", ["ENEMYTURN", "BULBASAUR", "VINEWHIP"],
 	        ["CONCAT", ["NOT_EFFECTIVE"],
                  ["CONCAT", ["SELFTURN", "CHARMANDER", "EMBER"], 
 	          ["CONCAT", ["EFFECTIVE"], null]
@@ -100,7 +100,7 @@ describe('walker', function() {
                ]
               ]
 
-    expect(W.walk(ast)).toEqual(['VINE WHIP', 'EMBER']);
+    expect(W.walk(ast)).toEqual(['VINEWHIP', 'EMBER']);
   
   });
 

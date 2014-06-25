@@ -7,6 +7,7 @@ var fs = require('fs');
 
 var test_files = ['num'
                  ,'add'
+                 ,'fib'
                  ];
 
 var pokeLang = function(input) {
