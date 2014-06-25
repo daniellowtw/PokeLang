@@ -19,7 +19,7 @@ describe('walker', function() {
 
     var ast = ["PROG", 
                ["START", ["GO", "CHARMANDER"],
-                ["SENDS_OUT", "BUTTERFREE"]
+                ["SENDS_OUT", "SABRINA", "BUTTERFREE"]
                ],
                ["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE"],
                 ["CONCAT", ["SELFTURN", "CHARMANDER", "SCRATCH"], null
@@ -35,7 +35,7 @@ describe('walker', function() {
 
     var ast = ["PROG", 
                ["START", ["GO", "GEODUDE"],
-                ["SENDS_OUT", "GEODUDE"]
+                ["SENDS_OUT", "SABRINA", "GEODUDE"]
                ],
                ["CONCAT", ["ENEMYTURN", "GEODUDE", "SCRATCH"],
                 ["CONCAT", ["EFFECTIVE"],
@@ -53,7 +53,7 @@ describe('walker', function() {
 
     var ast = ["PROG", 
                ["START", ["GO", "PIKACHU"],
-                ["SENDS_OUT", "STARYU"]
+                ["SENDS_OUT", "SABRINA", "STARYU"]
                ],
                ["CONCAT", ["ENEMYTURN", "STARYU", "TACKLE"],
                 ["CONCAT", ["EFFECTIVE"],
@@ -66,11 +66,12 @@ describe('walker', function() {
     expect(function() {W.walk(ast);}).toThrow(E.wrongTurnOrder('enemyTurnTaken'));
   
   });
+
   it('should throw an error on incorrect modifier', function() {
 
     var ast = ["PROG", 
                ["START", ["GO", "GEODUDE"],
-                ["SENDS_OUT", "GEODUDE"]
+                ["SENDS_OUT", "SABRINA", "GEODUDE"]
                ],
                ["CONCAT", ["ENEMYTURN", "GEODUDE", "TACKLE"],
                 ["CONCAT", ["EFFECTIVE"],
@@ -88,7 +89,7 @@ describe('walker', function() {
 
     var ast = ["PROG", 
                ["START", ["GO", "CHARMANDER"],
-                ["SENDS_OUT", "BULBASAUR"]
+                ["SENDS_OUT", "SABRINA", "BULBASAUR"]
                ],
                ["CONCAT", ["ENEMYTURN", "BULBASAUR", "VINE WHIP"],
 	        ["CONCAT", ["NOT_EFFECTIVE"],
@@ -103,6 +104,20 @@ describe('walker', function() {
   
   });
 
+  it('should throw error when enemy trainer name is wrong', function() {
+
+    var ast = ["PROG", 
+               ["START", ["GO", "CHARMANDER"],
+                ["SENDS_OUT", "SABRINA", "BULBASAUR"]
+               ],
+	       ["CONCAT", ["ENEMYSWITCHPOKEMON", "BROCK", "BULBASAUR", "MEWTWO"], null
+               ]
+              ]
+
+    expect(function() {W.walk(ast);}).toThrow(E.wrongEnemyTrainer("SABRINA", "BROCK"));
+  
+  });
+
 });
 
 describe('walker with translator', function() {
@@ -111,7 +126,7 @@ describe('walker with translator', function() {
 
     var ast = ["PROG", 
                ["START", ["GO", "PIKACHU"],
-                ["SENDS_OUT", "BUTTERFREE"]
+                ["SENDS_OUT", "SABRINA", "BUTTERFREE"]
                ],
                ["CONCAT", ["ENEMYTURN", "BUTTERFREE", "TACKLE"],
                 ["CONCAT", ["SELFTURN", "PIKACHU", "THUNDERSHOCK"], null
