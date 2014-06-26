@@ -75,6 +75,7 @@ describe('test suite', function() {
 
   var poke_files = [],
       result_files = [],
+      error_files = [],
       poke_files_loaded = 0,
       result_files_loaded = 0;
 
@@ -84,10 +85,15 @@ describe('test suite', function() {
 
       (function(i) {
   
-        fs.readFile('./test_files/' + test_files[i] + '.poke', 'utf8', function(err, data) {
-        
-          poke_files[i] = data || "Go! PIKACHU!\nFoe BROCK sends out GEODUDE!";
+        fs.readFile('./tests/test_files/' + test_files[i] + '.poke.js', 'utf8', function(err, data) {
+       
+          if (err) {
 
+            error_files[i] = err; 
+
+          }
+
+          poke_files[i] = data || "Go! PIKACHU!\nFoe BROCK sends out GEODUDE!";
 
           poke_files_loaded++;
 
@@ -99,8 +105,14 @@ describe('test suite', function() {
 
         });
 
-        fs.readFile('./test_files/' + test_files[i] + '.result', 'utf8', function(err, data) {
+        fs.readFile('./tests/test_files/' + test_files[i] + '.result.js', 'utf8', function(err, data) {
         
+          if (err) {
+
+            error_files[i] = err; 
+
+          }
+
           result_files[i] = data || '';
 
           result_files_loaded++;
@@ -129,6 +141,11 @@ describe('test suite', function() {
   
     expect(poke_files).toEqual(result_files);
 
+    for (var i = 0; i < error_files.length; i++) {
+  
+      expect(error_files[i]).toEqual(undefined);
+  
+    }
     done();
 
   });
