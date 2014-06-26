@@ -36,7 +36,7 @@ expressions	: prog
     ;
 
 prog: start_battle ending
-		{$$ = ['PROG', $1, $2]; console.log($$)}
+		{$$ = ['PROG', $1, $2];}
 	;
 
 start_battle: goPokemon NEWLINE foePokemon
