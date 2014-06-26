@@ -303,6 +303,23 @@ describe('arrays', function() {
 
   });
 
+  it('should fold an array of operations correctly', function() {
+
+    var prog = [I.num(5)
+               ,I.mark()
+               ,I.block([I.operation('dup')])
+               ,I.block([I.operation('*')])
+               ,I.operation(']')
+               ,I.block([I.operation('exec')])
+               ,I.operation('fold')
+               ];
+
+    var result = [I.num(25)];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
 });
 
 describe('power', function() {
