@@ -6,11 +6,11 @@
 
 
 %%
-
+[^\S\n]                 /* skip whitespace */
 ((\n|\r\n)+)<<EOF>>               return 'EOF'
 (\n|\r\n)+  return 'NEWLINE'
 \s+                   /* skip whitespace */
-\/\/[^\n\r]*  /* skip comments */
+\/\/([^(\n\r|\n)])*  return 'COMMENT'
 [0-9]+("."[0-9]+)?\b  return 'NUMBER'
 "Go!"		return 'GO'
 "uses"		return 'USES'
@@ -25,7 +25,7 @@
 "calls back"		return 'CALL_BACK'
 "Come back!"		return 'COME_BACK'
 "*"                   return '*'
-"/"                   return '/'
+// "/"                   return '/'
 "-"                   return '-'
 "+"                   return '+'
 "^"                   return '^'
@@ -55,23 +55,32 @@
 
 %% /* language grammar */
 
-expressions
-	: start_battle ending
-		{$$ = ['PROG', $1, $2]}
+expressions	: prog 
+		{return $1;}
+    ;
+
+prog: start_battle ending
+		{$$ = ['PROG', $1, $2]; console.log($$)}
 	;
 
 start_battle: goPokemon NEWLINE foePokemon
 		{$$ = ['START', $1, $3]}
+	| goPokemon COMMENT NEWLINE foePokemon
+		{$$ = ['START', $1, $4]}
 	;
 
 turns: turn ending
-		{$$ = ['CONCAT', $1, $2]}
+		{
+			if($1) {$$ = ['CONCAT', $1, $2]}
+			else {$$ = $2}
+		}
 	;
 
 ending: NEWLINE turns 
 		{ $$ = $2}
 	| NEWLINE { $$ = null}
 	| EOF { $$ = null}
+	| COMMENT ending {$$ = $2}
 	;
 
 turn: selfTurn 
@@ -84,6 +93,7 @@ turn: selfTurn
 		{$$ = $1}
 	| effect1
 		{$$ = $1}
+	| COMMENT {$$ = null}
 	;
 
 goPokemon: GO POKEMON '!'
