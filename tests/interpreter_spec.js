@@ -182,7 +182,7 @@ describe('arrays', function() {
 
   it('should initialise correctly', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.num(2)
                ,I.num(1)
                ,I.operation(']')
@@ -196,7 +196,7 @@ describe('arrays', function() {
 
   it('should initialise empty arrays', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.operation(']')
                ];
 
@@ -208,7 +208,7 @@ describe('arrays', function() {
 
   it('should put correctly', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.num(1)
                ,I.operation(']')
                ,I.num(2)
@@ -224,7 +224,7 @@ describe('arrays', function() {
 
   it('should get correctly', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.num(1)
                ,I.operation(']')
                ,I.num(0)
@@ -239,7 +239,7 @@ describe('arrays', function() {
 
   it('should append correctly', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.num(1)
                ,I.operation(']')
                ,I.num(0)
@@ -254,7 +254,7 @@ describe('arrays', function() {
 
   it('should arrpop correctly', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.num(1)
                ,I.operation(']')
                ,I.operation('arrpop')
@@ -268,7 +268,7 @@ describe('arrays', function() {
 
   it('should map correctly', function() {
 
-    var prog = [I.mark()
+    var prog = [I.mark('[')
                ,I.num(1)
                ,I.num(2)
                ,I.num(3)
@@ -287,7 +287,7 @@ describe('arrays', function() {
   it('should fold correctly', function() {
 
     var prog = [I.num(0)
-               ,I.mark()
+               ,I.mark('[')
                ,I.num(1)
                ,I.num(2)
                ,I.num(3)
@@ -306,7 +306,7 @@ describe('arrays', function() {
   it('should fold an array of operations correctly', function() {
 
     var prog = [I.num(5)
-               ,I.mark()
+               ,I.mark('[')
                ,I.block([I.operation('dup')])
                ,I.block([I.operation('*')])
                ,I.operation(']')
