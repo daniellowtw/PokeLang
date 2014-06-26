@@ -178,6 +178,133 @@ describe('dictionary', function() {
 
 });
 
+describe('arrays', function() {
+
+  it('should initialise correctly', function() {
+
+    var prog = [I.mark()
+               ,I.num(2)
+               ,I.num(1)
+               ,I.operation(']')
+               ];
+
+    var result = [I.array([I.num(2), I.num(1)])];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should initialise empty arrays', function() {
+
+    var prog = [I.mark()
+               ,I.operation(']')
+               ];
+
+    var result = [I.array([])];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should put correctly', function() {
+
+    var prog = [I.mark()
+               ,I.num(1)
+               ,I.operation(']')
+               ,I.num(2)
+               ,I.num(0)
+               ,I.operation('put')
+               ];
+
+    var result = [I.array([I.num(2)])];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should get correctly', function() {
+
+    var prog = [I.mark()
+               ,I.num(1)
+               ,I.operation(']')
+               ,I.num(0)
+               ,I.operation('get')
+               ];
+
+    var result = [I.num(1)];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should append correctly', function() {
+
+    var prog = [I.mark()
+               ,I.num(1)
+               ,I.operation(']')
+               ,I.num(0)
+               ,I.operation('append')
+               ];
+
+    var result = [I.array([I.num(1), I.num(0)])];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should arrpop correctly', function() {
+
+    var prog = [I.mark()
+               ,I.num(1)
+               ,I.operation(']')
+               ,I.operation('arrpop')
+               ];
+
+    var result = [I.num(1)];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should map correctly', function() {
+
+    var prog = [I.mark()
+               ,I.num(1)
+               ,I.num(2)
+               ,I.num(3)
+               ,I.num(4)
+               ,I.operation(']')
+               ,I.block([I.operation('dup'), I.operation('*')])
+               ,I.operation('map')
+               ];
+
+    var result = [I.array([I.num(1), I.num(4), I.num(9), I.num(16)])];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should fold correctly', function() {
+
+    var prog = [I.num(0)
+               ,I.mark()
+               ,I.num(1)
+               ,I.num(2)
+               ,I.num(3)
+               ,I.num(4)
+               ,I.operation(']')
+               ,I.block([I.operation('+')])
+               ,I.operation('fold')
+               ];
+
+    var result = [I.num(10)];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+});
+
 describe('power', function() {
 
   it('should perform power through recursion', function() {
