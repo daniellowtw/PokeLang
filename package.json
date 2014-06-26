@@ -1,14 +1,18 @@
 {
   "name": "PokeLang",
-  "version": "0.9.0",
+  "version": "0.1.0",
   "description": "An esoteric programming language structured as a Pokemon battle",
   "main": "main.js",
+  "bin": {
+     "pokelang": "main.js" 
+  },
+  "preferGlobal": "true",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node ."
   },
   "repository": {
     "type": "git",

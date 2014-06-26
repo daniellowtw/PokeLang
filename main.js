@@ -1,14 +1,14 @@
-;(function() {
+var P = require('./lib/parser/pokelang.js'),
+    W = require('./lib/walker/walker.js'),
+    T = require('./lib/interpreter/tokeniser.js'),
+    I = require('./lib/interpreter/interpreter.js'),
+    E = require('./lib/errors/errors.js'),
+    fs = require('fs');
 
-  var P = require('./lib/parser/pokelang.js'),
-      W = require('./lib/walker/walker.js'),
-      T = require('./lib/interpreter/tokeniser.js'),
-      I = require('./lib/interpreter/interpreter.js'),
-      E = require('./lib/errors/errors.js'),
-      fs = require('fs');
+W.init();
+I.init();  
 
-  W.init();
-  I.init();  
+module.exports = (function() {
 
   fs.readFile(process.argv[2], 'utf8', function(err, data) {
 
