@@ -1,4 +1,4 @@
-var P = require('../lib/parser/pokemon.js'),
+var P = require('../lib/parser/pokelang.js'),
     W = require('../lib/walker/walker.js'),
     T = require('../lib/interpreter/tokeniser.js'),
     I = require('../lib/interpreter/interpreter.js');
@@ -15,7 +15,7 @@ var pokeLang = function(input) {
   return I.run(
            T.tokenise(
              W.walk(
-               P.parse(input.trim())
+               P.parse(input)
              , true)
            )
          )
