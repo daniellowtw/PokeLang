@@ -1,6 +1,9 @@
 Go! SQUIRTLE!
-Foe GARY sends out BULBASAUR!
-Foe GARY calls back BULBASAUR!
+Foe GARY sends out PIDGEOT!
+Foe GARY calls back PIDGEOT!
+Foe GARY sends out PIDGEOT!
+SQUIRTLE uses TACKLE!                   // 18 <- n
+Foe GARY calls back PIDGEOT!
 Foe GARY sends out BULBASAUR!
 SQUIRTLE uses TACKLE!                   // 1
 SQUIRTLE! That's enough! Come back!
@@ -101,9 +104,6 @@ PIKACHU! That's enough! Come back!
 Go! BULBASAUR!
 Foe ALAKAZAM uses CONFUSION!               // store
 Foe GARY calls back ALAKAZAM!
-Foe GARY sends out PIDGEOT!          
-BULBASAUR uses TACKLE!                  // 18 <- n
-Foe GARY calls back PIDGEOT!
 Foe GARY sends out BULBASAUR!
 BULBASAUR uses TACKLE!                  // 1
 Foe GARY calls back BULBASAUR!
