@@ -1,0 +1,28 @@
+{
+  "name": "PokeLang",
+  "version": "0.9.0",
+  "description": "An esoteric programming language structured as a Pokemon battle",
+  "main": "main.js",
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniellowtw/PokeLang.git"
+  },
+  "keywords": [
+    "pokelang",
+    "esoteric",
+    "language"
+  ],
+  "author": "Daniel Low, Jit Yap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniellowtw/PokeLang/issues"
+  },
+  "homepage": "https://github.com/daniellowtw/PokeLang"
+}
