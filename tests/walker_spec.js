@@ -63,7 +63,7 @@ describe('walker', function() {
                ]
               ]
 
-    expect(function() {W.walk(ast);}).toThrow(E.wrongTurnOrder('enemyTurnTaken'));
+    expect(function() {W.walk(ast);}).toThrow(E.wrongTurnOrder('enemy'));
   
   });
 
