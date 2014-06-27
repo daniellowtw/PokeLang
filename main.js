@@ -3,6 +3,7 @@ var P = require('./lib/parser/pokelang.js'),
     T = require('./lib/interpreter/tokeniser.js'),
     I = require('./lib/interpreter/interpreter.js'),
     E = require('./lib/errors/errors.js'),
+    H = require('./lib/errors/handler.js'),
     fs = require('fs');
 
 W.init();
@@ -22,13 +23,21 @@ module.exports = (function() {
 
     }
 
-    result =  I.run(
-           T.tokenise(
-             W.walk(
-               P.parse(data)
-             , true)
-           )
-         );
+    try {
+
+      result =  I.run(
+             T.tokenise(
+               W.walk(
+                 P.parse(data)
+               , true)
+             )
+           );
+
+    } catch (err) {
+
+      H.handle(err); 
+
+    }
 
     for (var i = 0; i < result.length; i++) {
 
