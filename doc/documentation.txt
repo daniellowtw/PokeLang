@@ -219,7 +219,7 @@ representation.
 
 Strings can then be printed using an array and folding with <out>.
 
-( [72,145,108,108,111] { out } ) fold ()
+( [72,101,108,108,111] { out } ) fold ()
 
 with "Hello" being printed.
 
