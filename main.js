@@ -3,15 +3,18 @@ var P = require('./lib/parser/pokelang.js'),
     T = require('./lib/interpreter/tokeniser.js'),
     I = require('./lib/interpreter/interpreter.js'),
     E = require('./lib/errors/errors.js'),
-    fs = require('fs');
+    fs = require('fs'),
+    program = require('commander'),
+    pokeLang;
 
 W.init();
 I.init();  
 
-module.exports = (function() {
+program.version('0.1.0');
 
-  fs.readFile(process.argv[2], 'utf8', function(err, data) {
+pokeLang = function(file) {
 
+  fs.readFile(file, 'utf8', function(err, data) {
     var result;
 
     if (err) {
@@ -40,4 +43,15 @@ module.exports = (function() {
 
   })
 
-})();
+}
+
+program
+  .command('*')
+  .description('Parses a PokeLang file')
+  .action(function(file) {
+
+     pokeLang(file);
+
+   });
+
+program.parse(process.argv);

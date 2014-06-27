@@ -6,6 +6,9 @@
   "bin": {
      "pokelang": "main.js" 
   },
+  "dependencies": {
+    "commander": ">=1.0.0"
+  },
   "preferGlobal": "true",
   "directories": {
     "doc": "doc",
