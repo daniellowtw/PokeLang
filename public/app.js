@@ -22,7 +22,7 @@ $('#test').atwho({
     at: ".",
     tpl: '<li data-value="${name}">${name}</li>',
     data: moves
-})
+});
 
 angular.module('PokeLang', [])
     .controller('mainCtrl', function($scope) {
