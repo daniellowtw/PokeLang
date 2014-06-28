@@ -4,7 +4,10 @@
   "description": "An esoteric programming language structured as a Pokemon battle",
   "main": "main.js",
   "bin": {
-     "pokelang": "main.js" 
+     "pokelang": "./cli.js" 
+  },
+  "engines": {
+    "node": ">=0.10.29"
   },
   "preferGlobal": "true",
   "directories": {
@@ -23,7 +26,7 @@
     "esoteric",
     "language"
   ],
-  "author": "Daniel Low, Jit Yap",
+  "author": ["Daniel Low", "Jit Yap"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/daniellowtw/PokeLang/issues"

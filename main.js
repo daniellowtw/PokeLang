@@ -9,9 +9,9 @@ var P = require('./lib/parser/pokelang.js'),
 W.init();
 I.init();  
 
-module.exports = (function() {
+module.exports.parse =  function(file) {
 
-  fs.readFile(process.argv[2], 'utf8', function(err, data) {
+  fs.readFile(file, 'utf8', function(err, data) {
 
     var result;
 
@@ -49,4 +49,4 @@ module.exports = (function() {
 
   })
 
-})();
+}
