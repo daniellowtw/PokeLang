@@ -1,8 +1,8 @@
 {
-  "name": "walker",
+  "name": "interpreter",
   "version": "0.0.0",
-  "description": "AST Walker for PokeLang",
-  "main": "walker.js",
+  "description": "",
+  "main": "init",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

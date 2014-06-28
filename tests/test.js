@@ -1,4 +1,4 @@
-var parser = require('../pokemon.js');
+var parser = require('../pokelang.js');
 var walker = require('../lib/walker/walker.js');
 var fs     = require('fs');
 var path   = require('path');
