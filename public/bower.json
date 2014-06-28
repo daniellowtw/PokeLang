@@ -18,6 +18,8 @@
     "jquery.atwho": "~0.4.11",
     "jquery": "~2.1.1",
     "angularjs": "*",
-    "caret.js": "~0.0.9"
+    "caret.js": "~0.0.9",
+    "polymer": "Polymer/polymer#~0.3.3",
+    "core-elements": "Polymer/core-elements"
   }
 }
