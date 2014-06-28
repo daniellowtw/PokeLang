@@ -1,46 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html  ng-app='PokeLang'>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>PokeLang Web Compiler</title>
     <link href="bower_components/jquery.atwho/dist/css/jquery.atwho.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/caret.js/dist/jquery.caret.min.js"></script>
     <script src="bower_components/jquery.atwho/dist/js/jquery.atwho.min.js"></script>
     <script src="bower_components/platform/platform.js"></script>
+    <script src="browser_version.js"></script>
     <link rel="import" href="../bower_components/core-toolbar/core-toolbar.html">
     <link rel="import" href="../bower_components/core-input/core-input.html">
     <link rel="import" href="../bower_components/core-icon-button/core-icon-button.html">
-    <!-- <link rel="import" href="../bower_components/core-icon/core-icon.html"> -->
+    <link rel="import" href="../bower_components/paper-button/paper-button.html">
+    <link rel="import" href="../bower_components/paper-input/paper-input.html">
+    <link rel="import" href="../bower_components/paper-toast/paper-toast.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="app.js" ></script>
+
+    <!-- 
+    <script src="lib/parser/pokelang.js"></script>
+    <script src="errors.js"></script>
+    <script src="walker.js"></script>
+    <script src="interpreter.js"></script>
+    <script src="require.js" ></script>
+    <link rel="import" href="../bower_components/core-icon/core-icon.html"> 
+    -->
     <link rel="import" href="../bower_components/core-overlay/core-overlay.html">
 
 </head>
 
-<body unresolved>
-
+<body unresolved ng-controller="mainCtrl">
     <core-toolbar>
-        <!-- <core-icon-button icon="menu"></core-icon-button> -->
         <span flex>PokeLang Web Compiler</span>
-        <!-- <core-icon-button icon="refresh"></core-icon-button> -->
-        <!-- <core-icon-button src="http://www.polymer-project.org/images/picons/ic_social_github.png"></core-icon-button> -->
         <a href="https://github.com/daniellowtw/PokeLang"><core-icon-button src="github_mark.png"></core-icon-button></a>
-        <!-- <core-icon-button icon="help" on-tap="{{tapHandler}}"></core-icon-button> -->
-    <x-container></x-container>
-
+        <x-container></x-container>
     </core-toolbar>
 
 
     <div class="container" layout vertical >
         <h1>Input</h1>
         <section horizontal start layout>
-            <textarea id='test' multiline rows="fit" rows=10 placeholder="Type your source code here"></textarea>
+            <!-- <paper-input multiline rows="3" id='test' label="This input is 3 rows high"></paper-input> -->
+            <textarea ng-model="code" id='test' cols=50 multiline rows=10 placeholder="Type your source code here"></textarea>
         </section>
+
+    <paper-button raisedButton label="Compile" ng-click="process()"></paper-button>
         <h1>output</h1>
         <section horizontal start layout>
-            <textarea id='output' multiline rows="fit" rows=10 placeholder="Output"></textarea>
+            <textarea ng-model='result' id='output' rows=4 cols=50 placeholder="Output"></textarea>
         </section>
     </div>
 
@@ -156,7 +167,11 @@
         </script>
     </polymer-element>
 
-    <script src="data.js" type="text/javascript"></script>
+  
+  <paper-toast id="toast1" text="{{text}}"></paper-toast>
+  <paper-toast id="toast2" text="{{text2}}"></paper-toast>
+
+
 </body>
 
 </html>
