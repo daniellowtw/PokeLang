@@ -118,6 +118,22 @@ describe('walker', function() {
   
   });
 
+  it('should throw error when Pokemon switches after enemy uses move', function() {
+
+    var ast = ["PROG", 
+               ["START", ["GO", "CHARMANDER"],
+                ["SENDS_OUT", "SABRINA", "BULBASAUR"]
+               ],
+	       ["CONCAT", ["ENEMYTURN", "BULBASAUR", "TACKLE"], 
+                ["CONCAT", ["SELFSWITCHPOKEMON", "CHARMANDER", "PIKACHU"], null
+                ]
+               ]
+              ]
+
+    expect(function() {W.walk(ast);}).toThrow(E.switchNotAllowed());
+  
+  });
+
 });
 
 describe('walker with translator', function() {
