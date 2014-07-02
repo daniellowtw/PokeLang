@@ -11,7 +11,7 @@ Go! PIKACHU!
 Foe GARY calls back BULBASAUR!
 Foe GARY sends out GEODUDE!
 PIKACHU uses THUNDERSHOCK!              // {
-IT HAS NO EFFECT!
+It has no effect!
 Foe GEODUDE uses ROCKTHROW!            // dup
 PIKACHU! That's enough! Come back!
 Go! IVYSAUR!
@@ -22,7 +22,7 @@ Foe GARY calls back GEODUDE!
 Foe GARY sends out SLOWPOKE!
 Foe SLOWPOKE uses HEADBUTT!             // >
 PIKACHU uses THUNDERSHOCK!              // {
-IT'S SUPER EFFECTIVE!
+It's super effective!
 PIKACHU! That's enough! Come back!
 Go! BULBASAUR! 
 Foe GARY calls back SLOWPOKE!
@@ -38,7 +38,7 @@ Go! BULBASAUR!
 Foe GARY calls back GEODUDE!
 Foe GARY sends out SQUIRTLE!
 Foe SQUIRTLE uses WATERGUN!            // -
-IT'S NOT VERY EFFECTIVE!          
+It's not very effective!          
 BULBASAUR uses VINEWHIP!               // swap
 BULBASAUR! That's enough! Come back!
 Go! IVYSAUR! 
@@ -46,7 +46,7 @@ Foe SQUIRTLE uses TACKLE!               // 2
 IVYSAUR! That's enough! Come back!
 Go! BULBASAUR! 
 Foe SQUIRTLE uses WATERGUN!            // -
-IT'S NOT VERY EFFECTIVE!
+It's not very effective!
 BULBASAUR! That's enough! Come back!
 Go! BULBASAUR! 
 Foe SQUIRTLE uses TACKLE!               // 1
@@ -61,7 +61,7 @@ Go! BULBASAUR!
 Foe GARY calls back ALAKAZAM!
 Foe GARY sends out SQUIRTLE!
 BULBASAUR uses VINEWHIP!               // swap
-IT'S SUPER EFFECTIVE!
+It's super effective!
 Foe SQUIRTLE uses TACKLE!               // 1
 Foe GARY calls back SQUIRTLE!
 Foe GARY sends out ALAKAZAM!
@@ -93,13 +93,13 @@ Go! PIKACHU!
 Foe GARY calls back SQUIRTLE!
 Foe GARY sends out DUGTRIO!
 PIKACHU uses THUNDERBOLT!               // }
-IT HAS NO EFFECT!
+It has no effect!
 Foe DUGTRIO uses EARTHQUAKE!            // ifelse
-IT'S SUPER EFFECTIVE!
+It's super effective!
 Foe GARY calls back DUGTRIO!
 Foe GARY sends out ALAKAZAM!  
 PIKACHU uses THUNDERBOLT!               // }
-IT'S SUPER EFFECTIVE!
+It's super effective!
 PIKACHU! That's enough! Come back!
 Go! BULBASAUR!
 Foe ALAKAZAM uses CONFUSION!               // store
