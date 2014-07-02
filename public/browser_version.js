@@ -931,7 +931,7 @@ module.exports.I = I;
 module.exports.E = E;
 module.exports.H = H;
 module.exports.compile = function(data){
-	poke.I.run(poke.T.tokenise(poke.W.walk(poke.P.parse(data), true)));
+	I.run(T.tokenise(W.walk(P.parse(data), true)));
 }
 },{"./lib/errors/errors.js":8,"./lib/errors/handler.js":9,"./lib/interpreter/interpreter.js":10,"./lib/interpreter/tokeniser.js":11,"./lib/parser/pokelang.js":12,"./lib/walker/walker.js":15}],8:[function(_dereq_,module,exports){
 var errors = {};
@@ -1509,7 +1509,7 @@ var createOperation = function(value, def_args, callback) {
 
     checkStackSize(def_args.length);
 
-    var args = getArgs(def_args, args);
+    var args = getArgs(def_args);
 
     callback.apply(null, args);
 
@@ -1615,7 +1615,7 @@ var createObjConstructor = function(subclass, callback) {
 
   }
 
-  interpreter[objClass].prototype = new Obj();
+  interpreter[objClass].prototype = Object.create(Obj.prototype);
   interpreter[objClass].prototype.constructor = interpreter[objClass];
 
   interpreter[subclass.toLowerCase()] = function(value) {
@@ -1669,7 +1669,7 @@ var Operation = function(value) {
 
 }
 
-Operation.prototype = new Instruction();
+Operation.prototype = Object.create(Instruction.prototype);
 Operation.prototype.constructor = Operation;
 
 interpreter.Operation = Operation;
@@ -1875,7 +1875,7 @@ var popBlock = function() {
     recoverable: (boolean: TRUE when the parser has a error recovery rule available for this particular error)
   }
 */
-var pokelang = (function(){
+var parser = (function(){
 var parser = {trace: function trace() { },
 yy: {},
 symbols_: {"error":2,"expressions":3,"prog":4,"start_battle":5,"ending":6,"goPokemon":7,"NEWLINE":8,"foePokemon":9,"COMMENT":10,"turns":11,"turn":12,"EOF":13,"selfTurn":14,"enemyTurn":15,"enemySwitchPokemon":16,"selfSwitchPokemon":17,"effect1":18,"GO":19,"POKEMON":20,"!":21,"ENEMY":22,"OPPONENT":23,"SENDS_OUT":24,"USES":25,"MOVE":26,"ENOUGH":27,"COME_BACK":28,"CALL_BACK":29,"EFFECTIVE":30,"NOT_EFFECTIVE":31,"NO_EFFECT":32,"$accept":0,"$end":1},
@@ -1949,20 +1949,26 @@ parseError: function parseError(str, hash) {
     }
 },
 parse: function parse(input) {
-    var self = this, stack = [0], vstack = [null], lstack = [], table = this.table, yytext = '', yylineno = 0, yyleng = 0, recovering = 0, TERROR = 2, EOF = 1;
+    var self = this, stack = [0], tstack = [], vstack = [null], lstack = [], table = this.table, yytext = '', yylineno = 0, yyleng = 0, recovering = 0, TERROR = 2, EOF = 1;
     var args = lstack.slice.call(arguments, 1);
-    this.lexer.setInput(input);
-    this.lexer.yy = this.yy;
-    this.yy.lexer = this.lexer;
-    this.yy.parser = this;
-    if (typeof this.lexer.yylloc == 'undefined') {
-        this.lexer.yylloc = {};
+    var lexer = Object.create(this.lexer);
+    var sharedState = { yy: {} };
+    for (var k in this.yy) {
+        if (Object.prototype.hasOwnProperty.call(this.yy, k)) {
+            sharedState.yy[k] = this.yy[k];
+        }
     }
-    var yyloc = this.lexer.yylloc;
+    lexer.setInput(input, sharedState.yy);
+    sharedState.yy.lexer = lexer;
+    sharedState.yy.parser = this;
+    if (typeof lexer.yylloc == 'undefined') {
+        lexer.yylloc = {};
+    }
+    var yyloc = lexer.yylloc;
     lstack.push(yyloc);
-    var ranges = this.lexer.options && this.lexer.options.ranges;
-    if (typeof this.yy.parseError === 'function') {
-        this.parseError = this.yy.parseError;
+    var ranges = lexer.options && lexer.options.ranges;
+    if (typeof sharedState.yy.parseError === 'function') {
+        this.parseError = sharedState.yy.parseError;
     } else {
         this.parseError = Object.getPrototypeOf(this).parseError;
     }
@@ -1971,14 +1977,15 @@ parse: function parse(input) {
         vstack.length = vstack.length - n;
         lstack.length = lstack.length - n;
     }
-    function lex() {
-        var token;
-        token = self.lexer.lex() || EOF;
-        if (typeof token !== 'number') {
-            token = self.symbols_[token] || token;
+    _token_stack:
+        function lex() {
+            var token;
+            token = lexer.lex() || EOF;
+            if (typeof token !== 'number') {
+                token = self.symbols_[token] || token;
+            }
+            return token;
         }
-        return token;
-    }
     var symbol, preErrorSymbol, state, action, a, r, yyval = {}, p, len, newState, expected;
     while (true) {
         state = stack[stack.length - 1];
@@ -1998,15 +2005,15 @@ parse: function parse(input) {
                         expected.push('\'' + this.terminals_[p] + '\'');
                     }
                 }
-                if (this.lexer.showPosition) {
-                    errStr = 'Parse error on line ' + (yylineno + 1) + ':\n' + this.lexer.showPosition() + '\nExpecting ' + expected.join(', ') + ', got \'' + (this.terminals_[symbol] || symbol) + '\'';
+                if (lexer.showPosition) {
+                    errStr = 'Parse error on line ' + (yylineno + 1) + ':\n' + lexer.showPosition() + '\nExpecting ' + expected.join(', ') + ', got \'' + (this.terminals_[symbol] || symbol) + '\'';
                 } else {
                     errStr = 'Parse error on line ' + (yylineno + 1) + ': Unexpected ' + (symbol == EOF ? 'end of input' : '\'' + (this.terminals_[symbol] || symbol) + '\'');
                 }
                 this.parseError(errStr, {
-                    text: this.lexer.match,
+                    text: lexer.match,
                     token: this.terminals_[symbol] || symbol,
-                    line: this.lexer.yylineno,
+                    line: lexer.yylineno,
                     loc: yyloc,
                     expected: expected
                 });
@@ -2017,15 +2024,15 @@ parse: function parse(input) {
         switch (action[0]) {
         case 1:
             stack.push(symbol);
-            vstack.push(this.lexer.yytext);
-            lstack.push(this.lexer.yylloc);
+            vstack.push(lexer.yytext);
+            lstack.push(lexer.yylloc);
             stack.push(action[1]);
             symbol = null;
             if (!preErrorSymbol) {
-                yyleng = this.lexer.yyleng;
-                yytext = this.lexer.yytext;
-                yylineno = this.lexer.yylineno;
-                yyloc = this.lexer.yylloc;
+                yyleng = lexer.yyleng;
+                yytext = lexer.yytext;
+                yylineno = lexer.yylineno;
+                yyloc = lexer.yylloc;
                 if (recovering > 0) {
                     recovering--;
                 }
@@ -2053,7 +2060,7 @@ parse: function parse(input) {
                 yytext,
                 yyleng,
                 yylineno,
-                this.yy,
+                sharedState.yy,
                 action[1],
                 vstack,
                 lstack
@@ -2078,9 +2085,9 @@ parse: function parse(input) {
     }
     return true;
 }};
-/* generated by jison-lex 0.2.1 */
+/* generated by jison-lex 0.3.4 */
 var lexer = (function(){
-var lexer = {
+var lexer = ({
 
 EOF:1,
 
@@ -2093,7 +2100,8 @@ parseError:function parseError(str, hash) {
     },
 
 // resets the lexer, sets new input
-setInput:function (input) {
+setInput:function (input, yy) {
+        this.yy = yy || this.yy || {};
         this._input = input;
         this._more = this._backtrack = this.done = false;
         this.yylineno = this.yyleng = 0;
@@ -2141,7 +2149,7 @@ unput:function (ch) {
         var lines = ch.split(/(?:\r\n?|\n)/g);
 
         this._input = ch + this._input;
-        this.yytext = this.yytext.substr(0, this.yytext.length - len - 1);
+        this.yytext = this.yytext.substr(0, this.yytext.length - len);
         //this.yyleng -= len;
         this.offset -= len;
         var oldLines = this.match.split(/(?:\r\n?|\n)/g);
@@ -2403,7 +2411,6 @@ stateStackSize:function stateStackSize() {
     },
 options: {},
 performAction: function anonymous(yy,yy_,$avoiding_name_collisions,YY_START) {
-
 var YYSTATE=YY_START;
 switch($avoiding_name_collisions) {
 case 0:/* skip whitespace */
@@ -2454,9 +2461,9 @@ case 22:return 'INVALID'
 break;
 }
 },
-rules: [/^(?:[^\S\n])/,/^(?:((\n|\r\n)*)$)/,/^(?:(\n|\r\n)+)/,/^(?:\s+)/,/^(?:\/\/([^(\n\r|\n)])*)/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:Go!)/,/^(?:uses\b)/,/^(?:START\b)/,/^(?:IT'S SUPER EFFECTIVE!)/,/^(?:IT'S NOT VERY EFFECTIVE!)/,/^(?:IT HAS NO EFFECT!)/,/^(?:(Foe))/,/^(?:sends out\b)/,/^(?:That's enough!)/,/^(?:calls back\b)/,/^(?:Come back!)/,/^(?:;)/,/^(?:!)/,/^(?:(BULBASAUR|IVYSAUR|VENUSAUR|CHARMANDER|CHARMELEON|CHARIZARD|SQUIRTLE|WARTORTLE|BLASTOISE|CATERPIE|METAPOD|BUTTERFREE|WEEDLE|KAKUNA|BEEDRILL|PIDGEY|PIDGEOTTO|PIDGEOT|RATTATA|RATICATE|SPEAROW|FEAROW|EKANS|ARBOK|PIKACHU|RAICHU|SANDSHREW|SANDSLASH|NIDORAN|NIDORINA|NIDOQUEEN|NIDORINO|NIDOKING|CLEFAIRY|CLEFABLE|VULPIX|NINETALES|JIGGLYPUFF|WIGGLYTUFF|ZUBAT|GOLBAT|ODDISH|GLOOM|VILEPLUME|PARAS|PARASECT|VENONAT|VENOMOTH|DIGLETT|DUGTRIO|MEOWTH|PERSIAN|PSYDUCK|GOLDUCK|MANKEY|PRIMEAPE|GROWLITHE|ARCANINE|POLIWAG|POLIWHIRL|POLIWRATH|ABRA|KADABRA|ALAKAZAM|MACHOP|MACHOKE|MACHAMP|BELLSPROUT|WEEPINBELL|VICTREEBEL|TENTACOOL|TENTACRUEL|GEODUDE|GRAVELER|GOLEM|PONYTA|RAPIDASH|SLOWPOKE|SLOWBRO|MAGNEMITE|MAGNETON|FARFETCHD|DODUO|DODRIO|SEEL|DEWGONG|GRIMER|MUK|SHELLDER|CLOYSTER|GASTLY|HAUNTER|GENGAR|ONIX|DROWZEE|HYPNO|KRABBY|KINGLER|VOLTORB|ELECTRODE|EXEGGCUTE|EXEGGUTOR|CUBONE|MAROWAK|HITMONLEE|HITMONCHAN|LICKITUNG|KOFFING|WEEZING|RHYHORN|RHYDON|CHANSEY|TANGELA|KANGASKHAN|HORSEA|SEADRA|GOLDEEN|SEAKING|STARYU|STARMIE|MRMIME|SCYTHER|JYNX|ELECTABUZZ|MAGMAR|PINSIR|TAUROS|MAGIKARP|GYARADOS|LAPRAS|DITTO|EEVEE|VAPOREON|JOLTEON|FLAREON|PORYGON|OMANYTE|OMASTAR|KABUTO|KABUTOPS|AERODACTYL|SNORLAX|ARTICUNO|ZAPDOS|MOLTRES|DRATINI|DRAGONAIR|DRAGONITE|MEWTWO|MEOWTH))/,/^(?:(POUND|KARATECHOP|DOUBLESLAP|COMETPUNCH|MEGAPUNCH|PAYDAY|FIREPUNCH|ICEPUNCH|THUNDERPUNCH|SCRATCH|VICEGRIP|GUILLOTINE|RAZORWIND|SWORDSDANCE|CUT|GUST|WINGATTACK|WHIRLWIND|FLY|BIND|SLAM|VINEWHIP|STOMP|DOUBLEKICK|MEGAKICK|JUMPKICK|ROLLINGKICK|SANDATTACK|HEADBUTT|HORNATTACK|FURYATTACK|HORNDRILL|TACKLE|BODYSLAM|WRAP|TAKEDOWN|THRASH|DOUBLEEDGE|TAILWHIP|POISONSTING|TWINEEDLE|PINMISSILE|LEER|BITE|GROWL|ROAR|SING|SUPERSONIC|SONICBOOM|DISABLE|ACID|EMBER|FLAMETHROWER|MIST|WATERGUN|HYDROPUMP|SURF|ICEBEAM|BLIZZARD|PSYBEAM|BUBBLEBEAM|AURORABEAM|HYPERBEAM|PECK|DRILLPECK|SUBMISSION|LOWKICK|COUNTER|SEISMICTOSS|STRENGTH|ABSORB|MEGADRAIN|LEECHSEED|GROWTH|RAZORLEAF|SOLARBEAM|POISONPOWDER|STUNSPORE|SLEEPPOWDER|PETALDANCE|STRINGSHOT|DRAGONRAGE|FIRESPIN|THUNDERSHOCK|THUNDERBOLT|THUNDERWAVE|THUNDER|ROCKTHROW|EARTHQUAKE|FISSURE|DIG|TOXIC|CONFUSION|PSYCHIC|HYPNOSIS|MEDITATE|AGILITY|QUICKATTACK|RAGE|TELEPORT|NIGHTSHADE|MIMIC|SCREECH|DOUBLETEAM|RECOVER|HARDEN|MINIMIZE|SMOKESCREEN|CONFUSERAY|WITHDRAW|DEFENSECURL|BARRIER|LIGHTSCREEN|HAZE|REFLECT|FOCUSENERGY|BIDE|METRONOME|MIRRORMOVE|SELFDESTRUCT|EGGBOMB|LICK|SMOG|SLUDGE|BONECLUB|FIREBLAST|WATERFALL|CLAMP|SWIFT|SKULLBASH|SPIKECANNON|CONSTRICT|AMNESIA|KINESIS|SOFTBOILED|HIGHJUMPKICK|GLARE|DREAMEATER|POISONGAS|BARRAGE|LEECHLIFE|LOVELYKISS|SKYATTACK|TRANSFORM|BUBBLE|DIZZYPUNCH|SPORE|FLASH|PSYWAVE|SPLASH|ACIDARMOR|CRABHAMMER|EXPLOSION|FURYSWIPES|BONEMERANG|REST|ROCKSLIDE|HYPERFANG|SHARPEN|CONVERSION|TRIATTACK|SUPERFANG|SLASH|SUBSTITUTE|STRUGGLE))/,/^(?:([A-Z]+))/,/^(?:.)/],
+rules: [/^(?:[^\S\n])/,/^(?:((\n|\r\n)*)$)/,/^(?:(\n|\r\n)+)/,/^(?:\s+)/,/^(?:\/\/([^(\n\r|\n)])*)/,/^(?:[0-9]+(\.[0-9]+)?\b)/,/^(?:Go!)/,/^(?:uses\b)/,/^(?:START\b)/,/^(?:It's super effective!)/,/^(?:It's not very effective!)/,/^(?:It has no effect!)/,/^(?:(Foe))/,/^(?:sends out\b)/,/^(?:That's enough!)/,/^(?:calls back\b)/,/^(?:Come back!)/,/^(?:;)/,/^(?:!)/,/^(?:(BULBASAUR|IVYSAUR|VENUSAUR|CHARMANDER|CHARMELEON|CHARIZARD|SQUIRTLE|WARTORTLE|BLASTOISE|CATERPIE|METAPOD|BUTTERFREE|WEEDLE|KAKUNA|BEEDRILL|PIDGEY|PIDGEOTTO|PIDGEOT|RATTATA|RATICATE|SPEAROW|FEAROW|EKANS|ARBOK|PIKACHU|RAICHU|SANDSHREW|SANDSLASH|NIDORAN|NIDORINA|NIDOQUEEN|NIDORINO|NIDOKING|CLEFAIRY|CLEFABLE|VULPIX|NINETALES|JIGGLYPUFF|WIGGLYTUFF|ZUBAT|GOLBAT|ODDISH|GLOOM|VILEPLUME|PARAS|PARASECT|VENONAT|VENOMOTH|DIGLETT|DUGTRIO|MEOWTH|PERSIAN|PSYDUCK|GOLDUCK|MANKEY|PRIMEAPE|GROWLITHE|ARCANINE|POLIWAG|POLIWHIRL|POLIWRATH|ABRA|KADABRA|ALAKAZAM|MACHOP|MACHOKE|MACHAMP|BELLSPROUT|WEEPINBELL|VICTREEBEL|TENTACOOL|TENTACRUEL|GEODUDE|GRAVELER|GOLEM|PONYTA|RAPIDASH|SLOWPOKE|SLOWBRO|MAGNEMITE|MAGNETON|FARFETCHD|DODUO|DODRIO|SEEL|DEWGONG|GRIMER|MUK|SHELLDER|CLOYSTER|GASTLY|HAUNTER|GENGAR|ONIX|DROWZEE|HYPNO|KRABBY|KINGLER|VOLTORB|ELECTRODE|EXEGGCUTE|EXEGGUTOR|CUBONE|MAROWAK|HITMONLEE|HITMONCHAN|LICKITUNG|KOFFING|WEEZING|RHYHORN|RHYDON|CHANSEY|TANGELA|KANGASKHAN|HORSEA|SEADRA|GOLDEEN|SEAKING|STARYU|STARMIE|MRMIME|SCYTHER|JYNX|ELECTABUZZ|MAGMAR|PINSIR|TAUROS|MAGIKARP|GYARADOS|LAPRAS|DITTO|EEVEE|VAPOREON|JOLTEON|FLAREON|PORYGON|OMANYTE|OMASTAR|KABUTO|KABUTOPS|AERODACTYL|SNORLAX|ARTICUNO|ZAPDOS|MOLTRES|DRATINI|DRAGONAIR|DRAGONITE|MEWTWO|MEOWTH))/,/^(?:(POUND|KARATECHOP|DOUBLESLAP|COMETPUNCH|MEGAPUNCH|PAYDAY|FIREPUNCH|ICEPUNCH|THUNDERPUNCH|SCRATCH|VICEGRIP|GUILLOTINE|RAZORWIND|SWORDSDANCE|CUT|GUST|WINGATTACK|WHIRLWIND|FLY|BIND|SLAM|VINEWHIP|STOMP|DOUBLEKICK|MEGAKICK|JUMPKICK|ROLLINGKICK|SANDATTACK|HEADBUTT|HORNATTACK|FURYATTACK|HORNDRILL|TACKLE|BODYSLAM|WRAP|TAKEDOWN|THRASH|DOUBLEEDGE|TAILWHIP|POISONSTING|TWINEEDLE|PINMISSILE|LEER|BITE|GROWL|ROAR|SING|SUPERSONIC|SONICBOOM|DISABLE|ACID|EMBER|FLAMETHROWER|MIST|WATERGUN|HYDROPUMP|SURF|ICEBEAM|BLIZZARD|PSYBEAM|BUBBLEBEAM|AURORABEAM|HYPERBEAM|PECK|DRILLPECK|SUBMISSION|LOWKICK|COUNTER|SEISMICTOSS|STRENGTH|ABSORB|MEGADRAIN|LEECHSEED|GROWTH|RAZORLEAF|SOLARBEAM|POISONPOWDER|STUNSPORE|SLEEPPOWDER|PETALDANCE|STRINGSHOT|DRAGONRAGE|FIRESPIN|THUNDERSHOCK|THUNDERBOLT|THUNDERWAVE|THUNDER|ROCKTHROW|EARTHQUAKE|FISSURE|DIG|TOXIC|CONFUSION|PSYCHIC|HYPNOSIS|MEDITATE|AGILITY|QUICKATTACK|RAGE|TELEPORT|NIGHTSHADE|MIMIC|SCREECH|DOUBLETEAM|RECOVER|HARDEN|MINIMIZE|SMOKESCREEN|CONFUSERAY|WITHDRAW|DEFENSECURL|BARRIER|LIGHTSCREEN|HAZE|REFLECT|FOCUSENERGY|BIDE|METRONOME|MIRRORMOVE|SELFDESTRUCT|EGGBOMB|LICK|SMOG|SLUDGE|BONECLUB|FIREBLAST|WATERFALL|CLAMP|SWIFT|SKULLBASH|SPIKECANNON|CONSTRICT|AMNESIA|KINESIS|SOFTBOILED|HIGHJUMPKICK|GLARE|DREAMEATER|POISONGAS|BARRAGE|LEECHLIFE|LOVELYKISS|SKYATTACK|TRANSFORM|BUBBLE|DIZZYPUNCH|SPORE|FLASH|PSYWAVE|SPLASH|ACIDARMOR|CRABHAMMER|EXPLOSION|FURYSWIPES|BONEMERANG|REST|ROCKSLIDE|HYPERFANG|SHARPEN|CONVERSION|TRIATTACK|SUPERFANG|SLASH|SUBSTITUTE|STRUGGLE))/,/^(?:([A-Z]+))/,/^(?:.)/],
 conditions: {"INITIAL":{"rules":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],"inclusive":true}}
-};
+});
 return lexer;
 })();
 parser.lexer = lexer;
@@ -2469,9 +2476,9 @@ return new Parser;
 
 
 if (typeof _dereq_ !== 'undefined' && typeof exports !== 'undefined') {
-exports.parser = pokelang;
-exports.Parser = pokelang.Parser;
-exports.parse = function () { return pokelang.parse.apply(pokelang, arguments); };
+exports.parser = parser;
+exports.Parser = parser.Parser;
+exports.parse = function () { return parser.parse.apply(parser, arguments); };
 exports.main = function commonjsMain(args) {
     if (!args[1]) {
         console.log('Usage: '+args[0]+' FILE');

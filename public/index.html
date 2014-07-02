@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  ng-app='PokeLang'>
+<html ng-app='PokeLang'>
 
 <head>
     <meta charset="utf-8">
@@ -10,166 +10,252 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/Caret.js/dist/jquery.caret.min.js"></script>
     <script src="bower_components/jquery.atwho/dist/js/jquery.atwho.min.js"></script>
-    <script src="bower_components/platform/platform.js"></script>
     <script src="browser_version.js"></script>
-    <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
-    <link rel="import" href="bower_components/core-input/core-input.html">
-    <link rel="import" href="bower_components/core-icon-button/core-icon-button.html">
-    <link rel="import" href="bower_components/paper-button/paper-button.html">
-    <link rel="import" href="bower_components/paper-input/paper-input.html">
-    <link rel="import" href="bower_components/paper-toast/paper-toast.html">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
     <link rel="import" href="bower_components/core-overlay/core-overlay.html">
+    <link rel="stylesheet" type="text/css" href="bower_components/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/google-code-prettify/styles/sunburst.css">
+    <!-- <link rel="stylesheet" type="text/css" href="bower_components/google-code-prettify/src/prettify.css"> -->
 
-    <!-- 
-    <script src="lib/parser/pokelang.js"></script>
-    <script src="errors.js"></script>
-    <script src="walker.js"></script>
-    <script src="interpreter.js"></script>
-    <script src="require.js" ></script>
-    <link rel="import" href="../bower_components/core-icon/core-icon.html"> 
-    -->
+    <script type="text/javascript" src="bower_components/codemirror/lib/codemirror.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-codemirror/ui-codemirror.js"></script>
+    <script type="text/javascript" src="bower_components/google-code-prettify/src/prettify.js"></script>
+    <script type="text/javascript" src="bower_components/google-code-prettify/src/lang-poke.js"></script>
+
+
+    <!-- base -->
+
+    <link rel="stylesheet" href="bower_components/base/style2.css">
+    <script src="bower_components/base/js/modernizr.js"></script>
+
+    <!-- base -->
+
 
 </head>
 
-<body unresolved ng-controller="mainCtrl">
-    <core-toolbar>
-        <span flex>PokeLang Web Compiler</span>
-        <a href="https://github.com/daniellowtw/PokeLang"><core-icon-button src="github_mark.png"></core-icon-button></a>
-        <x-container></x-container>
-    </core-toolbar>
+<body ng-controller="mainCtrl" onload="prettyPrint()">
+    <div class="header dark-blue-row">
+        <div class="container row-3 tablet-row-3 mobile-row-1">
+            <div class="clear mobile-text-center">
+                <a href="/base/" class="logo mobile-no-float uppercase">
+                    <!-- <span class="icon"></span> -->PokeLang</a>
+                <ul class="navigation list-inline right mobile-full mobile-container-full">
+                    <li><a class="active" href="#docs">Docs</a>
+                    </li>
+                    <li><a href="#compiler">Try now</a>
+                    </li>
+                    <li><a href="https://github.com/daniellowtw/PokeLang">Github</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="container row-2">
 
-    <div class="container" layout vertical >
-        <h1>Input</h1>
-        <section horizontal start layout>
-            <!-- <paper-input multiline rows="3" id='test' label="This input is 3 rows high"></paper-input> -->
-            <textarea ng-model="code" id='test' cols=50 multiline rows=10 placeholder="Type your source code here"></textarea>
-        </section>
+    An esoteric programming language where programs are represented as a Pokemon
+    battle.
 
-    <paper-button raisedButton label="Compile" ng-click="process()"></paper-button>
-        <h1>output</h1>
-        <section horizontal start layout>
-            <textarea ng-model='result' id='output' rows=4 cols=50 placeholder="Output"></textarea>
-        </section>
+<p></p>
+    PokeLang consists of a series turns in a Pokemon battle.
+    Moves correspond to an operation or object.
+    The moves are then transcribed into a stack-oriented language called PokeStack.
+    The PokeStack program is then run using a PokeStack interpreter.
+
+        </div>
+
     </div>
 
-    <polymer-element name="x-dialog" attributes="opened autoCloseDisabled">
-        <template>
-            <style>
-            :host {
-                box-sizing: border-box;
-                -moz-box-sizing: border-box;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 13px;
-                -webkit-user-select: none;
-                -moz-user-select: none;
-                overflow: hidden;
-                background: white;
-                padding:30px 42px;
-                outline: 1px solid rgba(0, 0, 0, 0.2);
-                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-            }
-            </style>
-            <core-overlay id="overlay" layered backdrop opened="{{opened}}" autoCloseDisabled="{{autoCloseDisabled}}" transition="core-transition-center"></core-overlay>
-            <content></content>
-        </template>
-        <script>
-        Polymer('x-dialog', {
+    <!-- <div class="container mobile-container-full">
+    <div class="row-2 clear mobile-row">
+        <div class="left col-8 tablet-col-6 mobile-full mobile-container mobile-text-center">
+            <h1 class="h2">Global CSS</h1>
+            <p class="font-light col-11 tablet-col-12">
+                Base uses relative sizing (rems, not pixels) for global typography. Sans-serif is the default font family and the global size is 16rem with a line height of 21rem.
+            </p>
+        </div>
+        <div id="carbonads-container" class="right mobile-full mobile-container-full carbonads-container">
+            <div class="carbonad mobile-container-full">
+                <div id="azcarbon"></div>
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+    <a id="docs"></a>
+    <div class="row clear">
+        <div class="container mobile-container-full">
+    <h2>Documentations and example</h2>
+            Fibonacci
+            <pre class="prettyprint lang-poke">
+Go! SQUIRTLE!
+Foe GARY sends out PIDGEOT!
+Foe GARY calls back PIDGEOT!
+Foe GARY sends out PIDGEOT!
+SQUIRTLE uses TACKLE!                   // 18 <- n
+Foe GARY calls back PIDGEOT!
+Foe GARY sends out BULBASAUR!
+SQUIRTLE uses TACKLE!                   // 1
+SQUIRTLE! That's enough! Come back!
+Go! PIKACHU! 
+Foe GARY calls back BULBASAUR!
+Foe GARY sends out GEODUDE!
+PIKACHU uses THUNDERSHOCK!              // {
+It has no effect!
+Foe GEODUDE uses ROCKTHROW!            // dup
+PIKACHU! That's enough! Come back!
+Go! IVYSAUR!
+Foe GEODUDE uses TACKLE!                // 2
+IVYSAUR! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back GEODUDE!
+Foe GARY sends out SLOWPOKE!
+Foe SLOWPOKE uses HEADBUTT!             // >
+PIKACHU uses THUNDERSHOCK!              // {
+It's super effective!
+PIKACHU! That's enough! Come back!
+Go! BULBASAUR! 
+Foe GARY calls back SLOWPOKE!
+Foe GARY sends out GEODUDE!
+BULBASAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe GEODUDE uses ROCKTHROW!            // dup
+BULBASAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe GEODUDE uses TACKLE!                // 1
+BULBASAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe GARY calls back GEODUDE!
+Foe GARY sends out SQUIRTLE!
+Foe SQUIRTLE uses WATERGUN!            // -
+It's not very effective!          
+BULBASAUR uses VINEWHIP!               // swap
+BULBASAUR! That's enough! Come back!
+Go! IVYSAUR! 
+Foe SQUIRTLE uses TACKLE!               // 2
+IVYSAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe SQUIRTLE uses WATERGUN!            // -
+It's not very effective!
+BULBASAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe SQUIRTLE uses TACKLE!               // 1
+Foe GARY calls back SQUIRTLE!
+Foe GARY sends out ALAKAZAM!
+BULBASAUR! That's enough! Come back!
+Go! PIKACHU! 
+Foe ALAKAZAM uses PSYBEAM!              // load
+PIKACHU uses THUNDER!                   // exec
+PIKACHU! That's enough! Come back!
+Go! BULBASAUR! 
+Foe GARY calls back ALAKAZAM!
+Foe GARY sends out SQUIRTLE!
+BULBASAUR uses VINEWHIP!               // swap
+It's super effective!
+Foe SQUIRTLE uses TACKLE!               // 1
+Foe GARY calls back SQUIRTLE!
+Foe GARY sends out ALAKAZAM!
+BULBASAUR! That's enough! Come back!
+Go! PIKACHU! 
+Foe ALAKAZAM uses PSYBEAM!              // load
+PIKACHU uses THUNDER!                   // exec
+PIKACHU! That's enough! Come back!
+Go! PIKACHU! 
+Foe GARY calls back ALAKAZAM!
+Foe GARY sends out CHARIZARD!
+Foe CHARIZARD uses EMBER!               // +
+PIKACHU uses THUNDERBOLT!               // }
+Foe GARY calls back CHARIZARD!
+Foe GARY sends out TENTACRUEL!
+PIKACHU uses THUNDERSHOCK!              // {
+PIKACHU! That's enough! Come back!
+Go! BULBASAUR!
+Foe TENTACRUEL uses POISONSTING!        // pop 
+BULBASAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe GARY calls back TENTACRUEL!
+Foe GARY sends out SQUIRTLE!
+BULBASAUR! That's enough! Come back!
+Go! BULBASAUR! 
+Foe SQUIRTLE uses TACKLE!               // 1 
+BULBASAUR! That's enough! Come back!
+Go! PIKACHU! 
+Foe GARY calls back SQUIRTLE!
+Foe GARY sends out DUGTRIO!
+PIKACHU uses THUNDERBOLT!               // }
+It has no effect!
+Foe DUGTRIO uses EARTHQUAKE!            // ifelse
+It's super effective!
+Foe GARY calls back DUGTRIO!
+Foe GARY sends out ALAKAZAM!  
+PIKACHU uses THUNDERBOLT!               // }
+It's super effective!
+PIKACHU! That's enough! Come back!
+Go! BULBASAUR!
+Foe ALAKAZAM uses CONFUSION!               // store
+Foe GARY calls back ALAKAZAM!
+Foe GARY sends out BULBASAUR!
+BULBASAUR uses TACKLE!                  // 1
+Foe GARY calls back BULBASAUR!
+Foe GARY sends out ALAKAZAM!
+BULBASAUR! That's enough! Come back!
+Go! PIKACHU! 
+Foe ALAKAZAM uses PSYBEAM!              // load
+PIKACHU uses THUNDER!                   // exec
+Foe GARY calls back ALAKAZAM!
+Foe GARY sends out BULBASAUR!
+PIKACHU! That's enough! Come back!
+Go! SQUIRTLE! 
+Foe BULBASAUR uses TACKLE!
+</pre>
+        </div>
+    </div>
 
-            ready: function() {
-                this.$.overlay.target = this;
-            },
+<a id="compiler"></a>
+    <div class="dark-blue-row">
+        <div class="row clear">
+            <div class="container mobile-container-full">
+                <div class="col col-9 tablet-full mobile-full">
 
-            toggle: function() {
-                this.$.overlay.toggle();
-            }
+                    <h1>Battle log</h1>
+                    <section>
+                        <!-- <paper-input multiline rows="3" id='test' label="This input is 3 rows high"></paper-input> -->
+                        <!-- <textarea ng-model="code" cols=50 multiline rows=10 placeholder="Type your source code here" id="over"></textarea> -->
+                        <textarea ui-codemirror="editorOptions" ng-model="code" cols=50 multiline rows=10 placeholder="Type your source code here" id="under"></textarea>
+                    </section>
+                    <div class="row mobile-row"></div>
 
-        });
-        </script>
-    </polymer-element>
-    <polymer-element name="x-container">
-        <template>
-            <x-dialog id="dialog" class="dialog">
-                <!-- place all overlay styles inside the overlay target -->
-                <style no-shim>
-                .dialog {
-                    box-sizing: border-box;
-                    -moz-box-sizing: border-box;
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: 13px;
-                    -webkit-user-select: none;
-                    -moz-user-select: none;
-                    overflow: hidden;
-                    background: white;
-                    padding:30px 42px;
-                    outline: 1px solid rgba(0, 0, 0, 0.2);
-                    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-                }
-                #dialog {
-                    width: 500px;
-                }
-                </style>
-                <h2>HELP</h2>
-                1. # to search pokemon by id
-                <br>2. @ to search pokemon by name
-                <br>3. . to search pokemon moves
-                <br>
-                <div>
-                    <core-overlay layered id="confirmation" class="dialog" backdrop transition="core-transition-top">
-                        <!-- place all overlay styles inside the overlay target -->
-                        <style no-shim>
-                        .dialog {
-                            box-sizing: border-box;
-                            -moz-box-sizing: border-box;
-                            font-family: Arial, Helvetica, sans-serif;
-                            font-size: 13px;
-                            -webkit-user-select: none;
-                            -moz-user-select: none;
-                            overflow: hidden;
-                            background: white;
-                            padding:30px 42px;
-                            outline: 1px solid rgba(0, 0, 0, 0.2);
-                            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-                        }
-                        #confirmation {
-                            box-sizing: border-box;
-                            text-align: center;
-                            width: 150px;
-                        }
-                        </style>
-                        Thank you.
-                    </core-overlay>
+                    <!-- Form Elements -->
+                    <fieldset>
+                        <!-- Submit Button -->
+                        <input type="submit" value="Battle" class="button tablet-full mobile-full" ng-click="process()">
+                        <textarea ng-model='result' id='output' class="tablet-full mobile-full" placeholder="Output"></textarea>
+
+                    </fieldset>
+                    <div class="row mobile-row"></div>
+
+
                 </div>
-                <br>
-                <br>
-                <button core-overlay-toggle>OK</button>
-            </x-dialog>
-        <core-icon-button icon="help" on-tap="{{tapHandler}}"></core-icon-button>
+                <div class="col col-3 no-tablet no-mobile">
+                    <h3>Stack history</h3>
+                    <!-- {{stack}} -->
+                    <ul>
+                        <li class="stack" ng-repeat="post in stack track by $index">{{post}}</li>
+                    </ul>
 
-            <!-- <button on-tap="{{tapHandler}}">Toggle Dialog</button> -->
-        </template>
-        <script>
-        Polymer('x-container', {
+                </div>
+            </div>
+        </div>
 
-            inputHandler: function(e) {
-                if (e.target.value === 'something') {
-                    this.$.confirmation.toggle();
-                }
-            },
+    </div>
+<!-- 
+    <div class="row mobile-row">
+        <div class="row clear">
 
-            tapHandler: function() {
-                this.$.dialog.toggle();
-            }
+        </div>
+    </div> -->
 
-        });
-        </script>
-    </polymer-element>
 
-  
-  <paper-toast id="toast1" text="{{text}}"></paper-toast>
-  <paper-toast id="toast2" text="{{text2}}"></paper-toast>
-    <script src="app.js" ></script>
+    <script src="app.js"></script>
 
 
 </body>

@@ -1,13 +1,22 @@
-var pokemon=["MEWTWO","BULBASAUR","IVYSAUR","VENUSAUR","CHARMANDER","CHARMELEON","CHARIZARD","SQUIRTLE","WARTORTLE","BLASTOISE","CATERPIE","METAPOD","BUTTERFREE","WEEDLE","KAKUNA","BEEDRILL","PIDGEY","PIDGEOTTO","PIDGEOT","RATTATA","RATICATE","SPEAROW","FEAROW","EKANS","ARBOK","PIKACHU","RAICHU","SANDSHREW","SANDSLASH","NIDORAN","NIDORINA","NIDOQUEEN","NIDORINO","NIDOKING","CLEFAIRY","CLEFABLE","VULPIX","NINETALES","JIGGLYPUFF","WIGGLYTUFF","ZUBAT","GOLBAT","ODDISH","GLOOM","VILEPLUME","PARAS","PARASECT","VENONAT","VENOMOTH","DIGLETT","DUGTRIO","MEOWTH","PERSIAN","PSYDUCK","GOLDUCK","MANKEY","PRIMEAPE","GROWLITHE","ARCANINE","POLIWAG","POLIWHIRL","POLIWRATH","ABRA","KADABRA","ALAKAZAM","MACHOP","MACHOKE","MACHAMP","BELLSPROUT","WEEPINBELL","VICTREEBEL","TENTACOOL","TENTACRUEL","GEODUDE","GRAVELER","GOLEM","PONYTA","RAPIDASH","SLOWPOKE","SLOWBRO","MAGNEMITE","MAGNETON","FARFETCHD","DODUO","DODRIO","SEEL","DEWGONG","GRIMER","MUK","SHELLDER","CLOYSTER","GASTLY","HAUNTER","GENGAR","ONIX","DROWZEE","HYPNO","KRABBY","KINGLER","VOLTORB","ELECTRODE","EXEGGCUTE","EXEGGUTOR","CUBONE","MAROWAK","HITMONLEE","HITMONCHAN","LICKITUNG","KOFFING","WEEZING","RHYHORN","RHYDON","CHANSEY","TANGELA","KANGASKHAN","HORSEA","SEADRA","GOLDEEN","SEAKING","STARYU","STARMIE","MRMIME","SCYTHER","JYNX","ELECTABUZZ","MAGMAR","PINSIR","TAUROS","MAGIKARP","GYARADOS","LAPRAS","DITTO","EEVEE","VAPOREON","JOLTEON","FLAREON","PORYGON","OMANYTE","OMASTAR","KABUTO","KABUTOPS","AERODACTYL","SNORLAX","ARTICUNO","ZAPDOS","MOLTRES","DRATINI","DRAGONAIR","DRAGONITE","MEOWTH"];
+var pokemon = ["MEW", "BULBASAUR", "IVYSAUR", "VENUSAUR", "CHARMANDER", "CHARMELEON", "CHARIZARD", "SQUIRTLE", "WARTORTLE", "BLASTOISE", "CATERPIE", "METAPOD", "BUTTERFREE", "WEEDLE", "KAKUNA", "BEEDRILL", "PIDGEY", "PIDGEOTTO", "PIDGEOT", "RATTATA", "RATICATE", "SPEAROW", "FEAROW", "EKANS", "ARBOK", "PIKACHU", "RAICHU", "SANDSHREW", "SANDSLASH", "NIDORANF", "NIDORINA", "NIDOQUEEN", "NIDORANM", "NIDORINO", "NIDOKING", "CLEFAIRY", "CLEFABLE", "VULPIX", "NINETALES", "JIGGLYPUFF", "WIGGLYTUFF", "ZUBAT", "GOLBAT", "ODDISH", "GLOOM", "VILEPLUME", "PARAS", "PARASECT", "VENONAT", "VENOMOTH", "DIGLETT", "DUGTRIO", "MEOWTH", "PERSIAN", "PSYDUCK", "GOLDUCK", "MANKEY", "PRIMEAPE", "GROWLITHE", "ARCANINE", "POLIWAG", "POLIWHIRL", "POLIWRATH", "ABRA", "KADABRA", "ALAKAZAM", "MACHOP", "MACHOKE", "MACHAMP", "BELLSPROUT", "WEEPINBELL", "VICTREEBEL", "TENTACOOL", "TENTACRUEL", "GEODUDE", "GRAVELER", "GOLEM", "PONYTA", "RAPIDASH", "SLOWPOKE", "SLOWBRO", "MAGNEMITE", "MAGNETON", "FARFETCHD", "DODUO", "DODRIO", "SEEL", "DEWGONG", "GRIMER", "MUK", "SHELLDER", "CLOYSTER", "GASTLY", "HAUNTER", "GENGAR", "ONIX", "DROWZEE", "HYPNO", "KRABBY", "KINGLER", "VOLTORB", "ELECTRODE", "EXEGGCUTE", "EXEGGUTOR", "CUBONE", "MAROWAK", "HITMONLEE", "HITMONCHAN", "LICKITUNG", "KOFFING", "WEEZING", "RHYHORN", "RHYDON", "CHANSEY", "TANGELA", "KANGASKHAN", "HORSEA", "SEADRA", "GOLDEEN", "SEAKING", "STARYU", "STARMIE", "MRMIME", "SCYTHER", "JYNX", "ELECTABUZZ", "MAGMAR", "PINSIR", "TAUROS", "MAGIKARP", "GYARADOS", "LAPRAS", "DITTO", "EEVEE", "VAPOREON", "JOLTEON", "FLAREON", "PORYGON", "OMANYTE", "OMASTAR", "KABUTO", "KABUTOPS", "AERODACTYL", "SNORLAX", "ARTICUNO", "ZAPDOS", "MOLTRES", "DRATINI", "DRAGONAIR", "DRAGONITE", "MEWTWO"];
 var pokemon_list_by_id = $.map(pokemon, function(value, i) {
-  return {'name':i.toString(), 'content':value};
+    return {
+        'name': i.toString(),
+        'content': value
+    };
 });
 var pokemon_list_by_name = $.map(pokemon, function(value, i) {
-  return {'content':i.toString(), 'name':value};
+    return {
+        'content': i.toString(),
+        'name': value
+    };
 });
-var moves =["Pound","KarateChop*","DoubleSlap","CometPunch","MegaPunch","PayDay","FirePunch","IcePunch","ThunderPunch","Scratch","ViceGrip","Guillotine","RazorWind","SwordsDance","Cut","Gust*","WingAttack","Whirlwind","Fly","Bind","Slam","VineWhip","Stomp","DoubleKick","MegaKick","JumpKick","RollingKick","SandAttack*","Headbutt","HornAttack","FuryAttack","HornDrill","Tackle","BodySlam","Wrap","TakeDown","Thrash","Double-Edge","TailWhip","PoisonSting","Twineedle","PinMissile","Leer","Bite*","Growl","Roar","Sing","Supersonic","SonicBoom","Disable","Acid","Ember","Flamethrower","Mist","WaterGun","HydroPump","Surf","IceBeam","Blizzard","Psybeam","BubbleBeam","AuroraBeam","HyperBeam","Peck","DrillPeck","Submission","LowKick","Counter","SeismicToss","Strength","Absorb","MegaDrain","LeechSeed","Growth","RazorLeaf","SolarBeam","PoisonPowder","StunSpore","SleepPowder","PetalDance","StringShot","DragonRage","FireSpin","ThunderShock","Thunderbolt","ThunderWave","Thunder","RockThrow","Earthquake","Fissure","Dig","Toxic","Confusion","Psychic","Hypnosis","Meditate","Agility","QuickAttack","Rage","Teleport","NightShade","Mimic","Screech","DoubleTeam","Recover","Harden","Minimize","Smokescreen","ConfuseRay","Withdraw","DefenseCurl","Barrier","LightScreen","Haze","Reflect","FocusEnergy","Bide","Metronome","MirrorMove","Self-Destruct","EggBomb","Lick","Smog","Sludge","BoneClub","FireBlast","Waterfall","Clamp","Swift","SkullBash","SpikeCannon","Constrict","Amnesia","Kinesis","Soft-Boiled","HighJumpKick","Glare","DreamEater","PoisonGas","Barrage","LeechLife","LovelyKiss","SkyAttack","Transform","Bubble","DizzyPunch","Spore","Flash","Psywave","Splash","AcidArmor","Crabhammer","Explosion","FurySwipes","Bonemerang","Rest","RockSlide","HyperFang","Sharpen","Conversion","TriAttack","SuperFang","Slash","Substitute","Struggle"];
+var moves = ["POUND", "KARATECHOP*", "DOUBLESLAP", "COMETPUNCH", "MEGAPUNCH", "PAYDAY", "FIREPUNCH", "ICEPUNCH", "THUNDERPUNCH", "SCRATCH", "VICEGRIP", "GUILLOTINE", "RAZORWIND", "SWORDSDANCE", "CUT", "GUST*", "WINGATTACK", "WHIRLWIND", "FLY", "BIND", "SLAM", "VINEWHIP", "STOMP", "DOUBLEKICK", "MEGAKICK", "JUMPKICK", "ROLLINGKICK", "SANDATTACK*", "HEADBUTT", "HORNATTACK", "FURYATTACK", "HORNDRILL", "TACKLE", "BODYSLAM", "WRAP", "TAKEDOWN", "THRASH", "DOUBLE-EDGE", "TAILWHIP", "POISONSTING", "TWINEEDLE", "PINMISSILE", "LEER", "BITE*", "GROWL", "ROAR", "SING", "SUPERSONIC", "SONICBOOM", "DISABLE", "ACID", "EMBER", "FLAMETHROWER", "MIST", "WATERGUN", "HYDROPUMP", "SURF", "ICEBEAM", "BLIZZARD", "PSYBEAM", "BUBBLEBEAM", "AURORABEAM", "HYPERBEAM", "PECK", "DRILLPECK", "SUBMISSION", "LOWKICK", "COUNTER", "SEISMICTOSS", "STRENGTH", "ABSORB", "MEGADRAIN", "LEECHSEED", "GROWTH", "RAZORLEAF", "SOLARBEAM", "POISONPOWDER", "STUNSPORE", "SLEEPPOWDER", "PETALDANCE", "STRINGSHOT", "DRAGONRAGE", "FIRESPIN", "THUNDERSHOCK", "THUNDERBOLT", "THUNDERWAVE", "THUNDER", "ROCKTHROW", "EARTHQUAKE", "FISSURE", "DIG", "TOXIC", "CONFUSION", "PSYCHIC", "HYPNOSIS", "MEDITATE", "AGILITY", "QUICKATTACK", "RAGE", "TELEPORT", "NIGHTSHADE", "MIMIC", "SCREECH", "DOUBLETEAM", "RECOVER", "HARDEN", "MINIMIZE", "SMOKESCREEN", "CONFUSERAY", "WITHDRAW", "DEFENSECURL", "BARRIER", "LIGHTSCREEN", "HAZE", "REFLECT", "FOCUSENERGY", "BIDE", "METRONOME", "MIRRORMOVE", "SELF-DESTRUCT", "EGGBOMB", "LICK", "SMOG", "SLUDGE", "BONECLUB", "FIREBLAST", "WATERFALL", "CLAMP", "SWIFT", "SKULLBASH", "SPIKECANNON", "CONSTRICT", "AMNESIA", "KINESIS", "SOFT-BOILED", "HIGHJUMPKICK", "GLARE", "DREAMEATER", "POISONGAS", "BARRAGE", "LEECHLIFE", "LOVELYKISS", "SKYATTACK", "TRANSFORM", "BUBBLE", "DIZZYPUNCH", "SPORE", "FLASH", "PSYWAVE", "SPLASH", "ACIDARMOR", "CRABHAMMER", "EXPLOSION", "FURYSWIPES", "BONEMERANG", "REST", "ROCKSLIDE", "HYPERFANG", "SHARPEN", "CONVERSION", "TRIATTACK", "SUPERFANG", "SLASH", "SUBSTITUTE", "STRUGGLE"];
 var moves_list = $.map(moves, function(value, i) {
-  return {'name':i.toString(), 'content':value};
+    return {
+        'name': i.toString(),
+        'content': value
+    };
 });
 
 $('#test').atwho({
@@ -24,25 +33,55 @@ $('#test').atwho({
     data: moves
 });
 
-angular.module('PokeLang', [])
+angular.module('PokeLang', ['ui.codemirror'])
     .controller('mainCtrl', function($scope) {
+            $scope.editorOptions = {
+        lineWrapping : true,
+        lineNumbers: true,
+        // readOnly: 'nocursor',
+        mode: 'javascript',
+    };
         $scope.text = "Compiling";
         $scope.text2 = "Done";
         $scope.result = "";
-            poke.W.init();
-            poke.I.init();
+        poke.W.init();
+        poke.I.init();
+        poke.I.setOutputFunction(function(val) {
+            // console.log(val);
+            $scope.result += val;
+        });
+        $scope.stack = [];
+        $scope.code = ["Go! SQUIRTLE!",
+            "Foe GARY sends out JYNX!",
+            "SQUIRTLE uses TACKLE!",
+            "Foe GARY calls back JYNX!",
+            "Foe GARY sends out JYNX!",
+            "SQUIRTLE uses TACKLE!",
+            "Foe GARY calls back JYNX!",
+            "Foe GARY sends out SCYTHER!",
+            "SQUIRTLE! That's enough! Come back!",
+            "Go! SQUIRTLE!",
+            "Foe SCYTHER uses SLASH!"
+        ].join('\n');
         $scope.process = function() {
-            document.querySelector('#toast1').show();
+            // document.querySelector('#toast1').show();
             // console.log($scope.code);
             try {
+                $scope.stack = poke.W.walk(poke.P.parse($scope.code), true).split(' ').reverse();
                 var result = poke.I.run(poke.T.tokenise(poke.W.walk(poke.P.parse($scope.code), true)));
+                // console.log(result);
+                if (result[0])
+                    $scope.result += result[0].toString();
+                // document.querySelector('#toast2').show();
             } catch (err) {
                 $scope.result = err.message.toString();
-
+                for (var i = 0; i < poke.E.errorTypes.length; i++) {
+                    if (err instanceof poke.E[poke.E.errorTypes[i] + 'Error']) {
+                        $scope.result = (poke.E.errorTypes[i] + 'Error:', err.name, err.message ? '- ' + err.message : '');
+                    }
+                }
             }
             // $scope.compile = function(data){
-            $scope.result = result[0].toString();
-            document.querySelector('#toast2').show();
 
             // }
             // console.log(poke.compile($scope.code));

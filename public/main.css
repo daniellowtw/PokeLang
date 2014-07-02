@@ -1,54 +1,20 @@
-    html, body {
-        height: 100%;
-        margin: 0;
-        background-color: #E5E5E5;
-        font-family:'RobotoDraft', sans-serif;
-    }
-    core-header-panel {
-        height: 100%;
-    }
-    core-toolbar {
-        background: #03a9f4;
-        color: white;
-    }
-    paper-tabs {
-        width: 100%;
-    }
-    .container {
-        width: 80%;
-        margin: 50px auto;
-    }
-    @media (min-width: 481px) {
-        paper-tabs {
-            width: 200px;
-        }
-        .container {
-            width: 400px;
-        }
-    }
+.stack {
+  border: 1px solid black;
+  list-style: none;
+  padding: 5px;
+  margin: 2px;
+  width: 50px;
+}
 
-        section {
-      margin: 2em 0;
-    }
+#over {
+  position: absolute;
+  z-index: 100;
+  opacity: 0;
+}
 
-    aside {
-      background: #ccc;
-      padding: 1em;
-      margin-right: 2em;
-      font-size: 12px;
-      width: 250px;
-      border-radius: 3px;
-    }
+#under {
+  position: absolute;
+  z-index: 88;
 
-    core-input {
-      margin: 1em;
-    }
+}
 
-    core-input[multiline] {
-      border: 1px dotted #ccc;
-    }
-
-    core-input.sized {
-      width: 500px;
-      height: 200px;
-    }
