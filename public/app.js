@@ -77,7 +77,10 @@ angular.module('PokeLang', ['ui.codemirror'])
                 $scope.result = err.message.toString();
                 for (var i = 0; i < poke.E.errorTypes.length; i++) {
                     if (err instanceof poke.E[poke.E.errorTypes[i] + 'Error']) {
-                        $scope.result = (poke.E.errorTypes[i] + 'Error:', err.name, err.message ? '- ' + err.message : '');
+                        $scope.result = poke.E.errorTypes[i] + 'Error:' + err.name;
+                        if(err.message) {
+                            $scope.result += '- ' + err.message;
+                        }
                     }
                 }
             }
