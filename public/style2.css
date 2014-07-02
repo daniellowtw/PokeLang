@@ -395,7 +395,8 @@ input::-moz-focus-inner {
 .button {
   border: 0;
   padding: 1em 3em;
-  background-color: #e74b3c;
+  /*background-color: #e74b3c;*/
+  background-color: #212933;
   color: #fff;
   text-decoration: none;
   position: relative;
@@ -912,7 +913,8 @@ a:active {
   top: -12px;
 }
 .dark-blue-row {
-  background-color: #212933;
+  /*background-color: #212933;*/
+  background-color: #EC2A2A;
   color: #fff;
 }
 .dark-blue-row p > a {
