@@ -19,6 +19,10 @@
     "jquery": "~2.1.1",
     "caret.js": "~0.0.9",
     "polymer": "Polymer/polymer#~0.3.3",
-    "core-elements": "Polymer/core-elements"
+    "angular-ui-codemirror": "~0.1.2",
+    "ace": "~1.1.4",
+    "google-code-prettify-language-handlers": "~0.1.5",
+    "base": "~1.8.5",
+    "google-code-prettify": "~1.0.1"
   }
 }
