@@ -1203,6 +1203,7 @@ a:active {
   background: url(images/haileybury.png) 50% 45% no-repeat #2c1b25;
 }
 .footer {
+    border-top: 1px solid black;
   font-size: 13px;
   font-size: 0.8125rem;
   padding: 1em 0;

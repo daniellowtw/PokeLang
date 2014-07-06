@@ -1,2 +1,6 @@
 *.swp
 *~
+.idea
+.tmp
+node_modules
+dist

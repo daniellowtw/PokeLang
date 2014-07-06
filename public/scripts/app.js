@@ -19,7 +19,7 @@ var moves_list = $.map(moves, function(value, i) {
     };
 });
 
-$('#test').atwho({
+$('#input').atwho({
     at: "#",
     tpl: '<li data-value="${content}">${name} <small>${content}</small></li>',
     data: pokemon_list_by_id
@@ -34,20 +34,18 @@ $('#test').atwho({
 });
 
 angular.module('PokeLang', ['ui.codemirror'])
-    .controller('mainCtrl', function($scope) {
-            $scope.editorOptions = {
-        lineWrapping : true,
-        lineNumbers: true,
-        // readOnly: 'nocursor',
-        mode: 'javascript',
-    };
-        $scope.text = "Compiling";
-        $scope.text2 = "Done";
+    .controller('mainCtrl', ['$scope', function($scope) {
+        $scope.editorOptions = {
+            lineWrapping : true,
+            lineNumbers: true,
+            mode: 'javascript'
+        };
+
+        $scope.editor = true;
         $scope.result = "";
         poke.W.init();
         poke.I.init();
         poke.I.setOutputFunction(function(val) {
-            // console.log(val);
             $scope.result += val;
         });
         $scope.stack = [];
@@ -63,16 +61,13 @@ angular.module('PokeLang', ['ui.codemirror'])
             "Go! SQUIRTLE!",
             "Foe SCYTHER uses SLASH!"
         ].join('\n');
+
         $scope.process = function() {
-            // document.querySelector('#toast1').show();
-            // console.log($scope.code);
             try {
                 $scope.stack = poke.W.walk(poke.P.parse($scope.code), true).split(' ').reverse();
                 var result = poke.I.run(poke.T.tokenise(poke.W.walk(poke.P.parse($scope.code), true)));
-                // console.log(result);
                 if (result[0])
                     $scope.result += result[0].toString();
-                // document.querySelector('#toast2').show();
             } catch (err) {
                 $scope.result = err.message.toString();
                 for (var i = 0; i < poke.E.errorTypes.length; i++) {
@@ -84,9 +79,5 @@ angular.module('PokeLang', ['ui.codemirror'])
                     }
                 }
             }
-            // $scope.compile = function(data){
-
-            // }
-            // console.log(poke.compile($scope.code));
         }
-    });
+    }]);

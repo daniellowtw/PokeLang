@@ -1,262 +1,180 @@
 <!DOCTYPE html>
-<html ng-app='PokeLang'>
-
+<html ng-app='PokeLang' class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
     <title>Pok&#233;Lang Web Compiler</title>
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
     <link href="bower_components/jquery.atwho/dist/css/jquery.atwho.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/Caret.js/dist/jquery.caret.min.js"></script>
-    <script src="bower_components/jquery.atwho/dist/js/jquery.atwho.min.js"></script>
-    <script src="browser_version.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-    <link rel="import" href="bower_components/core-overlay/core-overlay.html">
     <link rel="stylesheet" type="text/css" href="bower_components/codemirror/lib/codemirror.css">
     <link rel="stylesheet" type="text/css" href="bower_components/google-code-prettify/styles/desert.css">
     <!-- <link rel="stylesheet" type="text/css" href="bower_components/google-code-prettify/src/prettify.css"> -->
+    <!-- endbower -->
+    <!-- endbuild -->
 
-    <script type="text/javascript" src="bower_components/codemirror/lib/codemirror.js"></script>
+    <!-- build:css styles/main.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/codemirror/4.3.0/codemirror.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/Caret.js/dist/jquery.caret.min.js"></script>
+    <script src="bower_components/jquery.atwho/dist/js/jquery.atwho.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-ui-codemirror/ui-codemirror.js"></script>
     <script type="text/javascript" src="bower_components/google-code-prettify/src/prettify.js"></script>
-    <script type="text/javascript" src="lang-poke.js"></script>
-
-
-    <!-- base -->
-
-    <link rel="stylesheet" href="style2.css">
-    <script src="bower_components/base/js/modernizr.js"></script>
-
-    <!-- base -->
+    <!-- endbower -->
+    <!-- endbuild -->
 
 
 </head>
 
 <body ng-controller="mainCtrl" onload="prettyPrint()">
-    <div class="header dark-blue-row">
-        <div class="container row-3 tablet-row-3 mobile-row-1">
-            <div class="clear mobile-text-center">
-                <a href="/base/" class="logo mobile-no-float uppercase">
-                    <!-- <span class="icon"></span> -->Pok&#233;Lang</a>
-                <ul class="navigation list-inline right mobile-full mobile-container-full">
-                    <li><a class="active" href="#docs">Docs</a>
-                    </li>
-                    <li><a href="#compiler">Try now</a>
-                    </li>
-                    <li><a href="https://github.com/daniellowtw/PokeLang">Github</a>
-                    </li>
-                </ul>
+
+<div class="header dark-blue-row" style="height: 100%">
+    <div class="title-table fluid-row">
+        <div class="title-row">
+            <div class="container title-heading">
+                <div class="clear mobile-text-center">
+                    <a href="/base/" class="logo mobile-no-float uppercase">
+                        <!-- <span class="icon"></span> -->Pok&#233;Lang</a>
+                </div>
             </div>
         </div>
-
-        <div class="container row-2">
-
-    An esoteric programming language where programs are represented as a Pok&#233;mon
-    battle.
-
-<p></p>
-    Pok&#233;Lang consists of a series turns in a Pok&#233;mon battle.
-    Moves correspond to an operation or object.
-    The moves are then transcribed into a stack-oriented language called Pok&#233;Stack.
-    The Pok&#233;Stack program is then run using a Pok&#233;Stack interpreter.
-
-        </div>
-
     </div>
-
-    <!-- <div class="container mobile-container-full">
-    <div class="row-2 clear mobile-row">
-        <div class="left col-8 tablet-col-6 mobile-full mobile-container mobile-text-center">
-            <h1 class="h2">Global CSS</h1>
-            <p class="font-light col-11 tablet-col-12">
-                Base uses relative sizing (rems, not pixels) for global typography. Sans-serif is the default font family and the global size is 16rem with a line height of 21rem.
-            </p>
+    <div class="container-full fluid-row" style="position: relative;height: 25%">
+        <div class="col-narrow col-4">
+            <div class="full-width-height">
+                <!--<input type="button" class="button my-btn" value="Read more" onclick="location.href='#read-more'"/>-->
+                <a href="#read-more" class="button my-btn">Overview</a>
+            </div>
         </div>
-        <div id="carbonads-container" class="right mobile-full mobile-container-full carbonads-container">
-            <div class="carbonad mobile-container-full">
-                <div id="azcarbon"></div>
+        <div class="col-narrow col-4">
+            <div class="full-width-height">
+                <a href="#compiler" class="button my-btn">Try it</a>
+            </div>
+        </div>
+        <div class="col-narrow col-4">
+            <div class="full-width-height">
+                <a href="https://www.github.com/daniellowtw/pokelang" class="my-btn button">Docs</a>
             </div>
         </div>
     </div>
 </div>
- -->
-    <a id="docs"></a>
-    <div class="row clear">
-        <div class="container mobile-container-full">
-    <h2>Documentations and example</h2>
-            Fibonacci
-            <pre class="prettyprint lang-poke">
-Go! SQUIRTLE!
-Foe GARY sends out PIDGEOT!
-Foe GARY calls back PIDGEOT!
-Foe GARY sends out PIDGEOT!
-SQUIRTLE uses TACKLE!                   // 18 <- n
-Foe GARY calls back PIDGEOT!
-Foe GARY sends out BULBASAUR!
-SQUIRTLE uses TACKLE!                   // 1
-SQUIRTLE! That's enough! Come back!
-Go! PIKACHU! 
-Foe GARY calls back BULBASAUR!
-Foe GARY sends out GEODUDE!
-PIKACHU uses THUNDERSHOCK!              // {
-It has no effect!
-Foe GEODUDE uses ROCKTHROW!            // dup
-PIKACHU! That's enough! Come back!
-Go! IVYSAUR!
-Foe GEODUDE uses TACKLE!                // 2
-IVYSAUR! That's enough! Come back!
-Go! PIKACHU!
-Foe GARY calls back GEODUDE!
-Foe GARY sends out SLOWPOKE!
-Foe SLOWPOKE uses HEADBUTT!             // >
-PIKACHU uses THUNDERSHOCK!              // {
-It's super effective!
-PIKACHU! That's enough! Come back!
-Go! BULBASAUR! 
-Foe GARY calls back SLOWPOKE!
-Foe GARY sends out GEODUDE!
-BULBASAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe GEODUDE uses ROCKTHROW!            // dup
-BULBASAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe GEODUDE uses TACKLE!                // 1
-BULBASAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe GARY calls back GEODUDE!
-Foe GARY sends out SQUIRTLE!
-Foe SQUIRTLE uses WATERGUN!            // -
-It's not very effective!          
-BULBASAUR uses VINEWHIP!               // swap
-BULBASAUR! That's enough! Come back!
-Go! IVYSAUR! 
-Foe SQUIRTLE uses TACKLE!               // 2
-IVYSAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe SQUIRTLE uses WATERGUN!            // -
-It's not very effective!
-BULBASAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe SQUIRTLE uses TACKLE!               // 1
-Foe GARY calls back SQUIRTLE!
-Foe GARY sends out ALAKAZAM!
-BULBASAUR! That's enough! Come back!
-Go! PIKACHU! 
-Foe ALAKAZAM uses PSYBEAM!              // load
-PIKACHU uses THUNDER!                   // exec
-PIKACHU! That's enough! Come back!
-Go! BULBASAUR! 
-Foe GARY calls back ALAKAZAM!
-Foe GARY sends out SQUIRTLE!
-BULBASAUR uses VINEWHIP!               // swap
-It's super effective!
-Foe SQUIRTLE uses TACKLE!               // 1
-Foe GARY calls back SQUIRTLE!
-Foe GARY sends out ALAKAZAM!
-BULBASAUR! That's enough! Come back!
-Go! PIKACHU! 
-Foe ALAKAZAM uses PSYBEAM!              // load
-PIKACHU uses THUNDER!                   // exec
-PIKACHU! That's enough! Come back!
-Go! PIKACHU! 
-Foe GARY calls back ALAKAZAM!
-Foe GARY sends out CHARIZARD!
-Foe CHARIZARD uses EMBER!               // +
-PIKACHU uses THUNDERBOLT!               // }
-Foe GARY calls back CHARIZARD!
-Foe GARY sends out TENTACRUEL!
-PIKACHU uses THUNDERSHOCK!              // {
-PIKACHU! That's enough! Come back!
-Go! BULBASAUR!
-Foe TENTACRUEL uses POISONSTING!        // pop 
-BULBASAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe GARY calls back TENTACRUEL!
-Foe GARY sends out SQUIRTLE!
-BULBASAUR! That's enough! Come back!
-Go! BULBASAUR! 
-Foe SQUIRTLE uses TACKLE!               // 1 
-BULBASAUR! That's enough! Come back!
-Go! PIKACHU! 
-Foe GARY calls back SQUIRTLE!
-Foe GARY sends out DUGTRIO!
-PIKACHU uses THUNDERBOLT!               // }
-It has no effect!
-Foe DUGTRIO uses EARTHQUAKE!            // ifelse
-It's super effective!
-Foe GARY calls back DUGTRIO!
-Foe GARY sends out ALAKAZAM!  
-PIKACHU uses THUNDERBOLT!               // }
-It's super effective!
-PIKACHU! That's enough! Come back!
-Go! BULBASAUR!
-Foe ALAKAZAM uses CONFUSION!               // store
-Foe GARY calls back ALAKAZAM!
-Foe GARY sends out BULBASAUR!
-BULBASAUR uses TACKLE!                  // 1
-Foe GARY calls back BULBASAUR!
-Foe GARY sends out ALAKAZAM!
-BULBASAUR! That's enough! Come back!
-Go! PIKACHU! 
-Foe ALAKAZAM uses PSYBEAM!              // load
-PIKACHU uses THUNDER!                   // exec
-Foe GARY calls back ALAKAZAM!
-Foe GARY sends out BULBASAUR!
-PIKACHU! That's enough! Come back!
-Go! SQUIRTLE! 
-Foe BULBASAUR uses TACKLE!
-</pre>
-        </div>
+
+<a id="read-more"></a>
+
+<div class="row clear cover">
+    <div class="container row-2">
+        An esoteric programming language where programs are represented as a Pok&#233;mon battle.
+        <p></p>
+        Pok&#233;Lang consists of a series turns in a Pok&#233;mon battle. Moves correspond to an operation or object.
+        The
+        moves are then transcribed into a stack-oriented language called Pok&#233;Stack. The Pok&#233;Stack program is
+        then
+        run using a Pok&#233;Stack interpreter.
     </div>
+    <div class="container mobile-container">
+        <h3>Example</h3>
+        Addition
+        <pre class="prettyprint lang-poke">
+Go! FLAREON!
+Foe BLAINE sends out FLAREON!
+FLAREON uses TACKLE!           // 136
+Foe FLAREON uses TACKLE!       // 136
+FLAREON uses EMBER!
+        </pre>
+    </div>
+</div>
 
 <a id="compiler"></a>
-    <div class="dark-blue-row">
+
+<div class="dark-blue-row cover">
+    <div class="container-full">
         <div class="row clear">
-            <div class="container mobile-container-full">
-                <div class="col col-9 tablet-full mobile-full">
-
-                    <h1>Battle log</h1>
-                    <section>
-                        <!-- <paper-input multiline rows="3" id='test' label="This input is 3 rows high"></paper-input> -->
-                        <!-- <textarea ng-model="code" cols=50 multiline rows=10 placeholder="Type your source code here" id="over"></textarea> -->
-                        <textarea ui-codemirror="editorOptions" ng-model="code" cols=50 multiline rows=10 placeholder="Type your source code here" id="under"></textarea>
-                    </section>
-                    <div class="row mobile-row"></div>
-
-                    <!-- Form Elements -->
-                    <fieldset>
-                        <!-- Submit Button -->
-                        <input type="submit" value="Battle" class="button col-12 desktop-full tablet-full mobile-full" ng-click="process()">
-                        <textarea ng-model='result' id='output' class="col-12 tablet-full mobile-full" placeholder="Output"></textarea>
-
-                    </fieldset>
-                    <div class="row mobile-row"></div>
-
-
-                </div>
-                <div class="col col-3 no-tablet no-mobile">
-                    <h3>Stack history</h3>
-                    <!-- {{stack}} -->
-                    <ul>
-                        <li class="stack" ng-repeat="post in stack track by $index">{{post}}</li>
-                    </ul>
-
-                </div>
+            <div class="col-narrow col-7">
+                <h2>Battle Log</h2>
+            </div>
+            <div class="col-narrow col-5">
+                <div class="full-width-height">
+                    <div class="button my-btn " ng-click="editor = !editor">
+                    Switch Editor
+                    </div>
+            </div>
             </div>
         </div>
-
-    </div>
-<!-- 
-    <div class="row mobile-row">
         <div class="row clear">
-
+</div>
+        <div class="row clear">
+            <section ng-show="editor">
+                <ui-codemirror ui-codemirror-opts="editorOptions" ng-model="code"></ui-codemirror>
+            </section>
+            <div ng-hide="editor">
+                1. # to search pokemon by id
+                <br>2. @ to search pokemon by name
+                <br>3. . to search pokemon moves
+                <textarea ng-model="code" class="full-width-height" multiline rows=10
+                          placeholder="Type your source code here" id="input"></textarea>
+            </div>
+            <div class="row mobile-row">
+                <input type="submit" value="Battle" class="button col-12 desktop-full tablet-full mobile-full"
+                       ng-click="process()">
+                <textarea ng-model='result' id='output' class="col-12 tablet-full mobile-full"
+                          placeholder="Output"></textarea>
+            </div>
+            <!--todo: show stack?-->
         </div>
-    </div> -->
+    </div>
+</div>
 
+<!--asd-->
+<div class="footer">
+    <div class="container clear">
+        <div class="left col-6 left-text mobile-full mobile-text-left">
+            PokeLang is not endorsed by Nintendo.
+        </div>
+        <div class="right col-6 text-right mobile-full mobile-text-left">
+            <ul class="list-inline footer-list">
+                <li><a href="https://github.com/daniellowtw/pokelang">View Source on Github</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--fgwer-->
 
-    <script src="app.js"></script>
+<!-- build:js scripts/scripts.js -->
+<script src="scripts/browser_version.js"></script>
+<script src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/lang-poke.js"></script>
+<!-- endbuild -->
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-50123524-2', 'auto');
+    ga('send', 'pageview');
+</script>
 
 </body>
 
