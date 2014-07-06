@@ -51,7 +51,8 @@ The above program is ( 1 1 + ), which simply adds 1 and 1, resulting in 2.
 | *           | FLAMETHROWER | op   | ( num 1 num 2 ) | ( #a*#b ) | multiplication   |
 | /           | HYDROPUMP    | op   | ( #a #b )       | ( #a/#b ) | integer division |
 
-[View complete move list please view][1]
+[View complete move list][1]
+
 [View detailed documentation][2]
 
 
