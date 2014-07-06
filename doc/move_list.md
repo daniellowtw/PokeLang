@@ -1,0 +1,78 @@
+# Move list
+
+##Notation
+Instruction | Move | Type | Pre | Post | Description
+
+( a b ) where b is the top of the stack
+a indexed as the first argument
+
+arguments/args refer to the topmost objects on the stack
+
+`#a`  number named a
+`{}a` block named a
+`[]a` array named a
+`[a,b,c]` array with a, b and c as elements
+`(_)` indeterminate state
+
+`( a )[1 : b, 2 : {c}]` stack with current dictionary 1:b, 2:{c}
+
+## Stack Manipulation
+| Instruction | Move        | Type    | Pre       | Post      | Description                                      |
+| ---         | ---         | ---     | ---       | ---       | ---                                              |
+| <num>       | TACKLE      | obj:num | ()        | ( #a )    | pushes target pokemon's pokedex no. on the stack |
+| pop         | POISONSTING | op      | ( a )     | ( )       |                                                  |
+| dup         | ROCKTHROW   | op      | ( a )     | ( a a )   | pushes a copy of the arg on the stack            |
+| swap        | VINEWHIP    | op      | ( a b )   | ( b a )   | swaps the top 2 objects on the stack             |
+| rot3        | RAZORLEAF   | op      | ( a b c ) | ( c a b ) | rearragnes the top 3 objects of the stack        |
+
+## Arithmetic
+| Instruction | Move         | Type | Pre             | Post      | Description      |
+| ---         | ---          | ---  | ---             | ---       | ---              |
+| +           | EMBER        | op   | ( #a #b )       | ( #a+#b ) | addition         |
+| -           | WATERGUN     | op   | ( #a #b )       | ( #a-#b ) | subtraction      |
+| *           | FLAMETHROWER | op   | ( num 1 num 2 ) | ( #a*#b ) | multiplication   |
+| /           | HYDROPUMP    | op   | ( #a #b )       | ( #a/#b ) | integer division |
+
+## Comparison
+| Instruction | Move       | Type    | Pre      | Post                     | Description |
+| ---         | ---        | ---     | ---      | ---                      | ---         |
+| ==          | POUND      | ( a b ) | ( a==b ) | equal to                 |             |
+| >           | HEADBUTT   | ( a b ) | (a > b ) | strictly greater than    |             |
+| >=          | BITE       | ( a b ) | (a > b ) | greater than or equal to |             |
+| <=          | HORNATTACK | ( a b ) | (a > b ) | lesser than or equal to  |             |
+| <           | BODYSLAM   | ( a b ) | (a > b ) | strictly lesser than     |             |
+
+## Arrays
+| Instruction | Move         | Type     | Pre             | Post        | Description                          |
+| ---         | ---          | ---      | ---             | ---         | ---                                  |
+| [           | MEGAPUNCH    | obj:mark | ()              | ([)         | mark start of array                  |
+| ]           | THUNDERPUNCH | op       | ( [ a b c )     | ( [a,b,c] ) | create array with objects up to mark |
+| get         | FIREPUNCH    | op       | ( []a num )     | ( a[num] )  | get num of index a                   |
+| put         | ICEPUNCH     | op       | ( []a num obj ) | ( []_ )     | index num of a updated to obj        |
+| fold        | MEGAKICK     | op       | ( []a {}a )     | (_)         | fold {a} over []a                    |
+| map         | HIJUMPKICK   | op       | ( []a {}a )     | ([]_)       | map {a} over []a                     |
+
+## Blocks
+| Instruction | Move                     | Type      | Pre     | Post    | Description       |
+| ---         | ---                      | ---       | ---     | ---     | ---               |
+| { }         | THUNDERShOCK THUNDERBOLT | obj:block | ()      | ( {}a ) |                   |
+| exec        | THUNDER                  | op        | ( {}a ) | (_)     | exec block object |
+
+## Dictionary
+| Instruction | Move      | Type | Pre             | Post        | Description                   |
+| ---         | ---       | ---  | ---             | ---         | ---                           |
+| store       | CONFUSION | op   | ( num a )       | ()[num: a]  | store num:a in dictionary     |
+| load        | PSYBEAM   | op   | ( num )[num: a] | (a)[num: a] | push value of a in dictionary |
+
+## Control Flow
+| Instruction | Move       | Type | Pre            | Post | Description                 |
+| ---         | ---        | ---  | ---            | ---  | ---                         |
+| ifelse      | EARTHQUAKE | op   | ( #c {}a {}b ) | (_)  | if c then exec {}a else {}b |
+| while       | SCRATCH    | op   | ( #b {}a )     | (_)  | while b exec {}a            |
+
+## Printing
+| Instruction | Move | Type   | Pre | Post                                   | Description |
+| ---         | ---  | ---    | --- | ---                                    | ---         |
+| SLASH       | op   | ( #a ) | ( ) | prints the ASCII represented by number |             |
+
+
