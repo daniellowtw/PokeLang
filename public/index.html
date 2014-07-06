@@ -32,8 +32,9 @@
     <!-- bower:js -->
     <script src="bower_components/Caret.js/dist/jquery.caret.min.js"></script>
     <script src="bower_components/jquery.atwho/dist/js/jquery.atwho.min.js"></script>
-    <script type="text/javascript" src="bower_components/angular-ui-codemirror/ui-codemirror.js"></script>
-    <script type="text/javascript" src="bower_components/google-code-prettify/src/prettify.js"></script>
+    <script src="bower_components/angular-ui-codemirror/ui-codemirror.js"></script>
+    <script src="bower_components/google-code-prettify/src/prettify.js"></script>
+    <script src="bower_components/jquery-leanmodal/jquery.leanModal.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -93,8 +94,7 @@ Go! FLAREON!
 Foe BLAINE sends out FLAREON!
 FLAREON uses TACKLE!           // 136
 Foe FLAREON uses TACKLE!       // 136
-FLAREON uses EMBER!
-        </pre>
+FLAREON uses EMBER!</pre>
     </div>
 </div>
 
@@ -109,13 +109,11 @@ FLAREON uses EMBER!
             <div class="col-narrow col-5">
                 <div class="full-width-height">
                     <div class="button my-btn " ng-click="editor = !editor">
-                    Switch Editor
+                        Switch Editor
                     </div>
-            </div>
+                </div>
             </div>
         </div>
-        <div class="row clear">
-</div>
         <div class="row clear">
             <section ng-show="editor">
                 <ui-codemirror ui-codemirror-opts="editorOptions" ng-model="code"></ui-codemirror>
@@ -124,7 +122,7 @@ FLAREON uses EMBER!
                 1. # to search pokemon by id
                 <br>2. @ to search pokemon by name
                 <br>3. . to search pokemon moves
-                <textarea ng-model="code" class="full-width-height" multiline rows=10
+                <textarea ng-model="code" class="full-width-height" multiline rows=20
                           placeholder="Type your source code here" id="input"></textarea>
             </div>
             <div class="row mobile-row">
@@ -133,16 +131,16 @@ FLAREON uses EMBER!
                 <textarea ng-model='result' id='output' class="col-12 tablet-full mobile-full"
                           placeholder="Output"></textarea>
             </div>
+            <a id="go" rel="leanModal" name="signup" href="#test" class="carbonad-text">View stack</a>
             <!--todo: show stack?-->
         </div>
     </div>
 </div>
 
-<!--asd-->
 <div class="footer">
     <div class="container clear">
         <div class="left col-6 left-text mobile-full mobile-text-left">
-            PokeLang is not endorsed by Nintendo.
+            Made by Daniel and Jit. PokeLang is not endorsed by Nintendo.
         </div>
         <div class="right col-6 text-right mobile-full mobile-text-left">
             <ul class="list-inline footer-list">
@@ -151,8 +149,16 @@ FLAREON uses EMBER!
         </div>
     </div>
 </div>
-<!--fgwer-->
-
+<div id="test" style="display: none; position: fixed; opacity: 1; z-index: 11000; height: 90%">
+    <div style="background-color:white; height: 100%; overflow: auto" class="container">
+            <h4>Stack history</h4>
+            <!-- {{stack}} -->
+            <ul>
+                <li class="stack" ng-repeat="post in stack track by $index">{{post}}</li>
+            </ul>
+    </div>
+</div>
+<div id="lean_overlay" style="display: none; opacity: 0.5;"></div>
 <!-- build:js scripts/scripts.js -->
 <script src="scripts/browser_version.js"></script>
 <script src="scripts/app.js"></script>
@@ -174,6 +180,10 @@ FLAREON uses EMBER!
 
     ga('create', 'UA-50123524-2', 'auto');
     ga('send', 'pageview');
+
+    $(function() {
+        $('a[rel*=leanModal]').leanModal({ top : 10, closeButton: ".modal_close" });
+    });
 </script>
 
 </body>

@@ -1,9 +1,10 @@
 .stack {
   border: 1px solid black;
   list-style: none;
-  padding: 5px;
+  padding: 0 3px;
   margin: 2px;
-  width: 50px;
+  width: 80%;
+    text-align: center;
 }
 
 .title-heading{
@@ -49,4 +50,19 @@
 
 html,body{
 	height: 100%;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+.CodeMirror {
+    height: 430px;
 }

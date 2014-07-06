@@ -49,27 +49,69 @@ angular.module('PokeLang', ['ui.codemirror'])
             $scope.result += val;
         });
         $scope.stack = [];
-        $scope.code = ["Go! SQUIRTLE!",
-            "Foe GARY sends out JYNX!",
-            "SQUIRTLE uses TACKLE!",
-            "Foe GARY calls back JYNX!",
-            "Foe GARY sends out JYNX!",
-            "SQUIRTLE uses TACKLE!",
-            "Foe GARY calls back JYNX!",
-            "Foe GARY sends out SCYTHER!",
-            "SQUIRTLE! That's enough! Come back!",
-            "Go! SQUIRTLE!",
-            "Foe SCYTHER uses SLASH!"
+        $scope.code = [
+                "Go! HITMONCHAN!",
+                "Foe GARY sends out SQUIRTLE!",
+                "",
+                "Foe GARY calls back SQUIRTLE!",
+                "Foe GARY sends out SQUIRTLE!",
+                "HITMONCHAN uses MEGAPUNCH!",
+                "",
+                "HITMONCHAN! That's enough! Come back!",
+                "Go! TENTACOOL!",
+                "Foe SQUIRTLE uses TACKLE!",
+                "",
+                "TENTACOOL! That's enough! Come back!",
+                "Go! ELECTRODE!",
+                "Foe SQUIRTLE uses TACKLE!",
+                "",
+                "ELECTRODE! That's enough! Come back!",
+                "Go! LICKITUNG!",
+                "Foe SQUIRTLE uses TACKLE!",
+                "",
+                "LICKITUNG! That's enough! Come back!",
+                "Go! LICKITUNG!",
+                "Foe SQUIRTLE uses TACKLE!",
+                "",
+                "",
+                "LICKITUNG! That's enough! Come back!",
+                "Go! RHYHORN!",
+                "Foe SQUIRTLE uses TACKLE!",
+                "",
+                "RHYHORN! That's enough! Come back!",
+                "Go! HITMONCHAN!",
+                "Foe GARY calls back SQUIRTLE!",
+                "Foe GARY sends out PIKACHU!",
+                "",
+                "HITMONCHAN uses THUNDERPUNCH!",
+                "Foe PIKACHU uses THUNDERSHOCK!",
+                "",
+                "HITMONCHAN! That's enough! Come back!",
+                "Go! SCYTHER!",
+                "Foe GARY calls back PIKACHU!",
+                "Foe GARY sends out PIKACHU!",
+                "",
+                "SCYTHER uses SLASH!",
+                "Foe PIKACHU uses THUNDERBOLT!",
+                "",
+                "SCYTHER! That's enough! Come back!",
+                "Go! HITMONLEE!",
+                "Foe GARY calls back PIKACHU!",
+                "Foe GARY sends out PIKACHU!",
+                "",
+                "HITMONLEE uses MEGAKICK!"
         ].join('\n');
 
         $scope.process = function() {
+            // clear output
+            $scope.result = "";
             try {
                 $scope.stack = poke.W.walk(poke.P.parse($scope.code), true).split(' ').reverse();
                 var result = poke.I.run(poke.T.tokenise(poke.W.walk(poke.P.parse($scope.code), true)));
                 if (result[0])
                     $scope.result += result[0].toString();
             } catch (err) {
-                $scope.result = err.message.toString();
+                $scope.result += err.message.toString();
                 for (var i = 0; i < poke.E.errorTypes.length; i++) {
                     if (err instanceof poke.E[poke.E.errorTypes[i] + 'Error']) {
                         $scope.result = poke.E.errorTypes[i] + 'Error:' + err.name;
