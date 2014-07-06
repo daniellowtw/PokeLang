@@ -1,9 +1,9 @@
-var P = require('./lib/parser/pokelang.js'),
-    W = require('./lib/walker/walker.js'),
-    T = require('./lib/interpreter/tokeniser.js'),
-    I = require('./lib/interpreter/interpreter.js'),
-    E = require('./lib/errors/errors.js'),
-    H = require('./lib/errors/handler.js');
+var P = require('./../lib/parser/pokelang.js'),
+    W = require('./../lib/walker/walker.js'),
+    T = require('./../lib/interpreter/tokeniser.js'),
+    I = require('./../lib/interpreter/interpreter.js'),
+    E = require('./../lib/errors/errors.js'),
+    H = require('./../lib/errors/handler.js');
 
 module.exports.testdata = ["Go! SQUIRTLE!","Foe GARY sends out PIDGEOT!","Foe GARY calls back PIDGEOT!","Foe GARY sends out PIDGEOT!","SQUIRTLE uses TACKLE!"].join('\n');
 module.exports.P = P;
