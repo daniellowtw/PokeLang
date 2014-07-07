@@ -64,7 +64,7 @@ module.exports = function (grunt) {
                     src: [
                         '<%= yeoman.dist %>/scripts/{,*/}*.js',
                         '<%= yeoman.dist %>/styles/{,*/}*.css',
-                        '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+//                        '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
                         '<%= yeoman.dist %>/styles/fonts/*'
                     ]
                 }
@@ -181,9 +181,16 @@ module.exports = function (grunt) {
                             '.htaccess',
                             '*.html',
                             'views/{,*/}*.html',
-                            'images/{,*/}*.{webp}',
+                            'images/{,*/}*.{png}',
                             'fonts/*'
                         ]
+                    },
+
+                    {
+                        expand: true,
+                        cwd: '<%= yeoman.app %>',
+                        dest: '<%= yeoman.dist %>',
+                        src: ['images/*']
                     },
                     {
                         expand: true,
@@ -222,7 +229,7 @@ module.exports = function (grunt) {
         'clean:dist',
 //    'bowerInstall',
         'useminPrepare',
-//        'concurrent:dist',
+       // 'concurrent:dist',
         'autoprefixer',
         'concat',
         'ngmin',
