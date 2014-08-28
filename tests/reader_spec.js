@@ -3,7 +3,7 @@ var R = require('../lib/repl/reader.js'),
 
 R.init();
 
-describe('reader', function() {
+describe('reading input', function() {
 
     it('should read empty input', function() {
       R.reset();
@@ -108,6 +108,21 @@ describe('reader', function() {
       expect(function() {
         R.read(data);
       }).toThrow(E.trailingTokens('asdf'));
+    });
+
+    it('should check if Pokemon knows the move', function() {
+      R.reset();
+      var data = 'Go! PIKACHU!\nFoe GARY sends out EEVEE!\nPIKACHU uses TACKLE!';
+      R.read(data);
+      var result = R.battle;
+      var expected = {
+        selfPokemon: 'PIKACHU',
+        enemyPokemon: 'EEVEE',
+        enemyTrainer: 'GARY'
+      }; 
+      expect(result.selfPokemon).toEqual(expected.selfPokemon);
+      expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
+      expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
     });
 
 });
