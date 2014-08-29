@@ -40,6 +40,7 @@ Foe GARY sends out SQUIRTLE!
 Foe SQUIRTLE uses WATERGUN!            // -
 It's not very effective!          
 BULBASAUR uses VINEWHIP!               // swap
+It's super effective!
 BULBASAUR! That's enough! Come back!
 Go! IVYSAUR! 
 Foe SQUIRTLE uses TACKLE!               // 2
@@ -78,6 +79,7 @@ PIKACHU uses THUNDERBOLT!               // }
 Foe GARY calls back CHARIZARD!
 Foe GARY sends out TENTACRUEL!
 PIKACHU uses THUNDERSHOCK!              // {
+It's super effective!
 PIKACHU! That's enough! Come back!
 Go! BULBASAUR!
 Foe TENTACRUEL uses POISONSTING!        // pop 
@@ -99,10 +101,10 @@ It's super effective!
 Foe GARY calls back DUGTRIO!
 Foe GARY sends out ALAKAZAM!  
 PIKACHU uses THUNDERBOLT!               // }
-It's super effective!
 PIKACHU! That's enough! Come back!
 Go! BULBASAUR!
 Foe ALAKAZAM uses CONFUSION!               // store
+It's super effective!
 Foe GARY calls back ALAKAZAM!
 Foe GARY sends out BULBASAUR!
 BULBASAUR uses TACKLE!                  // 1
