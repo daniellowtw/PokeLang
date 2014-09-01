@@ -1,5 +1,6 @@
 var R = require('../lib/repl/reader.js'),
-    E = require('../lib/errors/errors.js');
+    E = require('../lib/errors/errors.js'),
+    I = require('../lib/interpreter/interpreter.js');
 
 R.init();
 
@@ -305,17 +306,17 @@ describe('battle checking', function() {
       var data = ['Go! PIKACHU!'
                  ,'Foe GARY sends out EEVEE!'
                  ,'Foe GARY calls back EEVEE!'
-                 ,'Foe GARY sends out PIDGEOT!'
+                 ,'Foe GARY sends out BULBASAUR!'
                  ,'PIKACHU! That\'s enough! Come back!'
-                 ,'Go! CHARMANDER!'
-                 ,'CHARMANDER uses SCRATCH!'
-                 ,'Foe PIDGEOT uses GUST!'
+                 ,'Go! EEVEE!'
+                 ,'EEVEE uses TACKLE!'
+                 ,'Foe BULBASAUR uses TACKLE!'
                  ].join('\n');
       R.read(data);
       var result = R.battle;
       var expected = {
-        selfPokemon: 'CHARMANDER',
-        enemyPokemon: 'PIDGEOT',
+        selfPokemon: 'EEVEE',
+        enemyPokemon: 'BULBASAUR',
         enemyTrainer: 'GARY'
       }; 
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
@@ -323,7 +324,7 @@ describe('battle checking', function() {
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
     });
 
-    xit('should read fib.poke', function() {
+    it('should read fib.poke', function() {
       R.reset(); 
       var data = 'Go! SQUIRTLE!\n' + 
         'Foe GARY sends out PIDGEOT!\n' + 
@@ -441,13 +442,17 @@ describe('battle checking', function() {
         'Go! PIKACHU! \n' + 
         'Foe ALAKAZAM uses PSYBEAM!              // load\n' + 
         'PIKACHU uses THUNDER!                   // exec\n' + 
-        '\n' 
+        'Foe GARY calls back ALAKAZAM!\n' +
+        'Foe GARY sends out SANDSLASH!\n' +
+        'PIKACHU! That\'s enough! Come back!\n' + 
+        'Go! PIKACHU!\n' + 
+        'Foe SANDSLASH uses SWIFT!\n'; 
 
       R.read(data);
       var result = R.battle;
       var expected = {
         selfPokemon: 'PIKACHU',
-        enemyPokemon: 'ALAKAZAM',
+        enemyPokemon: 'SANDSLASH',
         enemyTrainer: 'GARY'
       }; 
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
@@ -455,4 +460,57 @@ describe('battle checking', function() {
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
 
     });
+});
+
+describe('reader with interpreter', function() {
+
+    it('should have the correct stack', function() {
+      R.reset();
+      var data = ['Go! PIKACHU!'
+                 ,'Foe GARY sends out EEVEE!'
+                 ,'Foe GARY calls back EEVEE!'
+                 ,'Foe GARY sends out BULBASAUR!'
+                 ,'PIKACHU! That\'s enough! Come back!'
+                 ,'Go! EEVEE!'
+                 ,'EEVEE uses TACKLE!'
+                 ,'Foe BULBASAUR uses TACKLE!'
+                 ].join('\n');
+      R.read(data);
+      var result = R.getStack();
+      var expected = [I.num(1), I.num(133)];
+      expect(result).toEqual(expected);
+    });
+
+    it('should read blocks correctly', function() {
+      R.reset();
+      var data = ['Go! PIKACHU!'
+                 ,'Foe GARY sends out EEVEE!'
+                 ,'PIKACHU uses THUNDERSHOCK!'
+                 ,'Foe EEVEE uses TACKLE!'
+                 ,'PIKACHU uses THUNDERBOLT!'
+                 ].join('\n');
+      R.read(data);
+      var result = R.getStack();
+      var expected = [I.block([I.num(25)])];
+      expect(result).toEqual(expected);
+    });
+
+    it('should read nested blocks correctly', function() {
+      R.reset();
+      var data = ['Go! PIKACHU!'
+                 ,'Foe GARY sends out EEVEE!'
+                 ,'PIKACHU uses THUNDERSHOCK!'
+                 ,'Foe EEVEE uses TACKLE!'
+                 ,'PIKACHU uses THUNDERSHOCK!'
+                 ,'Foe EEVEE uses TACKLE!'
+                 ,'PIKACHU uses THUNDERBOLT!'
+                 ,'Foe EEVEE uses TACKLE!'
+                 ,'PIKACHU uses THUNDERBOLT!'
+                 ].join('\n');
+      R.read(data);
+      var result = R.getStack();
+      var expected = [I.block([I.num(25), I.block([I.num(25)]), I.num(25)])];
+      expect(result).toEqual(expected);
+    });
+
 });
