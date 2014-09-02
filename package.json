@@ -4,7 +4,7 @@
   "description": "An esoteric programming language structured as a Pokemon battle",
   "main": "main.js",
   "bin": {
-     "pokelang": "./cli.js" 
+     "pokelang": "./main.js" 
   },
   "engines": {
     "node": ">=0.6.19"
