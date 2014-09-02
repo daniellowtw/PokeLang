@@ -115,7 +115,10 @@ Go! PIKACHU!
 Foe ALAKAZAM uses PSYBEAM!              // load
 PIKACHU uses THUNDER!                   // exec
 Foe GARY calls back ALAKAZAM!
-Foe GARY sends out SANDSLASH!
+Foe GARY sends out PRIMEAPE!
 PIKACHU! That's enough! Come back!
 Go! PIKACHU!
-Foe SANDSLASH uses SWIFT!               // outi
+PIKACHU! That's enough! Come back!
+Go! PIKACHU!
+Foe PRIMEAPE uses KARATECHOP!               // outi
+Foe PRIMEAPE uses SEISMICTOSS!               // outn

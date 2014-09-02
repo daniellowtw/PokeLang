@@ -1,9 +1,7 @@
 // require jasmine-node
 var I = require('../lib/interpreter/interpreter.js');
-var T = require('../lib/interpreter/tokeniser.js');
 
 I.init();
-T.init();
 
 describe('addition', function() {
 
@@ -368,28 +366,6 @@ describe('power', function() {
     expect(I.run(powerProg(1,5))).toEqual([I.num(1)]);
 
     expect(I.run(powerProg(2,1))).toEqual([I.num(2)]);
-
-  });
-
-  it('should perform power through recursion via tokeniser', function() {
-
-    var power = function(x, y) {
-
-      var string = '1 { dup 1 > ' +
-                     '{ 1 - swap dup rot3 rot3 1 load exec * } ' +
-                     '{ pop } ' +
-                     'ifelse '+
-                   '} store ' + x + ' ' + y + ' 1 load exec';
-
-      return string;
-
-    }
-
-    expect(I.run(T.tokenise(power(5,3)))).toEqual([I.num(125)]);
-
-    expect(I.run(T.tokenise(power(1,3)))).toEqual([I.num(1)]);
-
-    expect(I.run(T.tokenise(power(2,1)))).toEqual([I.num(2)]);
 
   });
 

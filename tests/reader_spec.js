@@ -324,141 +324,20 @@ describe('battle checking', function() {
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
     });
 
-    it('should read fib.poke', function() {
-      R.reset(); 
-      var data = 'Go! SQUIRTLE!\n' + 
-        'Foe GARY sends out PIDGEOT!\n' + 
-        'Foe GARY calls back PIDGEOT!\n' + 
-        'Foe GARY sends out PIDGEOT!\n' + 
-        'SQUIRTLE uses TACKLE!                   // 18 <- n\n' + 
-        'Foe GARY calls back PIDGEOT!\n' + 
-        'Foe GARY sends out BULBASAUR!\n' + 
-        'SQUIRTLE uses TACKLE!                   // 1\n' + 
-        'SQUIRTLE! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU! \n' + 
-        'Foe GARY calls back BULBASAUR!\n' + 
-        'Foe GARY sends out GEODUDE!\n' + 
-        'PIKACHU uses THUNDERSHOCK!              // {\n' + 
-        'It has no effect!\n' + 
-        'Foe GEODUDE uses ROCKTHROW!            // dup\n' + 
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! IVYSAUR!\n' + 
-        'Foe GEODUDE uses TACKLE!                // 2\n' + 
-        'IVYSAUR! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU!\n' + 
-        'Foe GARY calls back GEODUDE!\n' + 
-        'Foe GARY sends out SLOWPOKE!\n' + 
-        'Foe SLOWPOKE uses HEADBUTT!             // >\n' + 
-        'PIKACHU uses THUNDERSHOCK!              // {\n' + 
-        'It\'s super effective!\n' + 
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe GARY calls back SLOWPOKE!\n' + 
-        'Foe GARY sends out GEODUDE!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe GEODUDE uses ROCKTHROW!            // dup\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe GEODUDE uses TACKLE!                // 1\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe GARY calls back GEODUDE!\n' + 
-        'Foe GARY sends out SQUIRTLE!\n' + 
-        'Foe SQUIRTLE uses WATERGUN!            // -\n' + 
-        'It\'s not very effective!          \n' + 
-        'BULBASAUR uses VINEWHIP!               // swap\n' + 
-        'It\'s super effective!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! IVYSAUR! \n' + 
-        'Foe SQUIRTLE uses TACKLE!               // 2\n' + 
-        'IVYSAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe SQUIRTLE uses WATERGUN!            // -\n' + 
-        'It\'s not very effective!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe SQUIRTLE uses TACKLE!               // 1\n' + 
-        'Foe GARY calls back SQUIRTLE!\n' + 
-        'Foe GARY sends out ALAKAZAM!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU! \n' + 
-        'Foe ALAKAZAM uses PSYBEAM!              // load\n' + 
-        'PIKACHU uses THUNDER!                   // exec\n' + 
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe GARY calls back ALAKAZAM!\n' + 
-        'Foe GARY sends out SQUIRTLE!\n' + 
-        'BULBASAUR uses VINEWHIP!               // swap\n' + 
-        'It\'s super effective!\n' + 
-        'Foe SQUIRTLE uses TACKLE!               // 1\n' + 
-        'Foe GARY calls back SQUIRTLE!\n' + 
-        'Foe GARY sends out ALAKAZAM!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU! \n' + 
-        'Foe ALAKAZAM uses PSYBEAM!              // load\n' + 
-        'PIKACHU uses THUNDER!                   // exec\n' + 
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU! \n' + 
-        'Foe GARY calls back ALAKAZAM!\n' + 
-        'Foe GARY sends out CHARIZARD!\n' + 
-        'Foe CHARIZARD uses EMBER!               // +\n' + 
-        'PIKACHU uses THUNDERBOLT!               // }\n' + 
-        'Foe GARY calls back CHARIZARD!\n' + 
-        'Foe GARY sends out TENTACRUEL!\n' + 
-        'PIKACHU uses THUNDERSHOCK!              // {\n' + 
-        'It\'s super effective!\n' + 
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR!\n' + 
-        'Foe TENTACRUEL uses POISONSTING!        // pop \n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe GARY calls back TENTACRUEL!\n' + 
-        'Foe GARY sends out SQUIRTLE!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR! \n' + 
-        'Foe SQUIRTLE uses TACKLE!               // 1 \n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU! \n' + 
-        'Foe GARY calls back SQUIRTLE!\n' + 
-        'Foe GARY sends out DUGTRIO!\n' + 
-        'PIKACHU uses THUNDERBOLT!               // }\n' + 
-        'It has no effect!\n' + 
-        'Foe DUGTRIO uses EARTHQUAKE!            // ifelse\n' + 
-        'It\'s super effective!\n' + 
-        'Foe GARY calls back DUGTRIO!\n' + 
-        'Foe GARY sends out ALAKAZAM!  \n' + 
-        'PIKACHU uses THUNDERBOLT!               // }\n' + 
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! BULBASAUR!\n' + 
-        'Foe ALAKAZAM uses CONFUSION!               // store\n' + 
-        'It\'s super effective!\n' + 
-        'Foe GARY calls back ALAKAZAM!\n' + 
-        'Foe GARY sends out BULBASAUR!\n' + 
-        'BULBASAUR uses TACKLE!                  // 1\n' + 
-        'Foe GARY calls back BULBASAUR!\n' + 
-        'Foe GARY sends out ALAKAZAM!\n' + 
-        'BULBASAUR! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU! \n' + 
-        'Foe ALAKAZAM uses PSYBEAM!              // load\n' + 
-        'PIKACHU uses THUNDER!                   // exec\n' + 
-        'Foe GARY calls back ALAKAZAM!\n' +
-        'Foe GARY sends out SANDSLASH!\n' +
-        'PIKACHU! That\'s enough! Come back!\n' + 
-        'Go! PIKACHU!\n' + 
-        'Foe SANDSLASH uses SWIFT!\n'; 
-
-      R.read(data);
-      var result = R.battle;
-      var expected = {
-        selfPokemon: 'PIKACHU',
-        enemyPokemon: 'SANDSLASH',
-        enemyTrainer: 'GARY'
-      }; 
-      expect(result.selfPokemon).toEqual(expected.selfPokemon);
-      expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
-      expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
-
+    it('should when turn order is wrong', function() {
+      R.reset();
+      var data = ['Go! PIKACHU!'
+                 ,'Foe GARY sends out EEVEE!'
+                 ,'Foe GARY calls back EEVEE!'
+                 ,'Foe GARY sends out BULBASAUR!'
+                 ,'PIKACHU! That\'s enough! Come back!'
+                 ,'Go! EEVEE!'
+                 ,'EEVEE uses TACKLE!'
+                 ,'Foe GARY calls back BULBASAUR!'
+                 ].join('\n');
+      expect(function() {
+        R.read(data);
+      }).toThrow(E.switchNotAllowed('Foe GARY'));
     });
 });
 
