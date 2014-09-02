@@ -1,7 +1,9 @@
 // require jasmine-node
-var I = require('../lib/interpreter/interpreter.js');
+var I = require('../lib/interpreter/interpreter.js'),
+    B = require('../lib/repl/battle.js'),
+    R = require('../lib/repl/reader.js');
 
-I.init();
+R.init();
 
 describe('addition', function() {
 
@@ -11,18 +13,6 @@ describe('addition', function() {
                ,I.num(2)
                ,I.operation('+')
                ];
-
-    var result = [I.num(3)];
-
-    expect(I.run(prog)).toEqual(result);
-
-  });
-
-  it('should add 1 and 2 via tokeniser', function() {
-
-    var string = '1 2 +';
-     
-    var prog = T.tokenise(string);
 
     var result = [I.num(3)];
 
