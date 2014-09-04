@@ -51,8 +51,12 @@ describe('test suite', function() {
           reader.reset();
 
           reader.read(actual);
+        
+          var characters_to_remove = expected[expected.length - 2] === '\r' ? 2 : 1;
 
-          expect(reader.getStack().toString()).toEqual(expected.substring(0, expected.length - 1));
+          expected = expected.substring(0, expected.length - characters_to_remove);
+
+          expect(reader.getStack().toString()).toEqual(expected);
 
         });
 
