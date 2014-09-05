@@ -1,4 +1,5 @@
 var fs = require('fs'),
+    path = require('path'),
     reader = require('../lib/repl/reader.js');
 
 var test_files = ['num'
@@ -86,13 +87,13 @@ describe('test suite', function() {
 
         }
 
-        readFile( './tests/test_files/' + test_files[i] + '.poke.js', function(data) {
+        readFile(path.join(__dirname, 'test_files/' + test_files[i] + '.poke.js'), function(data) {
  
           actual = data;
 
         }); 
 
-        readFile( './tests/test_files/' + test_files[i] + '.result.js', function(data) {
+        readFile(path.join(__dirname, 'test_files/' + test_files[i] + '.result.js'), function(data) {
  
           expected = data;
 
