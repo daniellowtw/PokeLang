@@ -357,7 +357,7 @@ describe('reader with interpreter', function() {
       R.read(data);
       var result = R.getStack();
       var expected = [I.num(1), I.num(133)];
-      expect(result).toEqual(expected);
+      expect(result).toEqual(expected.toString());
     });
 
     it('should read blocks correctly', function() {
@@ -371,7 +371,7 @@ describe('reader with interpreter', function() {
       R.read(data);
       var result = R.getStack();
       var expected = [I.block([I.num(25)])];
-      expect(result).toEqual(expected);
+      expect(result).toEqual(expected.toString());
     });
 
     it('should read nested blocks correctly', function() {
@@ -389,7 +389,7 @@ describe('reader with interpreter', function() {
       R.read(data);
       var result = R.getStack();
       var expected = [I.block([I.num(25), I.block([I.num(25)]), I.num(25)])];
-      expect(result).toEqual(expected);
+      expect(result).toEqual(expected.toString());
     });
 
 });
