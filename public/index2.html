@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <title>PokeLang</title>
+    <link rel="stylesheet" type="text/css" href="styles\jquery.terminal.css">
+  </head>
+
+  <body>
+
+    <div id='terminal' class='terminal'></div>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src='scripts\bundle.js'></script>
+    <script src='scripts\jquery.terminal-0.8.8.min.js'></script>
+
+    <script>
+
+      jQuery(function($, undefined) {
+
+        $('#terminal').terminal(function(command, term) {
+  
+          pokelang.setOutputFunction(term.echo);
+
+          if (command !== '') {
+            try {
+  
+              pokelang.read(command + '\n');
+  
+            } catch(e) {
+              term.flush();
+              term.error(new String(e));
+            }
+          } else {
+           term.echo('');
+          }
+        }, {
+          greetings: '=PokeLang=',
+          name: 'pokelang',
+          height: 200,
+          prompt: 'poke> '});
+      });
+
+    </script>
+
+</html>
