@@ -1,6 +1,6 @@
 var R = require('../lib/repl/reader.js'),
-    E = require('../lib/errors/errors.js'),
-    I = require('../lib/interpreter/interpreter.js');
+    E = require('../lib/errors'),
+    I = require('../lib/interpreter');
 
 R.init();
 

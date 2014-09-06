@@ -1,3 +1,3 @@
-var repl = require('./lib/repl/repl.js');
+var repl = require('./lib/repl');
 
 module.exports = repl; 

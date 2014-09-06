@@ -1,5 +1,5 @@
 // require jasmine-node
-var I = require('../lib/interpreter/interpreter.js'),
+var I = require('../lib/interpreter'),
     B = require('../lib/repl/battle.js'),
     R = require('../lib/repl/reader.js');
 
