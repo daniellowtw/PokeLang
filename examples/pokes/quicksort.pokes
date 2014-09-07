@@ -1,0 +1,33 @@
+1 [ ] store read { dup 0 > } { 1 - 1 1 load read append store } while
+pop
+2 0 store
+3 0 store
+4 0 store
+0 {
+2 load swap
+3 load swap
+4 load swap
+2 [ ] store
+3 [ ] store
+dup len 0 ==
+{ }
+{
+arrpop 4 swap store
+{ dup len 0 > }
+{
+arrpop dup 4 load >
+{ 2 load swap append 2 swap store }
+{ 3 load swap append 3 swap store } ifelse
+} while
+pop
+3 load 0 load exec
+4 load append
+2 load 0 load exec
+join
+} ifelse
+swap 4 swap store
+swap 3 swap store
+swap 2 swap store
+} store
+1 load 0 load exec
+{ outi 32 outa } fold
