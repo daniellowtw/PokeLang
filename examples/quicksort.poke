@@ -1,1501 +1,665 @@
 Go! PIKACHU!
-
 Foe GARY sends out EEVEE!
-
 PIKACHU! That's enough! Come back!
-
-Go! MACHOP!
-
+Go! METAPOD!
 Foe GARY calls back EEVEE!
-
-Foe GARY sends out GEODUDE!
-
-MACHOP! That's enough! Come back!
-
+Foe GARY sends out JOLTEON!
+METAPOD! That's enough! Come back!
 Go! BULBASAUR!
-
-Foe GEODUDE uses TACKLE!
-                        // 1
-
+Foe JOLTEON uses TACKLE!                          // 1
 BULBASAUR! That's enough! Come back!
-
-Go! KANGASKHAN!
-
-Foe GARY calls back GEODUDE!
-
-Foe GARY sends out HITMONCHAN!
-
-KANGASKHAN uses MEGAPUNCH!
-                      // [
-
-Foe HITMONCHAN uses THUNDERPUNCH!
-               // ]
-
-KANGASKHAN! That's enough! Come back!
-
-Go! SLOWPOKE!
-
-Foe GARY calls back HITMONCHAN!
-
-Foe GARY sends out GLOOM!
-
-SLOWPOKE uses CONFUSION!
-                        // store
-
-It's super effective!
-
-Foe GLOOM uses ACID!
-                            // read
-
-SLOWPOKE! That's enough! Come back!
-
-Go! ELECTABUZZ!
-
-Foe GARY calls back GLOOM!
-
-Foe GARY sends out ONIX!
-
-ELECTABUZZ uses THUNDERSHOCK!
-                   // {
-
-It has no effect!
-
-Foe ONIX uses ROCKTHROW!
-                        // dup
-
-ELECTABUZZ! That's enough! Come back!
-
-Go! GEODUDE!
-
-Foe GARY calls back ONIX!
-
-Foe GARY sends out VENUSAUR!
-
-GEODUDE! That's enough! Come back!
-
-Go! MEW!
-
-Foe VENUSAUR uses TACKLE!
-                       // 0
-
-MEW! That's enough! Come back!
-
-Go! CUBONE!
-
-Foe GARY calls back VENUSAUR!
-
-Foe GARY sends out PIKACHU!
-
-CUBONE uses HEADBUTT!
-                           // >
-
-Foe PIKACHU uses THUNDERBOLT!
-                   // }
-
-It has no effect!
-
-CUBONE! That's enough! Come back!
-
-Go! ELECTABUZZ!
-
-Foe GARY calls back PIKACHU!
-
-Foe GARY sends out KOFFING!
-
-ELECTABUZZ uses THUNDERSHOCK!
-                   // {
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-ELECTABUZZ! That's enough! Come back!
-
-Go! SLOWPOKE!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out NIDOKING!
-
-SLOWPOKE! That's enough! Come back!
-
-Go! BULBASAUR!
-
-Foe NIDOKING uses TACKLE!
-                       // 1
-
-BULBASAUR! That's enough! Come back!
-
-Go! SLOWBRO!
-
-Foe GARY calls back NIDOKING!
-
-Foe GARY sends out MUK!
-
-SLOWBRO uses WATERGUN!
-                          // -
-
-Foe MUK uses SLUDGE!
-                            // skip
-
-SLOWBRO! That's enough! Come back!
-
-Go! OMANYTE!
-
-Foe GARY calls back MUK!
-
-Foe GARY sends out SQUIRTLE!
-
-OMANYTE! That's enough! Come back!
-
-Go! BULBASAUR!
-
-Foe SQUIRTLE uses TACKLE!
-                       // 1
-
-BULBASAUR! That's enough! Come back!
-
-Go! OMANYTE!
-
-Foe GARY calls back SQUIRTLE!
-
-Foe GARY sends out CLOYSTER!
-
-OMANYTE! That's enough! Come back!
-
-Go! BULBASAUR!
-
-Foe CLOYSTER uses TACKLE!
-                       // 1
-
-BULBASAUR! That's enough! Come back!
-
-Go! VENONAT!
-
-Foe GARY calls back CLOYSTER!
-
-Foe GARY sends out BELLSPROUT!
-
-VENONAT uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe BELLSPROUT uses ACID!
-                       // read
-
-VENONAT! That's enough! Come back!
-
-Go! HITMONLEE!
-
-Foe GARY calls back BELLSPROUT!
-
-Foe GARY sends out KADABRA!
-
-HITMONLEE uses ROLLINGKICK!
-                     // append
-
-It's not very effective!
-
-Foe KADABRA uses CONFUSION!
-                     // store
-
-It's super effective!
-
-HITMONLEE! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back KADABRA!
-
-Foe GARY sends out DIGLETT!
-
-PIKACHU uses THUNDERBOLT!
-                       // }
-
-It has no effect!
-
-Foe DIGLETT uses SCRATCH!
-                       // while
-
-PIKACHU! That's enough! Come back!
-
-Go! KAKUNA!
-
-Foe GARY calls back DIGLETT!
-
-Foe GARY sends out MUK!
-
-KAKUNA uses POISONSTING!
-                        // pop
-
-It's not very effective!
-
-Foe MUK uses SLUDGE!
-                            // skip
-
-KAKUNA! That's enough! Come back!
-
-Go! WIGGLYTUFF!
-
-Foe GARY calls back MUK!
-
-Foe GARY sends out WEEZING!
-
-WIGGLYTUFF! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe WEEZING uses TACKLE!
-                        // 2
-
-IVYSAUR! That's enough! Come back!
-
-Go! PARASECT!
-
-Foe GARY calls back WEEZING!
-
-Foe GARY sends out GYARADOS!
-
-PARASECT! That's enough! Come back!
-
-Go! MEW!
-
-Foe GYARADOS uses TACKLE!
-                       // 0
-
-MEW! That's enough! Come back!
-
-Go! PSYDUCK!
-
-Foe GARY calls back GYARADOS!
-
-Foe GARY sends out KOFFING!
-
-PSYDUCK uses CONFUSION!
-                         // store
-
-It's super effective!
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-PSYDUCK! That's enough! Come back!
-
-Go! MACHOKE!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out RATICATE!
-
-MACHOKE! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe RATICATE uses TACKLE!
-                       // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! POLIWAG!
-
-Foe GARY calls back RATICATE!
-
-Foe GARY sends out GYARADOS!
-
-POLIWAG! That's enough! Come back!
-
-Go! MEW!
-
-Foe GYARADOS uses TACKLE!
-                       // 0
-
-MEW! That's enough! Come back!
-
-Go! PSYDUCK!
-
-Foe GARY calls back GYARADOS!
-
-Foe GARY sends out WEEZING!
-
-PSYDUCK uses CONFUSION!
-                         // store
-
-It's super effective!
-
-Foe WEEZING uses SLUDGE!
-                        // skip
-
-PSYDUCK! That's enough! Come back!
-
-Go! MUK!
-
-Foe GARY calls back WEEZING!
-
-Foe GARY sends out VENUSAUR!
-
-MUK! That's enough! Come back!
-
-Go! CHARMANDER!
-
-Foe VENUSAUR uses TACKLE!
-                       // 4
-
-CHARMANDER! That's enough! Come back!
-
-Go! GRIMER!
-
-Foe GARY calls back VENUSAUR!
-
-Foe GARY sends out NIDORINA!
-
-GRIMER! That's enough! Come back!
-
-Go! MEW!
-
-Foe NIDORINA uses TACKLE!
-                       // 0
-
-MEW! That's enough! Come back!
-
-Go! DROWZEE!
-
-Foe GARY calls back NIDORINA!
-
-Foe GARY sends out GRIMER!
-
-DROWZEE uses CONFUSION!
-                         // store
-
-It's super effective!
-
-Foe GRIMER uses SLUDGE!
-                         // skip
-
-DROWZEE! That's enough! Come back!
-
-Go! JOLTEON!
-
-Foe GARY calls back GRIMER!
-
-Foe GARY sends out CLOYSTER!
-
-JOLTEON! That's enough! Come back!
-
-Go! MEW!
-
-Foe CLOYSTER uses TACKLE!
-                       // 0
-
-MEW! That's enough! Come back!
-
-Go! ELECTABUZZ!
-
-Foe GARY calls back CLOYSTER!
-
-Foe GARY sends out MUK!
-
-ELECTABUZZ uses THUNDERSHOCK!
-                   // {
-
-Foe MUK uses SLUDGE!
-                            // skip
-
-ELECTABUZZ! That's enough! Come back!
-
-Go! EEVEE!
-
-Foe GARY calls back MUK!
-
-Foe GARY sends out RATICATE!
-
-EEVEE! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe RATICATE uses TACKLE!
-                       // 2
-
-IVYSAUR! That's enough! Come back!
-
-Go! KADABRA!
-
-Foe GARY calls back RATICATE!
-
-Foe GARY sends out TANGELA!
-
-KADABRA uses PSYBEAM!
-                           // load
-
-Foe TANGELA uses VINEWHIP!
-                      // swap
-
-KADABRA! That's enough! Come back!
-
-Go! TANGELA!
-
-Foe GARY calls back TANGELA!
-
-Foe GARY sends out PORYGON!
-
-TANGELA! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe PORYGON uses TACKLE!
-                        // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! VENONAT!
-
-Foe GARY calls back PORYGON!
-
-Foe GARY sends out BULBASAUR!
-
-VENONAT uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe BULBASAUR uses VINEWHIP!
-                    // swap
-
-It's not very effective!
-
-VENONAT! That's enough! Come back!
-
-Go! KANGASKHAN!
-
-Foe GARY calls back BULBASAUR!
-
-Foe GARY sends out IVYSAUR!
-
-KANGASKHAN! That's enough! Come back!
-
-Go! CHARMANDER!
-
-Foe IVYSAUR uses TACKLE!
-                        // 4
-
-CHARMANDER! That's enough! Come back!
-
-Go! KADABRA!
-
-Foe GARY calls back IVYSAUR!
-
-Foe GARY sends out VENUSAUR!
-
-KADABRA uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe VENUSAUR uses VINEWHIP!
-                     // swap
-
-KADABRA! That's enough! Come back!
-
-Go! BELLSPROUT!
-
-Foe GARY calls back VENUSAUR!
-
-Foe GARY sends out VENOMOTH!
-
-BELLSPROUT! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe VENOMOTH uses TACKLE!
-                       // 2
-
-IVYSAUR! That's enough! Come back!
-
 Go! HITMONCHAN!
-
-Foe GARY calls back VENOMOTH!
-
+Foe GARY calls back JOLTEON!
 Foe GARY sends out ELECTABUZZ!
-
-HITMONCHAN uses MEGAPUNCH!
-                      // [
-
-Foe ELECTABUZZ uses THUNDERPUNCH!
-               // ]
-
+HITMONCHAN uses MEGAPUNCH!                        // [
+Foe ELECTABUZZ uses THUNDERPUNCH!                 // ]
 HITMONCHAN! That's enough! Come back!
-
-Go! BUTTERFREE!
-
+Go! HYPNO!
 Foe GARY calls back ELECTABUZZ!
-
-Foe GARY sends out KOFFING!
-
-BUTTERFREE uses CONFUSION!
-                      // store
-
+Foe GARY sends out TENTACRUEL!
+HYPNO uses CONFUSION!                             // store
 It's super effective!
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-It's super effective!
-
-BUTTERFREE! That's enough! Come back!
-
-Go! WARTORTLE!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out PORYGON!
-
-WARTORTLE! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe PORYGON uses TACKLE!
-                        // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! KANGASKHAN!
-
-Foe GARY calls back PORYGON!
-
-Foe GARY sends out ELECTABUZZ!
-
-KANGASKHAN uses MEGAPUNCH!
-                      // [
-
-Foe ELECTABUZZ uses THUNDERPUNCH!
-               // ]
-
-KANGASKHAN! That's enough! Come back!
-
-Go! MR.MIME!
-
-Foe GARY calls back ELECTABUZZ!
-
-Foe GARY sends out GEODUDE!
-
-MR.MIME uses CONFUSION!
-                         // store
-
-Foe GEODUDE uses ROCKTHROW!
-                     // dup
-
-MR.MIME! That's enough! Come back!
-
-Go! VULPIX!
-
-Foe GARY calls back GEODUDE!
-
-Foe GARY sends out KOFFING!
-
-VULPIX uses QUICKATTACK!
-                        // len
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-VULPIX! That's enough! Come back!
-
-Go! EXEGGUTOR!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out STARYU!
-
-EXEGGUTOR! That's enough! Come back!
-
-Go! MEW!
-
-Foe STARYU uses TACKLE!
-                         // 0
-
-MEW! That's enough! Come back!
-
-Go! DROWZEE!
-
-Foe GARY calls back STARYU!
-
-Foe GARY sends out MAGNETON!
-
-DROWZEE uses POUND!
-                             // ==
-
-Foe MAGNETON uses THUNDERSHOCK!
-                 // {
-
-DROWZEE! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back MAGNETON!
-
-Foe GARY sends out PIKACHU!
-
-PIKACHU uses THUNDERBOLT!
-                       // }
-
-It's not very effective!
-
-Foe PIKACHU uses THUNDERSHOCK!
-                  // {
-
-It's not very effective!
-
-PIKACHU! That's enough! Come back!
-
-Go! HITMONLEE!
-
-Foe GARY calls back PIKACHU!
-
-Foe GARY sends out KOFFING!
-
-HITMONLEE uses JUMPKICK!
-                        // arrpop
-
-It's not very effective!
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-HITMONLEE! That's enough! Come back!
-
-Go! KABUTO!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out BLASTOISE!
-
-KABUTO! That's enough! Come back!
-
-Go! CHARMANDER!
-
-Foe BLASTOISE uses TACKLE!
-                      // 4
-
-CHARMANDER! That's enough! Come back!
-
-Go! TANGELA!
-
-Foe GARY calls back BLASTOISE!
-
-Foe GARY sends out MR.MIME!
-
-TANGELA uses VINEWHIP!
-                          // swap
-
-Foe MR.MIME uses CONFUSION!
-                     // store
-
-TANGELA! That's enough! Come back!
-
-Go! ZAPDOS!
-
-Foe GARY calls back MR.MIME!
-
-Foe GARY sends out GRAVELER!
-
-ZAPDOS uses THUNDERSHOCK!
-                       // {
-
-It has no effect!
-
-Foe GRAVELER uses ROCKTHROW!
-                    // dup
-
-It's super effective!
-
-ZAPDOS! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back GRAVELER!
-
-Foe GARY sends out GRIMER!
-
-PIKACHU uses QUICKATTACK!
-                       // len
-
-Foe GRIMER uses SLUDGE!
-                         // skip
-
-PIKACHU! That's enough! Come back!
-
-Go! STARYU!
-
-Foe GARY calls back GRIMER!
-
-Foe GARY sends out GOLEM!
-
-STARYU! That's enough! Come back!
-
-Go! MEW!
-
-Foe GOLEM uses TACKLE!
-                          // 0
-
-MEW! That's enough! Come back!
-
-Go! CUBONE!
-
-Foe GARY calls back GOLEM!
-
-Foe GARY sends out PIKACHU!
-
-CUBONE uses HEADBUTT!
-                           // >
-
-Foe PIKACHU uses THUNDERBOLT!
-                   // }
-
-It has no effect!
-
-CUBONE! That's enough! Come back!
-
-Go! ELECTABUZZ!
-
-Foe GARY calls back PIKACHU!
-
-Foe GARY sends out HITMONLEE!
-
-ELECTABUZZ uses THUNDERSHOCK!
-                   // {
-
-Foe HITMONLEE uses JUMPKICK!
-                    // arrpop
-
-ELECTABUZZ! That's enough! Come back!
-
-Go! ONIX!
-
-Foe GARY calls back HITMONLEE!
-
-Foe GARY sends out KOFFING!
-
-ONIX uses ROCKTHROW!
-                            // dup
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-It's not very effective!
-
-ONIX! That's enough! Come back!
-
-Go! PINSIR!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out NIDOKING!
-
-PINSIR! That's enough! Come back!
-
-Go! CHARMANDER!
-
-Foe NIDOKING uses TACKLE!
-                       // 4
-
-CHARMANDER! That's enough! Come back!
-
-Go! VENOMOTH!
-
-Foe GARY calls back NIDOKING!
-
-Foe GARY sends out DEWGONG!
-
-VENOMOTH uses PSYBEAM!
-                          // load
-
-Foe DEWGONG uses HEADBUTT!
-                      // >
-
-VENOMOTH! That's enough! Come back!
-
-Go! ELECTABUZZ!
-
-Foe GARY calls back DEWGONG!
-
-Foe GARY sends out KOFFING!
-
-ELECTABUZZ uses THUNDERSHOCK!
-                   // {
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-ELECTABUZZ! That's enough! Come back!
-
-Go! DRAGONITE!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out EEVEE!
-
-DRAGONITE! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe EEVEE uses TACKLE!
-                          // 2
-
-IVYSAUR! That's enough! Come back!
-
-Go! KADABRA!
-
-Foe GARY calls back EEVEE!
-
-Foe GARY sends out WEEPINBELL!
-
-KADABRA uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe WEEPINBELL uses VINEWHIP!
-                   // swap
-
-KADABRA! That's enough! Come back!
-
-Go! HITMONLEE!
-
-Foe GARY calls back WEEPINBELL!
-
-Foe GARY sends out MUK!
-
-HITMONLEE uses ROLLINGKICK!
-                     // append
-
-It's not very effective!
-
-Foe MUK uses SLUDGE!
-                            // skip
-
-HITMONLEE! That's enough! Come back!
-
-Go! ARTICUNO!
-
-Foe GARY calls back MUK!
-
-Foe GARY sends out NIDORINA!
-
-ARTICUNO! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe NIDORINA uses TACKLE!
-                       // 2
-
-IVYSAUR! That's enough! Come back!
-
-Go! TANGELA!
-
-Foe GARY calls back NIDORINA!
-
-Foe GARY sends out MEWTWO!
-
-TANGELA uses VINEWHIP!
-                          // swap
-
-Foe MEWTWO uses CONFUSION!
-                      // store
-
-TANGELA! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back MEWTWO!
-
-Foe GARY sends out JOLTEON!
-
-PIKACHU uses THUNDERBOLT!
-                       // }
-
-It's not very effective!
-
-Foe JOLTEON uses THUNDERSHOCK!
-                  // {
-
-It's not very effective!
-
-PIKACHU! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back JOLTEON!
-
-Foe GARY sends out FLAREON!
-
-PIKACHU! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe FLAREON uses TACKLE!
-                        // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! VENOMOTH!
-
-Foe GARY calls back FLAREON!
-
-Foe GARY sends out VENUSAUR!
-
-VENOMOTH uses PSYBEAM!
-                          // load
-
-It's super effective!
-
-Foe VENUSAUR uses VINEWHIP!
-                     // swap
-
-It's not very effective!
-
-VENOMOTH! That's enough! Come back!
-
-Go! HITMONLEE!
-
-Foe GARY calls back VENUSAUR!
-
-Foe GARY sends out KOFFING!
-
-HITMONLEE uses ROLLINGKICK!
-                     // append
-
-It's not very effective!
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-HITMONLEE! That's enough! Come back!
-
-Go! WEEPINBELL!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out BUTTERFREE!
-
-WEEPINBELL! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe BUTTERFREE uses TACKLE!
-                     // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe GARY calls back BUTTERFREE!
-
-Foe GARY sends out GOLDUCK!
-
-IVYSAUR uses VINEWHIP!
-                          // swap
-
-It's super effective!
-
-Foe GOLDUCK uses CONFUSION!
-                     // store
-
-It's super effective!
-
-IVYSAUR! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back GOLDUCK!
-
-Foe GARY sends out DIGLETT!
-
-PIKACHU uses THUNDERBOLT!
-                       // }
-
-It has no effect!
-
-Foe DIGLETT uses EARTHQUAKE!
-                    // ifelse
-
-It's super effective!
-
-PIKACHU! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back DIGLETT!
-
-Foe GARY sends out CHARMANDER!
-
-PIKACHU uses THUNDERBOLT!
-                       // }
-
-Foe CHARMANDER uses SCRATCH!
-                    // while
-
-PIKACHU! That's enough! Come back!
-
-Go! TENTACRUEL!
-
-Foe GARY calls back CHARMANDER!
-
-Foe GARY sends out KOFFING!
-
-TENTACRUEL uses POISONSTING!
-                    // pop
-
-It's not very effective!
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-It's not very effective!
-
-TENTACRUEL! That's enough! Come back!
-
-Go! DODRIO!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out STARYU!
-
-DODRIO! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe STARYU uses TACKLE!
-                         // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! VENONAT!
-
-Foe GARY calls back STARYU!
-
-Foe GARY sends out WEEZING!
-
-VENONAT uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe WEEZING uses SLUDGE!
-                        // skip
-
-VENONAT! That's enough! Come back!
-
-Go! FEAROW!
-
-Foe GARY calls back WEEZING!
-
-Foe GARY sends out CATERPIE!
-
-FEAROW! That's enough! Come back!
-
-Go! MEW!
-
-Foe CATERPIE uses TACKLE!
-                       // 0
-
-MEW! That's enough! Come back!
-
-Go! VENONAT!
-
-Foe GARY calls back CATERPIE!
-
-Foe GARY sends out PIKACHU!
-
-VENONAT uses PSYBEAM!
-                           // load
-
-Foe PIKACHU uses THUNDER!
-                       // exec
-
-VENONAT! That's enough! Come back!
-
-Go! FEAROW!
-
-Foe GARY calls back PIKACHU!
-
-Foe GARY sends out JOLTEON!
-
-FEAROW! That's enough! Come back!
-
-Go! CHARMANDER!
-
-Foe JOLTEON uses TACKLE!
-                        // 4
-
-CHARMANDER! That's enough! Come back!
-
-Go! KADABRA!
-
-Foe GARY calls back JOLTEON!
-
-Foe GARY sends out HITMONLEE!
-
-KADABRA uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe HITMONLEE uses ROLLINGKICK!
-                 // append
-
-It's not very effective!
-
-KADABRA! That's enough! Come back!
-
-Go! BEEDRILL!
-
-Foe GARY calls back HITMONLEE!
-
-Foe GARY sends out VENOMOTH!
-
-BEEDRILL! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe VENOMOTH uses TACKLE!
-                       // 2
-
-IVYSAUR! That's enough! Come back!
-
-Go! PORYGON!
-
-Foe GARY calls back VENOMOTH!
-
-Foe GARY sends out KOFFING!
-
-PORYGON uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe KOFFING uses SLUDGE!
-                        // skip
-
-PORYGON! That's enough! Come back!
-
-Go! KRABBY!
-
-Foe GARY calls back KOFFING!
-
-Foe GARY sends out GOLEM!
-
-KRABBY! That's enough! Come back!
-
-Go! MEW!
-
-Foe GOLEM uses TACKLE!
-                          // 0
-
-MEW! That's enough! Come back!
-
-Go! BUTTERFREE!
-
-Foe GARY calls back GOLEM!
-
-Foe GARY sends out ELECTABUZZ!
-
-BUTTERFREE uses PSYBEAM!
-                        // load
-
-Foe ELECTABUZZ uses THUNDER!
-                    // exec
-
-It's super effective!
-
-BUTTERFREE! That's enough! Come back!
-
-Go! FLAREON!
-
-Foe GARY calls back ELECTABUZZ!
-
-Foe GARY sends out PIKACHU!
-
-FLAREON uses SMOG!
-                              // join
-
-Foe PIKACHU uses THUNDERBOLT!
-                   // }
-
-FLAREON! That's enough! Come back!
-
-Go! DIGLETT!
-
-Foe GARY calls back PIKACHU!
-
-Foe GARY sends out IVYSAUR!
-
-DIGLETT uses EARTHQUAKE!
-                        // ifelse
-
-Foe IVYSAUR uses VINEWHIP!
-                      // swap
-
-It's super effective!
-
-DIGLETT! That's enough! Come back!
-
+Foe TENTACRUEL uses ACID!                         // read
+HYPNO! That's enough! Come back!
 Go! JOLTEON!
-
-Foe GARY calls back IVYSAUR!
-
-Foe GARY sends out BLASTOISE!
-
+Foe GARY calls back TENTACRUEL!
+Foe GARY sends out GEODUDE!
+JOLTEON uses THUNDERSHOCK!                        // {
+It has no effect!
+Foe GEODUDE uses ROCKTHROW!                       // dup
 JOLTEON! That's enough! Come back!
-
-Go! CHARMANDER!
-
-Foe BLASTOISE uses TACKLE!
-                      // 4
-
-CHARMANDER! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe GARY calls back BLASTOISE!
-
-Foe GARY sends out VENOMOTH!
-
-VENUSAUR uses VINEWHIP!
-                         // swap
-
-It's not very effective!
-
-Foe VENOMOTH uses CONFUSION!
-                    // store
-
-It's super effective!
-
-VENUSAUR! That's enough! Come back!
-
-Go! WEEPINBELL!
-
-Foe GARY calls back VENOMOTH!
-
-Foe GARY sends out MUK!
-
-WEEPINBELL uses VINEWHIP!
-                       // swap
-
-It's not very effective!
-
-Foe MUK uses SLUDGE!
-                            // skip
-
-WEEPINBELL! That's enough! Come back!
-
-Go! DROWZEE!
-
-Foe GARY calls back MUK!
-
-Foe GARY sends out JOLTEON!
-
-DROWZEE! That's enough! Come back!
-
-Go! VENUSAUR!
-
-Foe JOLTEON uses TACKLE!
-                        // 3
-
-VENUSAUR! That's enough! Come back!
-
-Go! BELLSPROUT!
-
-Foe GARY calls back JOLTEON!
-
-Foe GARY sends out SLOWBRO!
-
-BELLSPROUT uses VINEWHIP!
-                       // swap
-
-It's super effective!
-
-Foe SLOWBRO uses CONFUSION!
-                     // store
-
-It's super effective!
-
-BELLSPROUT! That's enough! Come back!
-
-Go! TANGELA!
-
-Foe GARY calls back SLOWBRO!
-
-Foe GARY sends out WEEZING!
-
-TANGELA uses VINEWHIP!
-                          // swap
-
-It's not very effective!
-
-Foe WEEZING uses SLUDGE!
-                        // skip
-
-It's super effective!
-
-TANGELA! That's enough! Come back!
-
-Go! TANGELA!
-
-Foe GARY calls back WEEZING!
-
-Foe GARY sends out CATERPIE!
-
-TANGELA! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe CATERPIE uses TACKLE!
-                       // 2
-
-IVYSAUR! That's enough! Come back!
-
-Go! IVYSAUR!
-
-Foe GARY calls back CATERPIE!
-
-Foe GARY sends out DROWZEE!
-
-IVYSAUR uses VINEWHIP!
-                          // swap
-
-Foe DROWZEE uses CONFUSION!
-                     // store
-
-It's super effective!
-
-IVYSAUR! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back DROWZEE!
-
-Foe GARY sends out MEWTWO!
-
-PIKACHU uses THUNDERBOLT!
-                       // }
-
-Foe MEWTWO uses CONFUSION!
-                      // store
-
-PIKACHU! That's enough! Come back!
-
-Go! ARCANINE!
-
-Foe GARY calls back MEWTWO!
-
-Foe GARY sends out GYARADOS!
-
-ARCANINE! That's enough! Come back!
-
-Go! BULBASAUR!
-
-Foe GYARADOS uses TACKLE!
-                       // 1
-
-BULBASAUR! That's enough! Come back!
-
-Go! KADABRA!
-
-Foe GARY calls back GYARADOS!
-
-Foe GARY sends out MUK!
-
-KADABRA uses PSYBEAM!
-                           // load
-
-It's super effective!
-
-Foe MUK uses SLUDGE!
-                            // skip
-
-KADABRA! That's enough! Come back!
-
-Go! MEOWTH!
-
-Foe GARY calls back MUK!
-
-Foe GARY sends out PORYGON!
-
-MEOWTH! That's enough! Come back!
-
+Go! CLEFABLE!
+Foe GARY calls back GEODUDE!
+Foe GARY sends out KOFFING!
+CLEFABLE! That's enough! Come back!
 Go! MEW!
-
-Foe PORYGON uses TACKLE!
-                        // 0
-
+Foe KOFFING uses TACKLE!                          // 0
 MEW! That's enough! Come back!
-
-Go! KADABRA!
-
-Foe GARY calls back PORYGON!
-
-Foe GARY sends out ZAPDOS!
-
-KADABRA uses PSYBEAM!
-                           // load
-
-Foe ZAPDOS uses THUNDER!
-                        // exec
-
-KADABRA! That's enough! Come back!
-
-Go! PIKACHU!
-
-Foe GARY calls back ZAPDOS!
-
-Foe GARY sends out MACHAMP!
-
-PIKACHU uses THUNDERSHOCK!
-                      // {
-
-Foe MACHAMP uses KARATECHOP!
-                    // outi
-
-PIKACHU! That's enough! Come back!
-
-Go! MEOWTH!
-
-Foe GARY calls back MACHAMP!
-
-Foe GARY sends out WARTORTLE!
-
-MEOWTH! That's enough! Come back!
-
-Go! NIDORANM!
-
-Foe WARTORTLE uses TACKLE!
-                      // 32
-
-NIDORANM! That's enough! Come back!
-
-Go! PRIMEAPE!
-
-Foe GARY calls back WARTORTLE!
-
+Go! SNORLAX!
+Foe GARY calls back KOFFING!
 Foe GARY sends out PIKACHU!
-
-PRIMEAPE uses LOWKICK!
-                          // outa
-
-Foe PIKACHU uses THUNDERBOLT!
-                   // }
-
-PRIMEAPE! That's enough! Come back!
-
-Go! HITMONLEE!
-
+SNORLAX uses HEADBUTT!                            // >
+Foe PIKACHU uses THUNDERBOLT!                     // }
+SNORLAX! That's enough! Come back!
+Go! ELECTABUZZ!
 Foe GARY calls back PIKACHU!
-
+Foe GARY sends out WEEZING!
+ELECTABUZZ uses THUNDERSHOCK!                     // {
+Foe WEEZING uses SLUDGE!                          // skip
+ELECTABUZZ! That's enough! Come back!
+Go! AERODACTYL!
+Foe GARY calls back WEEZING!
+Foe GARY sends out CATERPIE!
+AERODACTYL! That's enough! Come back!
+Go! BULBASAUR!
+Foe CATERPIE uses TACKLE!                         // 1
+BULBASAUR! That's enough! Come back!
+Go! STARYU!
+Foe GARY calls back CATERPIE!
+Foe GARY sends out WEEZING!
+STARYU uses WATERGUN!                             // -
+Foe WEEZING uses SLUDGE!                          // skip
+STARYU! That's enough! Come back!
+Go! MACHAMP!
+Foe GARY calls back WEEZING!
+Foe GARY sends out MAGNETON!
+MACHAMP! That's enough! Come back!
+Go! BULBASAUR!
+Foe MAGNETON uses TACKLE!                         // 1
+BULBASAUR! That's enough! Come back!
+Go! ALAKAZAM!
+Foe GARY calls back MAGNETON!
+Foe GARY sends out VAPOREON!
+ALAKAZAM! That's enough! Come back!
+Go! BULBASAUR!
+Foe VAPOREON uses TACKLE!                         // 1
+BULBASAUR! That's enough! Come back!
+Go! KADABRA!
+Foe GARY calls back VAPOREON!
+Foe GARY sends out WEEPINBELL!
+KADABRA uses PSYBEAM!                             // load
+It's super effective!
+Foe WEEPINBELL uses ACID!                         // read
+KADABRA! That's enough! Come back!
+Go! HITMONLEE!
+Foe GARY calls back WEEPINBELL!
+Foe GARY sends out KADABRA!
+HITMONLEE uses ROLLINGKICK!                       // append
+It's not very effective!
+Foe KADABRA uses CONFUSION!                       // store
+It's super effective!
+HITMONLEE! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back KADABRA!
+Foe GARY sends out PRIMEAPE!
+PIKACHU uses THUNDERBOLT!                         // }
+Foe PRIMEAPE uses SCRATCH!                        // while
+PIKACHU! That's enough! Come back!
+Go! SANDSHREW!
+Foe GARY calls back PRIMEAPE!
+Foe GARY sends out GRIMER!
+SANDSHREW uses POISONSTING!                       // pop
+It's not very effective!
+Foe GRIMER uses SLUDGE!                           // skip
+It's not very effective!
+SANDSHREW! That's enough! Come back!
+Go! GRIMER!
+Foe GARY calls back GRIMER!
+Foe GARY sends out WEEZING!
+GRIMER! That's enough! Come back!
+Go! IVYSAUR!
+Foe WEEZING uses TACKLE!                          // 2
+IVYSAUR! That's enough! Come back!
+Go! MEWTWO!
+Foe GARY calls back WEEZING!
+Foe GARY sends out BLASTOISE!
+MEWTWO! That's enough! Come back!
+Go! MEW!
+Foe BLASTOISE uses TACKLE!                        // 0
+MEW! That's enough! Come back!
+Go! VENONAT!
+Foe GARY calls back BLASTOISE!
+Foe GARY sends out KOFFING!
+VENONAT uses CONFUSION!                           // store
+It's super effective!
+Foe KOFFING uses SLUDGE!                          // skip
+VENONAT! That's enough! Come back!
+Go! ZAPDOS!
+Foe GARY calls back KOFFING!
+Foe GARY sends out EEVEE!
+ZAPDOS! That's enough! Come back!
+Go! VENUSAUR!
+Foe EEVEE uses TACKLE!                            // 3
+VENUSAUR! That's enough! Come back!
+Go! POLIWRATH!
+Foe GARY calls back EEVEE!
+Foe GARY sends out NIDORINO!
+POLIWRATH! That's enough! Come back!
+Go! MEW!
+Foe NIDORINO uses TACKLE!                         // 0
+MEW! That's enough! Come back!
+Go! VENOMOTH!
+Foe GARY calls back NIDORINO!
+Foe GARY sends out GRIMER!
+VENOMOTH uses CONFUSION!                          // store
+It's super effective!
+Foe GRIMER uses SLUDGE!                           // skip
+VENOMOTH! That's enough! Come back!
+Go! GLOOM!
+Foe GARY calls back GRIMER!
+Foe GARY sends out WARTORTLE!
+GLOOM! That's enough! Come back!
+Go! CHARMANDER!
+Foe WARTORTLE uses TACKLE!                        // 4
+CHARMANDER! That's enough! Come back!
+Go! ARCANINE!
+Foe GARY calls back WARTORTLE!
+Foe GARY sends out WARTORTLE!
+ARCANINE! That's enough! Come back!
+Go! MEW!
+Foe WARTORTLE uses TACKLE!                        // 0
+MEW! That's enough! Come back!
+Go! MR.MIME!
+Foe GARY calls back WARTORTLE!
+Foe GARY sends out KOFFING!
+MR.MIME uses CONFUSION!                           // store
+It's super effective!
+Foe KOFFING uses SLUDGE!                          // skip
+MR.MIME! That's enough! Come back!
+Go! NINETALES!
+Foe GARY calls back KOFFING!
+Foe GARY sends out CATERPIE!
+NINETALES! That's enough! Come back!
+Go! MEW!
+Foe CATERPIE uses TACKLE!                         // 0
+MEW! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back CATERPIE!
+Foe GARY sends out GRIMER!
+PIKACHU uses THUNDERSHOCK!                        // {
+Foe GRIMER uses SLUDGE!                           // skip
+PIKACHU! That's enough! Come back!
+Go! CATERPIE!
+Foe GARY calls back GRIMER!
+Foe GARY sends out VENOMOTH!
+CATERPIE! That's enough! Come back!
+Go! IVYSAUR!
+Foe VENOMOTH uses TACKLE!                         // 2
+IVYSAUR! That's enough! Come back!
+Go! ALAKAZAM!
+Foe GARY calls back VENOMOTH!
+Foe GARY sends out WEEPINBELL!
+ALAKAZAM uses PSYBEAM!                            // load
+It's super effective!
+Foe WEEPINBELL uses VINEWHIP!                     // swap
+ALAKAZAM! That's enough! Come back!
+Go! DODUO!
+Foe GARY calls back WEEPINBELL!
+Foe GARY sends out NIDOQUEEN!
+DODUO! That's enough! Come back!
+Go! VENUSAUR!
+Foe NIDOQUEEN uses TACKLE!                        // 3
+VENUSAUR! That's enough! Come back!
+Go! VENONAT!
+Foe GARY calls back NIDOQUEEN!
+Foe GARY sends out IVYSAUR!
+VENONAT uses PSYBEAM!                             // load
+It's super effective!
+Foe IVYSAUR uses VINEWHIP!                        // swap
+It's not very effective!
+VENONAT! That's enough! Come back!
+Go! TENTACRUEL!
+Foe GARY calls back IVYSAUR!
+Foe GARY sends out VENOMOTH!
+TENTACRUEL! That's enough! Come back!
+Go! CHARMANDER!
+Foe VENOMOTH uses TACKLE!                         // 4
+CHARMANDER! That's enough! Come back!
+Go! ALAKAZAM!
+Foe GARY calls back VENOMOTH!
+Foe GARY sends out VENUSAUR!
+ALAKAZAM uses PSYBEAM!                            // load
+It's super effective!
+Foe VENUSAUR uses VINEWHIP!                       // swap
+ALAKAZAM! That's enough! Come back!
+Go! MAGNEMITE!
+Foe GARY calls back VENUSAUR!
+Foe GARY sends out NIDORANM!
+MAGNEMITE! That's enough! Come back!
+Go! IVYSAUR!
+Foe NIDORANM uses TACKLE!                         // 2
+IVYSAUR! That's enough! Come back!
+Go! HITMONCHAN!
+Foe GARY calls back NIDORANM!
+Foe GARY sends out ELECTABUZZ!
+HITMONCHAN uses MEGAPUNCH!                        // [
+Foe ELECTABUZZ uses THUNDERPUNCH!                 // ]
+HITMONCHAN! That's enough! Come back!
+Go! VENOMOTH!
+Foe GARY calls back ELECTABUZZ!
+Foe GARY sends out KOFFING!
+VENOMOTH uses CONFUSION!                          // store
+It's super effective!
+Foe KOFFING uses SLUDGE!                          // skip
+VENOMOTH! That's enough! Come back!
+Go! PIDGEOT!
+Foe GARY calls back KOFFING!
+Foe GARY sends out ELECTRODE!
+PIDGEOT! That's enough! Come back!
+Go! VENUSAUR!
+Foe ELECTRODE uses TACKLE!                        // 3
+VENUSAUR! That's enough! Come back!
+Go! HITMONCHAN!
+Foe GARY calls back ELECTRODE!
+Foe GARY sends out HITMONCHAN!
+HITMONCHAN uses MEGAPUNCH!                        // [
+Foe HITMONCHAN uses THUNDERPUNCH!                 // ]
+HITMONCHAN! That's enough! Come back!
+Go! KADABRA!
+Foe GARY calls back HITMONCHAN!
+Foe GARY sends out GRAVELER!
+KADABRA uses CONFUSION!                           // store
+Foe GRAVELER uses ROCKTHROW!                      // dup
+KADABRA! That's enough! Come back!
+Go! PIDGEOT!
+Foe GARY calls back GRAVELER!
+Foe GARY sends out WEEZING!
+PIDGEOT uses QUICKATTACK!                         // len
+Foe WEEZING uses SLUDGE!                          // skip
+PIDGEOT! That's enough! Come back!
+Go! TAUROS!
+Foe GARY calls back WEEZING!
+Foe GARY sends out SHELLDER!
+TAUROS! That's enough! Come back!
+Go! MEW!
+Foe SHELLDER uses TACKLE!                         // 0
+MEW! That's enough! Come back!
+Go! MEW!
+Foe GARY calls back SHELLDER!
+Foe GARY sends out MAGNETON!
+MEW uses POUND!                                   // ==
+Foe MAGNETON uses THUNDERSHOCK!                   // {
+MEW! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back MAGNETON!
+Foe GARY sends out JOLTEON!
+PIKACHU uses THUNDERBOLT!                         // }
+It's not very effective!
+Foe JOLTEON uses THUNDERSHOCK!                    // {
+It's not very effective!
+PIKACHU! That's enough! Come back!
+Go! HITMONLEE!
+Foe GARY calls back JOLTEON!
+Foe GARY sends out GRIMER!
+HITMONLEE uses JUMPKICK!                          // arrpop
+It's not very effective!
+Foe GRIMER uses SLUDGE!                           // skip
+HITMONLEE! That's enough! Come back!
+Go! MAGNEMITE!
+Foe GARY calls back GRIMER!
+Foe GARY sends out NIDOQUEEN!
+MAGNEMITE! That's enough! Come back!
+Go! CHARMANDER!
+Foe NIDOQUEEN uses TACKLE!                        // 4
+CHARMANDER! That's enough! Come back!
+Go! TANGELA!
+Foe GARY calls back NIDOQUEEN!
+Foe GARY sends out ALAKAZAM!
+TANGELA uses VINEWHIP!                            // swap
+Foe ALAKAZAM uses CONFUSION!                      // store
+TANGELA! That's enough! Come back!
+Go! ELECTABUZZ!
+Foe GARY calls back ALAKAZAM!
+Foe GARY sends out GOLEM!
+ELECTABUZZ uses THUNDERSHOCK!                     // {
+It has no effect!
+Foe GOLEM uses ROCKTHROW!                         // dup
+ELECTABUZZ! That's enough! Come back!
+Go! EEVEE!
+Foe GARY calls back GOLEM!
+Foe GARY sends out KOFFING!
+EEVEE uses QUICKATTACK!                           // len
+Foe KOFFING uses SLUDGE!                          // skip
+EEVEE! That's enough! Come back!
+Go! SLOWPOKE!
+Foe GARY calls back KOFFING!
+Foe GARY sends out RATICATE!
+SLOWPOKE! That's enough! Come back!
+Go! MEW!
+Foe RATICATE uses TACKLE!                         // 0
+MEW! That's enough! Come back!
+Go! HYPNO!
+Foe GARY calls back RATICATE!
+Foe GARY sends out PIKACHU!
+HYPNO uses HEADBUTT!                              // >
+Foe PIKACHU uses THUNDERBOLT!                     // }
+HYPNO! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back PIKACHU!
+Foe GARY sends out HITMONLEE!
+PIKACHU uses THUNDERSHOCK!                        // {
+Foe HITMONLEE uses JUMPKICK!                      // arrpop
+PIKACHU! That's enough! Come back!
+Go! ONIX!
+Foe GARY calls back HITMONLEE!
 Foe GARY sends out MUK!
-
-HITMONLEE uses MEGAKICK!
-                        // fold
-
-Foe MUK uses SLUDGE!
-                            // skip
-
+ONIX uses ROCKTHROW!                              // dup
+Foe MUK uses SLUDGE!                              // skip
+It's not very effective!
+ONIX! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back MUK!
+Foe GARY sends out MAGNEMITE!
+PIKACHU! That's enough! Come back!
+Go! CHARMANDER!
+Foe MAGNEMITE uses TACKLE!                        // 4
+CHARMANDER! That's enough! Come back!
+Go! KADABRA!
+Foe GARY calls back MAGNEMITE!
+Foe GARY sends out SEEL!
+KADABRA uses PSYBEAM!                             // load
+Foe SEEL uses HEADBUTT!                           // >
+KADABRA! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back SEEL!
+Foe GARY sends out GRIMER!
+PIKACHU uses THUNDERSHOCK!                        // {
+Foe GRIMER uses SLUDGE!                           // skip
+PIKACHU! That's enough! Come back!
+Go! GOLEM!
+Foe GARY calls back GRIMER!
+Foe GARY sends out ELECTRODE!
+GOLEM! That's enough! Come back!
+Go! IVYSAUR!
+Foe ELECTRODE uses TACKLE!                        // 2
+IVYSAUR! That's enough! Come back!
+Go! PORYGON!
+Foe GARY calls back ELECTRODE!
+Foe GARY sends out BULBASAUR!
+PORYGON uses PSYBEAM!                             // load
+It's super effective!
+Foe BULBASAUR uses VINEWHIP!                      // swap
+PORYGON! That's enough! Come back!
+Go! HITMONLEE!
+Foe GARY calls back BULBASAUR!
+Foe GARY sends out WEEZING!
+HITMONLEE uses ROLLINGKICK!                       // append
+It's not very effective!
+Foe WEEZING uses SLUDGE!                          // skip
+HITMONLEE! That's enough! Come back!
+Go! MACHAMP!
+Foe GARY calls back WEEZING!
+Foe GARY sends out MAGIKARP!
+MACHAMP! That's enough! Come back!
+Go! IVYSAUR!
+Foe MAGIKARP uses TACKLE!                         // 2
+IVYSAUR! That's enough! Come back!
+Go! TANGELA!
+Foe GARY calls back MAGIKARP!
+Foe GARY sends out PSYDUCK!
+TANGELA uses VINEWHIP!                            // swap
+It's super effective!
+Foe PSYDUCK uses CONFUSION!                       // store
+TANGELA! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back PSYDUCK!
+Foe GARY sends out PIKACHU!
+PIKACHU uses THUNDERBOLT!                         // }
+It's not very effective!
+Foe PIKACHU uses THUNDERSHOCK!                    // {
+It's not very effective!
+PIKACHU! That's enough! Come back!
+Go! SLOWPOKE!
+Foe GARY calls back PIKACHU!
+Foe GARY sends out FLAREON!
+SLOWPOKE! That's enough! Come back!
+Go! VENUSAUR!
+Foe FLAREON uses TACKLE!                          // 3
+VENUSAUR! That's enough! Come back!
+Go! KADABRA!
+Foe GARY calls back FLAREON!
+Foe GARY sends out VENUSAUR!
+KADABRA uses PSYBEAM!                             // load
+It's super effective!
+Foe VENUSAUR uses VINEWHIP!                       // swap
+KADABRA! That's enough! Come back!
+Go! HITMONLEE!
+Foe GARY calls back VENUSAUR!
+Foe GARY sends out GRIMER!
+HITMONLEE uses ROLLINGKICK!                       // append
+It's not very effective!
+Foe GRIMER uses SLUDGE!                           // skip
+HITMONLEE! That's enough! Come back!
+Go! NIDORINA!
+Foe GARY calls back GRIMER!
+Foe GARY sends out BULBASAUR!
+NIDORINA! That's enough! Come back!
+Go! VENUSAUR!
+Foe BULBASAUR uses TACKLE!                        // 3
+VENUSAUR! That's enough! Come back!
+Go! VENUSAUR!
+Foe GARY calls back BULBASAUR!
+Foe GARY sends out KADABRA!
+VENUSAUR uses VINEWHIP!                           // swap
+Foe KADABRA uses CONFUSION!                       // store
+It's super effective!
+VENUSAUR! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back KADABRA!
+Foe GARY sends out GEODUDE!
+PIKACHU uses THUNDERBOLT!                         // }
+It has no effect!
+Foe GEODUDE uses EARTHQUAKE!                      // ifelse
+It's super effective!
+PIKACHU! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back GEODUDE!
+Foe GARY sends out PSYDUCK!
+PIKACHU uses THUNDERBOLT!                         // }
+It's super effective!
+Foe PSYDUCK uses SCRATCH!                         // while
+PIKACHU! That's enough! Come back!
+Go! NIDORANM!
+Foe GARY calls back PSYDUCK!
+Foe GARY sends out MUK!
+NIDORANM uses POISONSTING!                        // pop
+It's not very effective!
+Foe MUK uses SLUDGE!                              // skip
+It's not very effective!
+NIDORANM! That's enough! Come back!
+Go! SEEL!
+Foe GARY calls back MUK!
+Foe GARY sends out MAGNETON!
+SEEL! That's enough! Come back!
+Go! VENUSAUR!
+Foe MAGNETON uses TACKLE!                         // 3
+VENUSAUR! That's enough! Come back!
+Go! VENOMOTH!
+Foe GARY calls back MAGNETON!
+Foe GARY sends out GRIMER!
+VENOMOTH uses PSYBEAM!                            // load
+It's super effective!
+Foe GRIMER uses SLUDGE!                           // skip
+VENOMOTH! That's enough! Come back!
+Go! VENOMOTH!
+Foe GARY calls back GRIMER!
+Foe GARY sends out SHELLDER!
+VENOMOTH! That's enough! Come back!
+Go! MEW!
+Foe SHELLDER uses TACKLE!                         // 0
+MEW! That's enough! Come back!
+Go! PORYGON!
+Foe GARY calls back SHELLDER!
+Foe GARY sends out JOLTEON!
+PORYGON uses PSYBEAM!                             // load
+Foe JOLTEON uses THUNDER!                         // exec
+PORYGON! That's enough! Come back!
+Go! ONIX!
+Foe GARY calls back JOLTEON!
+Foe GARY sends out VENUSAUR!
+ONIX! That's enough! Come back!
+Go! CHARMANDER!
+Foe VENUSAUR uses TACKLE!                         // 4
+CHARMANDER! That's enough! Come back!
+Go! BUTTERFREE!
+Foe GARY calls back VENUSAUR!
+Foe GARY sends out HITMONLEE!
+BUTTERFREE uses PSYBEAM!                          // load
+It's super effective!
+Foe HITMONLEE uses ROLLINGKICK!                   // append
+It's not very effective!
+BUTTERFREE! That's enough! Come back!
+Go! PIDGEOTTO!
+Foe GARY calls back HITMONLEE!
+Foe GARY sends out ONIX!
+PIDGEOTTO! That's enough! Come back!
+Go! IVYSAUR!
+Foe ONIX uses TACKLE!                             // 2
+IVYSAUR! That's enough! Come back!
+Go! PORYGON!
+Foe GARY calls back ONIX!
+Foe GARY sends out KOFFING!
+PORYGON uses PSYBEAM!                             // load
+It's super effective!
+Foe KOFFING uses SLUDGE!                          // skip
+PORYGON! That's enough! Come back!
+Go! IVYSAUR!
+Foe GARY calls back KOFFING!
+Foe GARY sends out GEODUDE!
+IVYSAUR! That's enough! Come back!
+Go! MEW!
+Foe GEODUDE uses TACKLE!                          // 0
+MEW! That's enough! Come back!
+Go! KADABRA!
+Foe GARY calls back GEODUDE!
+Foe GARY sends out JOLTEON!
+KADABRA uses PSYBEAM!                             // load
+Foe JOLTEON uses THUNDER!                         // exec
+KADABRA! That's enough! Come back!
+Go! WEEZING!
+Foe GARY calls back JOLTEON!
+Foe GARY sends out PIKACHU!
+WEEZING uses SMOG!                                // join
+Foe PIKACHU uses THUNDERBOLT!                     // }
+WEEZING! That's enough! Come back!
+Go! GOLEM!
+Foe GARY calls back PIKACHU!
+Foe GARY sends out BULBASAUR!
+GOLEM uses EARTHQUAKE!                            // ifelse
+Foe BULBASAUR uses VINEWHIP!                      // swap
+It's super effective!
+GOLEM! That's enough! Come back!
+Go! RAPIDASH!
+Foe GARY calls back BULBASAUR!
+Foe GARY sends out WEEZING!
+RAPIDASH! That's enough! Come back!
+Go! CHARMANDER!
+Foe WEEZING uses TACKLE!                          // 4
+CHARMANDER! That's enough! Come back!
+Go! VENUSAUR!
+Foe GARY calls back WEEZING!
+Foe GARY sends out HYPNO!
+VENUSAUR uses VINEWHIP!                           // swap
+Foe HYPNO uses CONFUSION!                         // store
+It's super effective!
+VENUSAUR! That's enough! Come back!
+Go! VENUSAUR!
+Foe GARY calls back HYPNO!
+Foe GARY sends out WEEZING!
+VENUSAUR uses VINEWHIP!                           // swap
+It's not very effective!
+Foe WEEZING uses SLUDGE!                          // skip
+VENUSAUR! That's enough! Come back!
+Go! POLIWRATH!
+Foe GARY calls back WEEZING!
+Foe GARY sends out VENOMOTH!
+POLIWRATH! That's enough! Come back!
+Go! VENUSAUR!
+Foe VENOMOTH uses TACKLE!                         // 3
+VENUSAUR! That's enough! Come back!
+Go! TANGELA!
+Foe GARY calls back VENOMOTH!
+Foe GARY sends out DROWZEE!
+TANGELA uses VINEWHIP!                            // swap
+Foe DROWZEE uses CONFUSION!                       // store
+TANGELA! That's enough! Come back!
+Go! TANGELA!
+Foe GARY calls back DROWZEE!
+Foe GARY sends out KOFFING!
+TANGELA uses VINEWHIP!                            // swap
+It's not very effective!
+Foe KOFFING uses SLUDGE!                          // skip
+It's super effective!
+TANGELA! That's enough! Come back!
+Go! MANKEY!
+Foe GARY calls back KOFFING!
+Foe GARY sends out BULBASAUR!
+MANKEY! That's enough! Come back!
+Go! IVYSAUR!
+Foe BULBASAUR uses TACKLE!                        // 2
+IVYSAUR! That's enough! Come back!
+Go! WEEPINBELL!
+Foe GARY calls back BULBASAUR!
+Foe GARY sends out DROWZEE!
+WEEPINBELL uses VINEWHIP!                         // swap
+Foe DROWZEE uses CONFUSION!                       // store
+It's super effective!
+WEEPINBELL! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back DROWZEE!
+Foe GARY sends out KADABRA!
+PIKACHU uses THUNDERBOLT!                         // }
+Foe KADABRA uses CONFUSION!                       // store
+PIKACHU! That's enough! Come back!
+Go! DROWZEE!
+Foe GARY calls back KADABRA!
+Foe GARY sends out ELECTRODE!
+DROWZEE! That's enough! Come back!
+Go! BULBASAUR!
+Foe ELECTRODE uses TACKLE!                        // 1
+BULBASAUR! That's enough! Come back!
+Go! VENONAT!
+Foe GARY calls back ELECTRODE!
+Foe GARY sends out KOFFING!
+VENONAT uses PSYBEAM!                             // load
+It's super effective!
+Foe KOFFING uses SLUDGE!                          // skip
+VENONAT! That's enough! Come back!
+Go! MUK!
+Foe GARY calls back KOFFING!
+Foe GARY sends out MAGNEMITE!
+MUK! That's enough! Come back!
+Go! MEW!
+Foe MAGNEMITE uses TACKLE!                        // 0
+MEW! That's enough! Come back!
+Go! ALAKAZAM!
+Foe GARY calls back MAGNEMITE!
+Foe GARY sends out PIKACHU!
+ALAKAZAM uses PSYBEAM!                            // load
+Foe PIKACHU uses THUNDER!                         // exec
+ALAKAZAM! That's enough! Come back!
+Go! PIKACHU!
+Foe GARY calls back PIKACHU!
+Foe GARY sends out MACHOKE!
+PIKACHU uses THUNDERSHOCK!                        // {
+Foe MACHOKE uses KARATECHOP!                      // outi
+PIKACHU! That's enough! Come back!
+Go! NINETALES!
+Foe GARY calls back MACHOKE!
+Foe GARY sends out VAPOREON!
+NINETALES! That's enough! Come back!
+Go! NIDORANM!
+Foe VAPOREON uses TACKLE!                         // 32
+NIDORANM! That's enough! Come back!
+Go! MACHOP!
+Foe GARY calls back VAPOREON!
+Foe GARY sends out PIKACHU!
+MACHOP uses LOWKICK!                              // outa
+Foe PIKACHU uses THUNDERBOLT!                     // }
+MACHOP! That's enough! Come back!
+Go! HITMONLEE!
+Foe GARY calls back PIKACHU!
+Foe GARY sends out GRIMER!
+HITMONLEE uses MEGAKICK!                          // fold
+Foe GRIMER uses SLUDGE!                           // skip
 
