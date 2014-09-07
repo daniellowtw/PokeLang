@@ -248,7 +248,7 @@ describe('arrays', function() {
                ,I.operation('arrpop')
                ];
 
-    var result = [I.num(1)];
+    var result = [I.array([]), I.num(1)];
 
     expect(I.run(prog)).toEqual(result);
 
