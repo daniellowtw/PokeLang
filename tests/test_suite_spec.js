@@ -26,17 +26,17 @@ describe('test suite', function() {
     (function(i) {
 
       it('should pass ' + test_files[i], function() {
-  
+
         var loaded = false;
 
         var flag = false;
-  
+
         var actual;
-  
+
         var expected;
-  
+
         var done = function() {
- 
+
           flag = true;
 
         }
@@ -46,13 +46,13 @@ describe('test suite', function() {
           return flag;
 
         }, 'Finished loading files', 500);
- 
+
         runs(function() {
 
           reader.reset();
 
           reader.read(actual);
-        
+
           var characters_to_remove = expected[expected.length - 2] === '\r' ? 2 : 1;
 
           expected = expected.substring(0, expected.length - characters_to_remove);
@@ -64,45 +64,45 @@ describe('test suite', function() {
         var readFile = function(file, callback) {
 
           return fs.readFile(file, 'utf8', function(err, data) {
-         
+
             if (err) {
-  
-              throw err; 
-  
+
+              throw err;
+
             }
-  
+
             callback(data);
-  
+
             if (loaded) {
-  
+
               done();
-  
+
             } else {
-  
+
               loaded = true;
-   
+
             }
-  
+
           });
 
         }
 
         readFile(path.join(__dirname, 'test_files/' + test_files[i] + '.poke.js'), function(data) {
- 
+
           actual = data;
 
-        }); 
+        });
 
         readFile(path.join(__dirname, 'test_files/' + test_files[i] + '.result.js'), function(data) {
- 
+
           expected = data;
 
-        }); 
- 
+        });
+
       });
- 
-    })(i); 
-   
+
+    })(i);
+
   }
 
 });

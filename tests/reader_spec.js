@@ -11,7 +11,7 @@ describe('reading input', function() {
       var data = '';
       R.read(data);
       var result = R.battle;
-      var expected = {}; 
+      var expected = {};
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -26,7 +26,7 @@ describe('reading input', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'BUTTERFREE',
         enemyTrainer: 'SABRINA'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -41,7 +41,7 @@ describe('reading input', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'BUTTERFREE',
         enemyTrainer: 'SABRINA'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -56,7 +56,7 @@ describe('reading input', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'BUTTERFREE',
          enemyTrainer: 'SABRINA'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -71,7 +71,7 @@ describe('reading input', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'BUTTERFREE',
         enemyTrainer: 'SABRINA'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -88,7 +88,7 @@ describe('reading input', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'BUTTERFREE',
         enemyTrainer: 'SABRINA'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -117,7 +117,7 @@ describe('reading input', function() {
         R.read(data);
       }).toThrow(E.unexpectedToken('>>Foe<< $TRAINER sends out $POKEMON!', '>>Enemy<<'));
     });
-   
+
     it('should throw an error on unexpected token', function() {
       R.reset();
       var data = 'Go! PIKACHU!\nFoe GARY send out EEVEE!\n';
@@ -135,7 +135,7 @@ describe('reading input', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'BUTTERFREE',
         enemyTrainer: 'SABRINA'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -147,14 +147,14 @@ describe('battle checking', function() {
 
     it('should check if Pokemon knows the move', function() {
       R.reset();
-      var data = 'Go! PIKACHU!\nFoe GARY sends out EEVEE!\nPIKACHU uses THUNDERSHOCK!';
+      var data = 'Go! PIKACHU!\nFoe GARY sends out EEVEE!\nFoe EEVEE uses TACKLE!';
       R.read(data);
       var result = R.battle;
       var expected = {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'EEVEE',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -193,7 +193,7 @@ describe('battle checking', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'VAPOREON',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -208,7 +208,7 @@ describe('battle checking', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'JOLTEON',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -223,7 +223,7 @@ describe('battle checking', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'DUGTRIO',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -265,7 +265,7 @@ describe('battle checking', function() {
         selfPokemon: 'PIKACHU',
         enemyPokemon: 'EEVEE',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -280,7 +280,7 @@ describe('battle checking', function() {
         selfPokemon: 'CHARMANDER',
         enemyPokemon: 'EEVEE',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -295,7 +295,7 @@ describe('battle checking', function() {
         selfPokemon: 'CHARMANDER',
         enemyPokemon: 'PIDGEOT',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);
@@ -318,7 +318,7 @@ describe('battle checking', function() {
         selfPokemon: 'EEVEE',
         enemyPokemon: 'BULBASAUR',
         enemyTrainer: 'GARY'
-      }; 
+      };
       expect(result.selfPokemon).toEqual(expected.selfPokemon);
       expect(result.enemyPokemon).toEqual(expected.enemyPokemon);
       expect(result.enemyTrainer).toEqual(expected.enemyTrainer);

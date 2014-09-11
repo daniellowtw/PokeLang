@@ -83,7 +83,7 @@ describe('exec', function() {
 describe('while', function() {
 
   it('should perform a while loop', function() {
-  
+
     var expr = I.block([I.operation('dup')
                        ,I.num(2)
                        ,I.operation('>')
@@ -111,7 +111,7 @@ describe('while', function() {
   });
 
   it('should sum a list of numbers', function() {
-  
+
     var expr = I.block([I.operation('dup')
                        ,I.num(0)
                        ,I.operation('>')
@@ -166,29 +166,43 @@ describe('dictionary', function() {
 
 });
 
-describe('arrays', function() {
+describe('blocks', function() {
 
   it('should initialise correctly', function() {
 
-    var prog = [I.mark('[')
+    var prog = [I.openblock('[')
                ,I.num(2)
                ,I.num(1)
-               ,I.operation(']')
+               ,I.closeblock(']')
                ];
 
-    var result = [I.array([I.num(2), I.num(1)])];
+    var result = [I.block([I.num(2), I.num(1)])];
 
     expect(I.run(prog)).toEqual(result);
 
   });
 
-  it('should initialise empty arrays', function() {
+  it('should initialise empty blocks', function() {
 
-    var prog = [I.mark('[')
-               ,I.operation(']')
+    var prog = [I.openblock('[')
+               ,I.closeblock(']')
                ];
 
-    var result = [I.array([])];
+    var result = [I.block([])];
+
+    expect(I.run(prog)).toEqual(result);
+
+  });
+
+  it('should nest correctly', function() {
+
+    var prog = [I.openblock('[')
+               ,I.openblock(']')
+               ,I.closeblock(']')
+               ,I.closeblock(']')
+               ];
+
+    var result = [I.block([I.block([])])];
 
     expect(I.run(prog)).toEqual(result);
 
@@ -196,15 +210,15 @@ describe('arrays', function() {
 
   it('should put correctly', function() {
 
-    var prog = [I.mark('[')
+    var prog = [I.openblock('[')
                ,I.num(1)
-               ,I.operation(']')
+               ,I.closeblock(']')
                ,I.num(2)
                ,I.num(0)
                ,I.operation('put')
                ];
 
-    var result = [I.array([I.num(2)])];
+    var result = [I.block([I.num(2)])];
 
     expect(I.run(prog)).toEqual(result);
 
@@ -212,9 +226,9 @@ describe('arrays', function() {
 
   it('should get correctly', function() {
 
-    var prog = [I.mark('[')
+    var prog = [I.openblock('[')
                ,I.num(1)
-               ,I.operation(']')
+               ,I.closeblock(']')
                ,I.num(0)
                ,I.operation('get')
                ];
@@ -227,28 +241,28 @@ describe('arrays', function() {
 
   it('should append correctly', function() {
 
-    var prog = [I.mark('[')
+    var prog = [I.openblock('[')
                ,I.num(1)
-               ,I.operation(']')
+               ,I.closeblock(']')
                ,I.num(0)
                ,I.operation('append')
                ];
 
-    var result = [I.array([I.num(1), I.num(0)])];
+    var result = [I.block([I.num(1), I.num(0)])];
 
     expect(I.run(prog)).toEqual(result);
 
   });
 
-  it('should arrpop correctly', function() {
+  it('should blockpop correctly', function() {
 
-    var prog = [I.mark('[')
+    var prog = [I.openblock('[')
                ,I.num(1)
-               ,I.operation(']')
-               ,I.operation('arrpop')
+               ,I.closeblock(']')
+               ,I.operation('blockpop')
                ];
 
-    var result = [I.array([]), I.num(1)];
+    var result = [I.block([]), I.num(1)];
 
     expect(I.run(prog)).toEqual(result);
 
@@ -256,17 +270,17 @@ describe('arrays', function() {
 
   it('should map correctly', function() {
 
-    var prog = [I.mark('[')
+    var prog = [I.openblock('[')
                ,I.num(1)
                ,I.num(2)
                ,I.num(3)
                ,I.num(4)
-               ,I.operation(']')
+               ,I.closeblock(']')
                ,I.block([I.operation('dup'), I.operation('*')])
                ,I.operation('map')
                ];
 
-    var result = [I.array([I.num(1), I.num(4), I.num(9), I.num(16)])];
+    var result = [I.block([I.num(1), I.num(4), I.num(9), I.num(16)])];
 
     expect(I.run(prog)).toEqual(result);
 
@@ -275,12 +289,12 @@ describe('arrays', function() {
   it('should fold correctly', function() {
 
     var prog = [I.num(0)
-               ,I.mark('[')
+               ,I.openblock('[')
                ,I.num(1)
                ,I.num(2)
                ,I.num(3)
                ,I.num(4)
-               ,I.operation(']')
+               ,I.closeblock(']')
                ,I.block([I.operation('+')])
                ,I.operation('fold')
                ];
@@ -291,13 +305,13 @@ describe('arrays', function() {
 
   });
 
-  it('should fold an array of operations correctly', function() {
+  it('should fold an block of operations correctly', function() {
 
     var prog = [I.num(5)
-               ,I.mark('[')
+               ,I.openblock('[')
                ,I.block([I.operation('dup')])
                ,I.block([I.operation('*')])
-               ,I.operation(']')
+               ,I.closeblock(']')
                ,I.block([I.operation('exec')])
                ,I.operation('fold')
                ];
@@ -338,7 +352,7 @@ describe('power', function() {
                         ]);
 
     var powerProg = function(x, y) {
-      
+
       return [I.num(1)
 	     ,block
              ,I.operation('store')
