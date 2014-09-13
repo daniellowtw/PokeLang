@@ -1,0 +1,12 @@
+5
+[
+swap dup 0 ==
+[ swap pop 1 + ]
+[ swap [ ] swap append [ dup 1 - ] swap concat exec exec * ] ifelse
+]
+[
+[ [ ] swap dup rot3 append swap concat ]
+swap concat [ ] swap dup rot3 append swap concat
+] exec
+exec
+outi

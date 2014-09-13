@@ -1,0 +1,8 @@
+5
+[
+swap dup 0 ==
+[ swap pop 1 + ]
+[ swap [ ] swap append [ dup 1 - ] swap concat exec dup exec * ] ifelse
+]
+dup exec
+stack
