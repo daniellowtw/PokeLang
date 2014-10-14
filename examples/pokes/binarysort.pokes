@@ -1,4 +1,5 @@
-1 [ ] store read [ dup 0 > ] [ 1 - 1 1 load read append store ] while
+1 [ ] store "Input number of integers to read: " [ outa ] fold read 
+[ dup 0 > ] [ 1 - 1 "Input next integer: " [ outa ] fold 1 load read append store ] while
 pop
 2 0 store
 3 0 store
